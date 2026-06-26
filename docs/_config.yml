@@ -1,0 +1,8 @@
+title: Stunspot’s Guide to Macroeconomics
+description: A practical canon for macroeconomics knowledge, reasoning, and AI/RAG use.
+show_downloads: false
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: default

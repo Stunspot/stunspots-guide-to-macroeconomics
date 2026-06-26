@@ -1,0 +1,22 @@
+{
+  "title": "Stunspot\u2019s Guide to Macroeconomics",
+  "upload_type": "publication",
+  "publication_type": "book",
+  "description": "A practical canon for macroeconomics knowledge, reasoning, and AI/RAG use.",
+  "creators": [
+    {
+      "name": "Walker, Sam",
+      "affiliation": "Collaborative Dynamics"
+    }
+  ],
+  "version": "1.0",
+  "publication_date": "2026-06-26",
+  "language": "eng",
+  "access_right": "open",
+  "license": "cc-by-nc-sa-4.0",
+  "keywords": [
+    "macroeconomics",
+    "knowledge-systems",
+    "rag"
+  ]
+}

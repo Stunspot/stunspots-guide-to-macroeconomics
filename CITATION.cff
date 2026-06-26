@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+title: "Stunspot’s Guide to Macroeconomics"
+message: "If you use this canon, please cite it using this metadata."
+type: dataset
+authors:
+  - family-names: "Walker"
+    given-names: "Sam"
+    alias: "stunspot"
+    affiliation: "Collaborative Dynamics"
+version: "1.0"
+date-released: "2026-06-26"
+license: "CC-BY-NC-SA-4.0"
+url: "https://stunspot.github.io/stunspots-guide-to-macroeconomics/"
+repository-code: "https://github.com/Stunspot/stunspots-guide-to-macroeconomics"
+abstract: "A practical canon for macroeconomics knowledge, reasoning, and AI/RAG use."
+keywords:
+  - "macroeconomics"
+  - "knowledge-systems"
+  - "rag"
