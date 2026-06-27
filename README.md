@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./docs/assets/brand/readme-hero.png" alt="Stunspot’s Guide to Macroeconomics — The Macroeconomic Systems Canon.">
+</p>
+
 # Stunspot’s Guide to Macroeconomics
 
 **A model-facing macroeconomics canon for monetary systems, liquidity regimes, financial instability, and institutional strategy.**
@@ -89,7 +93,7 @@ It covers:
 | J | [Information Liquidity, Narrative Markets, and Attention Allocation Systems](./knowledge-packs/by-report/j-information-liquidity-narrative-markets-and-attention-allocation-systems.md) | Treats narratives, attention, media capacity, and public reality as macro-financial transmission channels. |
 | K | [Financial Instability, Crisis Cascades, and Systemic Collapse Mechanics](./knowledge-packs/by-report/k-financial-instability-crisis-cascades-and-systemic-collapse-mechanics.md) | Models contagion, leverage, forced selling, liquidity spirals, collapse mechanics, and crisis escalation. |
 | L | [Macro Diagnostics, Regime Detection, and Economic Intelligence Systems](./knowledge-packs/by-report/l-macro-diagnostics-regime-detection-and-economic-intelligence-systems.md) | Converts the doctrine into signal interpretation, regime detection, nowcasting, and decision-grade diagnostics. |
-| M | [Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination](./knowledge-packs/by-report/m-institutional-macro-strategy-adaptive-positioning-and-strategic-coordination.md) | Applies macro intelligence to capital allocation, organizational resilience, governance, and strategic execution. |
+| M | [Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination](./knowledge-packs/by-report/m-institutional-macro-strategy-and-strategic-coordination.md) | Applies macro intelligence to capital allocation, organizational resilience, governance, and strategic execution. |
 
 ---
 
