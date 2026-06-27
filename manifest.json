@@ -29,6 +29,8 @@
   },
   "repository_files": {
     "root": [
+      ".gitattributes",
+      ".gitignore",
       "README.md",
       "MANIFEST.md",
       "manifest.json",
