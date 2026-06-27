@@ -26,8 +26,10 @@ Source directory: Local build source directory omitted from public release. Sour
 
 ## Public Repository Files
 
-### Root Metadata and Release Files
+### Root Metadata, Release, and Housekeeping Files
 
+- `.gitattributes` — repository text normalization.
+- `.gitignore` — local editorial and editor cruft exclusions.
 - `README.md` — public repository orientation.
 - `MANIFEST.md` — human-readable file manifest and source-to-output map.
 - `manifest.json` — machine-readable file manifest and source-to-output map.
