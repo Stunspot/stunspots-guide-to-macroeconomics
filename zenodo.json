@@ -1,8 +1,8 @@
 {
-  "title": "Stunspot’s Guide to Macroeconomics",
+  "title": "Stunspot\u2019s Guide to Macroeconomics",
   "upload_type": "publication",
   "publication_type": "book",
-  "description": "A model-facing macroeconomic knowledge canon for AI/RAG use, covering monetary hierarchy, liquidity transmission, credit creation, central banking, fiscal systems, banking intermediation, asset-pricing regimes, geoeconomic power, innovation finance, information liquidity, crisis cascades, macro diagnostics, and institutional strategy. The repository includes 13 source reports, 4 compiled upload packs, and 1 omnibus bundle.",
+  "description": "A practical canon for macroeconomics knowledge, reasoning, and AI/RAG use.",
   "creators": [
     {
       "name": "Walker, Sam",
@@ -10,21 +10,12 @@
     }
   ],
   "version": "1.0",
-  "publication_date": "2026-06-26",
+  "publication_date": "2026-06-27",
   "language": "eng",
   "access_right": "open",
   "license": "cc-by-nc-sa-4.0",
   "keywords": [
     "macroeconomics",
-    "monetary-systems",
-    "liquidity",
-    "central-banking",
-    "fiscal-policy",
-    "banking",
-    "asset-pricing",
-    "geoeconomics",
-    "financial-instability",
-    "economic-intelligence",
     "knowledge-systems",
     "rag"
   ]

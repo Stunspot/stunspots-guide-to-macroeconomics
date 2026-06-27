@@ -1,18 +1,7 @@
 # Manifest — Stunspot’s Guide to Macroeconomics
 
-Generated: 2026-06-26T20:35:22+00:00  
-Version: 1.0  
-Release date: 2026-06-26
-
+Generated: 2026-06-27T05:29:13+00:00
 Source directory: Local build source directory omitted from public release. Source filenames and generated repo paths are preserved below.
-
-## Repository Policy
-
-- `docs/` contains navigation, GitHub Pages metadata, and usage guidance.
-- `knowledge-packs/by-report/` contains the canonical individual source reports.
-- `knowledge-packs/compiled-packs/` contains grouped upload packs.
-- `knowledge-packs/omnibus/` contains the whole-corpus bundle.
-- Source reports are not duplicated under `docs/`.
 
 ## Counts
 
@@ -22,7 +11,6 @@ Source directory: Local build source directory omitted from public release. Sour
 - Unclassified files: 0
 
 ## Source Reports
-
 - `A` — `A. Monetary Ontology & Economic Reality Models — The Nature of Money, Credit, Collateral, and Financial Abstraction.md` → `knowledge-packs/by-report/a-monetary-ontology-and-economic-reality-models.md`
 - `B` — `B. Liquidity Physics and Global Capital Flow Dynamics — The Mechanics of Liquidity Creation, Destruction, and Transmission Across Financial Systems.md` → `knowledge-packs/by-report/b-liquidity-physics-and-global-capital-flow-dynamics.md`
 - `C` — `C. Macro-Causal Architecture & Economic Regime Theory — A Systems-Level Framework for Economic Cycles, Regime Shifts, and Structural Transitions.md` → `knowledge-packs/by-report/c-macro-causal-architecture-and-economic-regime-theory.md`
@@ -38,12 +26,10 @@ Source directory: Local build source directory omitted from public release. Sour
 - `M` — `M. Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination — Applying Macro Intelligence to Capital Allocation, Organizational Survival, and Strategic Action.md` → `knowledge-packs/by-report/m-institutional-macro-strategy-adaptive-positioning-and-strategic-coordination.md`
 
 ## Compiled Packs
-
 - `[KNOWLEDGE] - Macroeconomics - Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality.md` → `knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-1-a-c-foundations-of-monetary-reality-liquidity-and-economic-causality.md`
 - `[KNOWLEDGE] - Macroeconomics - Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission.md` → `knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-2-d-f-monetary-governance-institutional-control-and-policy-transmission.md`
 - `[KNOWLEDGE] - Macroeconomics - Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination.md` → `knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-3-g-i-market-structure-asset-regimes-and-capital-coordination.md`
 - `[KNOWLEDGE] - Macroeconomics - Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity.md` → `knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-4-j-m-information-systems-strategic-signaling-and-narrative-liquidity.md`
 
 ## Omnibus
-
 - `[KNOWLEDGE] - Macroeconomics Omnibus.md` → `knowledge-packs/omnibus/knowledge-macroeconomics-omnibus.md`

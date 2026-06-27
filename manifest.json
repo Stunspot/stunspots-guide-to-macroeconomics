@@ -1,31 +1,13 @@
 {
   "canon": {
     "title": "Stunspot’s Guide to Macroeconomics",
-    "subtitle": "A practical canon for macroeconomics knowledge, reasoning, and AI/RAG use.",
     "slug": "macroeconomics",
-    "repository": "Stunspot/stunspots-guide-to-macroeconomics",
-    "repository_url": "https://github.com/Stunspot/stunspots-guide-to-macroeconomics",
-    "pages_url": "https://stunspot.github.io/stunspots-guide-to-macroeconomics/",
     "version": "1.0",
-    "date_released": "2026-06-26",
-    "license": "CC BY-NC-SA 4.0",
-    "primary_use": "Model-facing AI/RAG knowledge canon for macroeconomic reasoning and source-traceable corpus ingestion."
+    "date_released": "2026-06-27"
   },
   "corpus": {
-    "generated_at": "2026-06-26T20:35:22+00:00",
+    "generated_at": "2026-06-27T05:29:13+00:00",
     "source_directory_policy": "Local build source directory omitted from public release. Source filenames and generated repo paths are preserved below.",
-    "directory_policy": {
-      "docs": "Navigation, GitHub Pages metadata, and usage guidance.",
-      "knowledge-packs/by-report": "Canonical individual source reports.",
-      "knowledge-packs/compiled-packs": "Grouped upload packs.",
-      "knowledge-packs/omnibus": "Whole-corpus bundle."
-    },
-    "counts": {
-      "source_reports": 13,
-      "compiled_packs": 4,
-      "omnibus_files": 1,
-      "unclassified_files": 0
-    },
     "reports": [
       {
         "code": "A",

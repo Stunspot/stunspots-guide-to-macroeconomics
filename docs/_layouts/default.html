@@ -1,2 +1,54 @@
 <!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>{{ page.title | default: site.title }}</title><link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}"></head><body><header class="site-header"><a class="brand" href="{{ '/' | relative_url }}">{{ site.title }}</a><nav><a href="{{ '/canon-map' | relative_url }}">Canon Map</a><a href="{{ '/knowledge-packs' | relative_url }}">Knowledge Packs</a><a href="{{ '/how-to-use-this-canon' | relative_url }}">How to Use</a></nav></header><main class="content">{{ content }}</main></body></html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+  <!-- Social Preview / Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Stunspot’s Guide to Macroeconomics">
+  <meta property="og:title" content="Stunspot’s Guide to Macroeconomics">
+  <meta property="og:description" content="A practical canon for macroeconomics knowledge, reasoning, and AI/RAG use.">
+  <meta property="og:url" content="https://stunspot.github.io/stunspots-guide-to-macroeconomics/">
+  <meta property="og:image" content="https://stunspot.github.io/stunspots-guide-to-macroeconomics/assets/brand/social-preview.png">
+  <meta property="og:image:secure_url" content="https://stunspot.github.io/stunspots-guide-to-macroeconomics/assets/brand/social-preview.png">
+  <meta property="og:image:type" content="image/png">
+  <meta property="og:image:alt" content="Stunspot’s Guide to Macroeconomics — A practical canon for macroeconomics knowledge, reasoning, and AI/RAG use.">
+
+  <!-- Twitter / X Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Stunspot’s Guide to Macroeconomics">
+  <meta name="twitter:description" content="A practical canon for macroeconomics knowledge, reasoning, and AI/RAG use.">
+  <meta name="twitter:image" content="https://stunspot.github.io/stunspots-guide-to-macroeconomics/assets/brand/social-preview.png">
+</head>
+
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="brand-mark" href="{{ '/' | relative_url }}">
+        <span class="brand-kicker">STUNSPOT</span>
+        <span class="brand-title">Guide to Macroeconomics</span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="{{ '/canon-map.html' | relative_url }}">Canon Map</a>
+        <a href="{{ '/knowledge-packs.html' | relative_url }}">Knowledge Packs</a>
+        <a href="{{ '/how-to-use-this-canon.html' | relative_url }}">How to Use</a>
+        <a href="https://github.com/Stunspot/stunspots-guide-to-macroeconomics">GitHub</a>
+      </nav>
+    </header>
+
+    <main class="content-panel">
+      {{ content }}
+    </main>
+
+    <footer class="site-footer">
+      <span>Stunspot’s Guide to Macroeconomics</span>
+      <span>A practical canon for macroeconomics knowledge, reasoning, and AI/RAG use.</span>
+    </footer>
+  </div>
+</body>
+</html>

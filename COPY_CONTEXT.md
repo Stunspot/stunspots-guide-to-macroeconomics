@@ -14,7 +14,7 @@ It is not a public-facing canon document and does not replace MANIFEST.md.
 - GitHub URL: https://github.com/Stunspot/stunspots-guide-to-macroeconomics
 - Pages URL: https://stunspot.github.io/stunspots-guide-to-macroeconomics/
 - Version: 1.0
-- Release date: 2026-06-26
+- Release date: 2026-06-27
 
 ## Primary Use Policy
 
