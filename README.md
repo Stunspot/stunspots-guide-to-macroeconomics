@@ -69,7 +69,7 @@ It covers:
 - banking systems, credit allocation, intermediation, shadow banking, and balance-sheet constraints
 - asset pricing regimes across equities, bonds, real estate, commodities, venture markets, and liquidity-sensitive assets
 - global trade systems, reserve-currency hierarchy, geoeconomic power, and external-sector constraint
-- innovation finance, venture liquidity, speculative capital formation, and technology-expansion cycles
+- innovation finance, venture liquidity, and speculative capital formation
 - information liquidity, narrative markets, attention allocation, and public-reality formation
 - financial instability, crisis cascades, contagion dynamics, and systemic collapse mechanics
 - macro diagnostics, regime detection, nowcasting, signal interpretation, and economic intelligence systems
@@ -93,7 +93,7 @@ It covers:
 | J | [Information Liquidity, Narrative Markets, and Attention Allocation Systems](./knowledge-packs/by-report/j-information-liquidity-narrative-markets-and-attention-allocation-systems.md) | Treats narratives, attention, media capacity, and public reality as macro-financial transmission channels. |
 | K | [Financial Instability, Crisis Cascades, and Systemic Collapse Mechanics](./knowledge-packs/by-report/k-financial-instability-crisis-cascades-and-systemic-collapse-mechanics.md) | Models contagion, leverage, forced selling, liquidity spirals, collapse mechanics, and crisis escalation. |
 | L | [Macro Diagnostics, Regime Detection, and Economic Intelligence Systems](./knowledge-packs/by-report/l-macro-diagnostics-regime-detection-and-economic-intelligence-systems.md) | Converts the doctrine into signal interpretation, regime detection, nowcasting, and decision-grade diagnostics. |
-| M | [Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination](./knowledge-packs/by-report/m-institutional-macro-strategy-and-strategic-coordination.md) | Applies macro intelligence to capital allocation, organizational resilience, governance, and strategic execution. |
+| M | [Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination](./knowledge-packs/by-report/m-institutional-macro-strategy-adaptive-positioning-and-strategic-coordination.md) | Applies macro intelligence to capital allocation, organizational resilience, governance, and strategic execution. |
 
 ---
 
