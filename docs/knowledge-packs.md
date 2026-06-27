@@ -1,40 +1,74 @@
 # Knowledge Packs — Stunspot’s Guide to Macroeconomics
 
+The knowledge packs are the operational corpus files. They are organized for AI/RAG upload, source traceability, and practical reuse.
+
+`docs/` contains guidance only. The actual report corpus lives under `knowledge-packs/`.
+
 ## Recommended Default
 
-Use the compiled packs unless you have a specific reason not to.
+Use the **compiled packs** unless you have a specific reason not to.
+
+```text
+knowledge-packs/compiled-packs/
+```
+
+The compiled packs are the best general-purpose upload format because they preserve the canon’s four-part conceptual arc while avoiding both extremes: thirteen separate report files or one very large omnibus file.
 
 ## Pack Types
 
-| Pack | Files | Best Use |
-|---|---:|---|
-| Source reports | 13 | Precise retrieval, selective upload, citation, editing. |
-| Compiled packs | 4 | Recommended default: grouped coverage with lower file count. |
-| Omnibus | 1 | One-file import, local archive, or strong long-context/RAG systems. |
+| Pack | Files | Path | Best Use |
+|---|---:|---|---|
+| Source reports | 13 | `knowledge-packs/by-report/` | Precise retrieval, selective upload, citation, editing, report-level review. |
+| Compiled packs | 4 | `knowledge-packs/compiled-packs/` | Recommended default for most AI/RAG systems and project knowledge uploads. |
+| Omnibus | 1 | `knowledge-packs/omnibus/` | One-file import, local archive, whole-corpus search, or strong long-context systems. |
 
 ## Source Reports
 
-- [A. Monetary Ontology & Economic Reality Models — The Nature of Money, Credit, Collateral, and Financial Abstraction.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/a-monetary-ontology-and-economic-reality-models.md)
-- [B. Liquidity Physics and Global Capital Flow Dynamics — The Mechanics of Liquidity Creation, Destruction, and Transmission Across Financial Systems.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/b-liquidity-physics-and-global-capital-flow-dynamics.md)
-- [C. Macro-Causal Architecture & Economic Regime Theory — A Systems-Level Framework for Economic Cycles, Regime Shifts, and Structural Transitions.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/c-macro-causal-architecture-and-economic-regime-theory.md)
-- [D. Central Banking Systems & Monetary Intervention Architecture — Institutional Monetary Control, Policy Instruments, and Liquidity Management Systems.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/d-central-banking-systems-and-monetary-intervention-architecture.md)
-- [E. Fiscal States, Sovereign Debt, and Political Capital Allocation — Government Spending Systems, Debt Structures, and Fiscal Constraint Dynamics.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/e-fiscal-states-sovereign-debt-and-political-capital-allocation.md)
-- [F. Banking Systems, Credit Allocation, and Financial Intermediation — The Operational Architecture of Credit Creation and Capital Distribution.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/f-banking-systems-credit-allocation-and-financial-intermediation.md)
-- [G. Asset Pricing Regimes & Cross-Market Liquidity Transmission — How Liquidity Conditions Shape Equities, Bonds, Real Estate, Commodities, and Venture Markets.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/g-asset-pricing-regimes-and-cross-market-liquidity-transmission.md)
-- [H. Global Trade Systems, Currency Hierarchies, and Geoeconomic Power.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/h-global-trade-systems-currency-hierarchies-and-geoeconomic-power.md)
-- [I. Innovation Finance, Venture Liquidity, and Speculative Capital Formation — The Macro Conditions Governing Innovation Funding and Technological Expansion.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/i-innovation-finance-venture-liquidity-and-speculative-capital-formation.md)
-- [J. Information Liquidity, Narrative Markets, and Attention Allocation Systems — How Financial Conditions Shape Visibility, Media Incentives, and Public-Reality Formation.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/j-information-liquidity-narrative-markets-and-attention-allocation-systems.md)
-- [K. Financial Instability, Crisis Cascades, and Systemic Collapse Mechanics — Failure Propagation, Contagion Dynamics, and Macro-System Breakdown Patterns.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/k-financial-instability-crisis-cascades-and-systemic-collapse-mechanics.md)
-- [L. Macro Diagnostics, Regime Detection, and Economic Intelligence Systems — Operational Frameworks for Interpreting Macro Signals and Detecting Structural Transitions.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/l-macro-diagnostics-regime-detection-and-economic-intelligence-systems.md)
-- [M. Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination — Applying Macro Intelligence to Capital Allocation, Organizational Survival, and Strategic Action.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/m-institutional-macro-strategy-adaptive-positioning-and-strategic-coordination.md)
+These are the canonical individual units.
+
+| Code | File |
+|---|---|
+| A | [Monetary Ontology & Economic Reality Models — The Nature of Money, Credit, Collateral, and Financial Abstraction](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/a-monetary-ontology-and-economic-reality-models.md) |
+| B | [Liquidity Physics and Global Capital Flow Dynamics — The Mechanics of Liquidity Creation, Destruction, and Transmission Across Financial Systems](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/b-liquidity-physics-and-global-capital-flow-dynamics.md) |
+| C | [Macro-Causal Architecture & Economic Regime Theory — A Systems-Level Framework for Economic Cycles, Regime Shifts, and Structural Transitions](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/c-macro-causal-architecture-and-economic-regime-theory.md) |
+| D | [Central Banking Systems & Monetary Intervention Architecture — Institutional Monetary Control, Policy Instruments, and Liquidity Management Systems](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/d-central-banking-systems-and-monetary-intervention-architecture.md) |
+| E | [Fiscal States, Sovereign Debt, and Political Capital Allocation — Government Spending Systems, Debt Structures, and Fiscal Constraint Dynamics](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/e-fiscal-states-sovereign-debt-and-political-capital-allocation.md) |
+| F | [Banking Systems, Credit Allocation, and Financial Intermediation — The Operational Architecture of Credit Creation and Capital Distribution](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/f-banking-systems-credit-allocation-and-financial-intermediation.md) |
+| G | [Asset Pricing Regimes & Cross-Market Liquidity Transmission — How Liquidity Conditions Shape Equities, Bonds, Real Estate, Commodities, and Venture Markets](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/g-asset-pricing-regimes-and-cross-market-liquidity-transmission.md) |
+| H | [Global Trade Systems, Currency Hierarchies, and Geoeconomic Power](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/h-global-trade-systems-currency-hierarchies-and-geoeconomic-power.md) |
+| I | [Innovation Finance, Venture Liquidity, and Speculative Capital Formation — The Macro Conditions Governing Innovation Funding and Technological Expansion](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/i-innovation-finance-venture-liquidity-and-speculative-capital-formation.md) |
+| J | [Information Liquidity, Narrative Markets, and Attention Allocation Systems — How Financial Conditions Shape Visibility, Media Incentives, and Public-Reality Formation](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/j-information-liquidity-narrative-markets-and-attention-allocation-systems.md) |
+| K | [Financial Instability, Crisis Cascades, and Systemic Collapse Mechanics — Failure Propagation, Contagion Dynamics, and Macro-System Breakdown Patterns](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/k-financial-instability-crisis-cascades-and-systemic-collapse-mechanics.md) |
+| L | [Macro Diagnostics, Regime Detection, and Economic Intelligence Systems — Operational Frameworks for Interpreting Macro Signals and Detecting Structural Transitions](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/l-macro-diagnostics-regime-detection-and-economic-intelligence-systems.md) |
+| M | [Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination — Applying Macro Intelligence to Capital Allocation, Organizational Survival, and Strategic Action](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/by-report/m-institutional-macro-strategy-adaptive-positioning-and-strategic-coordination.md) |
 
 ## Compiled Packs
 
-- [[KNOWLEDGE] - Macroeconomics - Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-1-a-c-foundations-of-monetary-reality-liquidity-and-economic-causality.md)
-- [[KNOWLEDGE] - Macroeconomics - Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-2-d-f-monetary-governance-institutional-control-and-policy-transmission.md)
-- [[KNOWLEDGE] - Macroeconomics - Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-3-g-i-market-structure-asset-regimes-and-capital-coordination.md)
-- [[KNOWLEDGE] - Macroeconomics - Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-4-j-m-information-systems-strategic-signaling-and-narrative-liquidity.md)
+| Volume | File | Coverage |
+|---|---|---|
+| Vol. 1 | [[KNOWLEDGE] - Macroeconomics - Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-1-a-c-foundations-of-monetary-reality-liquidity-and-economic-causality.md) | Monetary ontology, liquidity physics, and macro-causal regime theory. |
+| Vol. 2 | [[KNOWLEDGE] - Macroeconomics - Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-2-d-f-monetary-governance-institutional-control-and-policy-transmission.md) | Central banking, fiscal states, sovereign debt, banking systems, and credit allocation. |
+| Vol. 3 | [[KNOWLEDGE] - Macroeconomics - Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-3-g-i-market-structure-asset-regimes-and-capital-coordination.md) | Asset pricing, global trade and currency hierarchy, innovation finance, and venture liquidity. |
+| Vol. 4 | [[KNOWLEDGE] - Macroeconomics - Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-4-j-m-information-systems-strategic-signaling-and-narrative-liquidity.md) | Information liquidity, crisis mechanics, diagnostics, institutional strategy, and strategic coordination. |
 
 ## Omnibus
 
-- [[KNOWLEDGE] - Macroeconomics Omnibus.md](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/omnibus/knowledge-macroeconomics-omnibus.md)
+- [[KNOWLEDGE] - Macroeconomics Omnibus](https://github.com/Stunspot/stunspots-guide-to-macroeconomics/blob/main/knowledge-packs/omnibus/knowledge-macroeconomics-omnibus.md)
+
+Use the omnibus when a tool strongly prefers a single uploaded file, when building a local archive, or when working with long-context systems that can maintain retrieval quality across a large document.
+
+## Upload Guidance by Use Case
+
+| Use Case | Recommended Pack |
+|---|---|
+| General AI project knowledge | Compiled packs |
+| NotebookLM-style exploration | Compiled packs or omnibus |
+| RAG with metadata and citations | Source reports |
+| Report-by-report review or editing | Source reports |
+| One-file local search/archive | Omnibus |
+| File-count-limited upload systems | Compiled packs first, omnibus second |
+| High-context reasoning with strong long-context models | Omnibus, with source reports retained for citation checks |
+
+## Source Traceability Rule
+
+When accuracy matters, trace claims back to the source reports in `knowledge-packs/by-report/`. The compiled packs and omnibus are derived convenience formats; they should not replace the report-level source map in `MANIFEST.md` and `manifest.json`.
