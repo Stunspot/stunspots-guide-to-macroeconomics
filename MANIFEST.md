@@ -1,7 +1,21 @@
 # Manifest — Stunspot’s Guide to Macroeconomics
 
-Generated: 2026-06-27T05:29:13+00:00
+Generated: 2026-06-27T05:29:13+00:00  
+Version: 1.0  
+Release date: 2026-06-27  
+Repository: <https://github.com/Stunspot/stunspots-guide-to-macroeconomics>
+
+This manifest records the public repository structure, source-to-output mappings, and knowledge-pack organization for *Stunspot’s Guide to Macroeconomics*.
+
 Source directory: Local build source directory omitted from public release. Source filenames and generated repo paths are preserved below.
+
+## Directory Policy
+
+- `docs/` is navigation, GitHub Pages metadata, and usage guidance.
+- `knowledge-packs/by-report/` contains the individual source reports.
+- `knowledge-packs/compiled-packs/` contains grouped upload packs.
+- `knowledge-packs/omnibus/` contains the whole-corpus bundle.
+- `docs/reports/` is intentionally not used.
 
 ## Counts
 
@@ -10,7 +24,36 @@ Source directory: Local build source directory omitted from public release. Sour
 - Omnibus files: 1
 - Unclassified files: 0
 
+## Public Repository Files
+
+### Root Metadata and Release Files
+
+- `README.md` — public repository orientation.
+- `MANIFEST.md` — human-readable file manifest and source-to-output map.
+- `manifest.json` — machine-readable file manifest and source-to-output map.
+- `STATUS.md` — release maturity and usage boundaries.
+- `CHANGELOG.md` — release change history.
+- `CITATION.cff` — citation metadata.
+- `zenodo.json` — Zenodo deposition metadata.
+- `LICENSE.md` — license and no-warranty notice.
+- `COPY_CONTEXT.md` — editorial handoff packet used for release-copy generation.
+
+### Docs Navigation Layer
+
+- `docs/_config.yml` — GitHub Pages configuration.
+- `docs/index.md` — documentation landing page.
+- `docs/canon-map.md` — report sequence and conceptual map.
+- `docs/how-to-use-this-canon.md` — practical human and AI/RAG usage guide.
+- `docs/knowledge-packs.md` — upload-format and knowledge-pack guide.
+
+### Knowledge Corpus
+
+- `knowledge-packs/by-report/` — 13 individual source reports.
+- `knowledge-packs/compiled-packs/` — 4 grouped upload packs.
+- `knowledge-packs/omnibus/` — 1 whole-corpus bundle.
+
 ## Source Reports
+
 - `A` — `A. Monetary Ontology & Economic Reality Models — The Nature of Money, Credit, Collateral, and Financial Abstraction.md` → `knowledge-packs/by-report/a-monetary-ontology-and-economic-reality-models.md`
 - `B` — `B. Liquidity Physics and Global Capital Flow Dynamics — The Mechanics of Liquidity Creation, Destruction, and Transmission Across Financial Systems.md` → `knowledge-packs/by-report/b-liquidity-physics-and-global-capital-flow-dynamics.md`
 - `C` — `C. Macro-Causal Architecture & Economic Regime Theory — A Systems-Level Framework for Economic Cycles, Regime Shifts, and Structural Transitions.md` → `knowledge-packs/by-report/c-macro-causal-architecture-and-economic-regime-theory.md`
@@ -26,10 +69,19 @@ Source directory: Local build source directory omitted from public release. Sour
 - `M` — `M. Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination — Applying Macro Intelligence to Capital Allocation, Organizational Survival, and Strategic Action.md` → `knowledge-packs/by-report/m-institutional-macro-strategy-adaptive-positioning-and-strategic-coordination.md`
 
 ## Compiled Packs
+
 - `[KNOWLEDGE] - Macroeconomics - Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality.md` → `knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-1-a-c-foundations-of-monetary-reality-liquidity-and-economic-causality.md`
 - `[KNOWLEDGE] - Macroeconomics - Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission.md` → `knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-2-d-f-monetary-governance-institutional-control-and-policy-transmission.md`
 - `[KNOWLEDGE] - Macroeconomics - Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination.md` → `knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-3-g-i-market-structure-asset-regimes-and-capital-coordination.md`
 - `[KNOWLEDGE] - Macroeconomics - Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity.md` → `knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-4-j-m-information-systems-strategic-signaling-and-narrative-liquidity.md`
 
 ## Omnibus
+
 - `[KNOWLEDGE] - Macroeconomics Omnibus.md` → `knowledge-packs/omnibus/knowledge-macroeconomics-omnibus.md`
+
+## Source Authority Notes
+
+- Source reports are the canonical individual units.
+- Compiled packs and omnibus files are derived convenience formats.
+- `MANIFEST.md` and `manifest.json` preserve source filenames, generated repository paths, and corpus counts.
+- No local absolute source paths are included in the public release.
