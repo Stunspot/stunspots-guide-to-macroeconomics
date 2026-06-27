@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="./assets/brand/pages-hero.png" alt="Stunspot’s Guide to Macroeconomics — The Macroeconomic Systems Canon.">
+</p>
+
 # Stunspot’s Guide to Macroeconomics
 
 **A model-facing macroeconomics canon for monetary systems, liquidity regimes, financial instability, and institutional strategy.**
