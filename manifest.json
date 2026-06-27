@@ -1,9 +1,56 @@
 {
   "canon": {
     "title": "Stunspot’s Guide to Macroeconomics",
+    "subtitle": "A model-facing macroeconomics canon for monetary systems, liquidity regimes, financial instability, and institutional strategy.",
     "slug": "macroeconomics",
     "version": "1.0",
-    "date_released": "2026-06-27"
+    "date_released": "2026-06-27",
+    "repository": "https://github.com/Stunspot/stunspots-guide-to-macroeconomics",
+    "pages": "https://stunspot.github.io/stunspots-guide-to-macroeconomics/",
+    "author": "Sam “stunspot” Walker",
+    "affiliation": "Collaborative Dynamics",
+    "license": "CC BY-NC-SA 4.0",
+    "primary_audience": "AI/RAG systems and model-facing workflows"
+  },
+  "directory_policy": {
+    "docs": "Navigation, GitHub Pages metadata, and usage guidance.",
+    "knowledge-packs/by-report": "Individual canonical source reports.",
+    "knowledge-packs/compiled-packs": "Grouped upload packs.",
+    "knowledge-packs/omnibus": "Whole-corpus bundle.",
+    "forbidden_or_absent": [
+      "docs/reports"
+    ]
+  },
+  "counts": {
+    "source_reports": 13,
+    "compiled_packs": 4,
+    "omnibus_files": 1,
+    "unclassified_files": 0
+  },
+  "repository_files": {
+    "root": [
+      "README.md",
+      "MANIFEST.md",
+      "manifest.json",
+      "STATUS.md",
+      "CHANGELOG.md",
+      "CITATION.cff",
+      "zenodo.json",
+      "LICENSE.md",
+      "COPY_CONTEXT.md"
+    ],
+    "docs": [
+      "docs/_config.yml",
+      "docs/index.md",
+      "docs/canon-map.md",
+      "docs/how-to-use-this-canon.md",
+      "docs/knowledge-packs.md"
+    ],
+    "knowledge_directories": [
+      "knowledge-packs/by-report/",
+      "knowledge-packs/compiled-packs/",
+      "knowledge-packs/omnibus/"
+    ]
   },
   "corpus": {
     "generated_at": "2026-06-27T05:29:13+00:00",
@@ -146,28 +193,49 @@
         "source_filename": "[KNOWLEDGE] - Macroeconomics - Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality.md",
         "source_path": "[KNOWLEDGE] - Macroeconomics - Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality.md",
         "dest_path": "knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-1-a-c-foundations-of-monetary-reality-liquidity-and-economic-causality.md",
-        "size_bytes": 205552
+        "size_bytes": 205552,
+        "contains_reports": [
+          "A",
+          "B",
+          "C"
+        ]
       },
       {
         "label": "Macroeconomics - Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission",
         "source_filename": "[KNOWLEDGE] - Macroeconomics - Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission.md",
         "source_path": "[KNOWLEDGE] - Macroeconomics - Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission.md",
         "dest_path": "knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-2-d-f-monetary-governance-institutional-control-and-policy-transmission.md",
-        "size_bytes": 234003
+        "size_bytes": 234003,
+        "contains_reports": [
+          "D",
+          "E",
+          "F"
+        ]
       },
       {
         "label": "Macroeconomics - Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination",
         "source_filename": "[KNOWLEDGE] - Macroeconomics - Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination.md",
         "source_path": "[KNOWLEDGE] - Macroeconomics - Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination.md",
         "dest_path": "knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-3-g-i-market-structure-asset-regimes-and-capital-coordination.md",
-        "size_bytes": 202064
+        "size_bytes": 202064,
+        "contains_reports": [
+          "G",
+          "H",
+          "I"
+        ]
       },
       {
         "label": "Macroeconomics - Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity",
         "source_filename": "[KNOWLEDGE] - Macroeconomics - Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity.md",
         "source_path": "[KNOWLEDGE] - Macroeconomics - Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity.md",
         "dest_path": "knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-4-j-m-information-systems-strategic-signaling-and-narrative-liquidity.md",
-        "size_bytes": 313181
+        "size_bytes": 313181,
+        "contains_reports": [
+          "J",
+          "K",
+          "L",
+          "M"
+        ]
       }
     ],
     "omnibus": [
@@ -176,7 +244,22 @@
         "source_filename": "[KNOWLEDGE] - Macroeconomics Omnibus.md",
         "source_path": "[KNOWLEDGE] - Macroeconomics Omnibus.md",
         "dest_path": "knowledge-packs/omnibus/knowledge-macroeconomics-omnibus.md",
-        "size_bytes": 954675
+        "size_bytes": 954675,
+        "contains_reports": [
+          "A",
+          "B",
+          "C",
+          "D",
+          "E",
+          "F",
+          "G",
+          "H",
+          "I",
+          "J",
+          "K",
+          "L",
+          "M"
+        ]
       }
     ],
     "unclassified": []
