@@ -113,48 +113,48 @@ The sustainability of sovereign debt cannot be assessed using a single, static d
 
 ### **The Nominal Debt-to-GDP Dynamics**
 
-The evolution of the net debt-to-GDP ratio over time is governed by the growth-adjusted interest rate differential, or the "debt snowball" effect. Mathematically, the change in the debt-to-GDP ratio (Delta d\_t) from period t-1 to period t is expressed in plaintext as:
+The evolution of the net debt-to-GDP ratio over time is governed by the growth-adjusted interest rate differential, or the "debt snowball" effect. Mathematically, the change in the debt-to-GDP ratio (Delta d_t) from period t-1 to period t is expressed in plaintext as:
 
-Delta d\_t \= ((r\_t \- g\_t) / (1 \+ g\_t)) \* d\_t-1 \- pb\_t \- s\_t
+Delta d_t = ((r_t - g_t) / (1 + g_t)) * d_t-1 - pb_t - s_t
 
 Where:
 
-* d\_t is the net debt-to-GDP ratio at the end of period t.  
-* r\_t is the effective nominal interest rate paid on outstanding sovereign debt. 1  
-* g\_t is the nominal GDP growth rate of the economy. 1  
-* pb\_t is the primary balance (total revenues minus non-interest expenditures) as a share of GDP. 1  
-* s\_t is seigniorage revenue as a share of GDP, defined as the change in the non-interest-bearing monetary base divided by nominal GDP (Delta M\_t / Y\_t). 1
+* d_t is the net debt-to-GDP ratio at the end of period t.  
+* r_t is the effective nominal interest rate paid on outstanding sovereign debt. 1  
+* g_t is the nominal GDP growth rate of the economy. 1  
+* pb_t is the primary balance (total revenues minus non-interest expenditures) as a share of GDP. 1  
+* s_t is seigniorage revenue as a share of GDP, defined as the change in the non-interest-bearing monetary base divided by nominal GDP (Delta M_t / Y_t). 1
 
 This dynamic equation reveals two distinct operating regimes:
 
-1. **The Benign Regime (r \- g \< 0):** When the nominal GDP growth rate exceeds the effective borrowing cost, the term ((r\_t \- g\_t) / (1 \+ g\_t)) \* d\_t-1 is negative. The debt-to-GDP ratio naturally contracts over time, allowing the sovereign to run primary deficits without seeing its debt ratio rise.  
-2. **The Explosive Regime (r \- g \> 0):** When borrowing costs exceed nominal growth, compound interest on the existing debt stock accumulates faster than the tax base expands. In this state, the debt-to-GDP ratio rises exponentially unless the government runs large primary surpluses (pb\_t \> 0\) to offset the compounding interest. 1
+1. **The Benign Regime (r - g < 0):** When the nominal GDP growth rate exceeds the effective borrowing cost, the term ((r_t - g_t) / (1 + g_t)) * d_t-1 is negative. The debt-to-GDP ratio naturally contracts over time, allowing the sovereign to run primary deficits without seeing its debt ratio rise.  
+2. **The Explosive Regime (r - g > 0):** When borrowing costs exceed nominal growth, compound interest on the existing debt stock accumulates faster than the tax base expands. In this state, the debt-to-GDP ratio rises exponentially unless the government runs large primary surpluses (pb_t > 0) to offset the compounding interest. 1
 
 ### **Debt Sustainability and Solvency Trajectory Framework**
 
-\+-------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------+
 
 | DEBT SUSTAINABILITY TRAJECTORY MODEL |  
-\+-------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------+
 
 | |  
-| \-----\>      \[Phase 2: Fiscal Pressure\] |  
-| \- Negative interest-growth gap                 \- Rate hikes/growth slowdowns |  
-| (r \- g \< 0\)                                  \- Positive r \- g gap emerges |  
-| \- Dynamic debt ratio contraction               \- Interest costs consume tax |  
-| \- High auction demand; low spreads               revenue |  
+| ----->      [Phase 2: Fiscal Pressure] |  
+| - Negative interest-growth gap                 - Rate hikes/growth slowdowns |  
+| (r - g < 0)                                  - Positive r - g gap emerges |  
+| - Dynamic debt ratio contraction               - Interest costs consume tax |  
+| - High auction demand; low spreads               revenue |  
 | |  
 | v                                              v |  
 | |  
-| \<-----      \[Phase 3: Market Concern\] |  
-| \- Yield caps; low real rates                   \- Compounding debt snowball |  
-| \- Domestic bank asset capture                  \- Falling bid-to-cover ratios |  
-| \- Supermajority CAC activation                 \- Expanding term premium; |  
-| \- Redenomination under local law                 capital flight |  
-| \- Missed payments, arrears                     \- Failed auctions; maturity |  
-| \- Haircuts & legal fights                        walls; rating downgrades |  
+| <-----      [Phase 3: Market Concern] |  
+| - Yield caps; low real rates                   - Compounding debt snowball |  
+| - Domestic bank asset capture                  - Falling bid-to-cover ratios |  
+| - Supermajority CAC activation                 - Expanding term premium; |  
+| - Redenomination under local law                 capital flight |  
+| - Missed payments, arrears                     - Failed auctions; maturity |  
+| - Haircuts & legal fights                        walls; rating downgrades |  
 | |  
-\+-------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------+
 
 The transition of a sovereign balance sheet across these stages is not merely a mathematical progression. It is a political process. When a sovereign enters a debt spiral (Phase 3 into Phase 5/6), stabilizing the debt ratio requires adjusting the primary balance, real growth, or the effective interest rate. 1 Each of these options shifts real-resource losses across different groups:
 
@@ -168,43 +168,43 @@ The transition of a sovereign balance sheet across these stages is not merely a 
 
 Fiscal economics is characterized by deep theoretical disagreements that are simultaneously technical, ideological, and political. To evaluate how these frameworks interpret sovereign solvency and price dynamics, we can compare their core tenets:
 
-### **1\. Keynesian Perspective**
+### **1. Keynesian Perspective**
 
 * **Core Detection:** Detects the role of countercyclical deficits in stabilizing aggregate demand during recessions, preventing deflationary spirals when the private sector is deleveraging. 29  
 * **Key Oversight:** Often overlooks the structural supply constraints of the economy and the risk of crowding out private investment when deficits are run at full employment.  
 * **Point of Danger:** Becomes dangerous when persistent deficits are run during supply shocks, fueling inflation and causing debt-servicing costs to rise. 8
 
-### **2\. Classical / New Classical Perspective**
+### **2. Classical / New Classical Perspective**
 
 * **Core Detection:** Detects the long-term neutrality of money, Ricardian equivalence (the theory that consumers save tax cuts in anticipation of future tax liabilities), and the risk of fiscal deficits crowding out private capital.  
 * **Key Oversight:** Overlooks the role of sovereign debt as money-like collateral and liquidity, and ignores the reality of balance-sheet recessions where Ricardian equivalence does not hold.  
 * **Point of Danger:** Becomes dangerous when it mandates immediate austerity during a balance-sheet recession, deepening the downturn and causing the debt-to-GDP ratio to rise. 25
 
-### **3\. Monetarist Perspective**
+### **3. Monetarist Perspective**
 
 * **Core Detection:** Detects the link between money supply expansion and long-term inflation, emphasizing the importance of central bank independence. 8  
 * **Key Oversight:** Tends to treat inflation as a pure monetary phenomenon, overlooking how persistent fiscal deficits can force money creation under fiscal dominance. 8  
 * **Point of Danger:** Becomes dangerous when it recommends monetary tightening to combat inflation without addressing the underlying fiscal deficits, driving up sovereign interest expenses and fueling inflation. 8
 
-### **4\. MMT / Chartalist Perspective**
+### **4. MMT / Chartalist Perspective**
 
 * **Core Detection:** Detects that a currency-issuing sovereign cannot face involuntary insolvency in its own currency, and notes that taxation creates demand for fiat money.  
 * **Key Oversight:** Often underestimates the binding constraints of real-resource limits, inflation tolerance, and currency hierarchy, assuming that taxation can easily claw back excess demand.  
 * **Point of Danger:** Becomes dangerous when applied to weak sovereigns lower in the currency hierarchy, triggering capital flight, currency collapse, and hyperinflation.
 
-### **5\. Public-Choice Perspective**
+### **5. Public-Choice Perspective**
 
 * **Core Detection:** Detects the political incentives that drive a persistent deficit bias, as politicians maximize votes by promising spending today while deferring the tax cost to future generations.  
 * **Key Oversight:** Overlooks the productive, capacity-expanding role of public investment and the necessity of running deficits during severe economic crises. 29  
 * **Point of Danger:** Becomes dangerous when it imposes rigid, constitutional balanced-budget rules that limit countercyclical stabilization, worsening recessions. 5
 
-### **6\. Austrian Perspective**
+### **6. Austrian Perspective**
 
 * **Core Detection:** Detects the distorting effects of deficit-financed spending on relative prices and capital structures, leading to resource malinvestment.  
 * **Key Oversight:** Ignores the systemic liquidity needs of modern financial systems and the role of sovereign bonds as the foundational collateral of repo markets. 10  
 * **Point of Danger:** Becomes dangerous when it advocates for letting the financial system clear during systemic crises, risking a collapse of the payment system.
 
-### **7\. Fiscal Theory of the Price Level (FTPL)**
+### **7. Fiscal Theory of the Price Level (FTPL)**
 
 * **Core Detection:** Detects that the general price level adjusts so that the real value of outstanding nominal government debt equals the present value of expected future primary surpluses. 13  
 * **Key Oversight:** Often overlooks the role of credit creation by commercial banks in driving inflation, attributing all price level changes to expected fiscal trajectories. 31  
@@ -219,25 +219,25 @@ However, when outstanding sovereign debt is high and interest rates rise, the tr
 On a consolidated basis, this shortening of the sovereign liability structure exposes the state’s finances to interest rate hikes. 1 As the central bank tightens monetary policy to combat inflation, it must pay higher interest rates on bank reserves, creating operating losses that stop treasury remittances and directly widen the fiscal deficit. 1
 
                      CONSOLIDATED FINANCIAL PLUMBING  
-\+---------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
 
 | CONSOLIDATED PUBLIC BALANCE SHEET |  
 | |  
 | Government Assets                                 Government Liabilities |  
-| \- Taxing power                                    \- Long-Term Fixed Bonds |  
-| \- Lands, SOEs, Infrastructure                      \- TIPS & Inflation Debt |  
+| - Taxing power                                    - Long-Term Fixed Bonds |  
+| - Lands, SOEs, Infrastructure                      - TIPS & Inflation Debt |  
 | |  
 | CONSOLIDATED BY QE / BOND BUYBACKS |  
 | v |  
 | Central Bank Assets                               Central Bank Liabilities |  
-| \- Government Bonds \<---------------------------- \- Overnight Bank Reserves |  
+| - Government Bonds <---------------------------- - Overnight Bank Reserves |  
 | (Fixed Interest Income)                         (Variable Interest Rate) |  
-\+---------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
 
-| \*Systemic Loop:\* Raising policy rates immediately increases the interest |  
+| *Systemic Loop:* Raising policy rates immediately increases the interest |  
 | expense paid on reserves, offsetting fixed bond income, creating central |  
 | bank losses, and halting treasury remittances.  |  
-\+---------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
 
 This interaction creates the fiscal-monetary conflict surface. If the treasury cannot or will not run the primary surpluses required to stabilize its debt under higher interest rates, the central bank’s inflation-targeting mandate clashes with the treasury's debt-financing needs. 1
 
@@ -248,7 +248,7 @@ This conflict can lead to fiscal dominance, a regime where monetary policy serve
 Normal         Fiscal       Bond Market     Hesitation &     Implicit       Explicit       Credibility  
 Coordination   Pressure      Sensitivity       Backstops     Repression       YCC/Mon.      Breakdown  
                                   
-\----+------------+------------+------------+------------+------------+------------+------------
+----+------------+------------+------------+------------+------------+------------+------------
 
 | | | | | | | |  
     v            v            v            v            v            v            v            v
@@ -263,7 +263,7 @@ Coordination   Pressure      Sensitivity       Backstops     Repression       YC
 
 #### **Stage 2: Fiscal Pressure**
 
-* **Diagnostic Signs:** The primary deficit widens, and the interest-growth differential (r \- g) turns positive. 1  
+* **Diagnostic Signs:** The primary deficit widens, and the interest-growth differential (r - g) turns positive. 1  
 * **Policy Behavior:** The central bank raises interest rates to combat inflation, but public and political actors criticize the policy, arguing that higher rates are worsening the government’s budget deficit. 8  
 * **Market Behavior:** The yield curve steepens, and long-term interest rates begin to rise.  
 * **Institutional Risk:** Moderate; political pressure on the central bank increases.  
@@ -322,7 +322,7 @@ Coordination   Pressure      Sensitivity       Backstops     Repression       YC
 
 Modern public spending is driven by three structural demands: the maintenance of the welfare state, the revival of industrial policy, and the escalating cost of geopolitical competition.
 
-### **1\. Welfare-State Financing and Demographics**
+### **1. Welfare-State Financing and Demographics**
 
 The welfare state represents a massive structure of long-duration, legally protected liabilities. These systems are highly sensitive to demographic aging and the healthcare cost disease. 2 Under pay-as-you-go pension systems, current benefits are funded directly by taxes on the working-age population. 3 As fertility rates decline and life expectancy rises, the dependency ratio increases, putting pressure on pension systems. 3
 
@@ -331,35 +331,35 @@ At the same time, the rising prevalence of chronic, non-communicable diseases (s
 Without policy intervention, the OECD projects that population aging and changing medical technologies will drive healthcare spending to 11.8% of GDP by 2040, outstripping both expected economic growth and government revenues. 2 Financing these liabilities requires either raising taxes (which can depress work incentives and corporate competitiveness), expanding government debt, or implementing welfare reforms (e.g., raising the retirement age) that face intense resistance from older voters. 2
 
                      DEMOGRAPHIC AGING & HEALTHCARE SQUEEZE  
-\+------------------------------------+      \+------------------------------------+
++------------------------------------+      +------------------------------------+
 
 | DEMOGRAPHIC AGING | | CHRONIC DISEASE PREVALENCE (NCDs) |  
-| \- Declining birth rates | | \- Cancer prevalence up 36%  |  
-| \- Rising dependency ratio  | | \- Diabetes prevalence up 86%  |  
-\+------------------------------------+      \+------------------------------------+  
-                   \\                                          /  
-                    \\                                        /  
+| - Declining birth rates | | - Cancer prevalence up 36%  |  
+| - Rising dependency ratio  | | - Diabetes prevalence up 86%  |  
++------------------------------------+      +------------------------------------+  
+                   \                                          /  
+                    \                                        /  
                      v                                      v  
-\+---------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
 
 | STRUCTURAL WELFARE LIABILITY SQUEEZE |  
 | |  
-| 1\. Healthcare spending projected to reach 11.8% of GDP by 2040\.  |  
-| 2\. Social contributions rely on a shrinking working-age base.  |  
-| 3\. Welfare commitments compete with defense and green investments.  |  
-\+---------------------------------------------------------------------------------+
+| 1. Healthcare spending projected to reach 11.8% of GDP by 2040.  |  
+| 2. Social contributions rely on a shrinking working-age base.  |  
+| 3. Welfare commitments compete with defense and green investments.  |  
++---------------------------------------------------------------------------------+
 
-### **2\. The Revival of Industrial Policy**
+### **2. The Revival of Industrial Policy**
 
-To foster economic security and accelerate the energy transition, sovereigns have turned to industrial policy, using fiscal capital to change the productive structure of the domestic economy. 16 In the United States, this transition is visible in the Creating Helpful Incentives to Produce Semiconductors (CHIPS) and Science Act and the Inflation Reduction Act (IRA), both enacted in August 2022\. 16
+To foster economic security and accelerate the energy transition, sovereigns have turned to industrial policy, using fiscal capital to change the productive structure of the domestic economy. 16 In the United States, this transition is visible in the Creating Helpful Incentives to Produce Semiconductors (CHIPS) and Science Act and the Inflation Reduction Act (IRA), both enacted in August 2022. 16
 
 The CHIPS Act allocated $52.7 billion in direct grants, loans, and investment tax credits to subsidize domestic advanced chip manufacturing. 16 The IRA dedicated an estimated $369 billion over ten years to green energy transition subsidies, using production tax credits (PTC) and investment tax credits (ITC). 16
 
-These tax credits have since been revised upward by the Congressional Budget Office (CBO), with the wind and solar credits alone projected to increase deficits by $308 billion from 2026 to 2035\. 17 While these programs have driven a major surge in private nonresidential structure investment—accounting for one-third of nonresidential structure investment growth in 2023—they also create significant fiscal and inflationary pressures. 16
+These tax credits have since been revised upward by the Congressional Budget Office (CBO), with the wind and solar credits alone projected to increase deficits by $308 billion from 2026 to 2035. 17 While these programs have driven a major surge in private nonresidential structure investment—accounting for one-third of nonresidential structure investment growth in 2023—they also create significant fiscal and inflationary pressures. 16
 
 Subsidizing domestic manufacturing increases competition for specialized labor and raw materials, raising domestic production costs and contributing to protectionist inflation, which in turn raises the cost of capital for all other sectors. 16
 
-### **3\. Military Finance and Geopolitical Competition**
+### **3. Military Finance and Geopolitical Competition**
 
 Geopolitical competition is returning as a core fiscal driver, forcing states to expand defense spending. 2 Defense spending acts as public consumption and strategic insurance, securing key international trade routes and alliances. However, defense procurement is highly inflationary due to its reliance on specialized materials, non-competitive bidding processes, and long development cycles. Financing these military expansions requires running persistent deficits, which can conflict with central bank efforts to manage domestic demand.
 
@@ -370,7 +370,7 @@ Geopolitical competition is returning as a core fiscal driver, forcing states to
 | **Welfare & Healthcare** | Sustains household disposable income and consumption. 15 | Retired populations, healthcare workers, low-income voters. 3 | Low direct crowding out, but highly inflationary if funded through persistent deficits. | Protects human capital, but can crowd out public capital investment. 2 |
 | **Industrial Subsidies** | Subsidizes private capital expenditure; reshapes supply chains. 16 | Industrial labor unions, corporate executives, research universities. 34 | High; competes for engineering talent and materials, raising capital costs. 18 | Boosts advanced manufacturing capacity, but risks capital misallocation. 18 |
 | **Defense Procurement** | Directs resources toward aerospace, munitions, and heavy industry. | National security agencies, defense contractors, industrial regions. | High; diverts engineering talent and specialized inputs from civilian sectors. | Preserves sovereign security and alliance networks, but creates structural deficits. |
-| **Public Investment** | Builds physical assets (infrastructure, transport, R\&D networks). | Construction sectors, engineering firms, regional governments. | Moderate in the short term, but reduces long-term structural supply bottlenecks. | Expands productive capacity, lowering long-term inflation risk. |
+| **Public Investment** | Builds physical assets (infrastructure, transport, R&D networks). | Construction sectors, engineering firms, regional governments. | Moderate in the short term, but reduces long-term structural supply bottlenecks. | Expands productive capacity, lowering long-term inflation risk. |
 | **Interest Expense** | Direct wealth transfer to capital owners and foreign creditors. 1 | Institutional investors, sovereign wealth funds, primary dealers. 10 | High; acts as a non-productive fiscal stimulus that expands the money supply. 8 | Consumes tax revenues, reducing the fiscal space for productive investments. 1 |
 
 ## **Public Debt Monetization and Sovereign Default Pathways**
@@ -417,7 +417,7 @@ When sovereign debt loses value, bank capital is eroded, threatening bank solven
 
 To analyze how different sovereigns navigate solvency risks, we can categorize states into a comparative typology:
 
-### **1\. High-Capacity Monetary Sovereign (e.g., Japan, UK)**
+### **1. High-Capacity Monetary Sovereign (e.g., Japan, UK)**
 
 * **Monetary Sovereignty:** Complete; issues debt in its own fiat currency; independent central bank. 8  
 * **Tax Capacity:** High; strong administrative systems, high tax compliance, and robust tax morale. 1  
@@ -430,7 +430,7 @@ To analyze how different sovereigns navigate solvency risks, we can categorize s
 * **Typical Crisis Pathway:** Gradual transition to fiscal dominance; persistent low growth; interest payments consume a rising share of tax revenue. 1  
 * **Available Exits:** Inflationary debt liquidation, financial repression, and central bank balance sheet expansion. 1
 
-### **2\. Reserve-Currency Hegemon (e.g., United States)**
+### **2. Reserve-Currency Hegemon (e.g., United States)**
 
 * **Monetary Sovereignty:** Exceptional; dollar functions as the global reserve currency and collateral. 11  
 * **Tax Capacity:** High; strong enforcement but politically constrained statutory limits. 7  
@@ -443,7 +443,7 @@ To analyze how different sovereigns navigate solvency risks, we can categorize s
 * **Typical Crisis Pathway:** Treasury auction illiquidity; term premium shocks; primary dealer balance sheet congestion. 11  
 * **Available Exits:** Global inflation transmission; domestic capital capture; dollar redenomination.
 
-### **3\. Euro-Style Currency User (e.g., Italy, Spain)**
+### **3. Euro-Style Currency User (e.g., Italy, Spain)**
 
 * **Monetary Sovereignty:** Zero; currency is issued by a shared central bank; subject to strict treaty rules. 4  
 * **Tax Capacity:** High, but constrained by regional tax evasion and informal economic activity.  
@@ -456,7 +456,7 @@ To analyze how different sovereigns navigate solvency risks, we can categorize s
 * **Typical Crisis Pathway:** Sovereign-bank doom loop; rising bond yields; loss of market access; banking sector panic. 4  
 * **Available Exits:** ECB Transmission Protection Instrument (TPI) 4; ESM bailout programs; structural austerity. 24
 
-### **4\. Emerging-Market Foreign-Currency Borrower (e.g., Argentina, Turkey)**
+### **4. Emerging-Market Foreign-Currency Borrower (e.g., Argentina, Turkey)**
 
 * **Monetary Sovereignty:** Low; issues substantial debt in foreign currency (USD) to attract international capital. 14  
 * **Tax Capacity:** Weak to moderate; high informality, tax evasion, and weak administrative capacity. 7  
@@ -469,7 +469,7 @@ To analyze how different sovereigns navigate solvency risks, we can categorize s
 * **Typical Crisis Pathway:** Balance of payments crisis; rapid currency depreciation; sudden stop of capital; sovereign default. 1  
 * **Available Exits:** Debt restructuring (CAC activation) 27; IMF-supported structural adjustments 7; capital controls.
 
-### **5\. Commodity Exporter (e.g., Saudi Arabia, Norway)**
+### **5. Commodity Exporter (e.g., Saudi Arabia, Norway)**
 
 * **Monetary Sovereignty:** Moderate; often limited by currency pegs designed to stabilize export pricing.  
 * **Tax Capacity:** Weak non-oil tax capacity; highly reliant on state-owned oil enterprise revenues.  
@@ -482,7 +482,7 @@ To analyze how different sovereigns navigate solvency risks, we can categorize s
 * **Typical Crisis Pathway:** Collapse in commodity prices; rapid exhaustion of FX reserves; fiscal deficit spikes.  
 * **Available Exits:** Sovereign wealth fund asset liquidation; introduction of domestic value-added taxes; spending cuts.
 
-### **6\. Aging Welfare State (e.g., Germany, France)**
+### **6. Aging Welfare State (e.g., Germany, France)**
 
 * **Monetary Sovereignty:** Zero (as Eurozone members) or complete (e.g., non-euro European sovereigns). 4  
 * **Tax Capacity:** Very high; efficient revenue mobilization, strong compliance, and high tax morale. 7  
@@ -495,7 +495,7 @@ To analyze how different sovereigns navigate solvency risks, we can categorize s
 * **Typical Crisis Pathway:** Structural budget deficits; crowding out of public infrastructure investment; slow growth. 2  
 * **Available Exits:** Structural labor reforms; immigration; targeted tax hikes. 3
 
-### **7\. War Mobilization State (e.g., Ukraine)**
+### **7. War Mobilization State (e.g., Ukraine)**
 
 * **Monetary Sovereignty:** Complete, but practically constrained by domestic inflation and FX availability.  
 * **Tax Capacity:** Weakened; destruction of domestic physical capital and displacement of the workforce.  
@@ -508,7 +508,7 @@ To analyze how different sovereigns navigate solvency risks, we can categorize s
 * **Typical Crisis Pathway:** Depletion of foreign reserves; rapid inflation; currency collapse; default on pre-war debt.  
 * **Available Exits:** Bilateral debt forgiveness; long-term international aid; post-war reconstruction loans.
 
-### **8\. Export-Surplus Creditor State (e.g., Singapore, Switzerland)**
+### **8. Export-Surplus Creditor State (e.g., Singapore, Switzerland)**
 
 * **Monetary Sovereignty:** Complete; independent central bank managing currency levels.  
 * **Tax Capacity:** High; efficient collection, low tax rates, and strong corporate compliance.  
@@ -521,7 +521,7 @@ To analyze how different sovereigns navigate solvency risks, we can categorize s
 * **Typical Crisis Pathway:** External demand collapse; appreciation of the domestic currency depressing exports.  
 * **Available Exits:** Countercyclical asset drawdowns; sovereign wealth fund investment diversification.
 
-### **9\. Fragile Low-Tax-Capacity State (e.g., Democratic Republic of Congo)**
+### **9. Fragile Low-Tax-Capacity State (e.g., Democratic Republic of Congo)**
 
 * **Monetary Sovereignty:** Low; high domestic dollarization; local currency lacks domestic trust.  
 * **Tax Capacity:** Weak; low administrative capacity, high corruption, and tax evasion. 7  
@@ -534,7 +534,7 @@ To analyze how different sovereigns navigate solvency risks, we can categorize s
 * **Typical Crisis Pathway:** Commodity price collapse; build-up of arrears; loss of official financing. 36  
 * **Available Exits:** Paris Club debt restructuring; IMF concessional lending; resource-concession swaps. 7
 
-### **10\. Financially Repressed Sovereign (e.g., India)**
+### **10. Financially Repressed Sovereign (e.g., India)**
 
 * **Monetary Sovereignty:** Complete; independent central bank and domestic-currency debt.  
 * **Tax Capacity:** Moderate; rising digital compliance but high informality.  
@@ -547,7 +547,7 @@ To analyze how different sovereigns navigate solvency risks, we can categorize s
 * **Typical Crisis Pathway:** Slowing productivity growth; rising inflation; currency depreciation.  
 * **Available Exits:** Direct reserve requirements; directed credit; domestic inflation-driven debt liquidation. 8
 
-### **11\. Subnational Sovereign (e.g., Illinois, Chicago)**
+### **11. Subnational Sovereign (e.g., Illinois, Chicago)**
 
 * **Monetary Sovereignty:** Nonexistent; legal ban on currency issuance. 22  
 * **Tax Capacity:** Bound by tax competition; raising rates can drive residents and capital to other states. 40  
@@ -564,12 +564,12 @@ To analyze how different sovereigns navigate solvency risks, we can categorize s
 
 The sovereign's fiscal and financial capacity is governed by the Sovereign Fiscal Constraint Model. Rather than a simple, static debt-to-GDP limit, this model functions as a diagnostic grammar, showing how changes in one variable ripple through the rest of the sovereign balance sheet:
 
-Sovereign Fiscal Constraint \= P \* D \* T \* R \* C \* B \* H \* L
+Sovereign Fiscal Constraint = P * D * T * R * C * B * H * L
 
                                SOVEREIGN FISCAL CONSTRAINT  
-\+---------------------------------------------------------------------------------+
++---------------------------------------------------------------------------------+
 
-| \[P\] Political Promises: Outstanding pension, healthcare, and welfare claims |  
+| [P] Political Promises: Outstanding pension, healthcare, and welfare claims |  
 | x |  
 | Debt Structure: Maturity profile, currency, and indexation of debt |  
 | x |  
@@ -577,51 +577,51 @@ Sovereign Fiscal Constraint \= P \* D \* T \* R \* C \* B \* H \* L
 | x |  
 | Real Capacity: Output growth, demographic profile, and resource base |  
 | x |  
-| \[C\] Creditor Confidence: Market risk appetite, term premium, and rating |  
+| [C] Creditor Confidence: Market risk appetite, term premium, and rating |  
 | x |  
 | Central-Bank Backstop: Scope of debt monetization and market facilities |  
 | x |  
-| \[H\] Currency Hierarchy: Placement of the currency in global trade and reserves |  
+| [H] Currency Hierarchy: Placement of the currency in global trade and reserves |  
 | x |  
-| \[L\] Political Legitimacy: Social trust and capacity to enforce economic pain |  
-\+---------------------------------------------------------------------------------+
+| [L] Political Legitimacy: Social trust and capacity to enforce economic pain |  
++---------------------------------------------------------------------------------+
 
 ### **Dynamic Feedback Loops Within the Model**
 
-\+-------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------+
 
 | DYNAMIC FEEDBACK LOOP |  
-\+-------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------+
 
 | |  
 | |  
-| \- Demographic aging or negative productivity shock.  |  
+| - Demographic aging or negative productivity shock.  |  
 | |  
 | v |  
 | |  
-| \- Rising healthcare liabilities and public pension demands.  |  
+| - Rising healthcare liabilities and public pension demands.  |  
 | |  
 | v |  
 | |  
-| \- Hard to raise tax rates without driving capital flight or protests. |  
+| - Hard to raise tax rates without driving capital flight or protests. |  
 | |  
 | v |  
 | |  
-| \- Sovereign risk premium expands; term premium rises.  |  
+| - Sovereign risk premium expands; term premium rises.  |  
 | |  
 | v |  
 | |  
-| \- CB caps yields or directly monetizes debt.  |  
+| - CB caps yields or directly monetizes debt.  |  
 | |  
 | v |  
 | |  
-| \- Real purchasing power falls; international reserve status erodes.  |  
+| - Real purchasing power falls; international reserve status erodes.  |  
 | |  
 | v |  
 | |  
-| \- Systemic crisis or inflationary default occurs.  |  
+| - Systemic crisis or inflationary default occurs.  |  
 | |  
-\+-------------------------------------------------------------------------------+
++-------------------------------------------------------------------------------+
 
 The model demonstrates that a sovereign’s fiscal constraint is not determined by its outstanding debt alone, but by the joint interaction of these eight variables. For example, a reserve-currency hegemon like the United States possesses exceptional Currency Hierarchy (H) and Creditor Confidence (C), which allows it to run persistent deficits despite expanding Political Promises (P) and a challenging Debt Structure (D). 11
 
@@ -636,7 +636,7 @@ Conversely, an emerging market sovereign with low Currency Hierarchy (H) and wea
 5. **Interest Expense:** The cost of servicing outstanding public debt, which acts as a transfer to bondholders and can drive inflation under fiscal dominance. 8  
 6. **Debt Stock:** The cumulative outstanding nominal value of explicit sovereign liabilities. 8  
 7. **Debt Service:** The sum of interest and principal payments that the sovereign must make in a given period to avoid default. 21  
-8. **r \- g (Growth-Adjusted Interest Rate):** The difference between the average nominal yield on government debt and the nominal GDP growth rate, determining the speed of the debt snowball. 1  
+8. **r - g (Growth-Adjusted Interest Rate):** The difference between the average nominal yield on government debt and the nominal GDP growth rate, determining the speed of the debt snowball. 1  
 9. **Debt Snowball:** The mathematical process by which positive interest rates compound outstanding debt faster than the economy grows, causing the debt-to-GDP ratio to rise. 1  
 10. **Tax Capacity:** The structural and administrative power of the state to extract revenues from the domestic economy. 1  
 11. **Tax Morale:** The social willingness of citizens to comply with tax laws, determined by the perceived legitimacy of the state. 1  
@@ -670,19 +670,19 @@ Conversely, an emerging market sovereign with low Currency Hierarchy (H) and wea
 
 The analysis of the fiscal state and sovereign debt dynamics establishes the primary assets and liabilities that govern the commercial banking system. **Report F: Banking Systems, Credit Allocation, and Financial Intermediation** must inherit and build upon these structural linkages:
 
-### **1\. Sovereign Bonds as HQLA and Collateral**
+### **1. Sovereign Bonds as HQLA and Collateral**
 
 Report F must operationalize how government bonds serve as the foundational category of High-Quality Liquid Assets (HQLA) for satisfying Basel III Liquidity Coverage Ratios (LCR). 11 These bonds act as the primary collateral in wholesale repo markets, which are intermediated by primary dealers and cleared through central clearing houses (e.g., FICC-GSD). 10 Changes in Treasury issuance volume, maturity structure, or market liquidity alter the supply of this collateral, directly affecting bank funding, liquidity creation, and the transmission of short-term interest rates. 11
 
-### **2\. The Benchmark Curve and Bank Asset Pricing**
+### **2. The Benchmark Curve and Bank Asset Pricing**
 
 Sovereign bond yields establish the risk-free benchmark curve against which banks price all private assets, mortgages, and corporate loans. Report F must analyze how changes in the sovereign term premium and auction bid-to-cover ratios transmit to the private sector, shifting the cost of credit and bank capital allocation. 11
 
-### **3\. The Sovereign-Bank Doom Loop and Regulatory Risk Weights**
+### **3. The Sovereign-Bank Doom Loop and Regulatory Risk Weights**
 
 Under current Basel regulations, sovereign bonds enjoy a zero-risk weight privilege, meaning banks do not have to hold regulatory capital against their portfolios of domestic government debt. 22 This regulatory carve-out incentivizes home bias, concentrating sovereign risk on bank balance sheets. 43 Report F should examine how sovereign downgrades or restructuring default events spill over to the banking system, potentially triggering banking crises and forcing state-funded bank rescues. 4
 
-### **4\. Deposit Creation and Central Bank Reserves**
+### **4. Deposit Creation and Central Bank Reserves**
 
 Fiscal deficits and government spending directly alter the banking system's balance sheet structure. When the treasury spends, it shifts funds from its account at the central bank (e.g., the Treasury General Account) to commercial bank reserves, creating new bank deposits in the process. 1
 
@@ -691,45 +691,47 @@ Conversely, tax collection and Treasury debt issuance drain bank deposits and co
 #### **Works cited**
 
 1. II. Monetary and fiscal policy: safeguarding stability and trust, accessed May 11, 2026, [https://www.bis.org/publ/arpdf/ar2023e2.htm](https://www.bis.org/publ/arpdf/ar2023e2.htm)  
-2. Fiscal Sustainability of Health Systems \- OECD, accessed May 11, 2026, [https://www.oecd.org/en/publications/fiscal-sustainability-of-health-systems\_880f3195-en.html](https://www.oecd.org/en/publications/fiscal-sustainability-of-health-systems_880f3195-en.html)  
-3. General Distribution OCDE/GD(96)170 \- OECD, accessed May 11, 2026, [https://one.oecd.org/document/OCDE/GD(96)170/en/pdf](https://one.oecd.org/document/OCDE/GD\(96\)170/en/pdf)  
-4. The “doom loop” and default incentives \- European Central Bank, accessed May 11, 2026, [https://www.ecb.europa.eu/press/research-publications/resbull/2024/html/ecb.rb241216\~56e9933c88.en.html](https://www.ecb.europa.eu/press/research-publications/resbull/2024/html/ecb.rb241216~56e9933c88.en.html)  
-5. Revisiting fiscal federalism: Implications of Illinois's and Chicago's fiscal problems, accessed May 11, 2026, [https://www.chicagofed.org/publications/blogs/midwest-economy/2017/revisiting\_fiscal\_federalism\_implications](https://www.chicagofed.org/publications/blogs/midwest-economy/2017/revisiting_fiscal_federalism_implications)  
+2. Fiscal Sustainability of Health Systems - OECD, accessed May 11, 2026, [https://www.oecd.org/en/publications/fiscal-sustainability-of-health-systems_880f3195-en.html](https://www.oecd.org/en/publications/fiscal-sustainability-of-health-systems_880f3195-en.html)  
+3. General Distribution OCDE/GD(96)170 - OECD, accessed May 11, 2026, [https://one.oecd.org/document/OCDE/GD(96)170/en/pdf](https://one.oecd.org/document/OCDE/GD(96)170/en/pdf)  
+4. The “doom loop” and default incentives - European Central Bank, accessed May 11, 2026, [https://www.ecb.europa.eu/press/research-publications/resbull/2024/html/ecb.rb241216~56e9933c88.en.html](https://www.ecb.europa.eu/press/research-publications/resbull/2024/html/ecb.rb241216~56e9933c88.en.html)  
+5. Revisiting fiscal federalism: Implications of Illinois's and Chicago's fiscal problems, accessed May 11, 2026, [https://www.chicagofed.org/publications/blogs/midwest-economy/2017/revisiting_fiscal_federalism_implications](https://www.chicagofed.org/publications/blogs/midwest-economy/2017/revisiting_fiscal_federalism_implications)  
 6. “Doom Loop” Crises: The Sovereign-Banking Nexus and Implications for Country Risk Management | Columbia SIPA, accessed May 11, 2026, [https://www.sipa.columbia.edu/doom-loop-crises-sovereignbanking-nexus-and-implications-country-risk-management](https://www.sipa.columbia.edu/doom-loop-crises-sovereignbanking-nexus-and-implications-country-risk-management)  
 7. Getting Debt Sustainability Analysis Right: Eight Reforms for the Framework for Low-Income Countries | Carnegie Endowment for International Peace, accessed May 11, 2026, [https://carnegieendowment.org/research/2026/02/getting-debt-sustainability-analysis-right-eight-reforms-for-the-framework-for-low-income-countries](https://carnegieendowment.org/research/2026/02/getting-debt-sustainability-analysis-right-eight-reforms-for-the-framework-for-low-income-countries)  
-8. Fiscal dominance \- Wikipedia, accessed May 11, 2026, [https://en.wikipedia.org/wiki/Fiscal\_dominance](https://en.wikipedia.org/wiki/Fiscal_dominance)  
-9. FAQs: Treasury Rollovers \- FEDERAL RESERVE BANK of NEW YORK, accessed May 11, 2026, [https://www.newyorkfed.org/markets/treasury-rollover-faq](https://www.newyorkfed.org/markets/treasury-rollover-faq)  
-10. Primary dealer repo and securities borrowing by tenor \- Office of Financial Research (OFR), accessed May 11, 2026, [https://www.financialresearch.gov/short-term-funding-monitor/market-digests/tenor/chart-21/](https://www.financialresearch.gov/short-term-funding-monitor/market-digests/tenor/chart-21/)  
+8. Fiscal dominance - Wikipedia, accessed May 11, 2026, [https://en.wikipedia.org/wiki/Fiscal_dominance](https://en.wikipedia.org/wiki/Fiscal_dominance)  
+9. FAQs: Treasury Rollovers - FEDERAL RESERVE BANK of NEW YORK, accessed May 11, 2026, [https://www.newyorkfed.org/markets/treasury-rollover-faq](https://www.newyorkfed.org/markets/treasury-rollover-faq)  
+10. Primary dealer repo and securities borrowing by tenor - Office of Financial Research (OFR), accessed May 11, 2026, [https://www.financialresearch.gov/short-term-funding-monitor/market-digests/tenor/chart-21/](https://www.financialresearch.gov/short-term-funding-monitor/market-digests/tenor/chart-21/)  
 11. Monetary Policy Task Force Examines the Primary Dealers and Balance Sheet Constraints, accessed May 11, 2026, [https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=410938](https://financialservices.house.gov/news/documentsingle.aspx?DocumentID=410938)  
-12. The Health and Economic Benefits of Tackling Non‑Communicable Diseases | OECD, accessed May 11, 2026, [https://www.oecd.org/en/publications/the-health-and-economic-benefits-of-tackling-non-communicable-diseases\_e20cbbc3-en.html](https://www.oecd.org/en/publications/the-health-and-economic-benefits-of-tackling-non-communicable-diseases_e20cbbc3-en.html)  
-13. Fiscal theory of the price level \- Wikipedia, accessed May 11, 2026, [https://en.wikipedia.org/wiki/Fiscal\_theory\_of\_the\_price\_level](https://en.wikipedia.org/wiki/Fiscal_theory_of_the_price_level)  
+12. The Health and Economic Benefits of Tackling Non‑Communicable Diseases | OECD, accessed May 11, 2026, [https://www.oecd.org/en/publications/the-health-and-economic-benefits-of-tackling-non-communicable-diseases_e20cbbc3-en.html](https://www.oecd.org/en/publications/the-health-and-economic-benefits-of-tackling-non-communicable-diseases_e20cbbc3-en.html)  
+13. Fiscal theory of the price level - Wikipedia, accessed May 11, 2026, [https://en.wikipedia.org/wiki/Fiscal_theory_of_the_price_level](https://en.wikipedia.org/wiki/Fiscal_theory_of_the_price_level)  
 14. Reforming the Federal Reserve, Section 5: Preventing Fiscal Dominance | Cato Institute, accessed May 11, 2026, [https://www.cato.org/publications/reforming-federal-reserve-part-8-preventing-fiscal-dominance](https://www.cato.org/publications/reforming-federal-reserve-part-8-preventing-fiscal-dominance)  
-15. Public funding of health spending: Health at a Glance 2025 | OECD, accessed May 11, 2026, [https://www.oecd.org/en/publications/health-at-a-glance-2025\_8f9e3f98-en/full-report/public-funding-of-health-spending\_ff3ad2d2.html](https://www.oecd.org/en/publications/health-at-a-glance-2025_8f9e3f98-en/full-report/public-funding-of-health-spending_ff3ad2d2.html)  
-16. Manufacturing Gains from Green Energy and Semiconductor Spending since the CHIPS and Inflation Reduction Acts \- Federal Reserve Bank of Boston, accessed May 11, 2026, [https://www.bostonfed.org/publications/current-policy-perspectives/2024/manufacturing-gains-from-green-energy-and-semiconductor-spending.aspx](https://www.bostonfed.org/publications/current-policy-perspectives/2024/manufacturing-gains-from-green-energy-and-semiconductor-spending.aspx)  
+15. Public funding of health spending: Health at a Glance 2025 | OECD, accessed May 11, 2026, [https://www.oecd.org/en/publications/health-at-a-glance-2025_8f9e3f98-en/full-report/public-funding-of-health-spending_ff3ad2d2.html](https://www.oecd.org/en/publications/health-at-a-glance-2025_8f9e3f98-en/full-report/public-funding-of-health-spending_ff3ad2d2.html)  
+16. Manufacturing Gains from Green Energy and Semiconductor Spending since the CHIPS and Inflation Reduction Acts - Federal Reserve Bank of Boston, accessed May 11, 2026, [https://www.bostonfed.org/publications/current-policy-perspectives/2024/manufacturing-gains-from-green-energy-and-semiconductor-spending.aspx](https://www.bostonfed.org/publications/current-policy-perspectives/2024/manufacturing-gains-from-green-energy-and-semiconductor-spending.aspx)  
 17. Business Tax Credits for Wind and Solar Power | Congressional Budget Office, accessed May 11, 2026, [https://www.cbo.gov/publication/61329](https://www.cbo.gov/publication/61329)  
-18. Semiconductor Subsidies Signal Shift in U.S. Industrial Policy \- T. Rowe Price, accessed May 11, 2026, [https://www.troweprice.com/content/dam/trp-ecl/global/en/ipc/assets/us-retail-intermediary/2022/september/semiconductor-subsidies-signal-shift-in-industrial-policy-id0005363/Semiconductor-Subsidies-Signal-Shift-in-US-Industrial-Policy.pdf](https://www.troweprice.com/content/dam/trp-ecl/global/en/ipc/assets/us-retail-intermediary/2022/september/semiconductor-subsidies-signal-shift-in-industrial-policy-id0005363/Semiconductor-Subsidies-Signal-Shift-in-US-Industrial-Policy.pdf)  
-19. Unlocking Subnational Finance: Overcoming Barriers to Finance for Municipalities in Low- and Middle-Income Countries \- World Bank, accessed May 11, 2026, [https://www.worldbank.org/en/topic/urbandevelopment/publication/unlocking-subnational-finance](https://www.worldbank.org/en/topic/urbandevelopment/publication/unlocking-subnational-finance)  
-20. The Role of Primary Dealers in Mitigating Liquidity Risk at U.S. Central Counterparties \- Federal Reserve Bank of Chicago, accessed May 11, 2026, [https://www.chicagofed.org/publications/chicago-fed-letter/2025/510](https://www.chicagofed.org/publications/chicago-fed-letter/2025/510)  
-21. III The Low-Income Country Debt Sustainability Framework in \- IMF eLibrary, accessed May 11, 2026, [https://www.elibrary.imf.org/display/book/9781589067929/ch003.xml](https://www.elibrary.imf.org/display/book/9781589067929/ch003.xml)  
+18. Semiconductor Subsidies Signal Shift in U.S. Industrial Policy - T. Rowe Price, accessed May 11, 2026, [https://www.troweprice.com/content/dam/trp-ecl/global/en/ipc/assets/us-retail-intermediary/2022/september/semiconductor-subsidies-signal-shift-in-industrial-policy-id0005363/Semiconductor-Subsidies-Signal-Shift-in-US-Industrial-Policy.pdf](https://www.troweprice.com/content/dam/trp-ecl/global/en/ipc/assets/us-retail-intermediary/2022/september/semiconductor-subsidies-signal-shift-in-industrial-policy-id0005363/Semiconductor-Subsidies-Signal-Shift-in-US-Industrial-Policy.pdf)  
+19. Unlocking Subnational Finance: Overcoming Barriers to Finance for Municipalities in Low- and Middle-Income Countries - World Bank, accessed May 11, 2026, [https://www.worldbank.org/en/topic/urbandevelopment/publication/unlocking-subnational-finance](https://www.worldbank.org/en/topic/urbandevelopment/publication/unlocking-subnational-finance)  
+20. The Role of Primary Dealers in Mitigating Liquidity Risk at U.S. Central Counterparties - Federal Reserve Bank of Chicago, accessed May 11, 2026, [https://www.chicagofed.org/publications/chicago-fed-letter/2025/510](https://www.chicagofed.org/publications/chicago-fed-letter/2025/510)  
+21. III The Low-Income Country Debt Sustainability Framework in - IMF eLibrary, accessed May 11, 2026, [https://www.elibrary.imf.org/display/book/9781589067929/ch003.xml](https://www.elibrary.imf.org/display/book/9781589067929/ch003.xml)  
 22. Banking Regulation and Sovereign Default Risk: How Regulation Undermines Rules | European Journal of Risk Regulation | Cambridge Core, accessed May 11, 2026, [https://www.cambridge.org/core/journals/european-journal-of-risk-regulation/article/banking-regulation-and-sovereign-default-risk-how-regulation-undermines-rules/311384B732ABB7ED4C3B757FE8EFF0CB](https://www.cambridge.org/core/journals/european-journal-of-risk-regulation/article/banking-regulation-and-sovereign-default-risk-how-regulation-undermines-rules/311384B732ABB7ED4C3B757FE8EFF0CB)  
-23. Administration of Relationships with Primary Dealers \- Federal Reserve Bank of New York, accessed May 11, 2026, [https://www.newyorkfed.org/markets/pridealers\_policies.html](https://www.newyorkfed.org/markets/pridealers_policies.html)  
-24. alesina.pdf \- International Monetary Fund, accessed May 11, 2026, [https://www.imf.org/-/media/files/publications/fandd/article/2018/march/alesina.pdf](https://www.imf.org/-/media/files/publications/fandd/article/2018/march/alesina.pdf)  
-25. Is Fiscal Austerity Really Self-Defeating? \- Munich Personal RePEc Archive, accessed May 11, 2026, [https://mpra.ub.uni-muenchen.de/112071/1/MPRA\_paper\_112071.pdf](https://mpra.ub.uni-muenchen.de/112071/1/MPRA_paper_112071.pdf)  
-26. Threat of fiscal dominance? \- IDEAS/RePEc, accessed May 11, 2026, [https://ideas.repec.org/b/bis/bisbps/65.html](https://ideas.repec.org/b/bis/bisbps/65.html)  
-27. Collective action clause \- Wikipedia, accessed May 11, 2026, [https://en.wikipedia.org/wiki/Collective\_action\_clause](https://en.wikipedia.org/wiki/Collective_action_clause)  
-28. CHAPTER 10 Collective Action Clauses in International Sovereign Bonds in \- IMF eLibrary, accessed May 11, 2026, [https://www.elibrary.imf.org/display/book/9781589063341/ch010.xml](https://www.elibrary.imf.org/display/book/9781589063341/ch010.xml)  
+23. Administration of Relationships with Primary Dealers - Federal Reserve Bank of New York, accessed May 11, 2026, [https://www.newyorkfed.org/markets/pridealers_policies.html](https://www.newyorkfed.org/markets/pridealers_policies.html)  
+24. alesina.pdf - International Monetary Fund, accessed May 11, 2026, [https://www.imf.org/-/media/files/publications/fandd/article/2018/march/alesina.pdf](https://www.imf.org/-/media/files/publications/fandd/article/2018/march/alesina.pdf)  
+25. Is Fiscal Austerity Really Self-Defeating? - Munich Personal RePEc Archive, accessed May 11, 2026, [https://mpra.ub.uni-muenchen.de/112071/1/MPRA_paper_112071.pdf](https://mpra.ub.uni-muenchen.de/112071/1/MPRA_paper_112071.pdf)  
+26. Threat of fiscal dominance? - IDEAS/RePEc, accessed May 11, 2026, [https://ideas.repec.org/b/bis/bisbps/65.html](https://ideas.repec.org/b/bis/bisbps/65.html)  
+27. Collective action clause - Wikipedia, accessed May 11, 2026, [https://en.wikipedia.org/wiki/Collective_action_clause](https://en.wikipedia.org/wiki/Collective_action_clause)  
+28. CHAPTER 10 Collective Action Clauses in International Sovereign Bonds in - IMF eLibrary, accessed May 11, 2026, [https://www.elibrary.imf.org/display/book/9781589063341/ch010.xml](https://www.elibrary.imf.org/display/book/9781589063341/ch010.xml)  
 29. Is There More Room to Negotiate with the IMF on Fiscal Policy?, accessed May 11, 2026, [https://www.bu.edu/pardee/files/2014/11/IMF-Fiscal-Policy-Working-Paper.pdf](https://www.bu.edu/pardee/files/2014/11/IMF-Fiscal-Policy-Working-Paper.pdf)  
-30. A critique to the expansionary austerity: Theoretical weaknesses and empirical counter evidence \- Post-Keynesian Economics Society, accessed May 11, 2026, [https://postkeynesian.net/media/working-papers/PKWP1511-updated.pdf](https://postkeynesian.net/media/working-papers/PKWP1511-updated.pdf)  
-31. A constructive critique of “The Fiscal Theory of the Price Level” \- Flossbach von Storch RI, accessed May 11, 2026, [https://www.flossbachvonstorch-researchinstitute.com/en/studies/detail/a-constructive-critique-of-the-fiscal-theory-of-the-price-level](https://www.flossbachvonstorch-researchinstitute.com/en/studies/detail/a-constructive-critique-of-the-fiscal-theory-of-the-price-level)  
-32. Expansionary Fiscal Austerity \- New International Evidence \- Documents & Reports, accessed May 11, 2026, [https://documents1.worldbank.org/curated/en/430691596113581519/pdf/Expansionary-Fiscal-Austerity-New-International-Evidence.pdf](https://documents1.worldbank.org/curated/en/430691596113581519/pdf/Expansionary-Fiscal-Austerity-New-International-Evidence.pdf)  
-33. Sovereign Debt \- International Monetary Fund, accessed May 11, 2026, [https://www.imf.org/en/topics/sovereign-debt](https://www.imf.org/en/topics/sovereign-debt)  
-34. Case study: New industrial policy in the USA \- | IDDRI, accessed May 11, 2026, [https://www.iddri.org/sites/default/files/PDF/Publications/Catalogue%20Iddri/Etude/202511-NT0525-USA.pdf](https://www.iddri.org/sites/default/files/PDF/Publications/Catalogue%20Iddri/Etude/202511-NT0525-USA.pdf)  
+30. A critique to the expansionary austerity: Theoretical weaknesses and empirical counter evidence - Post-Keynesian Economics Society, accessed May 11, 2026, [https://postkeynesian.net/media/working-papers/PKWP1511-updated.pdf](https://postkeynesian.net/media/working-papers/PKWP1511-updated.pdf)  
+31. A constructive critique of “The Fiscal Theory of the Price Level” - Flossbach von Storch RI, accessed May 11, 2026, [https://www.flossbachvonstorch-researchinstitute.com/en/studies/detail/a-constructive-critique-of-the-fiscal-theory-of-the-price-level](https://www.flossbachvonstorch-researchinstitute.com/en/studies/detail/a-constructive-critique-of-the-fiscal-theory-of-the-price-level)  
+32. Expansionary Fiscal Austerity - New International Evidence - Documents & Reports, accessed May 11, 2026, [https://documents1.worldbank.org/curated/en/430691596113581519/pdf/Expansionary-Fiscal-Austerity-New-International-Evidence.pdf](https://documents1.worldbank.org/curated/en/430691596113581519/pdf/Expansionary-Fiscal-Austerity-New-International-Evidence.pdf)  
+33. Sovereign Debt - International Monetary Fund, accessed May 11, 2026, [https://www.imf.org/en/topics/sovereign-debt](https://www.imf.org/en/topics/sovereign-debt)  
+34. Case study: New industrial policy in the USA - | IDDRI, accessed May 11, 2026, [https://www.iddri.org/sites/default/files/PDF/Publications/Catalogue%20Iddri/Etude/202511-NT0525-USA.pdf](https://www.iddri.org/sites/default/files/PDF/Publications/Catalogue%20Iddri/Etude/202511-NT0525-USA.pdf)  
 35. The Do's and Don'ts of industrial policy | George W. Bush Presidential Center, accessed May 11, 2026, [https://www.bushcenter.org/catalyst/building-the-new-american-economy/the-dos-and-donts-of-industrial-policy](https://www.bushcenter.org/catalyst/building-the-new-american-economy/the-dos-and-donts-of-industrial-policy)  
 36. IMF-World Bank Debt Sustainability Framework for Low-Income Countries, accessed May 11, 2026, [https://www.imf.org/en/about/factsheets/sheets/2023/imf-world-bank-debt-sustainability-framework-for-low-income-countries](https://www.imf.org/en/about/factsheets/sheets/2023/imf-world-bank-debt-sustainability-framework-for-low-income-countries)  
-37. Sovereign Bond Restructuring: Collective Action Clauses and Official Crisis Intervention \- WP/03/134, accessed May 11, 2026, [https://www.imf.org/external/pubs/ft/wp/2003/wp03134.pdf](https://www.imf.org/external/pubs/ft/wp/2003/wp03134.pdf)  
-38. Illinois' Fiscal Challenges: Where are we now and how do we proceed? \- Institute of Government and Public Affairs, accessed May 11, 2026, [https://igpa.uillinois.edu/wp-content/uploads/2022/06/Illinois-Fiscal-Challenges\_April20212-1.pdf](https://igpa.uillinois.edu/wp-content/uploads/2022/06/Illinois-Fiscal-Challenges_April20212-1.pdf)  
-39. Finding the Balance: State Fiscal Sustainability and Local Government Challenges \- University of Illinois Chicago \- Figshare, accessed May 11, 2026, [https://indigo.uic.edu/articles/report/Finding\_the\_Balance\_State\_Fiscal\_Sustainability\_and\_Local\_Government\_Challenges/26195198](https://indigo.uic.edu/articles/report/Finding_the_Balance_State_Fiscal_Sustainability_and_Local_Government_Challenges/26195198)  
-40. The Financial Condition of the State of Illinois | UIS \- Blogs, accessed May 11, 2026, [https://blogs.uofi.uis.edu/view/8598/2034955759](https://blogs.uofi.uis.edu/view/8598/2034955759)  
-41. Sovereign Debt Sustainability and Redistribution \- International Monetary Fund, accessed May 11, 2026, [https://www.imf.org/en/publications/wp/issues/2026/03/06/sovereign-debt-sustainability-and-redistribution-574521](https://www.imf.org/en/publications/wp/issues/2026/03/06/sovereign-debt-sustainability-and-redistribution-574521)  
-42. "Collective Action Clauses in International Sovereign Bonds," Yan Liu \- IMF Seminar on Current Developments in Monetar, accessed May 11, 2026, [https://www.imf.org/external/np/leg/sem/2002/cdmfl/eng/liu.pdf](https://www.imf.org/external/np/leg/sem/2002/cdmfl/eng/liu.pdf)  
-43. Regulating the doom loop \- European Banking Authority, accessed May 11, 2026, [https://www.eba.europa.eu/sites/default/files/documents/10180/2198067/391eef1b-517b-4090-b1b5-8ac1ee8897df/3\_S.%20Alogoskoufis%2C%20S.%20Langfield%20-%20Regulating%20the%20doom%20loop.pdf](https://www.eba.europa.eu/sites/default/files/documents/10180/2198067/391eef1b-517b-4090-b1b5-8ac1ee8897df/3_S.%20Alogoskoufis%2C%20S.%20Langfield%20-%20Regulating%20the%20doom%20loop.pdf)
+37. Sovereign Bond Restructuring: Collective Action Clauses and Official Crisis Intervention - WP/03/134, accessed May 11, 2026, [https://www.imf.org/external/pubs/ft/wp/2003/wp03134.pdf](https://www.imf.org/external/pubs/ft/wp/2003/wp03134.pdf)  
+38. Illinois' Fiscal Challenges: Where are we now and how do we proceed? - Institute of Government and Public Affairs, accessed May 11, 2026, [https://igpa.uillinois.edu/wp-content/uploads/2022/06/Illinois-Fiscal-Challenges_April20212-1.pdf](https://igpa.uillinois.edu/wp-content/uploads/2022/06/Illinois-Fiscal-Challenges_April20212-1.pdf)  
+39. Finding the Balance: State Fiscal Sustainability and Local Government Challenges - University of Illinois Chicago - Figshare, accessed May 11, 2026, [https://indigo.uic.edu/articles/report/Finding_the_Balance_State_Fiscal_Sustainability_and_Local_Government_Challenges/26195198](https://indigo.uic.edu/articles/report/Finding_the_Balance_State_Fiscal_Sustainability_and_Local_Government_Challenges/26195198)  
+40. The Financial Condition of the State of Illinois | UIS - Blogs, accessed May 11, 2026, [https://blogs.uofi.uis.edu/view/8598/2034955759](https://blogs.uofi.uis.edu/view/8598/2034955759)  
+41. Sovereign Debt Sustainability and Redistribution - International Monetary Fund, accessed May 11, 2026, [https://www.imf.org/en/publications/wp/issues/2026/03/06/sovereign-debt-sustainability-and-redistribution-574521](https://www.imf.org/en/publications/wp/issues/2026/03/06/sovereign-debt-sustainability-and-redistribution-574521)  
+42. "Collective Action Clauses in International Sovereign Bonds," Yan Liu - IMF Seminar on Current Developments in Monetar, accessed May 11, 2026, [https://www.imf.org/external/np/leg/sem/2002/cdmfl/eng/liu.pdf](https://www.imf.org/external/np/leg/sem/2002/cdmfl/eng/liu.pdf)  
+43. Regulating the doom loop - European Banking Authority, accessed May 11, 2026, [https://www.eba.europa.eu/sites/default/files/documents/10180/2198067/391eef1b-517b-4090-b1b5-8ac1ee8897df/3_S.%20Alogoskoufis%2C%20S.%20Langfield%20-%20Regulating%20the%20doom%20loop.pdf](https://www.eba.europa.eu/sites/default/files/documents/10180/2198067/391eef1b-517b-4090-b1b5-8ac1ee8897df/3_S.%20Alogoskoufis%2C%20S.%20Langfield%20-%20Regulating%20the%20doom%20loop.pdf)
+
+---

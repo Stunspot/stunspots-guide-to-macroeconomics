@@ -22,38 +22,38 @@ This is compounded by the "lemons problem" of asymmetric information: during per
 
 The propagation of failure can be modeled as a systemic vulnerability function, which dictates whether an initial micro-level shock is amplified or dampened:
 
-Crisis Cascade \= V \* T \* L \* M\_l \* C\_i \* V\_c \* (1 / B\_c) \* (1 / A\_p)
+Crisis Cascade = V * T * L * M_l * C_i * V_c * (1 / B_c) * (1 / A_p)
 
 Where:
 
 * V is the accumulated stock of systemic vulnerabilities (e.g., hidden maturity mismatches or unhedged currency exposures).  
 * T is the magnitude of the trigger shock (e.g., an idiosyncratic default or unexpected policy shift).  
 * L is the degree of embedded and gross leverage within the financial network.  
-* M\_l is the structural liquidity mismatch between the assets and liabilities of intermediaries.  
-* C\_i is the extent of collateral impairment and haircut escalation.  
-* V\_c is the confidence velocity, capturing the rate at which market participants withdraw credit or run liabilities.  
-* B\_c is the perceived credibility and capacity of the central bank or sovereign backstop.  
-* A\_p is the political loss-allocation capacity, representing the structural ability of the state to distribute losses without triggering institutional delegitimation.
+* M_l is the structural liquidity mismatch between the assets and liabilities of intermediaries.  
+* C_i is the extent of collateral impairment and haircut escalation.  
+* V_c is the confidence velocity, capturing the rate at which market participants withdraw credit or run liabilities.  
+* B_c is the perceived credibility and capacity of the central bank or sovereign backstop.  
+* A_p is the political loss-allocation capacity, representing the structural ability of the state to distribute losses without triggering institutional delegitimation.
 
-Different crises fail different terms of this diagnostic grammar. A banking crisis primarily fails liquidity mismatch (M\_l) and confidence velocity (V\_c), as rapid deposit runs outpace asset liquidations. A currency crisis fails external funding and reserve credibility (B\_c), leading to capital flight.
+Different crises fail different terms of this diagnostic grammar. A banking crisis primarily fails liquidity mismatch (M_l) and confidence velocity (V_c), as rapid deposit runs outpace asset liquidations. A currency crisis fails external funding and reserve credibility (B_c), leading to capital flight.
 
-A sovereign crisis fails debt sustainability and political loss allocation (A\_p), as the state's capacity to absorb or redistribute debt is exhausted. Margin cascades fail collateral (C\_i) and leverage (L), forcing immediate liquidations.
+A sovereign crisis fails debt sustainability and political loss allocation (A_p), as the state's capacity to absorb or redistribute debt is exhausted. Margin cascades fail collateral (C_i) and leverage (L), forcing immediate liquidations.
 
-Hyperinflations represent a total collapse of fiscal legitimacy (A\_p) and currency demand (V\_c), while debt deflations represent a failure of nominal income stabilization, causing real debt burdens to rise. In private credit markets, crises manifest through valuation opacity (V) and refinancing failures (M\_l), while venture capital crashes fail exit liquidity (M\_l) and capital-chain continuity.
+Hyperinflations represent a total collapse of fiscal legitimacy (A_p) and currency demand (V_c), while debt deflations represent a failure of nominal income stabilization, causing real debt burdens to rise. In private credit markets, crises manifest through valuation opacity (V) and refinancing failures (M_l), while venture capital crashes fail exit liquidity (M_l) and capital-chain continuity.
 
 ### **Table 1: Crisis Cascade Architecture Map**
 
 | Phase | Core Mechanics | Operational Velocity | Leading Indicators | Coincident Indicators | Lagging Indicators | Hidden Vulnerability Obscured |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| **1\. Vulnerability Accumulation** | Low volatility suppresses risk premiums; banks and NBFIs expand maturity mismatches and leverage. | Extremely slow (years to decades) | Compressing credit spreads; rising asset valuations; private debt expansion. | Low implied volatility (VIX); steady credit growth. | Rising debt-to-GDP ratios; bank profitability growth. | Off-balance-sheet leverage; synthetic risk transfers; hidden repo leverage. |
-| **2\. Trigger Shock** | Idiosyncratic default, rating downgrade, or policy shift breaches nominal expectations. | Instantaneous / Discrete | Localized price gaps; sudden yield curve shifts. | Sharp spikes in implied volatility; failure to settle trades. | Credit rating downgrades; widening default swaps (CDS). | Real-time counterparty exposures; unhedged interest rate duration. |
-| **3\. Recognition** | Arbitrageurs identify balance-sheet exposures; asymmetric information triggers adverse selection. | Fast (hours to days) | Widening Libor-OIS and EURIBOR-OIS spreads. | Contraction of unsecured interbank lending volumes. | Rising bank funding costs; collateral haircut hikes. | Marked-to-model assets; cross-currency basis swap mismatches. |
-| **4\. Run Phase** | Institutional and digital depositors withdraw funding; counterparties decline to roll repo. | Ultra-fast (minutes to hours) | Surging intraday wire transfers; repo roll failure. | Depletion of bank reserve accounts; discount window draws. | Bank equity price collapse; credit line drawdowns. | Real-time concentration of institutional deposit accounts. |
-| **5\. Fire Sale** | Illiquid entities are forced to liquidate high-quality assets, depressing market prices. | Rapid (days) | Widening bid-ask spreads; gapping asset prices. | Large transaction price dispersion across dealers. | Collateral valuation haircuts; fund redemption gates. | Total return swap leverage; LDI collateral-call thresholds. |
-| **6\. Intervention** | Central banks implement emergency liquidity facilities or asset purchases to restore order. | Variable (days to weeks) | Official facility announcements; swap line activations. | Central bank balance sheet expansion; narrowing spreads. | Stabilized asset prices; recovery in funding volume. | Public fiscal backstop capacity; central bank capital losses. |
-| **7\. Solvency Sorting** | Distressed balance sheets are audited; capital losses are recognized; entities sorted. | Moderate (weeks to months) | Asset write-down announcements; forensic audits. | Bank bankruptcy filings; forced mergers or nationalizations. | Rising banking sector non-performing loans (NPLs). | Real economic loss distribution; sovereign-bank links. |
-| **8\. Credit Contraction** | Intermediaries rebuild capital buffers by tightening underwriting and reducing credit supply. | Slow (months to years) | Tightening bank lending surveys; rising lending rates. | Contraction of commercial and industrial loan volumes. | Rising corporate bankruptcy rates; economic recession. | Corporate rollover calendars; private credit valuation adjustments. |
-| **9\. Political Resolution** | Restructuring of sovereign debts, implementation of bank bail-ins/outs, and reforms. | Extremely slow (months to years) | Legislative draft bills; IMF program negotiations. | Sovereign debt restructuring agreements; tax hikes. | Structural changes in banking regulations; currency reforms. | Long-term distribution of the tax and loss burden. |
+| **1. Vulnerability Accumulation** | Low volatility suppresses risk premiums; banks and NBFIs expand maturity mismatches and leverage. | Extremely slow (years to decades) | Compressing credit spreads; rising asset valuations; private debt expansion. | Low implied volatility (VIX); steady credit growth. | Rising debt-to-GDP ratios; bank profitability growth. | Off-balance-sheet leverage; synthetic risk transfers; hidden repo leverage. |
+| **2. Trigger Shock** | Idiosyncratic default, rating downgrade, or policy shift breaches nominal expectations. | Instantaneous / Discrete | Localized price gaps; sudden yield curve shifts. | Sharp spikes in implied volatility; failure to settle trades. | Credit rating downgrades; widening default swaps (CDS). | Real-time counterparty exposures; unhedged interest rate duration. |
+| **3. Recognition** | Arbitrageurs identify balance-sheet exposures; asymmetric information triggers adverse selection. | Fast (hours to days) | Widening Libor-OIS and EURIBOR-OIS spreads. | Contraction of unsecured interbank lending volumes. | Rising bank funding costs; collateral haircut hikes. | Marked-to-model assets; cross-currency basis swap mismatches. |
+| **4. Run Phase** | Institutional and digital depositors withdraw funding; counterparties decline to roll repo. | Ultra-fast (minutes to hours) | Surging intraday wire transfers; repo roll failure. | Depletion of bank reserve accounts; discount window draws. | Bank equity price collapse; credit line drawdowns. | Real-time concentration of institutional deposit accounts. |
+| **5. Fire Sale** | Illiquid entities are forced to liquidate high-quality assets, depressing market prices. | Rapid (days) | Widening bid-ask spreads; gapping asset prices. | Large transaction price dispersion across dealers. | Collateral valuation haircuts; fund redemption gates. | Total return swap leverage; LDI collateral-call thresholds. |
+| **6. Intervention** | Central banks implement emergency liquidity facilities or asset purchases to restore order. | Variable (days to weeks) | Official facility announcements; swap line activations. | Central bank balance sheet expansion; narrowing spreads. | Stabilized asset prices; recovery in funding volume. | Public fiscal backstop capacity; central bank capital losses. |
+| **7. Solvency Sorting** | Distressed balance sheets are audited; capital losses are recognized; entities sorted. | Moderate (weeks to months) | Asset write-down announcements; forensic audits. | Bank bankruptcy filings; forced mergers or nationalizations. | Rising banking sector non-performing loans (NPLs). | Real economic loss distribution; sovereign-bank links. |
+| **8. Credit Contraction** | Intermediaries rebuild capital buffers by tightening underwriting and reducing credit supply. | Slow (months to years) | Tightening bank lending surveys; rising lending rates. | Contraction of commercial and industrial loan volumes. | Rising corporate bankruptcy rates; economic recession. | Corporate rollover calendars; private credit valuation adjustments. |
+| **9. Political Resolution** | Restructuring of sovereign debts, implementation of bank bail-ins/outs, and reforms. | Extremely slow (months to years) | Legislative draft bills; IMF program negotiations. | Sovereign debt restructuring agreements; tax hikes. | Structural changes in banking regulations; currency reforms. | Long-term distribution of the tax and loss burden. |
 
 ## **Banking Crises: Failures of Maturity & Solvency**
 
@@ -86,18 +86,18 @@ Furthermore, these runs were triggered by the realization of interest rate risk.
 
 The foreign exchange market functions as the primary interface between domestic monetary autonomy and external global constraints. A currency crisis emerges when a nation's external balance sheet loses credibility, making it impossible to defend its exchange rate peg or manage capital flows. Under Covered Interest Parity (CIP), which stipulates that the interest rate differential between two currencies should equal the difference between the forward and spot exchange rates, arbitrage should theoretically eliminate any pricing discrepancies:
 
-F \= S \* (1 \+ r) / (1 \+ r\*)
+F = S * (1 + r) / (1 + r*)
 
 Where:
 
 * F is the forward exchange rate.  
 * S is the spot exchange rate.  
 * r is the domestic nominal interest rate.  
-* r\* is the foreign nominal interest rate.
+* r* is the foreign nominal interest rate.
 
 However, since the 2008 Global Financial Crisis, CIP has been systematically violated, manifesting as a persistent cross-currency basis. The cross-currency basis (b) represents the additional premium paid to borrow a foreign currency (typically the US dollar) in the swap market relative to the domestic cash market:
 
-F \= S \* (1 \+ r) / (1 \+ r\* \+ b)
+F = S * (1 + r) / (1 + r* + b)
 
 These violations reflect structural balance-sheet constraints. Bank regulatory requirements (such as leverage ratios and capital charges) have made it expensive for global banks to commit the balance-sheet capacity necessary to arbitrage away these pricing differences. Consequently, the cross-currency basis swap market has transformed into a market where scarce funding capacities are cleared. When the supply of global arbitrage capital (GAC) is low, the FX swap supply curve becomes highly inelastic, and any surge in domestic institutional demand for foreign assets dramatically widens the basis, raising the cost of dollar funding.
 
@@ -136,11 +136,11 @@ If the central bank attempts a domestic rate defense to halt capital flight, it 
 
 | Transmission Phase | Causal Mechanism | Operational Impact | Typical Macro Indicators | Policy Defense Trade-offs |
 | :---- | :---- | :---- | :---- | :---- |
-| **1\. Dollar Funding & External Leverage** | Global monetary tightening reduces offshore dollar liquidity; global banks contract balance sheets. | Cross-currency basis swap spreads widen; offshore dollar funding costs surge. | Widening EUR/USD and JPY/USD basis; surging Libor-OIS spreads. | Accepting higher swap costs to preserve foreign asset holdings vs. liquidating foreign assets. |
-| **2\. Reserve Depletion & FX Mismatch** | Non-resident investors pull capital; domestic entities scramble to hedge foreign liabilities. | Central bank sells foreign exchange reserves to smooth currency depreciation. | Rapid decline in gross and net FX reserve assets; rising import cover ratios. | Spending reserves to defend currency peg vs. conserving reserves for sovereign debt amortization. |
-| **3\. Capital Flight & Speculative Attack** | Market participants perceive currency peg as unsustainable; speculative short positions expand. | Spot exchange rate hits intervention limit; forward markets price in a massive devaluation. | Divergence between official and parallel exchange rates; soaring offshore FX option premiums. | Imposing capital controls to block flight vs. risking immediate depletion of liquid reserves. |
-| **4\. Domestic Rate Defense** | Central bank raises policy interest rate to make holding domestic currency attractive. | Unsecured overnight rates spike; domestic credit yields jump. | Sharp inversion of the domestic yield curve; contraction of M2 money supply. | Attracting capital inflows vs. crushing domestic banking solvency and corporate credit channels. |
-| **5\. Devaluation & Balance Sheet Feedback** | Central bank abandons peg; currency depreciates sharply. | Sovereign and corporate foreign currency liabilities swell in domestic terms. | Surge in debt-to-GDP ratio; wave of corporate bankruptcies; rising inflation. | Accepting high inflation and balance sheet destruction vs. seeking emergency IMF bailout program. |
+| **1. Dollar Funding & External Leverage** | Global monetary tightening reduces offshore dollar liquidity; global banks contract balance sheets. | Cross-currency basis swap spreads widen; offshore dollar funding costs surge. | Widening EUR/USD and JPY/USD basis; surging Libor-OIS spreads. | Accepting higher swap costs to preserve foreign asset holdings vs. liquidating foreign assets. |
+| **2. Reserve Depletion & FX Mismatch** | Non-resident investors pull capital; domestic entities scramble to hedge foreign liabilities. | Central bank sells foreign exchange reserves to smooth currency depreciation. | Rapid decline in gross and net FX reserve assets; rising import cover ratios. | Spending reserves to defend currency peg vs. conserving reserves for sovereign debt amortization. |
+| **3. Capital Flight & Speculative Attack** | Market participants perceive currency peg as unsustainable; speculative short positions expand. | Spot exchange rate hits intervention limit; forward markets price in a massive devaluation. | Divergence between official and parallel exchange rates; soaring offshore FX option premiums. | Imposing capital controls to block flight vs. risking immediate depletion of liquid reserves. |
+| **4. Domestic Rate Defense** | Central bank raises policy interest rate to make holding domestic currency attractive. | Unsecured overnight rates spike; domestic credit yields jump. | Sharp inversion of the domestic yield curve; contraction of M2 money supply. | Attracting capital inflows vs. crushing domestic banking solvency and corporate credit channels. |
+| **5. Devaluation & Balance Sheet Feedback** | Central bank abandons peg; currency depreciates sharply. | Sovereign and corporate foreign currency liabilities swell in domestic terms. | Surge in debt-to-GDP ratio; wave of corporate bankruptcies; rising inflation. | Accepting high inflation and balance sheet destruction vs. seeking emergency IMF bailout program. |
 
 ## **Sovereign Defaults & The Sovereign-Bank Doom Loop**
 
@@ -152,9 +152,9 @@ The **sovereign-bank doom loop** (or sovereign-bank nexus) is a major driver of 
 2. **The Safety Net Channel:** Weakened bank balance sheets require public recapitalization or deposit insurance guarantees. This transfers private banking liabilities onto the sovereign balance sheet, worsening fiscal deficits and driving up sovereign borrowing costs.  
 3. **The Macroeconomic Channel:** Higher sovereign risk spreads raise borrowing costs for domestic corporations and banks, contracting domestic economic activity and further depressing tax revenues.
 
-This interaction can be modeled using the strategic sovereign default framework of Rojas and Thaler. In a stylized three-period model, a sovereign faces a trade-off in Period 2 between default and repayment. A default triggers a direct output penalty (Theta \* K\_0) and financial disruption losses (theta) if the bank default bankrupts domestic banks:
+This interaction can be modeled using the strategic sovereign default framework of Rojas and Thaler. In a stylized three-period model, a sovereign faces a trade-off in Period 2 between default and repayment. A default triggers a direct output penalty (Theta * K_0) and financial disruption losses (theta) if the bank default bankrupts domestic banks:
 
-Sovereign Decision \= Max(W\_Repay, W\_Default)
+Sovereign Decision = Max(W_Repay, W_Default)
 
 Default incentives are governed by the distribution of sovereign debt holders:
 
@@ -164,13 +164,13 @@ Temptation is proportional to B^f / Total Debt
 
 * **The Commitment Channel:** When domestic banks hold a large portion of sovereign debt (B^h), a default destroys the domestic banking sector, raising the domestic cost of default (theta) and committing the government to repay.
 
-During a financial panic in Period 1, a sunspot shock can trigger a self-fulfilling price drop in government bonds (q^p\_1). If this drop renders domestic banks insolvent, the government must issue new sovereign debt to finance a bank bailout (S\_1):
+During a financial panic in Period 1, a sunspot shock can trigger a self-fulfilling price drop in government bonds (q^p_1). If this drop renders domestic banks insolvent, the government must issue new sovereign debt to finance a bank bailout (S_1):
 
-S\_1 \= D\_0 \- (1 \- theta) \* L\_0 \- q^p\_1 \* B^h\_0
+S_1 = D_0 - (1 - theta) * L_0 - q^p_1 * B^h_0
 
-If this new debt is purchased by foreign investors (Delta B^f\_1 \= S\_1 / q^p\_1), the share of foreign-held debt increases. This amplifies the temptation channel and raises the sovereign default threshold (tilde\_omega\_p):
+If this new debt is purchased by foreign investors (Delta B^f_1 = S_1 / q^p_1), the share of foreign-held debt increases. This amplifies the temptation channel and raises the sovereign default threshold (tilde_omega_p):
 
-tilde\_omega\_p \= omega\_n \+ (1 / (Theta \* K\_0)) \* (S\_1 / q^p\_1)
+tilde_omega_p = omega_n + (1 / (Theta * K_0)) * (S_1 / q^p_1)
 
 If this new debt is purchased by domestic banks ("debt renationalization"), the temptation to default does not rise, which helps stabilize bond prices and break the panic.
 
@@ -205,10 +205,10 @@ This dynamics operates through two distinct, reinforcing spirals:
 
 | Step | Price Decline Impact | Collateral Impairment | Haircut Escalation | Margin Call Trigger | Forced Selling Effect | Market-Depth Collapse |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| **1\. Shock Initiated** | Initial price drop reduces asset value. | Asset values drop relative to par value. | Haircuts remain constant in the short term. | No margin calls are initially triggered. | Intermediaries absorb the loss without selling. | Order-book bid-ask spreads begin to widen. |
-| **2\. Loss Spiral Activated** | Continued price decline generates capital losses. | Collateral valuation is discounted by counterparties. | Haircuts begin to rise as volatility is recognized. | Localized margin calls are sent to leveraged traders. | Leveraged funds sell assets to raise cash. | Depth at current price levels starts to decline. |
-| **3\. Margin Spiral Activated** | Forced selling drives prices down further. | Asset value falls below margin maintenance requirements. | Haircuts rise nonlinearly across asset classes. | Systemic margin calls are triggered across counterparties. | Widespread liquidation of high-quality liquid assets. | Market maker bids disappear; spreads widen nonlinearly. |
-| **4\. Depth Collapse** | Prices gap down on low trading volumes. | Collateral is rejected or subject to punitive haircuts. | Repo markets freeze; haircuts hit maximum levels. | Clearinghouses demand cash-only intraday margins. | Fire sales are executed on open exchanges at deep discounts. | Complete evaporation of market depth; bids vanish. |
+| **1. Shock Initiated** | Initial price drop reduces asset value. | Asset values drop relative to par value. | Haircuts remain constant in the short term. | No margin calls are initially triggered. | Intermediaries absorb the loss without selling. | Order-book bid-ask spreads begin to widen. |
+| **2. Loss Spiral Activated** | Continued price decline generates capital losses. | Collateral valuation is discounted by counterparties. | Haircuts begin to rise as volatility is recognized. | Localized margin calls are sent to leveraged traders. | Leveraged funds sell assets to raise cash. | Depth at current price levels starts to decline. |
+| **3. Margin Spiral Activated** | Forced selling drives prices down further. | Asset value falls below margin maintenance requirements. | Haircuts rise nonlinearly across asset classes. | Systemic margin calls are triggered across counterparties. | Widespread liquidation of high-quality liquid assets. | Market maker bids disappear; spreads widen nonlinearly. |
+| **4. Depth Collapse** | Prices gap down on low trading volumes. | Collateral is rejected or subject to punitive haircuts. | Repo markets freeze; haircuts hit maximum levels. | Clearinghouses demand cash-only intraday margins. | Fire sales are executed on open exchanges at deep discounts. | Complete evaporation of market depth; bids vanish. |
 
 These spirals are amplified during margin cascades, where contractually mandated margin calls force investors to raise cash on tight deadlines. During the September-October 2022 UK Gilt crisis, corporate defined-benefit pension schemes had implemented Liability-Driven Investment (LDI) strategies using leveraged interest rate swaps and repo agreements to hedge inflation and interest rate risks. When the UK "mini-budget" announcement triggered a sharp, unexpected rise in long-term gilt yields, these LDI funds faced immediate collateral and margin calls.
 
@@ -316,12 +316,12 @@ This can be accelerated by narrative velocity: when rumors circulate and officia
 
 | Stage | Narrative Mechanic | Platform / Velocity Factor | Depositor / Funder Behavior | Policy Intervention Test |
 | :---- | :---- | :---- | :---- | :---- |
-| **1\. Latent Skepticism** | Discrepancies between marked valuations and fundamental realities are observed. | Institutional research and short seller reports circulate among sophisticated actors. | Sophisticated institutional investors quietly reduce exposure. | Regulatory disclosures and audit verifications of capital buffers. |
-| **2\. Rumor Trigger** | Specific reports of a capital shortfall, rating downgrade, or liquidity freeze emerge. | Rapid spread of messages across professional platforms (such as Bloomberg chatrooms). | Wholesale repo counterparties demand higher margins or decline roll-overs. | Clarifying communications; central bank discount window access. |
-| **3\. Failed Reassurance** | Official statements denying problems are interpreted by the market as confirmation of stress. | Social media amplification of executive and regulator statements. | Deposit outflows begin to accelerate; equity stock prices plummet. | Temporary liquidity assistance facilities. |
-| **4\. Price Confirmation** | Crashing stock prices and exploding CDS spreads confirm the panic to mainstream observers. | Live market charts are shared across platforms, creating self-fulfilling signals. | Corporate treasurers initiate wholesale wire transfer runs. | Strong, explicit public guarantees; asset price floors (such as ECB TPI). |
-| **5\. Run Acceleration** | Mass panic leads to a rush to withdraw all runnable liabilities. | Mobile banking apps allow instantaneous, friction-free transactions. | Complete run-off of all uninsured deposits and credit lines. | Invocation of systemic risk exceptions; blanket deposit guarantees. |
-| **6\. Convertibility Break** | Intermediary or payment system fails to settle outgoing wire transfers. | Immediate halt of trading and transaction execution. | Customers face complete loss of access to funds and transaction facilities. | Regulatory closure; transition into bridge bank or receivership. |
+| **1. Latent Skepticism** | Discrepancies between marked valuations and fundamental realities are observed. | Institutional research and short seller reports circulate among sophisticated actors. | Sophisticated institutional investors quietly reduce exposure. | Regulatory disclosures and audit verifications of capital buffers. |
+| **2. Rumor Trigger** | Specific reports of a capital shortfall, rating downgrade, or liquidity freeze emerge. | Rapid spread of messages across professional platforms (such as Bloomberg chatrooms). | Wholesale repo counterparties demand higher margins or decline roll-overs. | Clarifying communications; central bank discount window access. |
+| **3. Failed Reassurance** | Official statements denying problems are interpreted by the market as confirmation of stress. | Social media amplification of executive and regulator statements. | Deposit outflows begin to accelerate; equity stock prices plummet. | Temporary liquidity assistance facilities. |
+| **4. Price Confirmation** | Crashing stock prices and exploding CDS spreads confirm the panic to mainstream observers. | Live market charts are shared across platforms, creating self-fulfilling signals. | Corporate treasurers initiate wholesale wire transfer runs. | Strong, explicit public guarantees; asset price floors (such as ECB TPI). |
+| **5. Run Acceleration** | Mass panic leads to a rush to withdraw all runnable liabilities. | Mobile banking apps allow instantaneous, friction-free transactions. | Complete run-off of all uninsured deposits and credit lines. | Invocation of systemic risk exceptions; blanket deposit guarantees. |
+| **6. Convertibility Break** | Intermediary or payment system fails to settle outgoing wire transfers. | Immediate halt of trading and transaction execution. | Customers face complete loss of access to funds and transaction facilities. | Regulatory closure; transition into bridge bank or receivership. |
 
 When a panic stabilizes, it leaves behind second-round real economic damage through credit contraction. To rebuild capital buffers and protect against credit risks, banks and non-bank lenders tighten underwriting standards, raise borrowing spreads, demand more collateral, and shorten debt maturities. This credit contraction starves the real economy of financing, leading to lower investment, rising defaults, and economic slowdown. This damage typically lags the initial market shock because monetary policy transmission, credit underwriting cycles, and corporate capital expenditure budgets take 12 to 18 months to fully adjust to tighter financial conditions.
 
@@ -367,7 +367,7 @@ These policy designs are complicated by a series of fragile assumptions and expl
 * **Overtrusting deposit stickiness:** Assuming retail branch density protects against wire run velocities.  
 * **Underweighting narrative velocity:** Expecting slow, rational information adjustment when digital platforms coordinate instant runs.  
 * **Private-market marks hiding losses:** Assuming private credit has zero volatility because fund managers mark to model.  
-* **"Diversified" portfolios sharing funding constraints:** Realizing that during a margin squeeze, all assets must be liquidated, driving correlation to 1\.
+* **"Diversified" portfolios sharing funding constraints:** Realizing that during a margin squeeze, all assets must be liquidated, driving correlation to 1.
 
 ## **Systemic Fragility Ontology Registry**
 
@@ -433,3 +433,5 @@ To achieve this, Report L inherits several key elements from this analysis:
 * **The structural parameters of the Systemic Leverage and Collateral Scarcity Maps (Tables 7 and 9):** These parameters will define the hidden risk exposures monitored by the dashboard, tracking opaque bank exposures to NBFIs, private credit valuation opacity, and rehypothecated collateral chain failures.
 
 By integrating these inherited concepts, Report L will build the diagnostic tools required to identify and monitor these pathological regimes before they become obvious to the broader market, bridging the gap between historical pathology and real-time risk management.
+
+---

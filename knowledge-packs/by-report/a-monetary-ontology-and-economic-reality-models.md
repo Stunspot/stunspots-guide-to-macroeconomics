@@ -86,21 +86,21 @@ They do not settle in central bank money.10 Instead, they settle on public or pr
 
 The monetary system is hierarchical, meaning that what functions as money at one layer of the system represents credit to the layer above it.1 This structure can be visualized as a symmetric pyramid built on a credit-to-money axis.
 
-                  /\\   
-                 /  \\  (Ultimate Money)   
-                /----\\  
-               /      \\  
-              /        \\ (Money to Commercial Banks; Credit to Central Bank)   
-             /----------\\  
-            /            \\  
-           /              \\ (Money to Retail Public; Credit to Banks) \[5, 7, 9\]  
-          /----------------\\  
-         /                  \\  
-        /                    \\ (Credit Instruments / Shadow Monies) \[4, 22, 23, 25\]  
-       /----------------------\\  
-      /                        \\ \[Lines of Credit / Unsecured Promises\]  
-     /                          \\ (Pure Credit Promises / Off-Balance Sheet) \[5, 33\]  
-    /----------------------------\\
+                  /\   
+                 /  \  (Ultimate Money)   
+                /----\  
+               /      \  
+              /        \ (Money to Commercial Banks; Credit to Central Bank)   
+             /----------\  
+            /            \  
+           /              \ (Money to Retail Public; Credit to Banks) [5, 7, 9]  
+          /----------------\  
+         /                  \  
+        /                    \ (Credit Instruments / Shadow Monies) [4, 22, 23, 25]  
+       /----------------------\  
+      /                        \ [Lines of Credit / Unsecured Promises]  
+     /                          \ (Pure Credit Promises / Off-Balance Sheet) [5, 33]  
+    /----------------------------\
 
 The position of any asset within this hierarchy is determined by its liquidity and convertibility—specifically, the ease and speed with which it can be converted into the ultimate asset of final settlement without a loss of value.1 Under this framework:
 
@@ -122,20 +122,20 @@ To trace these dynamics, one must examine the relationships between the balance 
 
 Central Bank Balance Sheet  
 Assets | Liabilities  
-\-------------------------------------+-------------------------------------  
+-------------------------------------+-------------------------------------  
 Sovereign Securities / Gold  | Central Bank Reserves (Bank Assets)   
 Loans to Banks (Discounts) | Currency in Circulation 
 
 Commercial Banking System Balance Sheet  
 Assets | Liabilities  
-\-------------------------------------+-------------------------------------  
+-------------------------------------+-------------------------------------  
 Central Bank Reserves  | Private Sector Deposits (Money)   
 Sovereign Debt (Treasuries)  | Central Bank Discount Loans  
 Private Sector Loans  | Net Worth (Equity / Capital) 
 
 Private Sector (Non-Bank) Balance Sheet  
 Assets | Liabilities  
-\-------------------------------------+-------------------------------------  
+-------------------------------------+-------------------------------------  
 Bank Deposits (Inside Money)  | Private Sector Loans (IOUs to Banks)   
 Sovereign Debt (Treasuries)  | Private Debt Securities Issued  
 Capital Goods / Real Estate | Net Worth (Equity) 
@@ -158,13 +158,13 @@ At that moment, new broad money (inside money) is created.7 The bank's assets ex
 
 Commercial Bank Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\+ $500,000 (Loan Asset: Borrower's IOU) | \+ $500,000 (Deposit Liability: Bank's IOU) 
+------------------------------------------+------------------------------------------  
++ $500,000 (Loan Asset: Borrower's IOU) | + $500,000 (Deposit Liability: Bank's IOU) 
 
 Borrower's Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\+ $500,000 (Deposit Asset: Bank's IOU) | \+ $500,000 (Loan Liability: Borrower's IOU) 
+------------------------------------------+------------------------------------------  
++ $500,000 (Deposit Asset: Bank's IOU) | + $500,000 (Loan Liability: Borrower's IOU) 
 
 At the moment of credit creation, no change in central bank reserves occurs.8 The bank's capacity to create this loan is constrained by its capital adequacy ratios, risk tolerance, and the availability of creditworthy borrowers, not by its reserve holdings.7
 
@@ -174,13 +174,13 @@ Although a bank can create deposits through lending, it faces a liquidity constr
 
 Bank A Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\- $500,000 (Reserves at Central Bank) | \- $500,000 (Borrower's Deposit Liability)
+------------------------------------------+------------------------------------------  
+- $500,000 (Reserves at Central Bank) | - $500,000 (Borrower's Deposit Liability)
 
 Bank B Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\+ $500,000 (Reserves at Central Bank) | \+ $500,000 (Seller's Deposit Liability)
+------------------------------------------+------------------------------------------  
++ $500,000 (Reserves at Central Bank) | + $500,000 (Seller's Deposit Liability)
 
 In this transaction, the receiving bank (Bank B) gains reserves, while the transferring bank (Bank A) loses them.8 For the banking system as a whole, the total volume of central bank reserves remains unchanged.8
 
@@ -192,8 +192,8 @@ Just as lending creates money, the repayment of bank loans destroys money.7 When
 
 Commercial Bank Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\- $500,000 (Loan Asset)  | \- $500,000 (Deposit Liability) 
+------------------------------------------+------------------------------------------  
+- $500,000 (Loan Asset)  | - $500,000 (Deposit Liability) 
 
 ### **Quantitative Easing (QE) as an Asset Swap**
 
@@ -203,19 +203,19 @@ When the central bank purchases a sovereign bond from a non-bank financial insti
 
 Central Bank Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\+ $1,000,000 (Sovereign Securities)  | \+ $1,000,000 (Reserves owed to Bank A) 
+------------------------------------------+------------------------------------------  
++ $1,000,000 (Sovereign Securities)  | + $1,000,000 (Reserves owed to Bank A) 
 
 Commercial Bank (Bank A) Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\+ $1,000,000 (Reserves at Central Bank) | \+ $1,000,000 (Pension Fund Deposits) 
+------------------------------------------+------------------------------------------  
++ $1,000,000 (Reserves at Central Bank) | + $1,000,000 (Pension Fund Deposits) 
 
 Pension Fund Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\- $1,000,000 (Sovereign Securities) | No Change  
-\+ $1,000,000 (Deposits at Bank A) |
+------------------------------------------+------------------------------------------  
+- $1,000,000 (Sovereign Securities) | No Change  
++ $1,000,000 (Deposits at Bank A) |
 
 This transaction increases both the volume of reserves in the banking system and the volume of commercial bank deposits held by the public.7 The reserves created are locked within the central bank’s settlement system and cannot be directly lent to households or non-bank businesses.8
 
@@ -231,7 +231,7 @@ Eurodollars are unsecured U.S. dollar-denominated deposit liabilities booked at 
 
 Offshore Bank (Eurobank) Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
+------------------------------------------+------------------------------------------  
 Loans to Foreign Corporations (USD) | Eurodollar Time Deposits (USD)   
 Clearing Balances at US Banks (USD) | Interbank Eurodollar Borrowing 
 
@@ -253,7 +253,7 @@ The offshore dollar system has been reshaped by regulatory changes since the Gre
 
 * **Dodd-Frank Resolution Plans ("Living Wills")**: Mandated that global banks simplify their corporate structures to facilitate orderly resolution in a crisis.20 This prompted FBOs to wind down offshore Caribbean booking entities, moving their Eurodollar borrowing onshore to U.S. branches.20  
 * **Repeal of Regulation Q (2011)**: Eliminated the historical prohibition on banks paying interest on demand deposits, facilitating the creation of economically equivalent onshore "selected deposits".20  
-* **Elimination of Reserve Requirements (2020)**: In March 2020, the Federal Reserve reduced reserve requirement ratios to zero percent.20 Prior to this, selected deposits required reserve holdings, while Eurodollar deposits did not.20 The elimination of this reserve requirement removed the final cost differential, prompting selected deposits to overtake Eurodollars, accounting for 85% of the combined overnight volume by 2022\.20
+* **Elimination of Reserve Requirements (2020)**: In March 2020, the Federal Reserve reduced reserve requirement ratios to zero percent.20 Prior to this, selected deposits required reserve holdings, while Eurodollar deposits did not.20 The elimination of this reserve requirement removed the final cost differential, prompting selected deposits to overtake Eurodollars, accounting for 85% of the combined overnight volume by 2022.20
 
 ### **FX Swaps and Central Bank Liquidity Swap Lines**
 
@@ -266,14 +266,14 @@ Under Covered Interest Parity (CIP), the forward premium should offset the inter
 To alleviate these funding pressures, the Federal Reserve utilizes a network of central bank liquidity swap lines.9
 
 Federal Reserve Balance Sheet | Bank of Japan Balance Sheet  
-\------------------------------------------+------------------------------------------  
-Assets: \+ JPY Reserves (at BoJ) \[9\] | Assets: \+ USD Reserves (at Fed) \[9\]  
-Liabilities: \+ USD Reserves (owed to BoJ) | Liabilities: \+ JPY Reserves (owed to Fed) \[9\]
+------------------------------------------+------------------------------------------  
+Assets: + JPY Reserves (at BoJ) [9] | Assets: + USD Reserves (at Fed) [9]  
+Liabilities: + USD Reserves (owed to BoJ) | Liabilities: + JPY Reserves (owed to Fed) [9]
 
 Bank of Japan Balance Sheet | Commercial Bank Balance Sheet  
-\------------------------------------------+------------------------------------------  
-Assets: \- USD Reserves (at Fed) | Assets: \+ USD Reserves (at Fed)  
-Assets: \+ Domestic Collateral (from Bank) | Liabilities: \+ JPY Collateral / IOU to BoJ
+------------------------------------------+------------------------------------------  
+Assets: - USD Reserves (at Fed) | Assets: + USD Reserves (at Fed)  
+Assets: + Domestic Collateral (from Bank) | Liabilities: + JPY Collateral / IOU to BoJ
 
 At initiation, the Fed exchanges U.S. dollars for the foreign central bank's currency at the spot rate, with an agreement to reverse the transaction at the same rate in the future.9 The foreign central bank then distributes these dollars to local commercial banks via auctions.9 The foreign central bank bears the credit risk of the local loans and guarantees the return of dollars to the Fed, shielding the Fed from counterparty credit risk.30
 
@@ -298,11 +298,11 @@ The capacity of the financial system to intermediate credit is dependent on coll
 
 Analogous to the money multiplier, where the reserve ratio determines the theoretical limit of deposit expansion, the haircut (the percentage reduction applied to the market value of collateral to shield lenders from price volatility) acts as the reserve ratio in the collateral chain.23 The length of the collateral chain represents the multiplier.23
 
-Theoretical Collateral Multiplier \= 1 / Haircut
+Theoretical Collateral Multiplier = 1 / Haircut
 
 The aggregate volume of collateral-backed credit is determined by:
 
-Aggregate Secured Credit \= Source Collateral \* Collateral Velocity 23
+Aggregate Secured Credit = Source Collateral * Collateral Velocity 23
 
 Under normal market conditions, collateral velocity typically ranges between 2.5 and 3.0.27 However, this velocity is highly sensitive to counterparty risk.39
 
@@ -329,7 +329,7 @@ The vulnerability of collateralized markets to sudden, non-linear contractions i
 
 Because traders must finance the difference between the purchase price of a security and its collateral value using their own capital, their trading capacity is bounded by their available equity and the margin (haircut) charged by financiers.40
 
-Total Margin Commitment \= Sum over i of (Position Size\_i \* Haircut\_i) \<= Speculator Capital 40
+Total Margin Commitment = Sum over i of (Position Size_i * Haircut_i) <= Speculator Capital 40
 
 When funding conditions tighten or a negative asset price shock occurs, two reinforcing feedback loops—the margin spiral and the loss spiral—can trigger a systemic liquidity crisis 40:
 
@@ -346,7 +346,7 @@ Following the Great Financial Crisis, international banking regulators introduce
 
 The Leverage Ratio acts as a non-risk-weighted capital backstop.33 Under risk-weighted assets (RWA) frameworks, banks can hold massive volumes of sovereign bonds or low-risk mortgages with very little capital backing because their risk weights are near zero.33 The leverage ratio acts as a floor, ensuring that a bank holds a minimum level of loss-absorbing capital against its total on-balance-sheet and off-balance-sheet exposures, regardless of perceived risk.33
 
-Leverage Ratio \= Tier 1 Capital / Total Leverage Exposure \>= 3.0% 33
+Leverage Ratio = Tier 1 Capital / Total Leverage Exposure >= 3.0% 33
 
 (Note: Under U.S. regulations, the minimum requirement is 5.0% for large systemically important bank holding companies and 6.0% for their insured depository institutions).43
 
@@ -356,7 +356,7 @@ Because the denominator includes the gross, non-netted value of securities finan
 
 The LCR is a short-term, 30-day survival test designed to ensure banks maintain an adequate stock of unencumbered High-Quality Liquid Assets (HQLA) that can be easily converted into cash to meet net cash outflows during an acute stress scenario.33
 
-LCR \= Stock of HQLA / Total Net Cash Outflows over 30 days \>= 100% 33
+LCR = Stock of HQLA / Total Net Cash Outflows over 30 days >= 100% 33
 
 HQLA is categorized into three tiers, reflecting differing liquidity profiles:
 
@@ -372,7 +372,7 @@ Crucially, borrowing from Federal Home Loan Banks (FHLBs) carries a lower LCR ru
 
 While the LCR addresses short-term shocks, the NSFR targets structural funding mismatches over a one-year horizon, encouraging banks to fund long-term assets with long-term, stable liabilities.33
 
-NSFR \= Available Stable Funding (ASF) / Required Stable Funding (RSF) \>= 100% 33
+NSFR = Available Stable Funding (ASF) / Required Stable Funding (RSF) >= 100% 33
 
 * **Available Stable Funding (ASF)**: The portion of capital and liabilities expected to be reliable over a one-year horizon, calculated by multiplying the carrying value of liabilities by regulatory weights (e.g., regulatory capital and long-term debt receive a 100% ASF weight, while unstable wholesale funding receives 0%).42  
 * **Required Stable Funding (RSF)**: A function of the liquidity characteristics and residual maturities of the bank's assets.42 Highly liquid Level 1 assets require little or no stable funding (0% to 5% RSF weight), whereas long-term unrated loans and non-performing assets require 100% stable funding.44
@@ -395,7 +395,7 @@ The international monetary system remains structurally dollar-centric, though th
 
 ### **De-Dollarization Trends and IMF COFER Revisions**
 
-According to the International Monetary Fund's Currency Composition of Official Foreign Exchange Reserves (COFER) survey, global exchange reserves totaled $13.14 trillion in the fourth quarter of 2025\.32 The U.S. dollar maintains its position at the apex of the reserve hierarchy, though its share has experienced a gradual, long-term decline.32
+According to the International Monetary Fund's Currency Composition of Official Foreign Exchange Reserves (COFER) survey, global exchange reserves totaled $13.14 trillion in the fourth quarter of 2025.32 The U.S. dollar maintains its position at the apex of the reserve hierarchy, though its share has experienced a gradual, long-term decline.32
 
 | Reserve Currency | Q4 2025 Share (%) | Q3 2025 Share (%) | Q1 2025 Share (%) | Structural Trend |
 | :---- | :---- | :---- | :---- | :---- |
@@ -403,7 +403,7 @@ According to the International Monetary Fund's Currency Composition of Official 
 | **Euro (EUR)** | 20.25% | 20.33% | 20.06% | Stable, secondary reserve asset.32 |
 | **Chinese Renminbi (RMB)** | 1.95% | 1.93% | 2.12% | Flat to declining; limited by capital account controls.32 |
 | **Identified Others (JPY, GBP, AUD, CAD, CHF)** | 14.90% | 15.18% | 20.10% (Combined) | Gradual diversification into liquid G10 currencies.32 |
-| **Unidentified Other Currencies** | 6.13% | 5.61% | Not separately tracked | Rapid, non-linear growth; doubling since 2021\.32 |
+| **Unidentified Other Currencies** | 6.13% | 5.61% | Not separately tracked | Rapid, non-linear growth; doubling since 2021.32 |
 
 The decline in the USD share is not primarily a shift toward major competitors like the Euro or Renminbi, but represents a diversification into smaller, non-traditional currencies.32
 
@@ -528,53 +528,55 @@ Report B will focus on:
 
 #### **Works cited**
 
-1. Promises All the Way Down: A Primer on the Money View \- LPE ..., accessed May 10, 2026, [https://lpeproject.org/blog/promises-all-the-way-down-a-primer-on-the-money-view/](https://lpeproject.org/blog/promises-all-the-way-down-a-primer-on-the-money-view/)  
-2. ELI5: What exactly does Perry Mehrling's "Money View" theory explain about financial markets? \- Reddit, accessed May 10, 2026, [https://www.reddit.com/r/explainlikeimfive/comments/ffhwhl/eli5\_what\_exactly\_does\_perry\_mehrlings\_money\_view/](https://www.reddit.com/r/explainlikeimfive/comments/ffhwhl/eli5_what_exactly_does_perry_mehrlings_money_view/)  
-3. Money in the modern economy: an introduction \- Quarterly Bulletin \- YouTube, accessed May 10, 2026, [https://www.youtube.com/watch?v=ziTE32hiWdk](https://www.youtube.com/watch?v=ziTE32hiWdk)  
-4. 2\. Natural Hierarchy of Money, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/01/Lec-02-The-Natural-Hierarchy-of-Money.pdf](https://sites.bu.edu/perry/files/2019/01/Lec-02-The-Natural-Hierarchy-of-Money.pdf)  
-5. The Inherent Hierarchy of Money \- Boston University, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/04/Mehrling\_P\_FESeminar\_Sp12-02.pdf](https://sites.bu.edu/perry/files/2019/04/Mehrling_P_FESeminar_Sp12-02.pdf)  
-6. The Inherent Hierarchy of Money, accessed May 10, 2026, [http://qiniu.swarma.org/course/document/2\_The-Inherent-Hierarchy-of-Money.pdf](http://qiniu.swarma.org/course/document/2_The-Inherent-Hierarchy-of-Money.pdf)  
-7. Money creation in the modern economy \- American Monetary Institute, accessed May 10, 2026, [https://monetary.org/pdfs/money-creation-in-the-modern-economy.pdf](https://monetary.org/pdfs/money-creation-in-the-modern-economy.pdf)  
-8. Money creation in the modern economy \- Bank of England, accessed May 10, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy](https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy)  
-9. Central bank swap lines and cross- border bank flows \- Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/publ/bisbull34.pdf](https://www.bis.org/publ/bisbull34.pdf)  
-10. Central bank money settlement of wholesale transactions in the face of technological innovation, accessed May 10, 2026, [https://www.ecb.europa.eu/press/economic-bulletin/articles/2024/html/ecb.ebart202308\_01\~d9a13e1609.en.html](https://www.ecb.europa.eu/press/economic-bulletin/articles/2024/html/ecb.ebart202308_01~d9a13e1609.en.html)  
-11. Market Liquidity and Funding Liquidity \- Markus K. Brunnermeier \- Princeton University, accessed May 10, 2026, [https://markus.scholar.princeton.edu/publications/market-liquidity-and-funding-liquidity](https://markus.scholar.princeton.edu/publications/market-liquidity-and-funding-liquidity)  
+1. Promises All the Way Down: A Primer on the Money View - LPE ..., accessed May 10, 2026, [https://lpeproject.org/blog/promises-all-the-way-down-a-primer-on-the-money-view/](https://lpeproject.org/blog/promises-all-the-way-down-a-primer-on-the-money-view/)  
+2. ELI5: What exactly does Perry Mehrling's "Money View" theory explain about financial markets? - Reddit, accessed May 10, 2026, [https://www.reddit.com/r/explainlikeimfive/comments/ffhwhl/eli5_what_exactly_does_perry_mehrlings_money_view/](https://www.reddit.com/r/explainlikeimfive/comments/ffhwhl/eli5_what_exactly_does_perry_mehrlings_money_view/)  
+3. Money in the modern economy: an introduction - Quarterly Bulletin - YouTube, accessed May 10, 2026, [https://www.youtube.com/watch?v=ziTE32hiWdk](https://www.youtube.com/watch?v=ziTE32hiWdk)  
+4. 2. Natural Hierarchy of Money, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/01/Lec-02-The-Natural-Hierarchy-of-Money.pdf](https://sites.bu.edu/perry/files/2019/01/Lec-02-The-Natural-Hierarchy-of-Money.pdf)  
+5. The Inherent Hierarchy of Money - Boston University, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/04/Mehrling_P_FESeminar_Sp12-02.pdf](https://sites.bu.edu/perry/files/2019/04/Mehrling_P_FESeminar_Sp12-02.pdf)  
+6. The Inherent Hierarchy of Money, accessed May 10, 2026, [http://qiniu.swarma.org/course/document/2_The-Inherent-Hierarchy-of-Money.pdf](http://qiniu.swarma.org/course/document/2_The-Inherent-Hierarchy-of-Money.pdf)  
+7. Money creation in the modern economy - American Monetary Institute, accessed May 10, 2026, [https://monetary.org/pdfs/money-creation-in-the-modern-economy.pdf](https://monetary.org/pdfs/money-creation-in-the-modern-economy.pdf)  
+8. Money creation in the modern economy - Bank of England, accessed May 10, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy](https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy)  
+9. Central bank swap lines and cross- border bank flows - Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/publ/bisbull34.pdf](https://www.bis.org/publ/bisbull34.pdf)  
+10. Central bank money settlement of wholesale transactions in the face of technological innovation, accessed May 10, 2026, [https://www.ecb.europa.eu/press/economic-bulletin/articles/2024/html/ecb.ebart202308_01~d9a13e1609.en.html](https://www.ecb.europa.eu/press/economic-bulletin/articles/2024/html/ecb.ebart202308_01~d9a13e1609.en.html)  
+11. Market Liquidity and Funding Liquidity - Markus K. Brunnermeier - Princeton University, accessed May 10, 2026, [https://markus.scholar.princeton.edu/publications/market-liquidity-and-funding-liquidity](https://markus.scholar.princeton.edu/publications/market-liquidity-and-funding-liquidity)  
 12. Metallism vs Chartalism, accessed May 10, 2026, [http://wfhummel.net/metallismchartalism.html](http://wfhummel.net/metallismchartalism.html)  
 13. Not a big fan of the metallist vs chartalist debate on the origins and nature of money, accessed May 10, 2026, [https://www.moneyness.ca/2012/12/not-big-fan-of-metallist-vs-chartalist.html](https://www.moneyness.ca/2012/12/not-big-fan-of-metallist-vs-chartalist.html)  
-14. THE HIERARCHY OF MONEY by \- Stephanie Bell \- Levy Economics Institute of Bard College, accessed May 10, 2026, [https://www.levyinstitute.org/pubs/wp/231.pdf](https://www.levyinstitute.org/pubs/wp/231.pdf)  
-15. 20.2 – Money's Origin Stories – Principles of Economics: Scarcity and Social Provisioning (3rd Ed.) \- Open Oregon Educational Resources, accessed May 10, 2026, [https://openoregon.pressbooks.pub/socialprovisioning3/chapter/25-1-the-metallist-and-the-barter-myth/](https://openoregon.pressbooks.pub/socialprovisioning3/chapter/25-1-the-metallist-and-the-barter-myth/)  
-16. Bank of England on Money and Money Creation in the Modern Economy \- Positive Money, accessed May 10, 2026, [https://positivemoney.org/uk/archive/bank-england-money-money-creation-modern-economy/](https://positivemoney.org/uk/archive/bank-england-money-money-creation-modern-economy/)  
-17. 13\. Chartalism, Metallism, and Key Currencies, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/01/Lec-13-Chartalism-Metallism-and-Key-Currencies.pdf](https://sites.bu.edu/perry/files/2019/01/Lec-13-Chartalism-Metallism-and-Key-Currencies.pdf)  
+14. THE HIERARCHY OF MONEY by - Stephanie Bell - Levy Economics Institute of Bard College, accessed May 10, 2026, [https://www.levyinstitute.org/pubs/wp/231.pdf](https://www.levyinstitute.org/pubs/wp/231.pdf)  
+15. 20.2 – Money's Origin Stories – Principles of Economics: Scarcity and Social Provisioning (3rd Ed.) - Open Oregon Educational Resources, accessed May 10, 2026, [https://openoregon.pressbooks.pub/socialprovisioning3/chapter/25-1-the-metallist-and-the-barter-myth/](https://openoregon.pressbooks.pub/socialprovisioning3/chapter/25-1-the-metallist-and-the-barter-myth/)  
+16. Bank of England on Money and Money Creation in the Modern Economy - Positive Money, accessed May 10, 2026, [https://positivemoney.org/uk/archive/bank-england-money-money-creation-modern-economy/](https://positivemoney.org/uk/archive/bank-england-money-money-creation-modern-economy/)  
+17. 13. Chartalism, Metallism, and Key Currencies, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/01/Lec-13-Chartalism-Metallism-and-Key-Currencies.pdf](https://sites.bu.edu/perry/files/2019/01/Lec-13-Chartalism-Metallism-and-Key-Currencies.pdf)  
 18. Basel III joint regulatory constraints: interactions and implications for the financing of the economy | Banque de France, accessed May 10, 2026, [https://www.banque-france.fr/en/publications-and-statistics/publications/basel-iii-joint-regulatory-constraints-interactions-and-implications-financing-economy](https://www.banque-france.fr/en/publications-and-statistics/publications/basel-iii-joint-regulatory-constraints-interactions-and-implications-financing-economy)  
-19. Money creation in the modern economy \- Quarterly Bulletin \- YouTube, accessed May 10, 2026, [https://www.youtube.com/watch?v=CvRAqR2pAgw](https://www.youtube.com/watch?v=CvRAqR2pAgw)  
+19. Money creation in the modern economy - Quarterly Bulletin - YouTube, accessed May 10, 2026, [https://www.youtube.com/watch?v=CvRAqR2pAgw](https://www.youtube.com/watch?v=CvRAqR2pAgw)  
 20. Who Is Borrowing and Lending in the Eurodollar and Selected ..., accessed May 10, 2026, [https://libertystreeteconomics.newyorkfed.org/2024/05/who-is-borrowing-and-lending-in-the-eurodollar-and-selected-deposit-markets/](https://libertystreeteconomics.newyorkfed.org/2024/05/who-is-borrowing-and-lending-in-the-eurodollar-and-selected-deposit-markets/)  
-21. Manmohan Singh \- Risk.net, accessed May 10, 2026, [https://www.risk.net/author/manmohan-singh](https://www.risk.net/author/manmohan-singh)  
+21. Manmohan Singh - Risk.net, accessed May 10, 2026, [https://www.risk.net/author/manmohan-singh](https://www.risk.net/author/manmohan-singh)  
 22. Manmohan Singh at IMF, accessed May 10, 2026, [https://sites.google.com/view/msinghdc/home](https://sites.google.com/view/msinghdc/home)  
 23. The Changing Collateral Space; by Manmohan Singh; IMF Working ..., accessed May 10, 2026, [https://www.imf.org/external/pubs/ft/wp/2013/wp1325.pdf](https://www.imf.org/external/pubs/ft/wp/2013/wp1325.pdf)  
-24. A Map of Collateral Uses and Flows \- Office of Financial Research (OFR), accessed May 10, 2026, [https://www.financialresearch.gov/working-papers/files/OFRwp-2016-06\_Map-of-Collateral-Uses.pdf](https://www.financialresearch.gov/working-papers/files/OFRwp-2016-06_Map-of-Collateral-Uses.pdf)  
-25. Liquidity Windfalls: The Consequences of Repo Rehypothecation \- Federal Reserve, accessed May 10, 2026, [https://www.federalreserve.gov/econresdata/feds/2015/files/2015022pap.pdf](https://www.federalreserve.gov/econresdata/feds/2015/files/2015022pap.pdf)  
-26. Collateral Reuse and Balance Sheet Space \- IDEAS/RePEc, accessed May 10, 2026, [https://ideas.repec.org/p/imf/imfwpa/2017-113.html](https://ideas.repec.org/p/imf/imfwpa/2017-113.html)  
-27. Chapter 9 COLLATERAL AND MONETARY POLICY Manmohan Singh \- Cambridge University Press & Assessment, accessed May 10, 2026, [https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/D686501C45EBE677AB3509169807D081/9781783083602c9\_p143-156\_CBO.pdf/collateral\_and\_monetary\_policy.pdf](https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/D686501C45EBE677AB3509169807D081/9781783083602c9_p143-156_CBO.pdf/collateral_and_monetary_policy.pdf)  
-28. Liquidity, Financial Crises and the Lender of Last Resort – How Much of a Departure is the Sub-prime Crisis? | Conference – 2008 \- Reserve Bank of Australia, accessed May 10, 2026, [https://www.rba.gov.au/publications/confs/2008/davis.html](https://www.rba.gov.au/publications/confs/2008/davis.html)  
-29. Eurodollars \- Instruments of the Money Market, accessed May 10, 2026, [https://www.richmondfed.org/\~/media/richmondfedorg/publications/research/special\_reports/instruments\_of\_the\_money\_market/pdf/chapter\_05.pdf](https://www.richmondfed.org/~/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_05.pdf)  
-30. The Federal Reserve's Foreign Exchange Swap Lines, accessed May 10, 2026, [https://www.newyorkfed.org/medialibrary/media/research/current\_issues/ci16-4.pdf](https://www.newyorkfed.org/medialibrary/media/research/current_issues/ci16-4.pdf)  
-31. Swap Line Dollar Supply \- Federal Reserve Bank of Boston, accessed May 10, 2026, [https://www.bostonfed.org/-/media/Documents/events/2025/stress-testing-research-conference/Kloks\_SwapLines.pdf](https://www.bostonfed.org/-/media/Documents/events/2025/stress-testing-research-conference/Kloks_SwapLines.pdf)  
-32. Currency Composition of Official Foreign Exchange Reserves \- IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20march%2027](https://data.imf.org/en/news/imf%20data%20brief%20march%2027)  
-33. Leverage Ratio, LCR, and NSFR | Agent Factory \- Panaversity, accessed May 10, 2026, [https://agentfactory.panaversity.org/docs/Business-Domain-Agent-Workflows/banking-domain-agents/basel-leverage-liquidity](https://agentfactory.panaversity.org/docs/Business-Domain-Agent-Workflows/banking-domain-agents/basel-leverage-liquidity)  
-34. THE EURO-DOLLAR MARKET: SOME UNRESOLVED ISSUES \- Program for Research on Inequality, accessed May 10, 2026, [https://pri.princeton.edu/pdf/E65.pdf](https://pri.princeton.edu/pdf/E65.pdf)  
-35. Central Bank Swap Lines: Micro-Level Evidence, accessed May 10, 2026, [https://www.bis.org/events/221213\_bis\_bdi\_ecb\_exchange\_rates/paper\_ferrara.pdf](https://www.bis.org/events/221213_bis_bdi_ecb_exchange_rates/paper_ferrara.pdf)  
-36. Central bank liquidity swaps \- Federal Reserve Board, accessed May 10, 2026, [https://www.federalreserve.gov/monetarypolicy/bst\_liquidityswaps.htm](https://www.federalreserve.gov/monetarypolicy/bst_liquidityswaps.htm)  
-37. Velocity of Pledged Collateral \- IMF eLibrary, accessed May 10, 2026, [https://www.elibrary.imf.org/downloadpdf/view/journals/001/2011/256/001.2011.issue-256-en.pdf](https://www.elibrary.imf.org/downloadpdf/view/journals/001/2011/256/001.2011.issue-256-en.pdf)  
-38. Velocity of Pledged Collateral: Analysis and Implications \- IDEAS/RePEc, accessed May 10, 2026, [https://ideas.repec.org/p/imf/imfwpa/2011-256.html](https://ideas.repec.org/p/imf/imfwpa/2011-256.html)  
-39. The (sizable) Role of Rehypothecation in the Shadow Banking System; by Manmohan \- International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/external/pubs/ft/wp/2010/wp10172.pdf](https://www.imf.org/external/pubs/ft/wp/2010/wp10172.pdf)  
-40. Market Liquidity and Funding Liquidity \- NBER, accessed May 10, 2026, [https://www.nber.org/system/files/working\_papers/w12939/w12939.pdf](https://www.nber.org/system/files/working_papers/w12939/w12939.pdf)  
-41. Market Liquidity and Funding Liquidity∗ \- Federal Reserve Bank of New York, accessed May 10, 2026, [https://www.newyorkfed.org/medialibrary/media/newsevents/events/research/2006/0518-Mkt\_Fun\_Liquiditybrunnermeierandpedersen.pdf](https://www.newyorkfed.org/medialibrary/media/newsevents/events/research/2006/0518-Mkt_Fun_Liquiditybrunnermeierandpedersen.pdf)  
-42. On the interaction between different bank liquidity requirements \- European Central Bank, accessed May 10, 2026, [https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu201910\_2\~3237802727.en.html](https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu201910_2~3237802727.en.html)  
-43. An overview of the LCR, NSFR and LR \- ICMA, accessed May 10, 2026, [https://www.icmagroup.org/assets/documents/Events/test/20%20-%20ICMA%20Presentation%20-%20Liquidity%20&%20Leverage\_v1.pdf](https://www.icmagroup.org/assets/documents/Events/test/20%20-%20ICMA%20Presentation%20-%20Liquidity%20&%20Leverage_v1.pdf)  
-44. Basel III: the net stable funding ratio \- Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/bcbs/publ/d295.pdf](https://www.bis.org/bcbs/publ/d295.pdf)  
+24. A Map of Collateral Uses and Flows - Office of Financial Research (OFR), accessed May 10, 2026, [https://www.financialresearch.gov/working-papers/files/OFRwp-2016-06_Map-of-Collateral-Uses.pdf](https://www.financialresearch.gov/working-papers/files/OFRwp-2016-06_Map-of-Collateral-Uses.pdf)  
+25. Liquidity Windfalls: The Consequences of Repo Rehypothecation - Federal Reserve, accessed May 10, 2026, [https://www.federalreserve.gov/econresdata/feds/2015/files/2015022pap.pdf](https://www.federalreserve.gov/econresdata/feds/2015/files/2015022pap.pdf)  
+26. Collateral Reuse and Balance Sheet Space - IDEAS/RePEc, accessed May 10, 2026, [https://ideas.repec.org/p/imf/imfwpa/2017-113.html](https://ideas.repec.org/p/imf/imfwpa/2017-113.html)  
+27. Chapter 9 COLLATERAL AND MONETARY POLICY Manmohan Singh - Cambridge University Press & Assessment, accessed May 10, 2026, [https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/D686501C45EBE677AB3509169807D081/9781783083602c9_p143-156_CBO.pdf/collateral_and_monetary_policy.pdf](https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/D686501C45EBE677AB3509169807D081/9781783083602c9_p143-156_CBO.pdf/collateral_and_monetary_policy.pdf)  
+28. Liquidity, Financial Crises and the Lender of Last Resort – How Much of a Departure is the Sub-prime Crisis? | Conference – 2008 - Reserve Bank of Australia, accessed May 10, 2026, [https://www.rba.gov.au/publications/confs/2008/davis.html](https://www.rba.gov.au/publications/confs/2008/davis.html)  
+29. Eurodollars - Instruments of the Money Market, accessed May 10, 2026, [https://www.richmondfed.org/~/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_05.pdf](https://www.richmondfed.org/~/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_05.pdf)  
+30. The Federal Reserve's Foreign Exchange Swap Lines, accessed May 10, 2026, [https://www.newyorkfed.org/medialibrary/media/research/current_issues/ci16-4.pdf](https://www.newyorkfed.org/medialibrary/media/research/current_issues/ci16-4.pdf)  
+31. Swap Line Dollar Supply - Federal Reserve Bank of Boston, accessed May 10, 2026, [https://www.bostonfed.org/-/media/Documents/events/2025/stress-testing-research-conference/Kloks_SwapLines.pdf](https://www.bostonfed.org/-/media/Documents/events/2025/stress-testing-research-conference/Kloks_SwapLines.pdf)  
+32. Currency Composition of Official Foreign Exchange Reserves - IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20march%2027](https://data.imf.org/en/news/imf%20data%20brief%20march%2027)  
+33. Leverage Ratio, LCR, and NSFR | Agent Factory - Panaversity, accessed May 10, 2026, [https://agentfactory.panaversity.org/docs/Business-Domain-Agent-Workflows/banking-domain-agents/basel-leverage-liquidity](https://agentfactory.panaversity.org/docs/Business-Domain-Agent-Workflows/banking-domain-agents/basel-leverage-liquidity)  
+34. THE EURO-DOLLAR MARKET: SOME UNRESOLVED ISSUES - Program for Research on Inequality, accessed May 10, 2026, [https://pri.princeton.edu/pdf/E65.pdf](https://pri.princeton.edu/pdf/E65.pdf)  
+35. Central Bank Swap Lines: Micro-Level Evidence, accessed May 10, 2026, [https://www.bis.org/events/221213_bis_bdi_ecb_exchange_rates/paper_ferrara.pdf](https://www.bis.org/events/221213_bis_bdi_ecb_exchange_rates/paper_ferrara.pdf)  
+36. Central bank liquidity swaps - Federal Reserve Board, accessed May 10, 2026, [https://www.federalreserve.gov/monetarypolicy/bst_liquidityswaps.htm](https://www.federalreserve.gov/monetarypolicy/bst_liquidityswaps.htm)  
+37. Velocity of Pledged Collateral - IMF eLibrary, accessed May 10, 2026, [https://www.elibrary.imf.org/downloadpdf/view/journals/001/2011/256/001.2011.issue-256-en.pdf](https://www.elibrary.imf.org/downloadpdf/view/journals/001/2011/256/001.2011.issue-256-en.pdf)  
+38. Velocity of Pledged Collateral: Analysis and Implications - IDEAS/RePEc, accessed May 10, 2026, [https://ideas.repec.org/p/imf/imfwpa/2011-256.html](https://ideas.repec.org/p/imf/imfwpa/2011-256.html)  
+39. The (sizable) Role of Rehypothecation in the Shadow Banking System; by Manmohan - International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/external/pubs/ft/wp/2010/wp10172.pdf](https://www.imf.org/external/pubs/ft/wp/2010/wp10172.pdf)  
+40. Market Liquidity and Funding Liquidity - NBER, accessed May 10, 2026, [https://www.nber.org/system/files/working_papers/w12939/w12939.pdf](https://www.nber.org/system/files/working_papers/w12939/w12939.pdf)  
+41. Market Liquidity and Funding Liquidity∗ - Federal Reserve Bank of New York, accessed May 10, 2026, [https://www.newyorkfed.org/medialibrary/media/newsevents/events/research/2006/0518-Mkt_Fun_Liquiditybrunnermeierandpedersen.pdf](https://www.newyorkfed.org/medialibrary/media/newsevents/events/research/2006/0518-Mkt_Fun_Liquiditybrunnermeierandpedersen.pdf)  
+42. On the interaction between different bank liquidity requirements - European Central Bank, accessed May 10, 2026, [https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu201910_2~3237802727.en.html](https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu201910_2~3237802727.en.html)  
+43. An overview of the LCR, NSFR and LR - ICMA, accessed May 10, 2026, [https://www.icmagroup.org/assets/documents/Events/test/20%20-%20ICMA%20Presentation%20-%20Liquidity%20&%20Leverage_v1.pdf](https://www.icmagroup.org/assets/documents/Events/test/20%20-%20ICMA%20Presentation%20-%20Liquidity%20&%20Leverage_v1.pdf)  
+44. Basel III: the net stable funding ratio - Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/bcbs/publ/d295.pdf](https://www.bis.org/bcbs/publ/d295.pdf)  
 45. Liquidity Spirals 20230906, accessed May 10, 2026, [https://oms-inet.files.svdcdn.com/production/files/Liquidity-Spirals-20230906.pdf?dm=1694158884](https://oms-inet.files.svdcdn.com/production/files/Liquidity-Spirals-20230906.pdf?dm=1694158884)  
-46. Currency Composition of Official Foreign Exchange Reserves \- IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20december%2019](https://data.imf.org/en/news/imf%20data%20brief%20december%2019)  
-47. Currency Composition of Official Foreign Exchange Reserves \- IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20jul%209](https://data.imf.org/en/news/imf%20data%20brief%20jul%209)  
-48. Currency Composition of Official Foreign Exchange Reserves (COFER) \- IMF Data, accessed May 10, 2026, [https://data.imf.org/en/datasets/IMF.STA:COFER](https://data.imf.org/en/datasets/IMF.STA:COFER)  
-49. Currency Composition of Foreign Exchange Reserves (COFER) Data: Updates on the Implementation of Imputation Procedure of “Unallocated” Portion \- International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/external/Pubs/FT/BOP/2025/pdf/45/BOPCOM%2025-22%20-%20COFER%20Data%20-%20Updates%20on%20the%20Implementation%20of%20Imputation%20Procedure%20of%20Unallocated%20Portion.pdf](https://www.imf.org/external/Pubs/FT/BOP/2025/pdf/45/BOPCOM%2025-22%20-%20COFER%20Data%20-%20Updates%20on%20the%20Implementation%20of%20Imputation%20Procedure%20of%20Unallocated%20Portion.pdf)  
+46. Currency Composition of Official Foreign Exchange Reserves - IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20december%2019](https://data.imf.org/en/news/imf%20data%20brief%20december%2019)  
+47. Currency Composition of Official Foreign Exchange Reserves - IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20jul%209](https://data.imf.org/en/news/imf%20data%20brief%20jul%209)  
+48. Currency Composition of Official Foreign Exchange Reserves (COFER) - IMF Data, accessed May 10, 2026, [https://data.imf.org/en/datasets/IMF.STA:COFER](https://data.imf.org/en/datasets/IMF.STA:COFER)  
+49. Currency Composition of Foreign Exchange Reserves (COFER) Data: Updates on the Implementation of Imputation Procedure of “Unallocated” Portion - International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/external/Pubs/FT/BOP/2025/pdf/45/BOPCOM%2025-22%20-%20COFER%20Data%20-%20Updates%20on%20the%20Implementation%20of%20Imputation%20Procedure%20of%20Unallocated%20Portion.pdf](https://www.imf.org/external/Pubs/FT/BOP/2025/pdf/45/BOPCOM%2025-22%20-%20COFER%20Data%20-%20Updates%20on%20the%20Implementation%20of%20Imputation%20Procedure%20of%20Unallocated%20Portion.pdf)  
 50. Wholesale central bank money in the context of technological innovation, accessed May 10, 2026, [https://www.bis.org/publ/othp99.htm](https://www.bis.org/publ/othp99.htm)
+
+---

@@ -12,7 +12,7 @@ The foundational mechanism of commercial banking is the expansion of the balance
 
 When a commercial bank approves a loan, it does not transfer physical currency or pre-existing central bank reserves to the borrower.2 Instead, it executes a bilateral ledger expansion:
 
-Bank Asset: Loan (Borrower's Promise to Pay) \<--\> Bank Liability: Deposit (Bank's Promise to Pay on Demand)
+Bank Asset: Loan (Borrower's Promise to Pay) <--> Bank Liability: Deposit (Bank's Promise to Pay on Demand)
 
 New broad money is created at the transaction interface.1 The borrower's note represents an illiquid asset for the bank, while the newly credited deposit represents a highly liquid, demand-executable liability that enters the broad money supply.1
 
@@ -24,7 +24,7 @@ While a bank can create deposits without a prior transfer of reserves, the settl
 
 This wholesale settlement layer operates on a double-entry ledger managed by the central bank:
 
-Change in Originating Bank Reserves (Asset at Central Bank) \< 0 \<--\> Change in Receiving Bank Reserves (Asset at Central Bank) \> 0
+Change in Originating Bank Reserves (Asset at Central Bank) < 0 <--> Change in Receiving Bank Reserves (Asset at Central Bank) > 0
 
 Central bank reserves do not circulate in the wider retail economy; they exist solely to settle net clearing balances between authorized depository institutions and the sovereign issuer.1 Thus, reserve management is the process of acquiring sufficient clearing balances ex-post to meet these settlement obligations and satisfy statutory reserve requirements, if any.2
 
@@ -36,11 +36,11 @@ The table below maps the structural interactions of bank balance-sheet component
 
 | Transaction / Event | Asset-Side Balance Sheet Impact | Liability-Side Balance Sheet Impact | Regulatory Capital & Liquidity Impact | Operational / Macro Consequence |
 | :---- | :---- | :---- | :---- | :---- |
-| **Endogenous Loan Origination** | Change in Loans \+100 2 | Change in Deposits \+100 2 | Risk-Weighted Assets (RWA) rise 7; LCR decreases as simulated outflows increase.7 | Expands broad money supply; no initial change in base money.2 |
-| **Interbank Payment Settlement** | Change in Reserves \-100; Net change: 0 4 | Change in Deposits \-100; Net change: 0 2 | HQLA falls 9; LCR declines unless offset by cash inflows.7 | Restricts liquidity buffer; forces bank to source wholesale funding.5 |
-| **FHLB Advance Drawdown** | Change in Reserves \+100 5 | Change in Short-Term Borrowings \+100 6 | Increases HQLA 9; improves short-term LCR but requires collateral encumbrance.6 | Super-senior lien is placed on bank assets, subordinating depositors.6 |
-| **BTFP Par Valuation Borrowing** | Change in Reserves \+100 11 | Change in Secured Term Debt \+100 12 | Replaces lost deposits; avoids HQLA fire sales and regulatory capital hits.13 | Transfers duration loss to the public balance sheet via undercollateralization.14 |
-| **Loan Write-Off (Default)** | Change in Allowance for Credit Losses \-100; Change in Gross Loans \-100 1 | Net 0 on liabilities; Change in Retained Earnings \-100 | Reductions in CET1 Capital 7; Risk-Weighted Assets decrease slightly. | Direct hit to bank solvency; credit contraction ensues.1 |
+| **Endogenous Loan Origination** | Change in Loans +100 2 | Change in Deposits +100 2 | Risk-Weighted Assets (RWA) rise 7; LCR decreases as simulated outflows increase.7 | Expands broad money supply; no initial change in base money.2 |
+| **Interbank Payment Settlement** | Change in Reserves -100; Net change: 0 4 | Change in Deposits -100; Net change: 0 2 | HQLA falls 9; LCR declines unless offset by cash inflows.7 | Restricts liquidity buffer; forces bank to source wholesale funding.5 |
+| **FHLB Advance Drawdown** | Change in Reserves +100 5 | Change in Short-Term Borrowings +100 6 | Increases HQLA 9; improves short-term LCR but requires collateral encumbrance.6 | Super-senior lien is placed on bank assets, subordinating depositors.6 |
+| **BTFP Par Valuation Borrowing** | Change in Reserves +100 11 | Change in Secured Term Debt +100 12 | Replaces lost deposits; avoids HQLA fire sales and regulatory capital hits.13 | Transfers duration loss to the public balance sheet via undercollateralization.14 |
+| **Loan Write-Off (Default)** | Change in Allowance for Credit Losses -100; Change in Gross Loans -100 1 | Net 0 on liabilities; Change in Retained Earnings -100 | Reductions in CET1 Capital 7; Risk-Weighted Assets decrease slightly. | Direct hit to bank solvency; credit contraction ensues.1 |
 
 ## **Bank Funding Architectures, Deposit Betas, and Digital Run Dynamics**
 
@@ -48,8 +48,8 @@ To sustain credit expansion and settle transaction balances, commercial banks co
 
 A critical determinant of bank profitability and deposit stability during monetary tightening cycles is the **deposit beta**—defined as the percentage of a change in the central bank's policy rate that a bank passes through to its deposit pricing.17 During the aggressive monetary tightening cycle of 2022–2023, where the Federal Reserve raised the federal funds target rate by 525 basis points, the average cumulative US deposit beta was approximately 0.27, though it varied significantly by institution size and depositor sophistication.17
 
-Small Banks (\< 1B USD assets): Cumulative Beta ≈ 0.25  
-Digital-Broker / Highly Sophisticated Banks: Cumulative Beta ≈ 0.44 \- 0.46
+Small Banks (< 1B USD assets): Cumulative Beta ≈ 0.25  
+Digital-Broker / Highly Sophisticated Banks: Cumulative Beta ≈ 0.44 - 0.46
 
 This pricing friction generates the **deposit franchise value**, which represents the intangible asset value accruing to a bank from its capacity to maintain sticky, low-cost retail deposits.19 Under zero-interest-rate regimes, the deposit franchise value approaches zero, but it expands significantly as policy rates rise—provided deposits remain stable.19
 
@@ -62,9 +62,9 @@ This digital migration forces banks to choose between two balance-sheet strains:
 
 ### **Deep Dive: Silicon Valley Bank (SVB) Pre-Run Insolvency Metrics**
 
-The structural fragility of a digital-broker model is illustrated by the collapse of Silicon Valley Bank (SVB) in March 2023\.19 In 2022, SVB held 173.1 billion USD in deposits and reported 2.2 billion USD in pre-tax income.19 Under its digital-broker parameters, SVB experienced an extreme rate of deposit franchise value erosion.19
+The structural fragility of a digital-broker model is illustrated by the collapse of Silicon Valley Bank (SVB) in March 2023.19 In 2022, SVB held 173.1 billion USD in deposits and reported 2.2 billion USD in pre-tax income.19 Under its digital-broker parameters, SVB experienced an extreme rate of deposit franchise value erosion.19
 
-Because of its razor-thin operating margins, if SVB had raised deposit rates by just 125 basis points to match the Fed's target rate hikes, its interest expenses would have wiped out its entire annual net profit.19 In fact, SVB's actual interest paid on deposits surged from 62 million USD in 2021 to 862 million USD in 2022\.19
+Because of its razor-thin operating margins, if SVB had raised deposit rates by just 125 basis points to match the Fed's target rate hikes, its interest expenses would have wiped out its entire annual net profit.19 In fact, SVB's actual interest paid on deposits surged from 62 million USD in 2021 to 862 million USD in 2022.19
 
 The bank’s deposit franchise value, when calculated with digital-broker parameters (which account for rapid outflows and higher betas), was 14% to 22% lower than that of a comparable traditional bank.19 This impairment eliminated the deposit franchise's natural role as an interest rate hedge, driving SVB into economic insolvency months before the actual retail run materialized.19
 
@@ -94,13 +94,13 @@ To manage this risk, modern states provide regulatory frameworks, liquidity back
 Post-2008 macroprudential regulation operates on the assumption that banking safety can be mathematically codified through capital and liquidity constraints.7 The primary pillars of this apparatus include:
 
 1. **Common Equity Tier 1 (CET1) Capital Ratio**: The ratio of high-quality loss-absorbing equity capital to Risk-Weighted Assets (RWA) 7:  
-   CET1 Ratio \= Common Equity Tier 1 Capital / Risk-Weighted Assets \>= 4.5% (plus macroprudential buffers) 7  
+   CET1 Ratio = Common Equity Tier 1 Capital / Risk-Weighted Assets >= 4.5% (plus macroprudential buffers) 7  
    Risk-weighted assets are calculated by multiplying specific asset categories by regulatory risk weights (e.g., 0% for sovereign debt, 50% for standard residential mortgages, 100% or higher for commercial corporate loans).7  
 2. **Liquidity Coverage Ratio (LCR)**: This short-term liquidity constraint requires banks to hold an adequate stock of unencumbered High-Quality Liquid Assets (HQLA)—such as central bank reserves and government bonds—that can be easily converted into cash to meet simulated cash outflows over a 30-day stress horizon 7:  
-   LCR \= Stock of HQLA / Total Net Cash Outflows over 30 Days \>= 100% 7  
+   LCR = Stock of HQLA / Total Net Cash Outflows over 30 Days >= 100% 7  
    A structural inefficiency of the LCR is that it functions as an unusable buffer.8 Because breaching the 100% threshold triggers severe regulatory and market penalties, banks must hoard an additional "usable" layer of liquidity above the statutory minimum, restricting their capacity to extend credit to the real economy during stress events.8  
 3. **Net Stable Funding Ratio (NSFR)**: A medium-to-long-term structural constraint designed to align the maturities of assets and liabilities over a one-year horizon 7:  
-   NSFR \= Available Stable Funding (ASF) / Required Stable Funding (RSF) \>= 100% 9  
+   NSFR = Available Stable Funding (ASF) / Required Stable Funding (RSF) >= 100% 9  
    Available Stable Funding (ASF) is calculated by applying stability factors to liabilities (e.g., regulatory capital receives a 100% factor; retail deposits receive a 90% to 95% factor).28 Required Stable Funding (RSF) applies liquidity factors to assets, forcing banks to back long-term loans and illiquid holdings with more stable, long-term liabilities.28
 
 ### **Underwriting Cycles and Credit Terms**
@@ -126,11 +126,11 @@ As regulatory capital constraints have tightened the perimeter of traditional co
 
 The primary liquidity engine of the shadow banking system is the repurchase agreement (repo) market.23 Repo functions as a collateralized loan where a borrower sells a security (typically a government bond or high-grade corporate asset) to a lender with a simultaneous agreement to buy it back at a premium on a future date.23 The difference between the asset's market value and the cash lent is the **haircut**, which reflects the collateral's liquidity and credit risk.24
 
-Cash Lent \= Market Value of Collateral \* (1 \- Haircut) 25
+Cash Lent = Market Value of Collateral * (1 - Haircut) 25
 
 The global sovereign repo market exceeds 16 trillion USD in outstanding trades, acting as the foundational pricing mechanism for financial system leverage.23 A critical feature of this market is the **rehypothecation** or reuse of collateral.23 A single Treasury bond can be pledged, received, and re-pledged multiple times across a chain of intermediaries to support multiple leverage transactions 23:
 
-Prime Broker \--\> Hedge Fund \--\> MMF \--\> Securities Lending \--\> Dealer
+Prime Broker --> Hedge Fund --> MMF --> Securities Lending --> Dealer
 
 These collateral chains are highly efficient during liquidity booms, but they create severe systemic fragility.23 Because repo and Credit Default Swaps (CDS) possess a privileged "safe harbor" status in bankruptcy—meaning they are exempt from the automatic stay that freezes assets during insolvency—creditors can immediately seize and liquidate collateral during a counterparty default.24
 
@@ -184,7 +184,7 @@ The table below maps the structural flow of credit risk, assets, and liquidity l
 
 The corporate financing landscape is divided into three major categories based on firm size, credit ratings, and capital market access 29:
 
-Large Investment-Grade Corporates (Public Bonds) \<--\> Leveraged / High-Yield Corporates (BSL / CLOs) \<--\> Middle-Market / Private Firms (Private Credit)
+Large Investment-Grade Corporates (Public Bonds) <--> Leveraged / High-Yield Corporates (BSL / CLOs) <--> Middle-Market / Private Firms (Private Credit)
 
 ### **The Syndicated and Leveraged Loan Markets**
 
@@ -194,7 +194,7 @@ As central banks raised interest rates in 2022–2023, the floating-rate structu
 
 ### **The Private Credit Channel**
 
-The expansion of **private credit** (non-bank direct lending to mid-sized businesses) has fundamentally transformed corporate capital routing, reaching an estimated 1.5 to 2.0 trillion USD globally at the end of 2024\.38
+The expansion of **private credit** (non-bank direct lending to mid-sized businesses) has fundamentally transformed corporate capital routing, reaching an estimated 1.5 to 2.0 trillion USD globally at the end of 2024.38
 
 This expansion is structurally linked to regulatory arbitrage.30 As Basel III capital requirements raised the risk weights on banks' leveraged loan holdings, banks withdrew from middle-market lending, leaving private credit funds to fill the gap.29
 
@@ -205,7 +205,7 @@ The systemic implications of private credit's growth are a subject of ongoing de
 * **The Stabilizing View**: Proponents argue that private credit enhances systemic stability because it is funded by long-term, closed-end LP commitments (e.g., from pensions and endowments) that cannot be withdrawn on demand.38 This locked-up capital eliminates classic bank-run risks.52 Furthermore, because private credit loans are negotiated bilaterally, managers can easily restructure debt terms and work directly with distressed borrowers, avoiding costly public bankruptcy liquidations.38  
 * **The Systemic Risk View**: Critics and regulators point out that private credit is characterized by significant valuation opacity and a lack of public disclosure.52 Loans are marked-to-model rather than marked-to-market, which hides credit deterioration.52 Furthermore, private credit borrowers are typically highly leveraged, with lower credit quality than public corporate bond issuers.52
 
-The systemic link to banks is not severed but transformed: banks provide massive subscription lines and NAV loans to private credit funds, which captured exposures ranging from 220 billion to 500 billion USD by late 2024\.30
+The systemic link to banks is not severed but transformed: banks provide massive subscription lines and NAV loans to private credit funds, which captured exposures ranging from 220 billion to 500 billion USD by late 2024.30
 
 Additionally, the widespread use of Payment-in-Kind (PIK) options—which allow borrowers to defer cash interest payments by adding them to the loan principal—hides emerging cash flow strains and delays necessary restructuring.37
 
@@ -230,9 +230,9 @@ The Commercial Real Estate (CRE) debt market, valued at 4.5 trillion USD in the 
 
 The CRE transmission channel is driven by a structural misalignment between borrowing costs and collateral valuations 41:
 
-Capitalization (Cap) Rate \= Net Operating Income (NOI) / Market Value of Property 40
+Capitalization (Cap) Rate = Net Operating Income (NOI) / Market Value of Property 40
 
-When central banks raised interest rates rapidly in 2022–2023, risk-free bond yields surged, forcing cap rates higher to preserve the equity risk premium.40 Under stable or declining Net Operating Income (NOI)—particularly in the office sector, which has been hit by secular remote-work shifts—higher cap rates drove property valuations down, with global CRE prices declining by 12% to 23% in 2023\.40
+When central banks raised interest rates rapidly in 2022–2023, risk-free bond yields surged, forcing cap rates higher to preserve the equity risk premium.40 Under stable or declining Net Operating Income (NOI)—particularly in the office sector, which has been hit by secular remote-work shifts—higher cap rates drove property valuations down, with global CRE prices declining by 12% to 23% in 2023.40
 
 When existing CRE loans mature, borrowers face an underwriting vise: the depreciated property value violates Loan-to-Value (LTV) limits, while higher interest rates compress Debt-Service Coverage Ratios (DSCR) below viable bank underwriting thresholds.40 This dynamics its smallest regional and community banks, which hold roughly 44% of their total loan portfolios in CRE debt, compared to just 13% for large multinational banks.42
 
@@ -252,7 +252,7 @@ Venture debt is then layered on top of this equity stack, typically structured a
 
 When monetary policy tightens, this funding model is disrupted by the **denominator effect** 45:
 
-Public Asset Correction \--\> LPs Over-Allocated to Private Equity/VC \--\> New Commitments Halted
+Public Asset Correction --> LPs Over-Allocated to Private Equity/VC --> New Commitments Halted
 
 As institutional LPs stop committing capital to venture funds, VC "dry powder" is hoarded rather than deployed.45 Startups face an abrupt contraction in priced equity rounds, leaving them unable to convert outstanding SAFEs or service fixed venture debt obligations.45
 
@@ -320,13 +320,13 @@ The leverage cycle is driven by the dynamic interaction of asset valuations, col
 
 This credit expansion supports additional asset purchases, driving valuations higher, validating loose underwriting assumptions, and compressing risk spreads in a self-reinforcing upward spiral.23
 
-Asset Valuations Up \--\> Collateral Appraisals Up \--\> Repo Haircuts Down \--\> Credit Availability Up \--\> Asset Demand Up
+Asset Valuations Up --> Collateral Appraisals Up --> Repo Haircuts Down --> Credit Availability Up --> Asset Demand Up
 
 The cycle reverses when a macroeconomic shock—such as a monetary tightening cycle—raises borrowing costs and depresses asset valuations.20 As collateral values fall, cash lenders in repo and wholesale markets raise haircuts to protect their capital.24
 
 This spike in haircuts forces leveraged borrowers to liquidate asset portfolios to meet margin calls, driving prices down further and triggering systemic margin spirals.23
 
-Asset Valuations Down \--\> Collateral Appraisals Down \--\> Repo Haircuts Up \--\> Margin Calls Up \--\> Forced Asset Sales Up
+Asset Valuations Down --> Collateral Appraisals Down --> Repo Haircuts Up --> Margin Calls Up --> Forced Asset Sales Up
 
 ### **Integrating Minskyan Postures with Modern Regulation**
 
@@ -355,7 +355,7 @@ The table below outlines the behavioral characteristics of the leverage cycle ac
 
 To analyze how credit is routed under changing macroeconomic regimes, we construct a conceptual **Credit Allocation Constraint Model**:
 
-Ac \= f(Db, Cs, Fc, Kr, Vc, Ecf, Rt, Lx, Bp)
+Ac = f(Db, Cs, Fc, Kr, Vc, Ecf, Rt, Lx, Bp)
 
 Where:
 
@@ -510,78 +510,78 @@ Through these inherited channels, Report G will demonstrate how changes in the c
 
 #### **Works cited**
 
-1. Credit Creation Theory of Banking \- The Economics Network, accessed May 11, 2026, [https://www.economicsnetwork.ac.uk/archive/starkey\_banking/](https://www.economicsnetwork.ac.uk/archive/starkey_banking/)  
-2. Money creation in the modern economy \- Bank of England, accessed May 11, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy](https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy)  
-3. Towards an institutional “landscape” view of modern money creation mechanisms and some reflections on their ecological significance \- PMC, accessed May 11, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC10064958/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10064958/)  
-4. Endorsing the Money-Creation View of Banking \- Rethinking Economics, accessed May 11, 2026, [https://rethinkeconomics.org/journal/endorsing-the-money-creation-view-of-banking/](https://rethinkeconomics.org/journal/endorsing-the-money-creation-view-of-banking/)  
+1. Credit Creation Theory of Banking - The Economics Network, accessed May 11, 2026, [https://www.economicsnetwork.ac.uk/archive/starkey_banking/](https://www.economicsnetwork.ac.uk/archive/starkey_banking/)  
+2. Money creation in the modern economy - Bank of England, accessed May 11, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy](https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy)  
+3. Towards an institutional “landscape” view of modern money creation mechanisms and some reflections on their ecological significance - PMC, accessed May 11, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC10064958/](https://pmc.ncbi.nlm.nih.gov/articles/PMC10064958/)  
+4. Endorsing the Money-Creation View of Banking - Rethinking Economics, accessed May 11, 2026, [https://rethinkeconomics.org/journal/endorsing-the-money-creation-view-of-banking/](https://rethinkeconomics.org/journal/endorsing-the-money-creation-view-of-banking/)  
 5. 2023 Risk Review Section 4 | FDIC, accessed May 11, 2026, [https://www.fdic.gov/analysis/risk-review/2023-risk-review/2023-risk-review-section-4.pdf](https://www.fdic.gov/analysis/risk-review/2023-risk-review/2023-risk-review-section-4.pdf)  
-6. Bank Funding and FHLB Advances \- Federal Reserve Bank of Kansas City, accessed May 11, 2026, [https://www.kansascityfed.org/research/economic-bulletin/bank-funding-and-fhlb-advances/](https://www.kansascityfed.org/research/economic-bulletin/bank-funding-and-fhlb-advances/)  
-7. Basel III \- Wikipedia, accessed May 11, 2026, [https://en.wikipedia.org/wiki/Basel\_III](https://en.wikipedia.org/wiki/Basel_III)  
+6. Bank Funding and FHLB Advances - Federal Reserve Bank of Kansas City, accessed May 11, 2026, [https://www.kansascityfed.org/research/economic-bulletin/bank-funding-and-fhlb-advances/](https://www.kansascityfed.org/research/economic-bulletin/bank-funding-and-fhlb-advances/)  
+7. Basel III - Wikipedia, accessed May 11, 2026, [https://en.wikipedia.org/wiki/Basel_III](https://en.wikipedia.org/wiki/Basel_III)  
 8. The Upside-Down World of the Liquidity Coverage Ratio: Some Unpleasant Arithmetic, accessed May 11, 2026, [https://bpi.com/the-upside-down-world-of-the-liquidity-coverage-ratio-some-unpleasant-arithmetic/](https://bpi.com/the-upside-down-world-of-the-liquidity-coverage-ratio-some-unpleasant-arithmetic/)  
-9. LCR and NSFR, banks' liquidity shield \- BBVA, accessed May 11, 2026, [https://www.bbva.com/en/economy-and-finance/lcr-and-nsfr-what-do-these-liquidity-ratios-stand-for/](https://www.bbva.com/en/economy-and-finance/lcr-and-nsfr-what-do-these-liquidity-ratios-stand-for/)  
+9. LCR and NSFR, banks' liquidity shield - BBVA, accessed May 11, 2026, [https://www.bbva.com/en/economy-and-finance/lcr-and-nsfr-what-do-these-liquidity-ratios-stand-for/](https://www.bbva.com/en/economy-and-finance/lcr-and-nsfr-what-do-these-liquidity-ratios-stand-for/)  
 10. GAO-26-107373, FEDERAL HOME LOAN BANKS: Role During Financial Stress and Members' Borrowing Trends and Outcomes, accessed May 11, 2026, [https://files.gao.gov/reports/GAO-26-107373/index.html](https://files.gao.gov/reports/GAO-26-107373/index.html)  
-11. Emergency Lending and Moral Hazard \- FDIC, accessed May 11, 2026, [https://www.fdic.gov/center-financial-research/john-kandrac-presentation.pdf](https://www.fdic.gov/center-financial-research/john-kandrac-presentation.pdf)  
+11. Emergency Lending and Moral Hazard - FDIC, accessed May 11, 2026, [https://www.fdic.gov/center-financial-research/john-kandrac-presentation.pdf](https://www.fdic.gov/center-financial-research/john-kandrac-presentation.pdf)  
 12. Bank Term Funding Program: Understanding Borrowing from the Federal Reserve Bank, accessed May 11, 2026, [https://www.hunton.com/blockchain-legal-resource/bank-term-funding-program-understanding-borrowing-from-the-federal-reserve-bank](https://www.hunton.com/blockchain-legal-resource/bank-term-funding-program-understanding-borrowing-from-the-federal-reserve-bank)  
-13. Bank Term Funding Program (BTFP) and Other Federal Reserve Support to Banking System in Turmoil \- EveryCRSReport.com, accessed May 11, 2026, [https://www.everycrsreport.com/reports/IN12134.html](https://www.everycrsreport.com/reports/IN12134.html)  
-14. Emergency Lending and Moral Hazard \- FDIC, accessed May 11, 2026, [https://www.fdic.gov/center-financial-research/emergency-lending-and-moral-hazard.pdf](https://www.fdic.gov/center-financial-research/emergency-lending-and-moral-hazard.pdf)  
+13. Bank Term Funding Program (BTFP) and Other Federal Reserve Support to Banking System in Turmoil - EveryCRSReport.com, accessed May 11, 2026, [https://www.everycrsreport.com/reports/IN12134.html](https://www.everycrsreport.com/reports/IN12134.html)  
+14. Emergency Lending and Moral Hazard - FDIC, accessed May 11, 2026, [https://www.fdic.gov/center-financial-research/emergency-lending-and-moral-hazard.pdf](https://www.fdic.gov/center-financial-research/emergency-lending-and-moral-hazard.pdf)  
 15. Bank Term Funding Program: Experience and Lessons Learned, accessed May 11, 2026, [https://bpi.com/bank-term-funding-program-experience-and-lessons-learned/](https://bpi.com/bank-term-funding-program-experience-and-lessons-learned/)  
-16. New Finance Support \- ebrd-restructuring.com, accessed May 11, 2026, [https://ebrd-restructuring.com/storage/uploads/r\_p\_documents/15148%20EBRD%20(New%20finance%20report%202023)%20ARTWORK\_digital\_HR.pdf](https://ebrd-restructuring.com/storage/uploads/r_p_documents/15148%20EBRD%20\(New%20finance%20report%202023\)%20ARTWORK_digital_HR.pdf)  
-17. Depositor Characteristics and Deposit Stability \- FDIC, accessed May 11, 2026, [https://www.fdic.gov/media/168196](https://www.fdic.gov/media/168196)  
-18. Why Banks Are Redesigning Their Deposit Strategies \- International Banker, accessed May 11, 2026, [https://internationalbanker.com/banking/why-banks-are-redesigning-their-deposit-strategies/](https://internationalbanker.com/banking/why-banks-are-redesigning-their-deposit-strategies/)  
-19. Destabilizing Digital "Bank Walks" \- NBER, accessed May 11, 2026, [https://www.nber.org/system/files/working\_papers/w32601/revisions/w32601.rev0.pdf](https://www.nber.org/system/files/working_papers/w32601/revisions/w32601.rev0.pdf)  
-20. Banking Sector Performance during two periods of sharply higher interest rates: 2022 and 2004 to 2006 \- FDIC, accessed May 11, 2026, [https://www.fdic.gov/analysis/quarterly-banking-profile/fdic-quarterly/2023-vol17-3/article1.pdf](https://www.fdic.gov/analysis/quarterly-banking-profile/fdic-quarterly/2023-vol17-3/article1.pdf)  
+16. New Finance Support - ebrd-restructuring.com, accessed May 11, 2026, [https://ebrd-restructuring.com/storage/uploads/r_p_documents/15148%20EBRD%20(New%20finance%20report%202023)%20ARTWORK_digital_HR.pdf](https://ebrd-restructuring.com/storage/uploads/r_p_documents/15148%20EBRD%20(New%20finance%20report%202023)%20ARTWORK_digital_HR.pdf)  
+17. Depositor Characteristics and Deposit Stability - FDIC, accessed May 11, 2026, [https://www.fdic.gov/media/168196](https://www.fdic.gov/media/168196)  
+18. Why Banks Are Redesigning Their Deposit Strategies - International Banker, accessed May 11, 2026, [https://internationalbanker.com/banking/why-banks-are-redesigning-their-deposit-strategies/](https://internationalbanker.com/banking/why-banks-are-redesigning-their-deposit-strategies/)  
+19. Destabilizing Digital "Bank Walks" - NBER, accessed May 11, 2026, [https://www.nber.org/system/files/working_papers/w32601/revisions/w32601.rev0.pdf](https://www.nber.org/system/files/working_papers/w32601/revisions/w32601.rev0.pdf)  
+20. Banking Sector Performance during two periods of sharply higher interest rates: 2022 and 2004 to 2006 - FDIC, accessed May 11, 2026, [https://www.fdic.gov/analysis/quarterly-banking-profile/fdic-quarterly/2023-vol17-3/article1.pdf](https://www.fdic.gov/analysis/quarterly-banking-profile/fdic-quarterly/2023-vol17-3/article1.pdf)  
 21. FDIC Quarterly Banking Profile, accessed May 11, 2026, [https://www.fdic.gov/quarterly-banking-profile/data-tables-q1-2025.pdf](https://www.fdic.gov/quarterly-banking-profile/data-tables-q1-2025.pdf)  
-22. Discount Window Stigma After the Global Financial Crisis \- Federal Reserve Bank of New York, accessed May 11, 2026, [https://www.newyorkfed.org/medialibrary/media/research/staff\_reports/sr1137.pdf](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1137.pdf)  
-23. FSB warns of financial stability challenges in repo markets \- Securities Finance Times, accessed May 11, 2026, [https://www.securitiesfinancetimes.com/securitieslendingnews/repoarticle.php?article\_id=228460](https://www.securitiesfinancetimes.com/securitieslendingnews/repoarticle.php?article_id=228460)  
-24. Regulation Shadow Banking FSB \- Financial Stability Board, accessed May 11, 2026, [https://www.fsb.org/uploads/c\_130129y.pdf](https://www.fsb.org/uploads/c_130129y.pdf)  
-25. Reflections on Northern Rock: The Bank Run that Heralded the Global Financial Crisis, accessed May 11, 2026, [https://www.bis.org/publ/shin\_2009.pdf](https://www.bis.org/publ/shin_2009.pdf)  
+22. Discount Window Stigma After the Global Financial Crisis - Federal Reserve Bank of New York, accessed May 11, 2026, [https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1137.pdf](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1137.pdf)  
+23. FSB warns of financial stability challenges in repo markets - Securities Finance Times, accessed May 11, 2026, [https://www.securitiesfinancetimes.com/securitieslendingnews/repoarticle.php?article_id=228460](https://www.securitiesfinancetimes.com/securitieslendingnews/repoarticle.php?article_id=228460)  
+24. Regulation Shadow Banking FSB - Financial Stability Board, accessed May 11, 2026, [https://www.fsb.org/uploads/c_130129y.pdf](https://www.fsb.org/uploads/c_130129y.pdf)  
+25. Reflections on Northern Rock: The Bank Run that Heralded the Global Financial Crisis, accessed May 11, 2026, [https://www.bis.org/publ/shin_2009.pdf](https://www.bis.org/publ/shin_2009.pdf)  
 26. Transforming Shadow Banking into Resilient Market-based Finance: Annex 1, accessed May 11, 2026, [https://www.fsb.org/uploads/P070920-2.pdf](https://www.fsb.org/uploads/P070920-2.pdf)  
-27. Is This Time Different: How Are Banks Performing during the Recent Interest Rate Increases Compared to 2004-2006? \- Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/is-this-time-different-how-are-banks-performing-during-the-rir-increases-compared-to-2004-2006-20240412.html](https://www.federalreserve.gov/econres/notes/feds-notes/is-this-time-different-how-are-banks-performing-during-the-rir-increases-compared-to-2004-2006-20240412.html)  
-28. Liquidity Adequacy Requirements (LAR) (2026) Chapter 3 – Net Stable Funding Ratio \- Office of the Superintendent of Financial Institutions \- OSFI, accessed May 11, 2026, [https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/liquidity-adequacy-requirements-lar-2026-chapter-3-net-stable-funding-ratio](https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/liquidity-adequacy-requirements-lar-2026-chapter-3-net-stable-funding-ratio)  
-29. Evolution of Debt Financing toward Less-Regulated Financial Intermediaries in the United States \- NBER, accessed May 11, 2026, [https://www.nber.org/system/files/working\_papers/w32114/w32114.pdf](https://www.nber.org/system/files/working_papers/w32114/w32114.pdf)  
+27. Is This Time Different: How Are Banks Performing during the Recent Interest Rate Increases Compared to 2004-2006? - Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/is-this-time-different-how-are-banks-performing-during-the-rir-increases-compared-to-2004-2006-20240412.html](https://www.federalreserve.gov/econres/notes/feds-notes/is-this-time-different-how-are-banks-performing-during-the-rir-increases-compared-to-2004-2006-20240412.html)  
+28. Liquidity Adequacy Requirements (LAR) (2026) Chapter 3 – Net Stable Funding Ratio - Office of the Superintendent of Financial Institutions - OSFI, accessed May 11, 2026, [https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/liquidity-adequacy-requirements-lar-2026-chapter-3-net-stable-funding-ratio](https://www.osfi-bsif.gc.ca/en/guidance/guidance-library/liquidity-adequacy-requirements-lar-2026-chapter-3-net-stable-funding-ratio)  
+29. Evolution of Debt Financing toward Less-Regulated Financial Intermediaries in the United States - NBER, accessed May 11, 2026, [https://www.nber.org/system/files/working_papers/w32114/w32114.pdf](https://www.nber.org/system/files/working_papers/w32114/w32114.pdf)  
 30. Private Credit Funds as Key Lenders in Subscription and NAV Lines: Market Insights, accessed May 11, 2026, [https://www.troutman.com/insights/private-credit-funds-as-key-lenders-in-subscription-and-nav-lines-market-insights/](https://www.troutman.com/insights/private-credit-funds-as-key-lenders-in-subscription-and-nav-lines-market-insights/)  
-31. Where Collateral Sleeps \- NBER, accessed May 11, 2026, [https://www.nber.org/system/files/working\_papers/w34266/w34266.pdf](https://www.nber.org/system/files/working_papers/w34266/w34266.pdf)  
-32. Challenges posed by the sovereign-bank loop in the EU \- Eurofi, accessed May 11, 2026, [https://www.eurofi.net/session/challenges-posed-by-the-sovereign-bank-loop-in-the-eu/](https://www.eurofi.net/session/challenges-posed-by-the-sovereign-bank-loop-in-the-eu/)  
+31. Where Collateral Sleeps - NBER, accessed May 11, 2026, [https://www.nber.org/system/files/working_papers/w34266/w34266.pdf](https://www.nber.org/system/files/working_papers/w34266/w34266.pdf)  
+32. Challenges posed by the sovereign-bank loop in the EU - Eurofi, accessed May 11, 2026, [https://www.eurofi.net/session/challenges-posed-by-the-sovereign-bank-loop-in-the-eu/](https://www.eurofi.net/session/challenges-posed-by-the-sovereign-bank-loop-in-the-eu/)  
 33. SOVEREIGN-BANK LOOP IN THE EU | Eurofi, accessed May 11, 2026, [https://www.eurofi.net/wp-content/uploads/2019/11/9.-sovereign-bank-loop-in-the-eu.pdf](https://www.eurofi.net/wp-content/uploads/2019/11/9.-sovereign-bank-loop-in-the-eu.pdf)  
-34. Basel III: the net stable funding ratio \- Bank for International Settlements, accessed May 11, 2026, [https://www.bis.org/bcbs/publ/d295.pdf](https://www.bis.org/bcbs/publ/d295.pdf)  
-35. Bank Leverage Ratios and Financial Stability: A Micro- and Macroprudential Perspective \- Levy Economics Institute of Bard College, accessed May 11, 2026, [https://www.levyinstitute.org/pubs/wp\_849.pdf](https://www.levyinstitute.org/pubs/wp_849.pdf)  
-36. Leveraged Bank Loans Primer \- NAIC, accessed May 11, 2026, [https://content.naic.org/sites/default/files/capital-markets-primer-leveraged-bank-loans.pdf](https://content.naic.org/sites/default/files/capital-markets-primer-leveraged-bank-loans.pdf)  
-37. Will CLO performance and leveraged finance trends diverge or align in 2026? \- Moody's, accessed May 11, 2026, [https://www.moodys.com/web/en/us/creditview/blog/leveraged-finance-and-clo-2026.html](https://www.moodys.com/web/en/us/creditview/blog/leveraged-finance-and-clo-2026.html)  
-38. Report on Vulnerabilities in Private Credit \- Financial Stability Board, accessed May 11, 2026, [https://www.fsb.org/uploads/P060526.pdf](https://www.fsb.org/uploads/P060526.pdf)  
+34. Basel III: the net stable funding ratio - Bank for International Settlements, accessed May 11, 2026, [https://www.bis.org/bcbs/publ/d295.pdf](https://www.bis.org/bcbs/publ/d295.pdf)  
+35. Bank Leverage Ratios and Financial Stability: A Micro- and Macroprudential Perspective - Levy Economics Institute of Bard College, accessed May 11, 2026, [https://www.levyinstitute.org/pubs/wp_849.pdf](https://www.levyinstitute.org/pubs/wp_849.pdf)  
+36. Leveraged Bank Loans Primer - NAIC, accessed May 11, 2026, [https://content.naic.org/sites/default/files/capital-markets-primer-leveraged-bank-loans.pdf](https://content.naic.org/sites/default/files/capital-markets-primer-leveraged-bank-loans.pdf)  
+37. Will CLO performance and leveraged finance trends diverge or align in 2026? - Moody's, accessed May 11, 2026, [https://www.moodys.com/web/en/us/creditview/blog/leveraged-finance-and-clo-2026.html](https://www.moodys.com/web/en/us/creditview/blog/leveraged-finance-and-clo-2026.html)  
+38. Report on Vulnerabilities in Private Credit - Financial Stability Board, accessed May 11, 2026, [https://www.fsb.org/uploads/P060526.pdf](https://www.fsb.org/uploads/P060526.pdf)  
 39. Bank Loans to NBFIs: Evidence of Specialization, Part I, accessed May 11, 2026, [https://www.philadelphiafed.org/the-economy/banking-and-financial-markets/bank-loans-to-nbfis-part1](https://www.philadelphiafed.org/the-economy/banking-and-financial-markets/bank-loans-to-nbfis-part1)  
 40. COMMERCIAL REAL ESTATE: Trends, Risks, and Federal Monitoring Efforts, accessed May 11, 2026, [https://www.gao.gov/assets/880/872054.pdf](https://www.gao.gov/assets/880/872054.pdf)  
 41. Special topic – CRE-related risks | European Banking Authority, accessed May 11, 2026, [https://www.eba.europa.eu/publications-and-media/publications/special-topic-cre-related-risks](https://www.eba.europa.eu/publications-and-media/publications/special-topic-cre-related-risks)  
 42. Commercial Real Estate Weighs on Regional Banks | Mellon Investments Corporation, accessed May 11, 2026, [https://www.mellon.com/insights/insights-articles/commercial-real-estate-debt-matures-amidst-policy-shifts.html](https://www.mellon.com/insights/insights-articles/commercial-real-estate-debt-matures-amidst-policy-shifts.html)  
 43. The CRE Market, Regional Banks, and Possible Recession | Western Asset Management, accessed May 11, 2026, [https://www.westernasset.com/us/en/pdfs/whitepapers/the-cre-market-regional-banks-and-possible-recession.pdf](https://www.westernasset.com/us/en/pdfs/whitepapers/the-cre-market-regional-banks-and-possible-recession.pdf)  
-44. The Fed \- A Note on Recent Dynamics of Consumer Delinquency Rates \- Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/a-note-on-recent-dynamics-of-consumer-delinquency-rates-20251124.html](https://www.federalreserve.gov/econres/notes/feds-notes/a-note-on-recent-dynamics-of-consumer-delinquency-rates-20251124.html)  
+44. The Fed - A Note on Recent Dynamics of Consumer Delinquency Rates - Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/a-note-on-recent-dynamics-of-consumer-delinquency-rates-20251124.html](https://www.federalreserve.gov/econres/notes/feds-notes/a-note-on-recent-dynamics-of-consumer-delinquency-rates-20251124.html)  
 45. Bridge rounds, SAFEs, and venture debt: How to stack capital without boxing yourself in, accessed May 11, 2026, [https://mercury.com/blog/bridge-rounds-safes-venture-debt-how-to-stack-capital](https://mercury.com/blog/bridge-rounds-safes-venture-debt-how-to-stack-capital)  
 46. Venture Debt for Startups: How Non-Dilutive Capital Works, accessed May 11, 2026, [https://www.moonshotnx.com/venture-debt-for-startups](https://www.moonshotnx.com/venture-debt-for-startups)  
-47. Venture Debt: How It Works, Costs & When to Use It \- Founderpath, accessed May 11, 2026, [https://founderpath.com/blog/venture-debt](https://founderpath.com/blog/venture-debt)  
-48. Understanding Priced Rounds vs SAFEs \- Carta, accessed May 11, 2026, [https://carta.com/learn/startups/fundraising/priced-rounds/](https://carta.com/learn/startups/fundraising/priced-rounds/)  
+47. Venture Debt: How It Works, Costs & When to Use It - Founderpath, accessed May 11, 2026, [https://founderpath.com/blog/venture-debt](https://founderpath.com/blog/venture-debt)  
+48. Understanding Priced Rounds vs SAFEs - Carta, accessed May 11, 2026, [https://carta.com/learn/startups/fundraising/priced-rounds/](https://carta.com/learn/startups/fundraising/priced-rounds/)  
 49. SAFE Rounds and Valuation Caps Explained: What Founders Need to Know Before Raising, accessed May 11, 2026, [https://www.finrofca.com/startup-qa/safe-rounds-valuation-caps-explained](https://www.finrofca.com/startup-qa/safe-rounds-valuation-caps-explained)  
-50. SHADOW BANKING \- CFA Institute, accessed May 11, 2026, [https://www.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/shadow-banking-policy-frameworks-investor-perspectives-market-based-finance.pdf](https://www.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/shadow-banking-policy-frameworks-investor-perspectives-market-based-finance.pdf)  
-51. Transformed Intermediation: Credit Risk to NBFIs, Liquidity Risk to ..., accessed May 11, 2026, [https://www.newyorkfed.org/medialibrary/media/research/staff\_reports/sr1176.pdf](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1176.pdf)  
-52. FSB warns on private credit vulnerabilities \- Financial Stability Board, accessed May 11, 2026, [https://www.fsb.org/2026/05/fsb-warns-on-private-credit-vulnerabilities/](https://www.fsb.org/2026/05/fsb-warns-on-private-credit-vulnerabilities/)  
-53. The Role of NAV Loans and How They Fit in GPs Financial Tool Kit | Data Analytics \- LSEG, accessed May 11, 2026, [https://www.lseg.com/en/data-analytics/investment-banking/lpc/podcast/lending-lowdown/episode-38-the-role-of-nav-loans-and-how-they-fit-in-gp-financial-tool-kit](https://www.lseg.com/en/data-analytics/investment-banking/lpc/podcast/lending-lowdown/episode-38-the-role-of-nav-loans-and-how-they-fit-in-gp-financial-tool-kit)  
-54. Buy Now, Pay Later: Policy Issues and Options for Congress \- EveryCRSReport.com, accessed May 11, 2026, [https://www.everycrsreport.com/reports/R48858.html](https://www.everycrsreport.com/reports/R48858.html)  
-55. Buy Now, Pay Later: Recent Developments and Implications | Richmond Fed, accessed May 11, 2026, [https://www.richmondfed.org/publications/research/economic\_brief/2026/eb\_26-05](https://www.richmondfed.org/publications/research/economic_brief/2026/eb_26-05)  
-56. Vulnerabilities in Non-bank Commercial Real Estate Investors \- Financial Stability Board, accessed May 11, 2026, [https://www.fsb.org/uploads/P190625.pdf](https://www.fsb.org/uploads/P190625.pdf)  
-57. Supply Chain Finance in Central Asia and Caucasus \- ADB Brief No. 250 \- Asian Development Bank, accessed May 11, 2026, [https://www.adb.org/sites/default/files/publication/891871/adb-brief-250-supply-chain-finance-central-asia.pdf](https://www.adb.org/sites/default/files/publication/891871/adb-brief-250-supply-chain-finance-central-asia.pdf)  
+50. SHADOW BANKING - CFA Institute, accessed May 11, 2026, [https://www.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/shadow-banking-policy-frameworks-investor-perspectives-market-based-finance.pdf](https://www.cfainstitute.org/sites/default/files/-/media/documents/article/position-paper/shadow-banking-policy-frameworks-investor-perspectives-market-based-finance.pdf)  
+51. Transformed Intermediation: Credit Risk to NBFIs, Liquidity Risk to ..., accessed May 11, 2026, [https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1176.pdf](https://www.newyorkfed.org/medialibrary/media/research/staff_reports/sr1176.pdf)  
+52. FSB warns on private credit vulnerabilities - Financial Stability Board, accessed May 11, 2026, [https://www.fsb.org/2026/05/fsb-warns-on-private-credit-vulnerabilities/](https://www.fsb.org/2026/05/fsb-warns-on-private-credit-vulnerabilities/)  
+53. The Role of NAV Loans and How They Fit in GPs Financial Tool Kit | Data Analytics - LSEG, accessed May 11, 2026, [https://www.lseg.com/en/data-analytics/investment-banking/lpc/podcast/lending-lowdown/episode-38-the-role-of-nav-loans-and-how-they-fit-in-gp-financial-tool-kit](https://www.lseg.com/en/data-analytics/investment-banking/lpc/podcast/lending-lowdown/episode-38-the-role-of-nav-loans-and-how-they-fit-in-gp-financial-tool-kit)  
+54. Buy Now, Pay Later: Policy Issues and Options for Congress - EveryCRSReport.com, accessed May 11, 2026, [https://www.everycrsreport.com/reports/R48858.html](https://www.everycrsreport.com/reports/R48858.html)  
+55. Buy Now, Pay Later: Recent Developments and Implications | Richmond Fed, accessed May 11, 2026, [https://www.richmondfed.org/publications/research/economic_brief/2026/eb_26-05](https://www.richmondfed.org/publications/research/economic_brief/2026/eb_26-05)  
+56. Vulnerabilities in Non-bank Commercial Real Estate Investors - Financial Stability Board, accessed May 11, 2026, [https://www.fsb.org/uploads/P190625.pdf](https://www.fsb.org/uploads/P190625.pdf)  
+57. Supply Chain Finance in Central Asia and Caucasus - ADB Brief No. 250 - Asian Development Bank, accessed May 11, 2026, [https://www.adb.org/sites/default/files/publication/891871/adb-brief-250-supply-chain-finance-central-asia.pdf](https://www.adb.org/sites/default/files/publication/891871/adb-brief-250-supply-chain-finance-central-asia.pdf)  
 58. What Is Trade Finance? A Detailed Guide for International Businesses | SUISSE BANK, accessed May 11, 2026, [https://www.suissebank.com/en/what-is-trade-finance-a-detailed-guide-for-international-businesses.html](https://www.suissebank.com/en/what-is-trade-finance-a-detailed-guide-for-international-businesses.html)  
-59. The role of supply chain finance (scf) platforms in mitigating financial risk and improving resilience \- American Institute of Mathematical Sciences, accessed May 11, 2026, [https://www.aimsciences.org/article/doi/10.3934/jdg.2026015?viewType=HTML](https://www.aimsciences.org/article/doi/10.3934/jdg.2026015?viewType=HTML)  
-60. Center for Microeconomic Data | Credit Cards and Auto Loans \- Federal Reserve Bank of New York, accessed May 11, 2026, [https://www.newyorkfed.org/microeconomics/topics/credit-cards-auto-loans](https://www.newyorkfed.org/microeconomics/topics/credit-cards-auto-loans)  
+59. The role of supply chain finance (scf) platforms in mitigating financial risk and improving resilience - American Institute of Mathematical Sciences, accessed May 11, 2026, [https://www.aimsciences.org/article/doi/10.3934/jdg.2026015?viewType=HTML](https://www.aimsciences.org/article/doi/10.3934/jdg.2026015?viewType=HTML)  
+60. Center for Microeconomic Data | Credit Cards and Auto Loans - Federal Reserve Bank of New York, accessed May 11, 2026, [https://www.newyorkfed.org/microeconomics/topics/credit-cards-auto-loans](https://www.newyorkfed.org/microeconomics/topics/credit-cards-auto-loans)  
 61. CFPB Publishes New Findings on Financial Profiles of Buy Now, Pay Later Borrowers, accessed May 11, 2026, [https://www.consumerfinance.gov/about-us/newsroom/cfpb-publishes-new-findings-on-financial-profiles-of-buy-now-pay-later-borrowers/](https://www.consumerfinance.gov/about-us/newsroom/cfpb-publishes-new-findings-on-financial-profiles-of-buy-now-pay-later-borrowers/)  
-62. Credit FAQ: What An Acceleration Of Quantitative Tightening Could Mean For Eurozone Banks \- S\&P Global, accessed May 11, 2026, [https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/12845076](https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/12845076)  
-63. Stabilisation policies to strengthen Euro Area resilience: OECD Economic Surveys, accessed May 11, 2026, [https://www.oecd.org/en/publications/oecd-economic-surveys-euro-area-2018\_eco\_surveys-euz-2018-en/full-report/component-6.html](https://www.oecd.org/en/publications/oecd-economic-surveys-euro-area-2018_eco_surveys-euz-2018-en/full-report/component-6.html)  
+62. Credit FAQ: What An Acceleration Of Quantitative Tightening Could Mean For Eurozone Banks - S&P Global, accessed May 11, 2026, [https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/12845076](https://www.spglobal.com/ratings/en/regulatory/article/-/view/sourceId/12845076)  
+63. Stabilisation policies to strengthen Euro Area resilience: OECD Economic Surveys, accessed May 11, 2026, [https://www.oecd.org/en/publications/oecd-economic-surveys-euro-area-2018_eco_surveys-euz-2018-en/full-report/component-6.html](https://www.oecd.org/en/publications/oecd-economic-surveys-euro-area-2018_eco_surveys-euz-2018-en/full-report/component-6.html)  
 64. “Doom Loop” Crises: The Sovereign-Banking Nexus and Implications for Country Risk Management | Columbia SIPA, accessed May 11, 2026, [https://www.sipa.columbia.edu/doom-loop-crises-sovereignbanking-nexus-and-implications-country-risk-management](https://www.sipa.columbia.edu/doom-loop-crises-sovereignbanking-nexus-and-implications-country-risk-management)  
-65. Breaking the vicious circle between banks and sovereigns for good \- Deutsche Bundesbank, accessed May 11, 2026, [https://www.bundesbank.de/en/press/contributions/breaking-the-vicious-circle-between-banks-and-sovereigns-for-good-942468](https://www.bundesbank.de/en/press/contributions/breaking-the-vicious-circle-between-banks-and-sovereigns-for-good-942468)  
-66. Financial Globalization: Culprit, Survivor or Casualty of the Great Crisis?, accessed May 11, 2026, [https://ycsg.yale.edu/sites/default/files/files/financial\_globalization.pdf](https://ycsg.yale.edu/sites/default/files/files/financial_globalization.pdf)  
-67. Managing the Sovereign-Bank Nexus \- International Monetary Fund, accessed May 11, 2026, [https://www.imf.org/-/media/files/publications/dp/2018/45133-dp1816-managing-the-sovereign-bank-nexus.pdf](https://www.imf.org/-/media/files/publications/dp/2018/45133-dp1816-managing-the-sovereign-bank-nexus.pdf)  
-68. SOVEREIGN AND BANKING RISKS: WHAT POLICIES?, accessed May 11, 2026, [https://european-economy.eu/wp-content/uploads/2016/07/EE\_2016\_2.pdf](https://european-economy.eu/wp-content/uploads/2016/07/EE_2016_2.pdf)  
-69. Regulating the doom loop \- European Banking Authority, accessed May 11, 2026, [https://www.eba.europa.eu/sites/default/files/documents/10180/2198067/391eef1b-517b-4090-b1b5-8ac1ee8897df/3\_S.%20Alogoskoufis%2C%20S.%20Langfield%20-%20Regulating%20the%20doom%20loop.pdf](https://www.eba.europa.eu/sites/default/files/documents/10180/2198067/391eef1b-517b-4090-b1b5-8ac1ee8897df/3_S.%20Alogoskoufis%2C%20S.%20Langfield%20-%20Regulating%20the%20doom%20loop.pdf)  
-70. BANK POLICY INSTITUTE, BRETT WAXMAN \- Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/apps/proposals/comments/FR-0000-0137-01-C117](https://www.federalreserve.gov/apps/proposals/comments/FR-0000-0137-01-C117)  
-71. BPI-Morgan Stanley Symposium on Money Markets \- Bank Policy Institute, accessed May 11, 2026, [https://bpi.com/bpi-morgan-stanley-symposium-on-money-markets/](https://bpi.com/bpi-morgan-stanley-symposium-on-money-markets/)  
-72. the Role of liquidity in financial crises \- Federal Reserve Bank of Kansas City, accessed May 11, 2026, [https://www.kansascityfed.org/Jackson%20Hole/documents/3172/2008-allenandcarletti031209.pdf](https://www.kansascityfed.org/Jackson%20Hole/documents/3172/2008-allenandcarletti031209.pdf)  
-73. Full article: Examining modern money creation: An institution-centered explanation and visualization of the “credit theory” of money and some reflections on its significance \- Taylor & Francis, accessed May 11, 2026, [https://www.tandfonline.com/doi/full/10.1080/00220485.2022.2075510](https://www.tandfonline.com/doi/full/10.1080/00220485.2022.2075510)
+65. Breaking the vicious circle between banks and sovereigns for good - Deutsche Bundesbank, accessed May 11, 2026, [https://www.bundesbank.de/en/press/contributions/breaking-the-vicious-circle-between-banks-and-sovereigns-for-good-942468](https://www.bundesbank.de/en/press/contributions/breaking-the-vicious-circle-between-banks-and-sovereigns-for-good-942468)  
+66. Financial Globalization: Culprit, Survivor or Casualty of the Great Crisis?, accessed May 11, 2026, [https://ycsg.yale.edu/sites/default/files/files/financial_globalization.pdf](https://ycsg.yale.edu/sites/default/files/files/financial_globalization.pdf)  
+67. Managing the Sovereign-Bank Nexus - International Monetary Fund, accessed May 11, 2026, [https://www.imf.org/-/media/files/publications/dp/2018/45133-dp1816-managing-the-sovereign-bank-nexus.pdf](https://www.imf.org/-/media/files/publications/dp/2018/45133-dp1816-managing-the-sovereign-bank-nexus.pdf)  
+68. SOVEREIGN AND BANKING RISKS: WHAT POLICIES?, accessed May 11, 2026, [https://european-economy.eu/wp-content/uploads/2016/07/EE_2016_2.pdf](https://european-economy.eu/wp-content/uploads/2016/07/EE_2016_2.pdf)  
+69. Regulating the doom loop - European Banking Authority, accessed May 11, 2026, [https://www.eba.europa.eu/sites/default/files/documents/10180/2198067/391eef1b-517b-4090-b1b5-8ac1ee8897df/3_S.%20Alogoskoufis%2C%20S.%20Langfield%20-%20Regulating%20the%20doom%20loop.pdf](https://www.eba.europa.eu/sites/default/files/documents/10180/2198067/391eef1b-517b-4090-b1b5-8ac1ee8897df/3_S.%20Alogoskoufis%2C%20S.%20Langfield%20-%20Regulating%20the%20doom%20loop.pdf)  
+70. BANK POLICY INSTITUTE, BRETT WAXMAN - Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/apps/proposals/comments/FR-0000-0137-01-C117](https://www.federalreserve.gov/apps/proposals/comments/FR-0000-0137-01-C117)  
+71. BPI-Morgan Stanley Symposium on Money Markets - Bank Policy Institute, accessed May 11, 2026, [https://bpi.com/bpi-morgan-stanley-symposium-on-money-markets/](https://bpi.com/bpi-morgan-stanley-symposium-on-money-markets/)  
+72. the Role of liquidity in financial crises - Federal Reserve Bank of Kansas City, accessed May 11, 2026, [https://www.kansascityfed.org/Jackson%20Hole/documents/3172/2008-allenandcarletti031209.pdf](https://www.kansascityfed.org/Jackson%20Hole/documents/3172/2008-allenandcarletti031209.pdf)  
+73. Full article: Examining modern money creation: An institution-centered explanation and visualization of the “credit theory” of money and some reflections on its significance - Taylor & Francis, accessed May 11, 2026, [https://www.tandfonline.com/doi/full/10.1080/00220485.2022.2075510](https://www.tandfonline.com/doi/full/10.1080/00220485.2022.2075510)
 
 ---

@@ -1,6 +1,6 @@
 #  [KNOWLEDGE] - Macroeconomics - Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality
 
-[Table of Contents]
+[Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality]
 - [A. Monetary Ontology & Economic Reality Models](#a-monetary-ontology--economic-reality-models--the-nature-of-money-credit-collateral-and-financial-abstraction)
 - [B. Liquidity Physics & Global Capital Flow Dynamics](#b-liquidity-physics-and-global-capital-flow-dynamics--the-mechanics-of-liquidity-creation-destruction-and-transmission-across-financial-systems)
 - [C. Macro-Causal Architecture & Economic Regime Theory](#c-macro-causal-architecture--economic-regime-theory--a-systems-level-framework-for-economic-cycles-regime-shifts-and-structural-transitions)
@@ -95,21 +95,21 @@ They do not settle in central bank money.10 Instead, they settle on public or pr
 
 The monetary system is hierarchical, meaning that what functions as money at one layer of the system represents credit to the layer above it.1 This structure can be visualized as a symmetric pyramid built on a credit-to-money axis.
 
-                  /\\   
-                 /  \\  (Ultimate Money)   
-                /----\\  
-               /      \\  
-              /        \\ (Money to Commercial Banks; Credit to Central Bank)   
-             /----------\\  
-            /            \\  
-           /              \\ (Money to Retail Public; Credit to Banks) \[5, 7, 9\]  
-          /----------------\\  
-         /                  \\  
-        /                    \\ (Credit Instruments / Shadow Monies) \[4, 22, 23, 25\]  
-       /----------------------\\  
-      /                        \\ \[Lines of Credit / Unsecured Promises\]  
-     /                          \\ (Pure Credit Promises / Off-Balance Sheet) \[5, 33\]  
-    /----------------------------\\
+                  /\   
+                 /  \  (Ultimate Money)   
+                /----\  
+               /      \  
+              /        \ (Money to Commercial Banks; Credit to Central Bank)   
+             /----------\  
+            /            \  
+           /              \ (Money to Retail Public; Credit to Banks) [5, 7, 9]  
+          /----------------\  
+         /                  \  
+        /                    \ (Credit Instruments / Shadow Monies) [4, 22, 23, 25]  
+       /----------------------\  
+      /                        \ [Lines of Credit / Unsecured Promises]  
+     /                          \ (Pure Credit Promises / Off-Balance Sheet) [5, 33]  
+    /----------------------------\
 
 The position of any asset within this hierarchy is determined by its liquidity and convertibility—specifically, the ease and speed with which it can be converted into the ultimate asset of final settlement without a loss of value.1 Under this framework:
 
@@ -131,20 +131,20 @@ To trace these dynamics, one must examine the relationships between the balance 
 
 Central Bank Balance Sheet  
 Assets | Liabilities  
-\-------------------------------------+-------------------------------------  
+-------------------------------------+-------------------------------------  
 Sovereign Securities / Gold  | Central Bank Reserves (Bank Assets)   
 Loans to Banks (Discounts) | Currency in Circulation 
 
 Commercial Banking System Balance Sheet  
 Assets | Liabilities  
-\-------------------------------------+-------------------------------------  
+-------------------------------------+-------------------------------------  
 Central Bank Reserves  | Private Sector Deposits (Money)   
 Sovereign Debt (Treasuries)  | Central Bank Discount Loans  
 Private Sector Loans  | Net Worth (Equity / Capital) 
 
 Private Sector (Non-Bank) Balance Sheet  
 Assets | Liabilities  
-\-------------------------------------+-------------------------------------  
+-------------------------------------+-------------------------------------  
 Bank Deposits (Inside Money)  | Private Sector Loans (IOUs to Banks)   
 Sovereign Debt (Treasuries)  | Private Debt Securities Issued  
 Capital Goods / Real Estate | Net Worth (Equity) 
@@ -167,13 +167,13 @@ At that moment, new broad money (inside money) is created.7 The bank's assets ex
 
 Commercial Bank Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\+ $500,000 (Loan Asset: Borrower's IOU) | \+ $500,000 (Deposit Liability: Bank's IOU) 
+------------------------------------------+------------------------------------------  
++ $500,000 (Loan Asset: Borrower's IOU) | + $500,000 (Deposit Liability: Bank's IOU) 
 
 Borrower's Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\+ $500,000 (Deposit Asset: Bank's IOU) | \+ $500,000 (Loan Liability: Borrower's IOU) 
+------------------------------------------+------------------------------------------  
++ $500,000 (Deposit Asset: Bank's IOU) | + $500,000 (Loan Liability: Borrower's IOU) 
 
 At the moment of credit creation, no change in central bank reserves occurs.8 The bank's capacity to create this loan is constrained by its capital adequacy ratios, risk tolerance, and the availability of creditworthy borrowers, not by its reserve holdings.7
 
@@ -183,13 +183,13 @@ Although a bank can create deposits through lending, it faces a liquidity constr
 
 Bank A Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\- $500,000 (Reserves at Central Bank) | \- $500,000 (Borrower's Deposit Liability)
+------------------------------------------+------------------------------------------  
+- $500,000 (Reserves at Central Bank) | - $500,000 (Borrower's Deposit Liability)
 
 Bank B Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\+ $500,000 (Reserves at Central Bank) | \+ $500,000 (Seller's Deposit Liability)
+------------------------------------------+------------------------------------------  
++ $500,000 (Reserves at Central Bank) | + $500,000 (Seller's Deposit Liability)
 
 In this transaction, the receiving bank (Bank B) gains reserves, while the transferring bank (Bank A) loses them.8 For the banking system as a whole, the total volume of central bank reserves remains unchanged.8
 
@@ -201,8 +201,8 @@ Just as lending creates money, the repayment of bank loans destroys money.7 When
 
 Commercial Bank Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\- $500,000 (Loan Asset)  | \- $500,000 (Deposit Liability) 
+------------------------------------------+------------------------------------------  
+- $500,000 (Loan Asset)  | - $500,000 (Deposit Liability) 
 
 ### **Quantitative Easing (QE) as an Asset Swap**
 
@@ -212,19 +212,19 @@ When the central bank purchases a sovereign bond from a non-bank financial insti
 
 Central Bank Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\+ $1,000,000 (Sovereign Securities)  | \+ $1,000,000 (Reserves owed to Bank A) 
+------------------------------------------+------------------------------------------  
++ $1,000,000 (Sovereign Securities)  | + $1,000,000 (Reserves owed to Bank A) 
 
 Commercial Bank (Bank A) Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\+ $1,000,000 (Reserves at Central Bank) | \+ $1,000,000 (Pension Fund Deposits) 
+------------------------------------------+------------------------------------------  
++ $1,000,000 (Reserves at Central Bank) | + $1,000,000 (Pension Fund Deposits) 
 
 Pension Fund Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
-\- $1,000,000 (Sovereign Securities) | No Change  
-\+ $1,000,000 (Deposits at Bank A) |
+------------------------------------------+------------------------------------------  
+- $1,000,000 (Sovereign Securities) | No Change  
++ $1,000,000 (Deposits at Bank A) |
 
 This transaction increases both the volume of reserves in the banking system and the volume of commercial bank deposits held by the public.7 The reserves created are locked within the central bank’s settlement system and cannot be directly lent to households or non-bank businesses.8
 
@@ -240,7 +240,7 @@ Eurodollars are unsecured U.S. dollar-denominated deposit liabilities booked at 
 
 Offshore Bank (Eurobank) Balance Sheet  
 Assets | Liabilities  
-\------------------------------------------+------------------------------------------  
+------------------------------------------+------------------------------------------  
 Loans to Foreign Corporations (USD) | Eurodollar Time Deposits (USD)   
 Clearing Balances at US Banks (USD) | Interbank Eurodollar Borrowing 
 
@@ -262,7 +262,7 @@ The offshore dollar system has been reshaped by regulatory changes since the Gre
 
 * **Dodd-Frank Resolution Plans ("Living Wills")**: Mandated that global banks simplify their corporate structures to facilitate orderly resolution in a crisis.20 This prompted FBOs to wind down offshore Caribbean booking entities, moving their Eurodollar borrowing onshore to U.S. branches.20  
 * **Repeal of Regulation Q (2011)**: Eliminated the historical prohibition on banks paying interest on demand deposits, facilitating the creation of economically equivalent onshore "selected deposits".20  
-* **Elimination of Reserve Requirements (2020)**: In March 2020, the Federal Reserve reduced reserve requirement ratios to zero percent.20 Prior to this, selected deposits required reserve holdings, while Eurodollar deposits did not.20 The elimination of this reserve requirement removed the final cost differential, prompting selected deposits to overtake Eurodollars, accounting for 85% of the combined overnight volume by 2022\.20
+* **Elimination of Reserve Requirements (2020)**: In March 2020, the Federal Reserve reduced reserve requirement ratios to zero percent.20 Prior to this, selected deposits required reserve holdings, while Eurodollar deposits did not.20 The elimination of this reserve requirement removed the final cost differential, prompting selected deposits to overtake Eurodollars, accounting for 85% of the combined overnight volume by 2022.20
 
 ### **FX Swaps and Central Bank Liquidity Swap Lines**
 
@@ -275,14 +275,14 @@ Under Covered Interest Parity (CIP), the forward premium should offset the inter
 To alleviate these funding pressures, the Federal Reserve utilizes a network of central bank liquidity swap lines.9
 
 Federal Reserve Balance Sheet | Bank of Japan Balance Sheet  
-\------------------------------------------+------------------------------------------  
-Assets: \+ JPY Reserves (at BoJ) \[9\] | Assets: \+ USD Reserves (at Fed) \[9\]  
-Liabilities: \+ USD Reserves (owed to BoJ) | Liabilities: \+ JPY Reserves (owed to Fed) \[9\]
+------------------------------------------+------------------------------------------  
+Assets: + JPY Reserves (at BoJ) [9] | Assets: + USD Reserves (at Fed) [9]  
+Liabilities: + USD Reserves (owed to BoJ) | Liabilities: + JPY Reserves (owed to Fed) [9]
 
 Bank of Japan Balance Sheet | Commercial Bank Balance Sheet  
-\------------------------------------------+------------------------------------------  
-Assets: \- USD Reserves (at Fed) | Assets: \+ USD Reserves (at Fed)  
-Assets: \+ Domestic Collateral (from Bank) | Liabilities: \+ JPY Collateral / IOU to BoJ
+------------------------------------------+------------------------------------------  
+Assets: - USD Reserves (at Fed) | Assets: + USD Reserves (at Fed)  
+Assets: + Domestic Collateral (from Bank) | Liabilities: + JPY Collateral / IOU to BoJ
 
 At initiation, the Fed exchanges U.S. dollars for the foreign central bank's currency at the spot rate, with an agreement to reverse the transaction at the same rate in the future.9 The foreign central bank then distributes these dollars to local commercial banks via auctions.9 The foreign central bank bears the credit risk of the local loans and guarantees the return of dollars to the Fed, shielding the Fed from counterparty credit risk.30
 
@@ -307,11 +307,11 @@ The capacity of the financial system to intermediate credit is dependent on coll
 
 Analogous to the money multiplier, where the reserve ratio determines the theoretical limit of deposit expansion, the haircut (the percentage reduction applied to the market value of collateral to shield lenders from price volatility) acts as the reserve ratio in the collateral chain.23 The length of the collateral chain represents the multiplier.23
 
-Theoretical Collateral Multiplier \= 1 / Haircut
+Theoretical Collateral Multiplier = 1 / Haircut
 
 The aggregate volume of collateral-backed credit is determined by:
 
-Aggregate Secured Credit \= Source Collateral \* Collateral Velocity 23
+Aggregate Secured Credit = Source Collateral * Collateral Velocity 23
 
 Under normal market conditions, collateral velocity typically ranges between 2.5 and 3.0.27 However, this velocity is highly sensitive to counterparty risk.39
 
@@ -338,7 +338,7 @@ The vulnerability of collateralized markets to sudden, non-linear contractions i
 
 Because traders must finance the difference between the purchase price of a security and its collateral value using their own capital, their trading capacity is bounded by their available equity and the margin (haircut) charged by financiers.40
 
-Total Margin Commitment \= Sum over i of (Position Size\_i \* Haircut\_i) \<= Speculator Capital 40
+Total Margin Commitment = Sum over i of (Position Size_i * Haircut_i) <= Speculator Capital 40
 
 When funding conditions tighten or a negative asset price shock occurs, two reinforcing feedback loops—the margin spiral and the loss spiral—can trigger a systemic liquidity crisis 40:
 
@@ -355,7 +355,7 @@ Following the Great Financial Crisis, international banking regulators introduce
 
 The Leverage Ratio acts as a non-risk-weighted capital backstop.33 Under risk-weighted assets (RWA) frameworks, banks can hold massive volumes of sovereign bonds or low-risk mortgages with very little capital backing because their risk weights are near zero.33 The leverage ratio acts as a floor, ensuring that a bank holds a minimum level of loss-absorbing capital against its total on-balance-sheet and off-balance-sheet exposures, regardless of perceived risk.33
 
-Leverage Ratio \= Tier 1 Capital / Total Leverage Exposure \>= 3.0% 33
+Leverage Ratio = Tier 1 Capital / Total Leverage Exposure >= 3.0% 33
 
 (Note: Under U.S. regulations, the minimum requirement is 5.0% for large systemically important bank holding companies and 6.0% for their insured depository institutions).43
 
@@ -365,7 +365,7 @@ Because the denominator includes the gross, non-netted value of securities finan
 
 The LCR is a short-term, 30-day survival test designed to ensure banks maintain an adequate stock of unencumbered High-Quality Liquid Assets (HQLA) that can be easily converted into cash to meet net cash outflows during an acute stress scenario.33
 
-LCR \= Stock of HQLA / Total Net Cash Outflows over 30 days \>= 100% 33
+LCR = Stock of HQLA / Total Net Cash Outflows over 30 days >= 100% 33
 
 HQLA is categorized into three tiers, reflecting differing liquidity profiles:
 
@@ -381,7 +381,7 @@ Crucially, borrowing from Federal Home Loan Banks (FHLBs) carries a lower LCR ru
 
 While the LCR addresses short-term shocks, the NSFR targets structural funding mismatches over a one-year horizon, encouraging banks to fund long-term assets with long-term, stable liabilities.33
 
-NSFR \= Available Stable Funding (ASF) / Required Stable Funding (RSF) \>= 100% 33
+NSFR = Available Stable Funding (ASF) / Required Stable Funding (RSF) >= 100% 33
 
 * **Available Stable Funding (ASF)**: The portion of capital and liabilities expected to be reliable over a one-year horizon, calculated by multiplying the carrying value of liabilities by regulatory weights (e.g., regulatory capital and long-term debt receive a 100% ASF weight, while unstable wholesale funding receives 0%).42  
 * **Required Stable Funding (RSF)**: A function of the liquidity characteristics and residual maturities of the bank's assets.42 Highly liquid Level 1 assets require little or no stable funding (0% to 5% RSF weight), whereas long-term unrated loans and non-performing assets require 100% stable funding.44
@@ -404,7 +404,7 @@ The international monetary system remains structurally dollar-centric, though th
 
 ### **De-Dollarization Trends and IMF COFER Revisions**
 
-According to the International Monetary Fund's Currency Composition of Official Foreign Exchange Reserves (COFER) survey, global exchange reserves totaled $13.14 trillion in the fourth quarter of 2025\.32 The U.S. dollar maintains its position at the apex of the reserve hierarchy, though its share has experienced a gradual, long-term decline.32
+According to the International Monetary Fund's Currency Composition of Official Foreign Exchange Reserves (COFER) survey, global exchange reserves totaled $13.14 trillion in the fourth quarter of 2025.32 The U.S. dollar maintains its position at the apex of the reserve hierarchy, though its share has experienced a gradual, long-term decline.32
 
 | Reserve Currency | Q4 2025 Share (%) | Q3 2025 Share (%) | Q1 2025 Share (%) | Structural Trend |
 | :---- | :---- | :---- | :---- | :---- |
@@ -412,7 +412,7 @@ According to the International Monetary Fund's Currency Composition of Official 
 | **Euro (EUR)** | 20.25% | 20.33% | 20.06% | Stable, secondary reserve asset.32 |
 | **Chinese Renminbi (RMB)** | 1.95% | 1.93% | 2.12% | Flat to declining; limited by capital account controls.32 |
 | **Identified Others (JPY, GBP, AUD, CAD, CHF)** | 14.90% | 15.18% | 20.10% (Combined) | Gradual diversification into liquid G10 currencies.32 |
-| **Unidentified Other Currencies** | 6.13% | 5.61% | Not separately tracked | Rapid, non-linear growth; doubling since 2021\.32 |
+| **Unidentified Other Currencies** | 6.13% | 5.61% | Not separately tracked | Rapid, non-linear growth; doubling since 2021.32 |
 
 The decline in the USD share is not primarily a shift toward major competitors like the Euro or Renminbi, but represents a diversification into smaller, non-traditional currencies.32
 
@@ -537,55 +537,55 @@ Report B will focus on:
 
 #### **Works cited**
 
-1. Promises All the Way Down: A Primer on the Money View \- LPE ..., accessed May 10, 2026, [https://lpeproject.org/blog/promises-all-the-way-down-a-primer-on-the-money-view/](https://lpeproject.org/blog/promises-all-the-way-down-a-primer-on-the-money-view/)  
-2. ELI5: What exactly does Perry Mehrling's "Money View" theory explain about financial markets? \- Reddit, accessed May 10, 2026, [https://www.reddit.com/r/explainlikeimfive/comments/ffhwhl/eli5\_what\_exactly\_does\_perry\_mehrlings\_money\_view/](https://www.reddit.com/r/explainlikeimfive/comments/ffhwhl/eli5_what_exactly_does_perry_mehrlings_money_view/)  
-3. Money in the modern economy: an introduction \- Quarterly Bulletin \- YouTube, accessed May 10, 2026, [https://www.youtube.com/watch?v=ziTE32hiWdk](https://www.youtube.com/watch?v=ziTE32hiWdk)  
-4. 2\. Natural Hierarchy of Money, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/01/Lec-02-The-Natural-Hierarchy-of-Money.pdf](https://sites.bu.edu/perry/files/2019/01/Lec-02-The-Natural-Hierarchy-of-Money.pdf)  
-5. The Inherent Hierarchy of Money \- Boston University, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/04/Mehrling\_P\_FESeminar\_Sp12-02.pdf](https://sites.bu.edu/perry/files/2019/04/Mehrling_P_FESeminar_Sp12-02.pdf)  
-6. The Inherent Hierarchy of Money, accessed May 10, 2026, [http://qiniu.swarma.org/course/document/2\_The-Inherent-Hierarchy-of-Money.pdf](http://qiniu.swarma.org/course/document/2_The-Inherent-Hierarchy-of-Money.pdf)  
-7. Money creation in the modern economy \- American Monetary Institute, accessed May 10, 2026, [https://monetary.org/pdfs/money-creation-in-the-modern-economy.pdf](https://monetary.org/pdfs/money-creation-in-the-modern-economy.pdf)  
-8. Money creation in the modern economy \- Bank of England, accessed May 10, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy](https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy)  
-9. Central bank swap lines and cross- border bank flows \- Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/publ/bisbull34.pdf](https://www.bis.org/publ/bisbull34.pdf)  
-10. Central bank money settlement of wholesale transactions in the face of technological innovation, accessed May 10, 2026, [https://www.ecb.europa.eu/press/economic-bulletin/articles/2024/html/ecb.ebart202308\_01\~d9a13e1609.en.html](https://www.ecb.europa.eu/press/economic-bulletin/articles/2024/html/ecb.ebart202308_01~d9a13e1609.en.html)  
-11. Market Liquidity and Funding Liquidity \- Markus K. Brunnermeier \- Princeton University, accessed May 10, 2026, [https://markus.scholar.princeton.edu/publications/market-liquidity-and-funding-liquidity](https://markus.scholar.princeton.edu/publications/market-liquidity-and-funding-liquidity)  
+1. Promises All the Way Down: A Primer on the Money View - LPE ..., accessed May 10, 2026, [https://lpeproject.org/blog/promises-all-the-way-down-a-primer-on-the-money-view/](https://lpeproject.org/blog/promises-all-the-way-down-a-primer-on-the-money-view/)  
+2. ELI5: What exactly does Perry Mehrling's "Money View" theory explain about financial markets? - Reddit, accessed May 10, 2026, [https://www.reddit.com/r/explainlikeimfive/comments/ffhwhl/eli5_what_exactly_does_perry_mehrlings_money_view/](https://www.reddit.com/r/explainlikeimfive/comments/ffhwhl/eli5_what_exactly_does_perry_mehrlings_money_view/)  
+3. Money in the modern economy: an introduction - Quarterly Bulletin - YouTube, accessed May 10, 2026, [https://www.youtube.com/watch?v=ziTE32hiWdk](https://www.youtube.com/watch?v=ziTE32hiWdk)  
+4. 2. Natural Hierarchy of Money, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/01/Lec-02-The-Natural-Hierarchy-of-Money.pdf](https://sites.bu.edu/perry/files/2019/01/Lec-02-The-Natural-Hierarchy-of-Money.pdf)  
+5. The Inherent Hierarchy of Money - Boston University, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/04/Mehrling_P_FESeminar_Sp12-02.pdf](https://sites.bu.edu/perry/files/2019/04/Mehrling_P_FESeminar_Sp12-02.pdf)  
+6. The Inherent Hierarchy of Money, accessed May 10, 2026, [http://qiniu.swarma.org/course/document/2_The-Inherent-Hierarchy-of-Money.pdf](http://qiniu.swarma.org/course/document/2_The-Inherent-Hierarchy-of-Money.pdf)  
+7. Money creation in the modern economy - American Monetary Institute, accessed May 10, 2026, [https://monetary.org/pdfs/money-creation-in-the-modern-economy.pdf](https://monetary.org/pdfs/money-creation-in-the-modern-economy.pdf)  
+8. Money creation in the modern economy - Bank of England, accessed May 10, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy](https://www.bankofengland.co.uk/-/media/boe/files/quarterly-bulletin/2014/money-creation-in-the-modern-economy)  
+9. Central bank swap lines and cross- border bank flows - Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/publ/bisbull34.pdf](https://www.bis.org/publ/bisbull34.pdf)  
+10. Central bank money settlement of wholesale transactions in the face of technological innovation, accessed May 10, 2026, [https://www.ecb.europa.eu/press/economic-bulletin/articles/2024/html/ecb.ebart202308_01~d9a13e1609.en.html](https://www.ecb.europa.eu/press/economic-bulletin/articles/2024/html/ecb.ebart202308_01~d9a13e1609.en.html)  
+11. Market Liquidity and Funding Liquidity - Markus K. Brunnermeier - Princeton University, accessed May 10, 2026, [https://markus.scholar.princeton.edu/publications/market-liquidity-and-funding-liquidity](https://markus.scholar.princeton.edu/publications/market-liquidity-and-funding-liquidity)  
 12. Metallism vs Chartalism, accessed May 10, 2026, [http://wfhummel.net/metallismchartalism.html](http://wfhummel.net/metallismchartalism.html)  
 13. Not a big fan of the metallist vs chartalist debate on the origins and nature of money, accessed May 10, 2026, [https://www.moneyness.ca/2012/12/not-big-fan-of-metallist-vs-chartalist.html](https://www.moneyness.ca/2012/12/not-big-fan-of-metallist-vs-chartalist.html)  
-14. THE HIERARCHY OF MONEY by \- Stephanie Bell \- Levy Economics Institute of Bard College, accessed May 10, 2026, [https://www.levyinstitute.org/pubs/wp/231.pdf](https://www.levyinstitute.org/pubs/wp/231.pdf)  
-15. 20.2 – Money's Origin Stories – Principles of Economics: Scarcity and Social Provisioning (3rd Ed.) \- Open Oregon Educational Resources, accessed May 10, 2026, [https://openoregon.pressbooks.pub/socialprovisioning3/chapter/25-1-the-metallist-and-the-barter-myth/](https://openoregon.pressbooks.pub/socialprovisioning3/chapter/25-1-the-metallist-and-the-barter-myth/)  
-16. Bank of England on Money and Money Creation in the Modern Economy \- Positive Money, accessed May 10, 2026, [https://positivemoney.org/uk/archive/bank-england-money-money-creation-modern-economy/](https://positivemoney.org/uk/archive/bank-england-money-money-creation-modern-economy/)  
-17. 13\. Chartalism, Metallism, and Key Currencies, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/01/Lec-13-Chartalism-Metallism-and-Key-Currencies.pdf](https://sites.bu.edu/perry/files/2019/01/Lec-13-Chartalism-Metallism-and-Key-Currencies.pdf)  
+14. THE HIERARCHY OF MONEY by - Stephanie Bell - Levy Economics Institute of Bard College, accessed May 10, 2026, [https://www.levyinstitute.org/pubs/wp/231.pdf](https://www.levyinstitute.org/pubs/wp/231.pdf)  
+15. 20.2 – Money's Origin Stories – Principles of Economics: Scarcity and Social Provisioning (3rd Ed.) - Open Oregon Educational Resources, accessed May 10, 2026, [https://openoregon.pressbooks.pub/socialprovisioning3/chapter/25-1-the-metallist-and-the-barter-myth/](https://openoregon.pressbooks.pub/socialprovisioning3/chapter/25-1-the-metallist-and-the-barter-myth/)  
+16. Bank of England on Money and Money Creation in the Modern Economy - Positive Money, accessed May 10, 2026, [https://positivemoney.org/uk/archive/bank-england-money-money-creation-modern-economy/](https://positivemoney.org/uk/archive/bank-england-money-money-creation-modern-economy/)  
+17. 13. Chartalism, Metallism, and Key Currencies, accessed May 10, 2026, [https://sites.bu.edu/perry/files/2019/01/Lec-13-Chartalism-Metallism-and-Key-Currencies.pdf](https://sites.bu.edu/perry/files/2019/01/Lec-13-Chartalism-Metallism-and-Key-Currencies.pdf)  
 18. Basel III joint regulatory constraints: interactions and implications for the financing of the economy | Banque de France, accessed May 10, 2026, [https://www.banque-france.fr/en/publications-and-statistics/publications/basel-iii-joint-regulatory-constraints-interactions-and-implications-financing-economy](https://www.banque-france.fr/en/publications-and-statistics/publications/basel-iii-joint-regulatory-constraints-interactions-and-implications-financing-economy)  
-19. Money creation in the modern economy \- Quarterly Bulletin \- YouTube, accessed May 10, 2026, [https://www.youtube.com/watch?v=CvRAqR2pAgw](https://www.youtube.com/watch?v=CvRAqR2pAgw)  
+19. Money creation in the modern economy - Quarterly Bulletin - YouTube, accessed May 10, 2026, [https://www.youtube.com/watch?v=CvRAqR2pAgw](https://www.youtube.com/watch?v=CvRAqR2pAgw)  
 20. Who Is Borrowing and Lending in the Eurodollar and Selected ..., accessed May 10, 2026, [https://libertystreeteconomics.newyorkfed.org/2024/05/who-is-borrowing-and-lending-in-the-eurodollar-and-selected-deposit-markets/](https://libertystreeteconomics.newyorkfed.org/2024/05/who-is-borrowing-and-lending-in-the-eurodollar-and-selected-deposit-markets/)  
-21. Manmohan Singh \- Risk.net, accessed May 10, 2026, [https://www.risk.net/author/manmohan-singh](https://www.risk.net/author/manmohan-singh)  
+21. Manmohan Singh - Risk.net, accessed May 10, 2026, [https://www.risk.net/author/manmohan-singh](https://www.risk.net/author/manmohan-singh)  
 22. Manmohan Singh at IMF, accessed May 10, 2026, [https://sites.google.com/view/msinghdc/home](https://sites.google.com/view/msinghdc/home)  
 23. The Changing Collateral Space; by Manmohan Singh; IMF Working ..., accessed May 10, 2026, [https://www.imf.org/external/pubs/ft/wp/2013/wp1325.pdf](https://www.imf.org/external/pubs/ft/wp/2013/wp1325.pdf)  
-24. A Map of Collateral Uses and Flows \- Office of Financial Research (OFR), accessed May 10, 2026, [https://www.financialresearch.gov/working-papers/files/OFRwp-2016-06\_Map-of-Collateral-Uses.pdf](https://www.financialresearch.gov/working-papers/files/OFRwp-2016-06_Map-of-Collateral-Uses.pdf)  
-25. Liquidity Windfalls: The Consequences of Repo Rehypothecation \- Federal Reserve, accessed May 10, 2026, [https://www.federalreserve.gov/econresdata/feds/2015/files/2015022pap.pdf](https://www.federalreserve.gov/econresdata/feds/2015/files/2015022pap.pdf)  
-26. Collateral Reuse and Balance Sheet Space \- IDEAS/RePEc, accessed May 10, 2026, [https://ideas.repec.org/p/imf/imfwpa/2017-113.html](https://ideas.repec.org/p/imf/imfwpa/2017-113.html)  
-27. Chapter 9 COLLATERAL AND MONETARY POLICY Manmohan Singh \- Cambridge University Press & Assessment, accessed May 10, 2026, [https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/D686501C45EBE677AB3509169807D081/9781783083602c9\_p143-156\_CBO.pdf/collateral\_and\_monetary\_policy.pdf](https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/D686501C45EBE677AB3509169807D081/9781783083602c9_p143-156_CBO.pdf/collateral_and_monetary_policy.pdf)  
-28. Liquidity, Financial Crises and the Lender of Last Resort – How Much of a Departure is the Sub-prime Crisis? | Conference – 2008 \- Reserve Bank of Australia, accessed May 10, 2026, [https://www.rba.gov.au/publications/confs/2008/davis.html](https://www.rba.gov.au/publications/confs/2008/davis.html)  
-29. Eurodollars \- Instruments of the Money Market, accessed May 10, 2026, [https://www.richmondfed.org/\~/media/richmondfedorg/publications/research/special\_reports/instruments\_of\_the\_money\_market/pdf/chapter\_05.pdf](https://www.richmondfed.org/~/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_05.pdf)  
-30. The Federal Reserve's Foreign Exchange Swap Lines, accessed May 10, 2026, [https://www.newyorkfed.org/medialibrary/media/research/current\_issues/ci16-4.pdf](https://www.newyorkfed.org/medialibrary/media/research/current_issues/ci16-4.pdf)  
-31. Swap Line Dollar Supply \- Federal Reserve Bank of Boston, accessed May 10, 2026, [https://www.bostonfed.org/-/media/Documents/events/2025/stress-testing-research-conference/Kloks\_SwapLines.pdf](https://www.bostonfed.org/-/media/Documents/events/2025/stress-testing-research-conference/Kloks_SwapLines.pdf)  
-32. Currency Composition of Official Foreign Exchange Reserves \- IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20march%2027](https://data.imf.org/en/news/imf%20data%20brief%20march%2027)  
-33. Leverage Ratio, LCR, and NSFR | Agent Factory \- Panaversity, accessed May 10, 2026, [https://agentfactory.panaversity.org/docs/Business-Domain-Agent-Workflows/banking-domain-agents/basel-leverage-liquidity](https://agentfactory.panaversity.org/docs/Business-Domain-Agent-Workflows/banking-domain-agents/basel-leverage-liquidity)  
-34. THE EURO-DOLLAR MARKET: SOME UNRESOLVED ISSUES \- Program for Research on Inequality, accessed May 10, 2026, [https://pri.princeton.edu/pdf/E65.pdf](https://pri.princeton.edu/pdf/E65.pdf)  
-35. Central Bank Swap Lines: Micro-Level Evidence, accessed May 10, 2026, [https://www.bis.org/events/221213\_bis\_bdi\_ecb\_exchange\_rates/paper\_ferrara.pdf](https://www.bis.org/events/221213_bis_bdi_ecb_exchange_rates/paper_ferrara.pdf)  
-36. Central bank liquidity swaps \- Federal Reserve Board, accessed May 10, 2026, [https://www.federalreserve.gov/monetarypolicy/bst\_liquidityswaps.htm](https://www.federalreserve.gov/monetarypolicy/bst_liquidityswaps.htm)  
-37. Velocity of Pledged Collateral \- IMF eLibrary, accessed May 10, 2026, [https://www.elibrary.imf.org/downloadpdf/view/journals/001/2011/256/001.2011.issue-256-en.pdf](https://www.elibrary.imf.org/downloadpdf/view/journals/001/2011/256/001.2011.issue-256-en.pdf)  
-38. Velocity of Pledged Collateral: Analysis and Implications \- IDEAS/RePEc, accessed May 10, 2026, [https://ideas.repec.org/p/imf/imfwpa/2011-256.html](https://ideas.repec.org/p/imf/imfwpa/2011-256.html)  
-39. The (sizable) Role of Rehypothecation in the Shadow Banking System; by Manmohan \- International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/external/pubs/ft/wp/2010/wp10172.pdf](https://www.imf.org/external/pubs/ft/wp/2010/wp10172.pdf)  
-40. Market Liquidity and Funding Liquidity \- NBER, accessed May 10, 2026, [https://www.nber.org/system/files/working\_papers/w12939/w12939.pdf](https://www.nber.org/system/files/working_papers/w12939/w12939.pdf)  
-41. Market Liquidity and Funding Liquidity∗ \- Federal Reserve Bank of New York, accessed May 10, 2026, [https://www.newyorkfed.org/medialibrary/media/newsevents/events/research/2006/0518-Mkt\_Fun\_Liquiditybrunnermeierandpedersen.pdf](https://www.newyorkfed.org/medialibrary/media/newsevents/events/research/2006/0518-Mkt_Fun_Liquiditybrunnermeierandpedersen.pdf)  
-42. On the interaction between different bank liquidity requirements \- European Central Bank, accessed May 10, 2026, [https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu201910\_2\~3237802727.en.html](https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu201910_2~3237802727.en.html)  
-43. An overview of the LCR, NSFR and LR \- ICMA, accessed May 10, 2026, [https://www.icmagroup.org/assets/documents/Events/test/20%20-%20ICMA%20Presentation%20-%20Liquidity%20&%20Leverage\_v1.pdf](https://www.icmagroup.org/assets/documents/Events/test/20%20-%20ICMA%20Presentation%20-%20Liquidity%20&%20Leverage_v1.pdf)  
-44. Basel III: the net stable funding ratio \- Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/bcbs/publ/d295.pdf](https://www.bis.org/bcbs/publ/d295.pdf)  
+24. A Map of Collateral Uses and Flows - Office of Financial Research (OFR), accessed May 10, 2026, [https://www.financialresearch.gov/working-papers/files/OFRwp-2016-06_Map-of-Collateral-Uses.pdf](https://www.financialresearch.gov/working-papers/files/OFRwp-2016-06_Map-of-Collateral-Uses.pdf)  
+25. Liquidity Windfalls: The Consequences of Repo Rehypothecation - Federal Reserve, accessed May 10, 2026, [https://www.federalreserve.gov/econresdata/feds/2015/files/2015022pap.pdf](https://www.federalreserve.gov/econresdata/feds/2015/files/2015022pap.pdf)  
+26. Collateral Reuse and Balance Sheet Space - IDEAS/RePEc, accessed May 10, 2026, [https://ideas.repec.org/p/imf/imfwpa/2017-113.html](https://ideas.repec.org/p/imf/imfwpa/2017-113.html)  
+27. Chapter 9 COLLATERAL AND MONETARY POLICY Manmohan Singh - Cambridge University Press & Assessment, accessed May 10, 2026, [https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/D686501C45EBE677AB3509169807D081/9781783083602c9_p143-156_CBO.pdf/collateral_and_monetary_policy.pdf](https://resolve.cambridge.org/core/services/aop-cambridge-core/content/view/D686501C45EBE677AB3509169807D081/9781783083602c9_p143-156_CBO.pdf/collateral_and_monetary_policy.pdf)  
+28. Liquidity, Financial Crises and the Lender of Last Resort – How Much of a Departure is the Sub-prime Crisis? | Conference – 2008 - Reserve Bank of Australia, accessed May 10, 2026, [https://www.rba.gov.au/publications/confs/2008/davis.html](https://www.rba.gov.au/publications/confs/2008/davis.html)  
+29. Eurodollars - Instruments of the Money Market, accessed May 10, 2026, [https://www.richmondfed.org/~/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_05.pdf](https://www.richmondfed.org/~/media/richmondfedorg/publications/research/special_reports/instruments_of_the_money_market/pdf/chapter_05.pdf)  
+30. The Federal Reserve's Foreign Exchange Swap Lines, accessed May 10, 2026, [https://www.newyorkfed.org/medialibrary/media/research/current_issues/ci16-4.pdf](https://www.newyorkfed.org/medialibrary/media/research/current_issues/ci16-4.pdf)  
+31. Swap Line Dollar Supply - Federal Reserve Bank of Boston, accessed May 10, 2026, [https://www.bostonfed.org/-/media/Documents/events/2025/stress-testing-research-conference/Kloks_SwapLines.pdf](https://www.bostonfed.org/-/media/Documents/events/2025/stress-testing-research-conference/Kloks_SwapLines.pdf)  
+32. Currency Composition of Official Foreign Exchange Reserves - IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20march%2027](https://data.imf.org/en/news/imf%20data%20brief%20march%2027)  
+33. Leverage Ratio, LCR, and NSFR | Agent Factory - Panaversity, accessed May 10, 2026, [https://agentfactory.panaversity.org/docs/Business-Domain-Agent-Workflows/banking-domain-agents/basel-leverage-liquidity](https://agentfactory.panaversity.org/docs/Business-Domain-Agent-Workflows/banking-domain-agents/basel-leverage-liquidity)  
+34. THE EURO-DOLLAR MARKET: SOME UNRESOLVED ISSUES - Program for Research on Inequality, accessed May 10, 2026, [https://pri.princeton.edu/pdf/E65.pdf](https://pri.princeton.edu/pdf/E65.pdf)  
+35. Central Bank Swap Lines: Micro-Level Evidence, accessed May 10, 2026, [https://www.bis.org/events/221213_bis_bdi_ecb_exchange_rates/paper_ferrara.pdf](https://www.bis.org/events/221213_bis_bdi_ecb_exchange_rates/paper_ferrara.pdf)  
+36. Central bank liquidity swaps - Federal Reserve Board, accessed May 10, 2026, [https://www.federalreserve.gov/monetarypolicy/bst_liquidityswaps.htm](https://www.federalreserve.gov/monetarypolicy/bst_liquidityswaps.htm)  
+37. Velocity of Pledged Collateral - IMF eLibrary, accessed May 10, 2026, [https://www.elibrary.imf.org/downloadpdf/view/journals/001/2011/256/001.2011.issue-256-en.pdf](https://www.elibrary.imf.org/downloadpdf/view/journals/001/2011/256/001.2011.issue-256-en.pdf)  
+38. Velocity of Pledged Collateral: Analysis and Implications - IDEAS/RePEc, accessed May 10, 2026, [https://ideas.repec.org/p/imf/imfwpa/2011-256.html](https://ideas.repec.org/p/imf/imfwpa/2011-256.html)  
+39. The (sizable) Role of Rehypothecation in the Shadow Banking System; by Manmohan - International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/external/pubs/ft/wp/2010/wp10172.pdf](https://www.imf.org/external/pubs/ft/wp/2010/wp10172.pdf)  
+40. Market Liquidity and Funding Liquidity - NBER, accessed May 10, 2026, [https://www.nber.org/system/files/working_papers/w12939/w12939.pdf](https://www.nber.org/system/files/working_papers/w12939/w12939.pdf)  
+41. Market Liquidity and Funding Liquidity∗ - Federal Reserve Bank of New York, accessed May 10, 2026, [https://www.newyorkfed.org/medialibrary/media/newsevents/events/research/2006/0518-Mkt_Fun_Liquiditybrunnermeierandpedersen.pdf](https://www.newyorkfed.org/medialibrary/media/newsevents/events/research/2006/0518-Mkt_Fun_Liquiditybrunnermeierandpedersen.pdf)  
+42. On the interaction between different bank liquidity requirements - European Central Bank, accessed May 10, 2026, [https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu201910_2~3237802727.en.html](https://www.ecb.europa.eu/press/financial-stability-publications/macroprudential-bulletin/html/ecb.mpbu201910_2~3237802727.en.html)  
+43. An overview of the LCR, NSFR and LR - ICMA, accessed May 10, 2026, [https://www.icmagroup.org/assets/documents/Events/test/20%20-%20ICMA%20Presentation%20-%20Liquidity%20&%20Leverage_v1.pdf](https://www.icmagroup.org/assets/documents/Events/test/20%20-%20ICMA%20Presentation%20-%20Liquidity%20&%20Leverage_v1.pdf)  
+44. Basel III: the net stable funding ratio - Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/bcbs/publ/d295.pdf](https://www.bis.org/bcbs/publ/d295.pdf)  
 45. Liquidity Spirals 20230906, accessed May 10, 2026, [https://oms-inet.files.svdcdn.com/production/files/Liquidity-Spirals-20230906.pdf?dm=1694158884](https://oms-inet.files.svdcdn.com/production/files/Liquidity-Spirals-20230906.pdf?dm=1694158884)  
-46. Currency Composition of Official Foreign Exchange Reserves \- IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20december%2019](https://data.imf.org/en/news/imf%20data%20brief%20december%2019)  
-47. Currency Composition of Official Foreign Exchange Reserves \- IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20jul%209](https://data.imf.org/en/news/imf%20data%20brief%20jul%209)  
-48. Currency Composition of Official Foreign Exchange Reserves (COFER) \- IMF Data, accessed May 10, 2026, [https://data.imf.org/en/datasets/IMF.STA:COFER](https://data.imf.org/en/datasets/IMF.STA:COFER)  
-49. Currency Composition of Foreign Exchange Reserves (COFER) Data: Updates on the Implementation of Imputation Procedure of “Unallocated” Portion \- International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/external/Pubs/FT/BOP/2025/pdf/45/BOPCOM%2025-22%20-%20COFER%20Data%20-%20Updates%20on%20the%20Implementation%20of%20Imputation%20Procedure%20of%20Unallocated%20Portion.pdf](https://www.imf.org/external/Pubs/FT/BOP/2025/pdf/45/BOPCOM%2025-22%20-%20COFER%20Data%20-%20Updates%20on%20the%20Implementation%20of%20Imputation%20Procedure%20of%20Unallocated%20Portion.pdf)  
+46. Currency Composition of Official Foreign Exchange Reserves - IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20december%2019](https://data.imf.org/en/news/imf%20data%20brief%20december%2019)  
+47. Currency Composition of Official Foreign Exchange Reserves - IMF Data Brief, accessed May 10, 2026, [https://data.imf.org/en/news/imf%20data%20brief%20jul%209](https://data.imf.org/en/news/imf%20data%20brief%20jul%209)  
+48. Currency Composition of Official Foreign Exchange Reserves (COFER) - IMF Data, accessed May 10, 2026, [https://data.imf.org/en/datasets/IMF.STA:COFER](https://data.imf.org/en/datasets/IMF.STA:COFER)  
+49. Currency Composition of Foreign Exchange Reserves (COFER) Data: Updates on the Implementation of Imputation Procedure of “Unallocated” Portion - International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/external/Pubs/FT/BOP/2025/pdf/45/BOPCOM%2025-22%20-%20COFER%20Data%20-%20Updates%20on%20the%20Implementation%20of%20Imputation%20Procedure%20of%20Unallocated%20Portion.pdf](https://www.imf.org/external/Pubs/FT/BOP/2025/pdf/45/BOPCOM%2025-22%20-%20COFER%20Data%20-%20Updates%20on%20the%20Implementation%20of%20Imputation%20Procedure%20of%20Unallocated%20Portion.pdf)  
 50. Wholesale central bank money in the context of technological innovation, accessed May 10, 2026, [https://www.bis.org/publ/othp99.htm](https://www.bis.org/publ/othp99.htm)
 
 ---
@@ -602,16 +602,16 @@ When the central bank contracts its balance sheet via Quantitative Tightening (Q
 
 To mitigate these frictions, the Federal Reserve operates an "ample reserves" or "floor" system.1 It uses administered rates—specifically the Interest on Reserve Balances (IORB) and the overnight reverse repurchase agreement (ON RRP) facility—to maintain routine control over the federal funds rate.5 The transition between reserve regimes is defined by the slope of the reserve demand curve.4 In an abundant reserves regime, the supply curve intersects the flat part of the demand curve, rendering short-term rates insensitive to minor supply shifts.4 In an ample reserves regime, the demand curve has a gentle downward slope.4 In a scarce reserves regime, the curve becomes highly inelastic and steeply sloped, amplifying rate volatility.4
 
-The operational risks of reserve scarcity were demonstrated in late 2025\.3 As system-wide reserves fell, money market pressures intensified.3 On October 31, 2025, the Secured Overnight Financing Rate (SOFR)—which measures approximately $3 trillion of overnight Treasury repo transactions—surged to 32 basis points above the IORB rate.3
+The operational risks of reserve scarcity were demonstrated in late 2025.3 As system-wide reserves fell, money market pressures intensified.3 On October 31, 2025, the Secured Overnight Financing Rate (SOFR)—which measures approximately $3 trillion of overnight Treasury repo transactions—surged to 32 basis points above the IORB rate.3
 
 This pricing dislocation prompted the FOMC to act.3 On October 29, 2025, the committee announced it would stop reducing the size of its balance sheet.3 On December 10, 2025, the Federal Reserve Bank of New York relaxed constraints on its standing repo operations and launched a program of Reserve Management Purchases (RMPs).3 Under this program, the Desk purchased Treasury bills to create approximately $40 billion of additional reserves each month, continuing through May 2026 to stabilize the payment system.3
 
-To provide a permanent backstop, the Federal Reserve established the domestic Standing Repo Facility (SRF) in July 2021\.2 The SRF supports the transmission of monetary policy by placing an effective ceiling on the Effective Federal Funds Rate (EFFR) and limiting rate volatility.2 Eligible counterparties, which include primary dealers and depository institutions, can obtain overnight dollar funding against high-quality collateral, including U.S. Treasuries, agency debt, and agency mortgage-backed securities (MBS).2 The Desk conducts these operations twice daily via the FedTrade Plus platform 8:
+To provide a permanent backstop, the Federal Reserve established the domestic Standing Repo Facility (SRF) in July 2021.2 The SRF supports the transmission of monetary policy by placing an effective ceiling on the Effective Federal Funds Rate (EFFR) and limiting rate volatility.2 Eligible counterparties, which include primary dealers and depository institutions, can obtain overnight dollar funding against high-quality collateral, including U.S. Treasuries, agency debt, and agency mortgage-backed securities (MBS).2 The Desk conducts these operations twice daily via the FedTrade Plus platform 8:
 
 * **Morning Operation**: Scheduled from 8:15 a.m. to 8:30 a.m. ET to align with the peak intraday funding needs of financial intermediaries.8  
 * **Afternoon Operation**: Scheduled from 1:30 p.m. to 1:45 p.m. ET to address late-day clearing imbalances before the closing of the interbank payment networks.8
 
-Counterparties are restricted to a maximum proposition limit of $40 billion per eligible security type per operation, with trades executed under a full allotment format at a rate of 3.75% as of May 8, 2026\.8 Trades settle on a same-day basis, with cash positioned on the BNY Mellon tri-party repo platform within thirty minutes of the operation's close.8
+Counterparties are restricted to a maximum proposition limit of $40 billion per eligible security type per operation, with trades executed under a full allotment format at a rate of 3.75% as of May 8, 2026.8 Trades settle on a same-day basis, with cash positioned on the BNY Mellon tri-party repo platform within thirty minutes of the operation's close.8
 
 However, money market rate spikes can still occur above the SRF ceiling.7 While a portion of the tri-party repo market is centrally cleared and netted through the Fixed Income Clearing Corporation (FICC), the remainder is traded bilaterally and remains uncleared.7 The SRF settles exclusively through the uncleared segment of the tri-party repo market.7
 
@@ -629,11 +629,11 @@ In wholesale financial markets, credit is rarely extended on an unsecured basis;
 
 The theoretical collateral multiplier is determined by the regulatory haircut applied to the assets 1:
 
-Theoretical Collateral Multiplier \= 1 / Haircut
+Theoretical Collateral Multiplier = 1 / Haircut
 
 The aggregate volume of secured credit generated by this plumbing is defined by the following relationship 1:
 
-Aggregate Secured Credit \= Source Collateral \* Collateral Velocity
+Aggregate Secured Credit = Source Collateral * Collateral Velocity
 
 Under normal market conditions, collateral velocity typically ranges between 2.5 and 3.0.1 However, this velocity is highly sensitive to counterparty risk and regulatory frameworks.1
 
@@ -649,7 +649,7 @@ This collateral framework underpins the Treasury cash-futures basis trade, a hig
 
 To fund the cash purchase, the hedge fund borrows in the bilateral repo market, pledging the newly purchased Treasuries as collateral with leverage levels reaching 10x to 20x.10 This strategy relies on prime brokers and the Fixed Income Clearing Corporation (FICC) sponsored repo market to obtain low-margin financing.10
 
-The geographic distribution of this trade reveals a complex cross-border architecture.11 Form PF data shows a massive increase in Cayman Islands-domiciled hedge fund exposures to U.S. Treasuries, reaching $1.85 trillion by the end of 2024\.11 Between 2022 and 2024, Cayman-domiciled hedge funds acted as the dominant marginal foreign buyers of U.S. Treasury notes and bonds, purchasing $1.2 trillion net and absorbing approximately 37% of net issuance.11
+The geographic distribution of this trade reveals a complex cross-border architecture.11 Form PF data shows a massive increase in Cayman Islands-domiciled hedge fund exposures to U.S. Treasuries, reaching $1.85 trillion by the end of 2024.11 Between 2022 and 2024, Cayman-domiciled hedge funds acted as the dominant marginal foreign buyers of U.S. Treasury notes and bonds, purchasing $1.2 trillion net and absorbing approximately 37% of net issuance.11
 
 This flow represents a cross-border loop: U.S. banks extend dollar repo loans to Cayman-domiciled counterparties, which use those dollars to purchase Treasury collateral.11 This collateral movement has created a significant statistical blind spot.11 Under Treasury International Capital (TIC) reporting rules, securities pledged as repo collateral should be recorded as continuously held by the original foreign owner.11
 
@@ -665,7 +665,7 @@ Although the Federal Reserve announced a massive $500 billion QE purchase progra
 
 This demonstrated that during severe systemic disruptions, central bank asset purchases stabilize markets primarily through direct balance-sheet absorption rather than forward guidance announcements.13
 
-To mitigate these counterparty risks, reduce balance sheet costs, and enhance market transparency, the SEC adopted a sweeping Treasury Central Clearing Rule in December 2023\.14 In February 2025, the SEC granted a one-year extension to the compliance deadlines to allow market participants to navigate the technological, legal, and operational complexities of the mandate.16 The finalized compliance timeline is structured as follows:
+To mitigate these counterparty risks, reduce balance sheet costs, and enhance market transparency, the SEC adopted a sweeping Treasury Central Clearing Rule in December 2023.14 In February 2025, the SEC granted a one-year extension to the compliance deadlines to allow market participants to navigate the technological, legal, and operational complexities of the mandate.16 The finalized compliance timeline is structured as follows:
 
 * **December 31, 2026**: Mandatory central clearing begins for eligible cash Treasury transactions, primarily affecting transactions between sell-side institutions, interdealer brokers, and ATS platforms.15  
 * **June 30, 2027**: Mandatory central clearing begins for all eligible Treasury repo and reverse repo transactions, a phase that will heavily impact buy-side participants such as asset managers, pension funds, and leveraged hedge funds.15
@@ -700,15 +700,15 @@ This offshore dollar system has been reshaped by regulatory changes since the GF
 
 * **Dodd-Frank Resolution Plans ("Living Wills")**: Mandated that global banks simplify their corporate structures to facilitate orderly resolution in a crisis.1 This prompted FBOs to wind down offshore Caribbean booking entities, moving their Eurodollar borrowing onshore to U.S. branches.1  
 * **Repeal of Regulation Q (2011)**: Eliminated the historical prohibition on banks paying interest on demand deposits, facilitating the creation of economically equivalent onshore "selected deposits".1  
-* **Elimination of Reserve Requirements (2020)**: In March 2020, the Federal Reserve reduced reserve requirement ratios to zero percent.1 Prior to this, selected deposits required reserve holdings, while Eurodollar deposits did not.1 The elimination of this reserve requirement removed the final cost differential, prompting selected deposits to overtake Eurodollars, accounting for 85% of the combined overnight volume by 2022\.1
+* **Elimination of Reserve Requirements (2020)**: In March 2020, the Federal Reserve reduced reserve requirement ratios to zero percent.1 Prior to this, selected deposits required reserve holdings, while Eurodollar deposits did not.1 The elimination of this reserve requirement removed the final cost differential, prompting selected deposits to overtake Eurodollars, accounting for 85% of the combined overnight volume by 2022.1
 
 Financial intermediaries that lack direct access to onshore U.S. dollar funding markets instead rely on FX swaps to secure synthetic dollar funding.20 Dollar funding through FX swap markets is referred to as synthetic dollar funding since local currency borrowing is swapped into U.S. dollars using FX swap contracts.21
 
 An FX swap is structured in two legs: at initiation, the spot leg exchanges the local currency for dollars at the prevailing spot rate; at maturity, the forward leg reverses the exchange at a pre-specified forward rate, completely hedging the exchange rate risk.1 Under the textbook condition of Covered Interest Parity (CIP), the forward premium or discount should perfectly offset the interest rate differential between the two currencies 1:
 
-ln(F) \- ln(S) \= y\* \- y
+ln(F) - ln(S) = y* - y
 
-Where F is the forward exchange rate, S is the spot rate, y\* is the foreign interest rate, and y is the U.S. dollar interest rate.20
+Where F is the forward exchange rate, S is the spot rate, y* is the foreign interest rate, and y is the U.S. dollar interest rate.20
 
 However, since the GFC, post-crisis regulatory reforms—such as the Basel III Leverage Ratio—have constrained bank balance sheets, turning CIP violations into a persistent feature of global financial markets.20 Because arbitrageurs must expand their balance sheets to exploit deviations, the cost of balance sheet space acts as a barrier to arbitrage.1
 
@@ -745,17 +745,17 @@ To address this limitation, Michael Biggs, Thomas Mayer, and Andreas Pick (2009)
 
 The relationship between the credit stock, net financial flows, and the credit impulse is governed by the credit balance accounting identity 29:
 
-Delta Outstanding\_t \= Loans\_t \- Payments\_t \+ Interest\_t \+ f(FX\_t) \- Writeoffs\_t
+Delta Outstanding_t = Loans_t - Payments_t + Interest_t + f(FX_t) - Writeoffs_t
 
-Where Outstanding\_t is the outstanding credit balance, Loans\_t is gross new loan originations, Payments\_t represents principal and interest amortizations, Interest\_t is accrued interest, f(FX\_t) captures exchange-rate adjustments on foreign-currency debt, and Writeoffs\_t accounts for non-performing defaults.29
+Where Outstanding_t is the outstanding credit balance, Loans_t is gross new loan originations, Payments_t represents principal and interest amortizations, Interest_t is accrued interest, f(FX_t) captures exchange-rate adjustments on foreign-currency debt, and Writeoffs_t accounts for non-performing defaults.29
 
 To isolate the net transfer of resources between the financial sector and the real economy, the analysis solves for the net **financial flow** 29:
 
-Financial Flow\_t \= Loans\_t \- Payments\_t
+Financial Flow_t = Loans_t - Payments_t
 
 Substituting this into the credit balance identity yields the operational definition of the financial flow based on observable outstanding balances 29:
 
-Financial Flow\_t \= Delta Outstanding\_t \- Interest\_t \- f(FX\_t) \+ Writeoffs\_t
+Financial Flow_t = Delta Outstanding_t - Interest_t - f(FX_t) + Writeoffs_t
 
 While the net financial flow summarizes the current state of the credit cycle, the credit impulse measures its direction and acceleration.29 Empirically, the credit impulse leads private sector demand (consumption and investment) and real GDP growth with a reliable 9-to-12-month lag.30
 
@@ -763,7 +763,7 @@ This leading relationship is particularly pronounced during economic recoveries.
 
 In the post-crisis financial system, the transmission of this credit impulse has been reshaped by the expansion of Non-Bank Financial Institutions (NBFIs) and private credit markets.34 The implementation of tighter bank-level macroprudential policies (MaPP) has raised the capital costs of bank lending, prompting credit activity to migrate across the regulatory perimeter.35
 
-By 2024, NBFIs accounted for approximately 51% of global financial assets, up from 43% in 2008\.35 In the global syndicated loan market, nonbanks originated 50% of corporate loans to nonfinancial corporations (NFCs), compared with just 30% during the GFC.35 Many global banking groups navigate this regulatory perimeter by operating complex consolidated structures, utilizing unregulated NBFI subsidiaries to actively expand credit supply when bank-level capital constraints tighten.35
+By 2024, NBFIs accounted for approximately 51% of global financial assets, up from 43% in 2008.35 In the global syndicated loan market, nonbanks originated 50% of corporate loans to nonfinancial corporations (NFCs), compared with just 30% during the GFC.35 Many global banking groups navigate this regulatory perimeter by operating complex consolidated structures, utilizing unregulated NBFI subsidiaries to actively expand credit supply when bank-level capital constraints tighten.35
 
 Tighter monetary policy also alters credit transmission across these different institutional types.34 In a standard bank lending channel, contractionary policy leads households to withdraw deposits, forcing commercial banks to reduce lending.34
 
@@ -771,9 +771,9 @@ However, this contraction triggers an investment fund substitution effect: yield
 
 | Credit Metric | Definition | Mathematical Representation | Lead Time to GDP | Economic Significance |
 | :---- | :---- | :---- | :---- | :---- |
-| **Credit Stock** 30 | Outstanding balance of all credit instruments.29 | Outstanding\_t.29 | Lagging (6-12 months lag).29 | Measures cumulative debt overhead and leverage.29 |
-| **Financial Flow** 29 | Net new lending minus principal and interest amortizations.29 | Loans\_t \- Payments\_t.29 | Coincident.29 | Measures the net resource transfer to the real economy.29 |
-| **Credit Impulse** 32 | The change in net new credit as a share of GDP.29 | (Flow\_t \- Flow\_t-1) / GDP\_t.29 | Leading (9-12 months lead).30 | Captures the acceleration of credit-backed demand.29 |
+| **Credit Stock** 30 | Outstanding balance of all credit instruments.29 | Outstanding_t.29 | Lagging (6-12 months lag).29 | Measures cumulative debt overhead and leverage.29 |
+| **Financial Flow** 29 | Net new lending minus principal and interest amortizations.29 | Loans_t - Payments_t.29 | Coincident.29 | Measures the net resource transfer to the real economy.29 |
+| **Credit Impulse** 32 | The change in net new credit as a share of GDP.29 | (Flow_t - Flow_t-1) / GDP_t.29 | Leading (9-12 months lead).30 | Captures the acceleration of credit-backed demand.29 |
 
 ## **Real Economy Transmission: Global Value Chains and Venture Capital Lifecycle Physics**
 
@@ -783,7 +783,7 @@ The **working capital theory of supply chains** models how financing conditions 
 
 This sequential structure introduces a non-linear relationship: a supply chain of length n (representing the number of distinct production stages) requires carrying n sequential vintages of inventory.37 Because earlier intermediate inputs carry accumulated value-added at each stage, the steady-state working capital required to sustain a GVC of length n is calculated as the sum 37:
 
-Working Capital \= v \+ 2v \+... \+ nv \= \[n(n \+ 1\) / 2\] \* v, which is approximately on the order of n^2
+Working Capital = v + 2v +... + nv = [n(n + 1) / 2] * v, which is approximately on the order of n^2
 
 Where v is the base value-added at the initial stage.37
 
@@ -802,11 +802,11 @@ This contraction in late-stage funding is amplified by the **denominator effect*
 
 When public equity and fixed-income markets experience a sharp downturn (as in 2022), the total market value of the investor’s portfolio (the denominator) declines immediately.41 However, because private equity and VC assets are valued on a lagged basis (with net asset values adjusted one to three quarters later), the value of the illiquid segment (the numerator) remains artificially stable or declines at a much slower rate.41
 
-This valuation lag mechanically pushes the investor's private asset allocation above its target limit, creating a passive overallocation.41 This imbalance is compounded by a "numerator effect" when exit activity dries up.42 When public IPO windows close and M\&A activity stalls, private fund sponsors cannot realize distributions for their Limited Partners (LPs).42
+This valuation lag mechanically pushes the investor's private asset allocation above its target limit, creating a passive overallocation.41 This imbalance is compounded by a "numerator effect" when exit activity dries up.42 When public IPO windows close and M&A activity stalls, private fund sponsors cannot realize distributions for their Limited Partners (LPs).42
 
 This lack of distributions creates severe cash-flow constraints for LPs, who rely on distributions from older vintage funds to fund their capital calls for new commitments.42 To realign with SAA targets and manage their cash positions, LPs must curtail future capital commitments to new venture capital and private equity funds.41
 
-This dynamic led to a highly bifurcated fundraising market in 2025 and 2026\.47 To deploy capital efficiently without expanding their manager rosters, LPs have concentrated their remaining commitments among a small group of high-conviction mega-funds.47 Emerging managers (Funds I-III) captured only 15.7% of global private capital raised, and experienced managers (Funds IV+) received 98% of all venture capital commitments.48
+This dynamic led to a highly bifurcated fundraising market in 2025 and 2026.47 To deploy capital efficiently without expanding their manager rosters, LPs have concentrated their remaining commitments among a small group of high-conviction mega-funds.47 Emerging managers (Funds I-III) captured only 15.7% of global private capital raised, and experienced managers (Funds IV+) received 98% of all venture capital commitments.48
 
 Consequently, the average fundraising timeline for private vehicles has stretched to 18-24 months.47 To manufacture synthetic liquidity and appease cash-strapped LPs, private fund sponsors have increasingly turned to alternative liquidity tools.46 These include continuation vehicles, GP-led secondary sales, net asset value (NAV) financing, and dividend recapitalizations, with dividend recapitalization loans hitting record levels to return cash to LPs in the absence of traditional IPO exits.46
 
@@ -819,7 +819,7 @@ Consequently, the average fundraising timeline for private vehicles has stretche
 
 ## **Case Study: The United Kingdom Gilt Market Turmoil of 2022**
 
-The interaction between leveraged investment strategies, non-bank financial intermediaries, and the physics of collateral-backed funding markets was clearly illustrated during the UK Gilt Crisis of September and October 2022\.51 This episode serves as a modern case study of how localized liquidity pressures can quickly escalate into systemic financial stability risks, requiring central bank intervention.52
+The interaction between leveraged investment strategies, non-bank financial intermediaries, and the physics of collateral-backed funding markets was clearly illustrated during the UK Gilt Crisis of September and October 2022.51 This episode serves as a modern case study of how localized liquidity pressures can quickly escalate into systemic financial stability risks, requiring central bank intervention.52
 
 Historically, UK defined-benefit (DB) pension funds faced a structural deficit due to a decade of declining interest rates, which expanded the present value of their long-term liabilities.51 To bridge this gap, DB pension schemes increasingly adopted Liability-Driven Investment (LDI) strategies.52
 
@@ -835,7 +835,7 @@ With the capital injection channel blocked, LDI funds had only one way to deleve
 
 This concentrated selling into an illiquid market generated extremely high flow-adjustment costs.53 The selling pressure drove gilt prices down further, causing additional losses to LDI net worth.53 This self-reinforcing fire-sale loop drove gilt yields higher and triggered a larger wave of margin calls, threatening to push the UK pension sector into widespread insolvency.53
 
-To break this spiral and restore financial stability, the Bank of England (BoE) intervened on September 28, 2022\.52 The BoE launched a temporary and targeted asset purchase program, committing to buy up to GBP 65 billion in long-dated government bonds over a two-week period to restore orderly market conditions.52 Ultimately, the BoE purchased GBP 19.3 billion of gilts (about 0.9% of UK GDP), successfully offsetting the LDI selling pressure and stabilizing yields.53
+To break this spiral and restore financial stability, the Bank of England (BoE) intervened on September 28, 2022.52 The BoE launched a temporary and targeted asset purchase program, committing to buy up to GBP 65 billion in long-dated government bonds over a two-week period to restore orderly market conditions.52 Ultimately, the BoE purchased GBP 19.3 billion of gilts (about 0.9% of UK GDP), successfully offsetting the LDI selling pressure and stabilizing yields.53
 
 The design of the BoE’s intervention was critical to its success.53 At the time, the BoE’s Monetary Policy Committee (MPC) was actively tightening monetary policy and executing Quantitative Tightening to combat high inflation.51
 
@@ -845,11 +845,11 @@ Additionally, the purchases were priced with a backstop spread to ensure they di
 
 | Phase of Crisis | Key Market Actors | Operational Trigger | Market Reaction / Asset Pricing | Systemic Mitigation |
 | :---- | :---- | :---- | :---- | :---- |
-| **1\. The Trigger** 52 | HM Treasury, sovereign gilt market.52 | Unveiling of the unfunded "mini-budget".52 | 10-year and long-dated gilt yields spike by 150 bps.51 | Initial market repricing; no official intervention. |
-| **2\. Leveraged Margin Calls** 53 | LDI funds, asset managers.52 | Gilt price drops trigger margin calls on swaps.52 | Erosion of LDI net worth; target leverage ratios breached.53 | Funds attempt to request capital from parent pensions.53 |
-| **3\. The Fire-Sale Loop** 53 | LDI desks, gilt market makers.53 | Pension governance delays prevent capital injections.53 | Concentrated dumping of index-linked gilts; price-sale spiral.53 | Margin requirements rise; systemic liquidity dries up.54 |
-| **4\. Central Bank Backstop** 53 | Bank of England, MPC.53 | Impending default of multiple pension vehicles.52 | Purchase of GBP 19.3 billion in long-dated gilts.53 | "Temporary and targeted" purchases; QT paused.53 |
-| **5\. Post-Crisis Normalization** 55 | Pension trustees, UK regulators.51 | Orderly wind-down of BoE gilt holdings.55 | Yields stabilize; Gilt market confidence recovers.51 | Regulators mandate higher cash buffers and lower LDI leverage.51 |
+| **1. The Trigger** 52 | HM Treasury, sovereign gilt market.52 | Unveiling of the unfunded "mini-budget".52 | 10-year and long-dated gilt yields spike by 150 bps.51 | Initial market repricing; no official intervention. |
+| **2. Leveraged Margin Calls** 53 | LDI funds, asset managers.52 | Gilt price drops trigger margin calls on swaps.52 | Erosion of LDI net worth; target leverage ratios breached.53 | Funds attempt to request capital from parent pensions.53 |
+| **3. The Fire-Sale Loop** 53 | LDI desks, gilt market makers.53 | Pension governance delays prevent capital injections.53 | Concentrated dumping of index-linked gilts; price-sale spiral.53 | Margin requirements rise; systemic liquidity dries up.54 |
+| **4. Central Bank Backstop** 53 | Bank of England, MPC.53 | Impending default of multiple pension vehicles.52 | Purchase of GBP 19.3 billion in long-dated gilts.53 | "Temporary and targeted" purchases; QT paused.53 |
+| **5. Post-Crisis Normalization** 55 | Pension trustees, UK regulators.51 | Orderly wind-down of BoE gilt holdings.55 | Yields stabilize; Gilt market confidence recovers.51 | Regulators mandate higher cash buffers and lower LDI leverage.51 |
 
 ## **Systemic Synthesis and Strategic Conclusions**
 
@@ -864,61 +864,61 @@ At the same time, the real-world constraints of the denominator effect, the non-
 #### **Works cited**
 
 1. Macro-KB A: Monetary Ontology & Economic Reality Models — The Nature of Money, Credit, Collateral, and Financial Abstraction  
-2. Bank Resolution and the Fed's New Standing Repo Facility | Richmond Fed, accessed May 10, 2026, [https://www.richmondfed.org/publications/research/economic\_brief/2022/eb\_22-06](https://www.richmondfed.org/publications/research/economic_brief/2022/eb_22-06)  
-3. BPEA Conference Draft, March 26-27, 2026 \- The Payment System ..., accessed May 10, 2026, [https://www.brookings.edu/wp-content/uploads/2026/03/3\_Duffie\_unembargoed.pdf](https://www.brookings.edu/wp-content/uploads/2026/03/3_Duffie_unembargoed.pdf)  
-4. Monetary policy implementation with an ample supply of reserves;, accessed May 10, 2026, [https://www.chicagofed.org/\~/media/publications/working-papers/2020/wp2020-02-pdf.pdf](https://www.chicagofed.org/~/media/publications/working-papers/2020/wp2020-02-pdf.pdf)  
-5. The Fed's Latest Tool: A Standing Repo Facility \- Liberty Street Economics, accessed May 10, 2026, [https://libertystreeteconomics.newyorkfed.org/2022/01/the-feds-latest-tool-a-standing-repo-facility/](https://libertystreeteconomics.newyorkfed.org/2022/01/the-feds-latest-tool-a-standing-repo-facility/)  
-6. Money Markets after Liftoff: Assessment to Date and the Road Ahead \- FEDERAL RESERVE BANK of NEW YORK, accessed May 10, 2026, [https://www.newyorkfed.org/newsevents/speeches/2016/pot160222](https://www.newyorkfed.org/newsevents/speeches/2016/pot160222)  
+2. Bank Resolution and the Fed's New Standing Repo Facility | Richmond Fed, accessed May 10, 2026, [https://www.richmondfed.org/publications/research/economic_brief/2022/eb_22-06](https://www.richmondfed.org/publications/research/economic_brief/2022/eb_22-06)  
+3. BPEA Conference Draft, March 26-27, 2026 - The Payment System ..., accessed May 10, 2026, [https://www.brookings.edu/wp-content/uploads/2026/03/3_Duffie_unembargoed.pdf](https://www.brookings.edu/wp-content/uploads/2026/03/3_Duffie_unembargoed.pdf)  
+4. Monetary policy implementation with an ample supply of reserves;, accessed May 10, 2026, [https://www.chicagofed.org/~/media/publications/working-papers/2020/wp2020-02-pdf.pdf](https://www.chicagofed.org/~/media/publications/working-papers/2020/wp2020-02-pdf.pdf)  
+5. The Fed's Latest Tool: A Standing Repo Facility - Liberty Street Economics, accessed May 10, 2026, [https://libertystreeteconomics.newyorkfed.org/2022/01/the-feds-latest-tool-a-standing-repo-facility/](https://libertystreeteconomics.newyorkfed.org/2022/01/the-feds-latest-tool-a-standing-repo-facility/)  
+6. Money Markets after Liftoff: Assessment to Date and the Road Ahead - FEDERAL RESERVE BANK of NEW YORK, accessed May 10, 2026, [https://www.newyorkfed.org/newsevents/speeches/2016/pot160222](https://www.newyorkfed.org/newsevents/speeches/2016/pot160222)  
 7. Facing Quarter-End Pressures: Understanding the Repo Market and Federal Reserve Tools, accessed May 10, 2026, [https://www.newyorkfed.org/newsevents/speeches/2024/per241112](https://www.newyorkfed.org/newsevents/speeches/2024/per241112)  
-8. FAQs: Standing Repo Facility \- FEDERAL RESERVE BANK of NEW YORK, accessed May 10, 2026, [https://www.newyorkfed.org/markets/repo-agreement-ops-faq-251210](https://www.newyorkfed.org/markets/repo-agreement-ops-faq-251210)  
+8. FAQs: Standing Repo Facility - FEDERAL RESERVE BANK of NEW YORK, accessed May 10, 2026, [https://www.newyorkfed.org/markets/repo-agreement-ops-faq-251210](https://www.newyorkfed.org/markets/repo-agreement-ops-faq-251210)  
 9. Standing Repo (SRP) Operations Rate (SRFTSYD) | FRED | St. Louis Fed, accessed May 10, 2026, [https://fred.stlouisfed.org/series/SRFTSYD](https://fred.stlouisfed.org/series/SRFTSYD)  
-10. Treasury basis trade \- Wikipedia, accessed May 10, 2026, [https://en.wikipedia.org/wiki/Treasury\_basis\_trade](https://en.wikipedia.org/wiki/Treasury_basis_trade)  
-11. The Fed \- The Cross-Border Trail of the Treasury Basis Trade, accessed May 10, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/the-cross-border-trail-of-the-treasury-basis-trade-20251015.html](https://www.federalreserve.gov/econres/notes/feds-notes/the-cross-border-trail-of-the-treasury-basis-trade-20251015.html)  
-12. Treasury Market Dysfunction and the Role of the Central Bank\* \- Yale Department of Economics, accessed May 10, 2026, [https://economics.yale.edu/sites/default/files/2025-06/KSWY%20Brookings%20final.pdf](https://economics.yale.edu/sites/default/files/2025-06/KSWY%20Brookings%20final.pdf)  
-13. The Treasury market in spring 2020 and the response of the Federal Reserve \- Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/publ/work966.pdf](https://www.bis.org/publ/work966.pdf)  
+10. Treasury basis trade - Wikipedia, accessed May 10, 2026, [https://en.wikipedia.org/wiki/Treasury_basis_trade](https://en.wikipedia.org/wiki/Treasury_basis_trade)  
+11. The Fed - The Cross-Border Trail of the Treasury Basis Trade, accessed May 10, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/the-cross-border-trail-of-the-treasury-basis-trade-20251015.html](https://www.federalreserve.gov/econres/notes/feds-notes/the-cross-border-trail-of-the-treasury-basis-trade-20251015.html)  
+12. Treasury Market Dysfunction and the Role of the Central Bank* - Yale Department of Economics, accessed May 10, 2026, [https://economics.yale.edu/sites/default/files/2025-06/KSWY%20Brookings%20final.pdf](https://economics.yale.edu/sites/default/files/2025-06/KSWY%20Brookings%20final.pdf)  
+13. The Treasury market in spring 2020 and the response of the Federal Reserve - Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/publ/work966.pdf](https://www.bis.org/publ/work966.pdf)  
 14. Developments in Central Clearing in the U.S. Treasury Market, accessed May 10, 2026, [https://home.treasury.gov/system/files/221/TBACCharge2Q12025.pdf](https://home.treasury.gov/system/files/221/TBACCharge2Q12025.pdf)  
-15. Answers to your FAQs on the US Treasury Clearing Mandate \- State Street, accessed May 10, 2026, [https://www.statestreet.com/br/en/insights/central-clearing-mandate-faqs](https://www.statestreet.com/br/en/insights/central-clearing-mandate-faqs)  
+15. Answers to your FAQs on the US Treasury Clearing Mandate - State Street, accessed May 10, 2026, [https://www.statestreet.com/br/en/insights/central-clearing-mandate-faqs](https://www.statestreet.com/br/en/insights/central-clearing-mandate-faqs)  
 16. Central Clearing Implementation, accessed May 10, 2026, [https://home.treasury.gov/system/files/221/TBACCharge1Q22026.pdf](https://home.treasury.gov/system/files/221/TBACCharge1Q22026.pdf)  
 17. Update on the SEC's Work Toward Treasury Clearing Implementation, accessed May 10, 2026, [https://www.sec.gov/newsroom/speeches-statements/uyeda-update-sec-work-toward-treasury-clearing-implementation-042026](https://www.sec.gov/newsroom/speeches-statements/uyeda-update-sec-work-toward-treasury-clearing-implementation-042026)  
-18. Treasury Clearing Implementation \- SEC.gov, accessed May 10, 2026, [https://www.sec.gov/featured-topics/treasury-clearing-implementation](https://www.sec.gov/featured-topics/treasury-clearing-implementation)  
+18. Treasury Clearing Implementation - SEC.gov, accessed May 10, 2026, [https://www.sec.gov/featured-topics/treasury-clearing-implementation](https://www.sec.gov/featured-topics/treasury-clearing-implementation)  
 19. Treasury Clearing | Investment Company Institute, accessed May 10, 2026, [https://www.ici.org/resource-hubs/treasury-clearing](https://www.ici.org/resource-hubs/treasury-clearing)  
-20. NBER WORKING PAPER SERIES CIP DEVIATIONS, THE DOLLAR, AND FRICTIONS IN INTERNATIONAL CAPITAL MARKETS Wenxin Du Jesse Schreger Wo, accessed May 10, 2026, [https://www.nber.org/system/files/working\_papers/w28777/w28777.pdf](https://www.nber.org/system/files/working_papers/w28777/w28777.pdf)  
-21. The Synthetic Dollar Funding Channel of US Monetary Policy ∗ \- Columbia Economics Department, accessed May 10, 2026, [https://econ.columbia.edu/wp-content/uploads/sites/18/2024/10/JMP.pdf](https://econ.columbia.edu/wp-content/uploads/sites/18/2024/10/JMP.pdf)  
-22. Covered interest parity lost: understanding the cross-currency basis, accessed May 10, 2026, [https://www.bis.org/publ/qtrpdf/r\_qt1609e.htm](https://www.bis.org/publ/qtrpdf/r_qt1609e.htm)  
-23. Arbitraging Covered Interest Rate Parity Deviations and Bank Lending, accessed May 10, 2026, [https://bfi.uchicago.edu/wp-content/uploads/2020/11/Keller\_Arbitraging-Covered-Interest-Rate-Parity.pdf](https://bfi.uchicago.edu/wp-content/uploads/2020/11/Keller_Arbitraging-Covered-Interest-Rate-Parity.pdf)  
-24. The Fed's Central Bank Swap Lines and FIMA Repo Facility \- Federal Reserve Bank of New York, accessed May 10, 2026, [https://www.newyorkfed.org/medialibrary/media/research/epr/2022/epr\_2022\_fima-repo\_choi.pdf](https://www.newyorkfed.org/medialibrary/media/research/epr/2022/epr_2022_fima-repo_choi.pdf)  
-25. The Fed \- FIMA Repo Facility FAQs \- Federal Reserve, accessed May 10, 2026, [https://www.federalreserve.gov/monetarypolicy/fima-repo-facility-faqs.htm](https://www.federalreserve.gov/monetarypolicy/fima-repo-facility-faqs.htm)  
-26. Foreign and International Monetary Authorities (FIMA) Repo Facility \- Federal Reserve, accessed May 10, 2026, [https://www.federalreserve.gov/monetarypolicy/fima-repo-facility.htm](https://www.federalreserve.gov/monetarypolicy/fima-repo-facility.htm)  
-27. The FIMA Repo Facility: The Fed's Solution to the Global US Dollar Crunch \- Loomis Sayles, accessed May 10, 2026, [https://www.loomissayles.com/insights/the-fima-repo-facility-the-feds-solution-to-the-global-us-dollar-crunch/](https://www.loomissayles.com/insights/the-fima-repo-facility-the-feds-solution-to-the-global-us-dollar-crunch/)  
-28. Dynamic Relationship between Credit and Economic Growth \- BCRP, accessed May 10, 2026, [https://www.bcrp.gob.pe/docs/Publicaciones/Documentos-de-Trabajo/2025/documento-de-trabajo-011-2025.pdf](https://www.bcrp.gob.pe/docs/Publicaciones/Documentos-de-Trabajo/2025/documento-de-trabajo-011-2025.pdf)  
-29. Brazil Macro Special Report The Financial Flow: A Richer Lens on Brazilian Credit Conditions \- Santander, accessed May 10, 2026, [https://cms.santander.com.br/sites/WPS/documentos/std-special-credit-041526/26-04-14\_180324\_bzmacroff041526\_m.pdf](https://cms.santander.com.br/sites/WPS/documentos/std-special-credit-041526/26-04-14_180324_bzmacroff041526_m.pdf)  
-30. Go with the Flow (Q2-19) \- Third Eye Capital, accessed May 10, 2026, [https://thirdeyecapital.com/go-with-the-flow/](https://thirdeyecapital.com/go-with-the-flow/)  
-31. Financial Stability Review, November 2025 \- European Central Bank, accessed May 10, 2026, [https://www.ecb.europa.eu/press/financial-stability-publications/fsr/pdf/ecb.fsr202511\~263b5810d4.en.pdf](https://www.ecb.europa.eu/press/financial-stability-publications/fsr/pdf/ecb.fsr202511~263b5810d4.en.pdf)  
-32. The Credit Impulse Explained, accessed May 10, 2026, [https://cdn.prod.website-files.com/582f21bd539fedd346d8937a/5d9c361f64a2e67892f2c02b\_20150904%20The%20Credit%20Impulse%20Explained.pdf](https://cdn.prod.website-files.com/582f21bd539fedd346d8937a/5d9c361f64a2e67892f2c02b_20150904%20The%20Credit%20Impulse%20Explained.pdf)  
-33. Credit and Economic Recovery: Demystifying Phoenix Miracles∗ \- Banco de España, accessed May 10, 2026, [https://www.bde.es/f/webpi/SES/seminars/2015/files/sie1515.pdf](https://www.bde.es/f/webpi/SES/seminars/2015/files/sie1515.pdf)  
-34. Implications of Shadow Bank Regulation for Monetary Policy at the Zero Lower Bound, accessed May 10, 2026, [https://www.dnb.nl/media/pc0lmzm1/falk-20mazelis\_tcm47-380040.pdf](https://www.dnb.nl/media/pc0lmzm1/falk-20mazelis_tcm47-380040.pdf)  
-35. Banking on Nonbanks, WP/26/23, February 2026 \- International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026023-source-pdf.pdf](https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026023-source-pdf.pdf)  
-36. Stepping Up Venture Capital to Finance Innovation in Europe \- International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/-/media/files/publications/wp/2024/english/wpiea2024146-print-pdf.pdf](https://www.imf.org/-/media/files/publications/wp/2024/english/wpiea2024146-print-pdf.pdf)  
-37. Theory of supply chains: a working capital approach \- Bank for ..., accessed May 10, 2026, [https://www.bis.org/publ/work1070.pdf](https://www.bis.org/publ/work1070.pdf)  
+20. NBER WORKING PAPER SERIES CIP DEVIATIONS, THE DOLLAR, AND FRICTIONS IN INTERNATIONAL CAPITAL MARKETS Wenxin Du Jesse Schreger Wo, accessed May 10, 2026, [https://www.nber.org/system/files/working_papers/w28777/w28777.pdf](https://www.nber.org/system/files/working_papers/w28777/w28777.pdf)  
+21. The Synthetic Dollar Funding Channel of US Monetary Policy ∗ - Columbia Economics Department, accessed May 10, 2026, [https://econ.columbia.edu/wp-content/uploads/sites/18/2024/10/JMP.pdf](https://econ.columbia.edu/wp-content/uploads/sites/18/2024/10/JMP.pdf)  
+22. Covered interest parity lost: understanding the cross-currency basis, accessed May 10, 2026, [https://www.bis.org/publ/qtrpdf/r_qt1609e.htm](https://www.bis.org/publ/qtrpdf/r_qt1609e.htm)  
+23. Arbitraging Covered Interest Rate Parity Deviations and Bank Lending, accessed May 10, 2026, [https://bfi.uchicago.edu/wp-content/uploads/2020/11/Keller_Arbitraging-Covered-Interest-Rate-Parity.pdf](https://bfi.uchicago.edu/wp-content/uploads/2020/11/Keller_Arbitraging-Covered-Interest-Rate-Parity.pdf)  
+24. The Fed's Central Bank Swap Lines and FIMA Repo Facility - Federal Reserve Bank of New York, accessed May 10, 2026, [https://www.newyorkfed.org/medialibrary/media/research/epr/2022/epr_2022_fima-repo_choi.pdf](https://www.newyorkfed.org/medialibrary/media/research/epr/2022/epr_2022_fima-repo_choi.pdf)  
+25. The Fed - FIMA Repo Facility FAQs - Federal Reserve, accessed May 10, 2026, [https://www.federalreserve.gov/monetarypolicy/fima-repo-facility-faqs.htm](https://www.federalreserve.gov/monetarypolicy/fima-repo-facility-faqs.htm)  
+26. Foreign and International Monetary Authorities (FIMA) Repo Facility - Federal Reserve, accessed May 10, 2026, [https://www.federalreserve.gov/monetarypolicy/fima-repo-facility.htm](https://www.federalreserve.gov/monetarypolicy/fima-repo-facility.htm)  
+27. The FIMA Repo Facility: The Fed's Solution to the Global US Dollar Crunch - Loomis Sayles, accessed May 10, 2026, [https://www.loomissayles.com/insights/the-fima-repo-facility-the-feds-solution-to-the-global-us-dollar-crunch/](https://www.loomissayles.com/insights/the-fima-repo-facility-the-feds-solution-to-the-global-us-dollar-crunch/)  
+28. Dynamic Relationship between Credit and Economic Growth - BCRP, accessed May 10, 2026, [https://www.bcrp.gob.pe/docs/Publicaciones/Documentos-de-Trabajo/2025/documento-de-trabajo-011-2025.pdf](https://www.bcrp.gob.pe/docs/Publicaciones/Documentos-de-Trabajo/2025/documento-de-trabajo-011-2025.pdf)  
+29. Brazil Macro Special Report The Financial Flow: A Richer Lens on Brazilian Credit Conditions - Santander, accessed May 10, 2026, [https://cms.santander.com.br/sites/WPS/documentos/std-special-credit-041526/26-04-14_180324_bzmacroff041526_m.pdf](https://cms.santander.com.br/sites/WPS/documentos/std-special-credit-041526/26-04-14_180324_bzmacroff041526_m.pdf)  
+30. Go with the Flow (Q2-19) - Third Eye Capital, accessed May 10, 2026, [https://thirdeyecapital.com/go-with-the-flow/](https://thirdeyecapital.com/go-with-the-flow/)  
+31. Financial Stability Review, November 2025 - European Central Bank, accessed May 10, 2026, [https://www.ecb.europa.eu/press/financial-stability-publications/fsr/pdf/ecb.fsr202511~263b5810d4.en.pdf](https://www.ecb.europa.eu/press/financial-stability-publications/fsr/pdf/ecb.fsr202511~263b5810d4.en.pdf)  
+32. The Credit Impulse Explained, accessed May 10, 2026, [https://cdn.prod.website-files.com/582f21bd539fedd346d8937a/5d9c361f64a2e67892f2c02b_20150904%20The%20Credit%20Impulse%20Explained.pdf](https://cdn.prod.website-files.com/582f21bd539fedd346d8937a/5d9c361f64a2e67892f2c02b_20150904%20The%20Credit%20Impulse%20Explained.pdf)  
+33. Credit and Economic Recovery: Demystifying Phoenix Miracles∗ - Banco de España, accessed May 10, 2026, [https://www.bde.es/f/webpi/SES/seminars/2015/files/sie1515.pdf](https://www.bde.es/f/webpi/SES/seminars/2015/files/sie1515.pdf)  
+34. Implications of Shadow Bank Regulation for Monetary Policy at the Zero Lower Bound, accessed May 10, 2026, [https://www.dnb.nl/media/pc0lmzm1/falk-20mazelis_tcm47-380040.pdf](https://www.dnb.nl/media/pc0lmzm1/falk-20mazelis_tcm47-380040.pdf)  
+35. Banking on Nonbanks, WP/26/23, February 2026 - International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026023-source-pdf.pdf](https://www.imf.org/-/media/files/publications/wp/2026/english/wpiea2026023-source-pdf.pdf)  
+36. Stepping Up Venture Capital to Finance Innovation in Europe - International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/-/media/files/publications/wp/2024/english/wpiea2024146-print-pdf.pdf](https://www.imf.org/-/media/files/publications/wp/2024/english/wpiea2024146-print-pdf.pdf)  
+37. Theory of supply chains: a working capital approach - Bank for ..., accessed May 10, 2026, [https://www.bis.org/publ/work1070.pdf](https://www.bis.org/publ/work1070.pdf)  
 38. International Trade Finance and the Cost Channel of Monetary Policy in Open Economies, accessed May 10, 2026, [https://www.ijcb.org/sites/default/files/journal/v17n4/ijcb-v17n4-international-trade-finance-and-cost-channel-monetary-policy-open-economies.pdf](https://www.ijcb.org/sites/default/files/journal/v17n4/ijcb-v17n4-international-trade-finance-and-cost-channel-monetary-policy-open-economies.pdf)  
-39. INTEREST RATES AND VENTURE CAPITAL INVESTMENTS \- Stockholm School of Economics, accessed May 10, 2026, [http://arc.hhs.se/download.aspx?MediumId=5608](http://arc.hhs.se/download.aspx?MediumId=5608)  
-40. INTEREST RATES, VENTURE CAPITAL, AND FINANCIAL STABILITY \- University of Illinois Law Review, accessed May 10, 2026, [https://illinoislawreview.org/wp-content/uploads/2025/10/Allen-1.pdf](https://illinoislawreview.org/wp-content/uploads/2025/10/Allen-1.pdf)  
-41. The numerator and denominator effect in private assets \- Allianz Global Investors, accessed May 10, 2026, [https://ap.allianzgi.com/-/media/allianzgi/ap/ap/insurers-connect/pdfs/issue07/web-allianzgi-ap-2025-denominator-effect-private-assets-stamped.pdf?rev=-1](https://ap.allianzgi.com/-/media/allianzgi/ap/ap/insurers-connect/pdfs/issue07/web-allianzgi-ap-2025-denominator-effect-private-assets-stamped.pdf?rev=-1)  
-42. The Private Markets Allocation Conundrum \- Goldman Sachs Asset Management, accessed May 10, 2026, [https://am.gs.com/en-lu/advisors/insights/article/2025/allocation-conundrum](https://am.gs.com/en-lu/advisors/insights/article/2025/allocation-conundrum)  
-43. A holistic approach to managing private market allocations \- State Street Global Advisors, accessed May 10, 2026, [https://www.ssga.com/us/en/institutional/insights/a-holistic-approach-to-managing-private-market-allocations](https://www.ssga.com/us/en/institutional/insights/a-holistic-approach-to-managing-private-market-allocations)  
-44. Insights \- KKR, accessed May 10, 2026, [https://www.kkr.com/content/dam/kkr/insights/pdf/kmas-feb-2026-total-portfolio-approach.pdf](https://www.kkr.com/content/dam/kkr/insights/pdf/kmas-feb-2026-total-portfolio-approach.pdf)  
-45. What asset allocators need to know about the denominator effect \- PitchBook, accessed May 10, 2026, [https://pitchbook.com/blog/what-is-the-denominator-effect-exploring-portfolio-rebalancing-strategies](https://pitchbook.com/blog/what-is-the-denominator-effect-exploring-portfolio-rebalancing-strategies)  
-46. Private equity in transition: from distribution drought to selective recovery | Allianz, accessed May 10, 2026, [https://www.allianz.com/en/economic\_research/insights/publications/specials\_fmo/260220-private-equity.html](https://www.allianz.com/en/economic_research/insights/publications/specials_fmo/260220-private-equity.html)  
-47. Outlook 2026 PRIVATE MARKETS \- Arcano Partners, accessed May 10, 2026, [https://www.arcanopartners.com/sites/default/files/archivos/documentos/Arcano%20Partners%20Outlook%202026%20%28EN%29\_0.pdf](https://www.arcanopartners.com/sites/default/files/archivos/documentos/Arcano%20Partners%20Outlook%202026%20%28EN%29_0.pdf)  
+39. INTEREST RATES AND VENTURE CAPITAL INVESTMENTS - Stockholm School of Economics, accessed May 10, 2026, [http://arc.hhs.se/download.aspx?MediumId=5608](http://arc.hhs.se/download.aspx?MediumId=5608)  
+40. INTEREST RATES, VENTURE CAPITAL, AND FINANCIAL STABILITY - University of Illinois Law Review, accessed May 10, 2026, [https://illinoislawreview.org/wp-content/uploads/2025/10/Allen-1.pdf](https://illinoislawreview.org/wp-content/uploads/2025/10/Allen-1.pdf)  
+41. The numerator and denominator effect in private assets - Allianz Global Investors, accessed May 10, 2026, [https://ap.allianzgi.com/-/media/allianzgi/ap/ap/insurers-connect/pdfs/issue07/web-allianzgi-ap-2025-denominator-effect-private-assets-stamped.pdf?rev=-1](https://ap.allianzgi.com/-/media/allianzgi/ap/ap/insurers-connect/pdfs/issue07/web-allianzgi-ap-2025-denominator-effect-private-assets-stamped.pdf?rev=-1)  
+42. The Private Markets Allocation Conundrum - Goldman Sachs Asset Management, accessed May 10, 2026, [https://am.gs.com/en-lu/advisors/insights/article/2025/allocation-conundrum](https://am.gs.com/en-lu/advisors/insights/article/2025/allocation-conundrum)  
+43. A holistic approach to managing private market allocations - State Street Global Advisors, accessed May 10, 2026, [https://www.ssga.com/us/en/institutional/insights/a-holistic-approach-to-managing-private-market-allocations](https://www.ssga.com/us/en/institutional/insights/a-holistic-approach-to-managing-private-market-allocations)  
+44. Insights - KKR, accessed May 10, 2026, [https://www.kkr.com/content/dam/kkr/insights/pdf/kmas-feb-2026-total-portfolio-approach.pdf](https://www.kkr.com/content/dam/kkr/insights/pdf/kmas-feb-2026-total-portfolio-approach.pdf)  
+45. What asset allocators need to know about the denominator effect - PitchBook, accessed May 10, 2026, [https://pitchbook.com/blog/what-is-the-denominator-effect-exploring-portfolio-rebalancing-strategies](https://pitchbook.com/blog/what-is-the-denominator-effect-exploring-portfolio-rebalancing-strategies)  
+46. Private equity in transition: from distribution drought to selective recovery | Allianz, accessed May 10, 2026, [https://www.allianz.com/en/economic_research/insights/publications/specials_fmo/260220-private-equity.html](https://www.allianz.com/en/economic_research/insights/publications/specials_fmo/260220-private-equity.html)  
+47. Outlook 2026 PRIVATE MARKETS - Arcano Partners, accessed May 10, 2026, [https://www.arcanopartners.com/sites/default/files/archivos/documentos/Arcano%20Partners%20Outlook%202026%20%28EN%29_0.pdf](https://www.arcanopartners.com/sites/default/files/archivos/documentos/Arcano%20Partners%20Outlook%202026%20%28EN%29_0.pdf)  
 48. The First-Time Fund Manager Playbook | Altss Frameworks, accessed May 10, 2026, [https://altss.com/knowledge-center/frameworks/the-first-time-fund-manager-playbook](https://altss.com/knowledge-center/frameworks/the-first-time-fund-manager-playbook)  
-49. Public Pension Private Markets Report: 2025 Review and Outlook \- Dakota, accessed May 10, 2026, [https://www.dakota.com/reports-blog/public-pension-private-markets-report-2025-review-and-outlook](https://www.dakota.com/reports-blog/public-pension-private-markets-report-2025-review-and-outlook)  
-50. Private Equity: In the Doldrums and Out of Favor with Some Institutional Investors \- CEPR, accessed May 10, 2026, [https://cepr.net/publications/private-equity-in-the-doldrums-and-out-of-favor/](https://cepr.net/publications/private-equity-in-the-doldrums-and-out-of-favor/)  
+49. Public Pension Private Markets Report: 2025 Review and Outlook - Dakota, accessed May 10, 2026, [https://www.dakota.com/reports-blog/public-pension-private-markets-report-2025-review-and-outlook](https://www.dakota.com/reports-blog/public-pension-private-markets-report-2025-review-and-outlook)  
+50. Private Equity: In the Doldrums and Out of Favor with Some Institutional Investors - CEPR, accessed May 10, 2026, [https://cepr.net/publications/private-equity-in-the-doldrums-and-out-of-favor/](https://cepr.net/publications/private-equity-in-the-doldrums-and-out-of-favor/)  
 51. The UK LDI Crisis | State Street, accessed May 10, 2026, [https://www.statestreet.com/web/insights/articles/documents/the-uk-ldi-crisis.pdf](https://www.statestreet.com/web/insights/articles/documents/the-uk-ldi-crisis.pdf)  
-52. Lessons from the United Kingdom's Liability – Driven Investment (LDI) Crisis \- IMF Selected Issues Papers, accessed May 10, 2026, [https://www.imf.org/-/media/Files/Publications/Selected-Issues-Papers/2023/English/SIPEA2023049.ashx?utm\_source=chatgpt.com](https://www.imf.org/-/media/Files/Publications/Selected-Issues-Papers/2023/English/SIPEA2023049.ashx?utm_source=chatgpt.com)  
-53. Monetary policy consequences of financial ... \- Bank of England, accessed May 10, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2024/monetary-policy-consequences-of-financial-stability-interventions.pdf](https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2024/monetary-policy-consequences-of-financial-stability-interventions.pdf)  
+52. Lessons from the United Kingdom's Liability – Driven Investment (LDI) Crisis - IMF Selected Issues Papers, accessed May 10, 2026, [https://www.imf.org/-/media/Files/Publications/Selected-Issues-Papers/2023/English/SIPEA2023049.ashx?utm_source=chatgpt.com](https://www.imf.org/-/media/Files/Publications/Selected-Issues-Papers/2023/English/SIPEA2023049.ashx?utm_source=chatgpt.com)  
+53. Monetary policy consequences of financial ... - Bank of England, accessed May 10, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2024/monetary-policy-consequences-of-financial-stability-interventions.pdf](https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2024/monetary-policy-consequences-of-financial-stability-interventions.pdf)  
 54. UK Pension Schemes' LDI Strategies Prompted Bank of England's Emergency Intervention in Gilt Market to Shore Up Liquidity | Morningstar DBRS, accessed May 10, 2026, [https://dbrs.morningstar.com/research/403964/uk-pension-schemes-ldi-strategies-prompted-bank-of-englands-emergency-intervention-in-gilt-market-to-shore-up-liquidity](https://dbrs.morningstar.com/research/403964/uk-pension-schemes-ldi-strategies-prompted-bank-of-englands-emergency-intervention-in-gilt-market-to-shore-up-liquidity)  
-55. Looking through a glass onion: lessons from the 2022 LDI intervention \- Bank of England, accessed May 10, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/speech/2023/march/andrew-hauser-speech-slides-on-markets-dysfunction.pdf](https://www.bankofengland.co.uk/-/media/boe/files/speech/2023/march/andrew-hauser-speech-slides-on-markets-dysfunction.pdf)  
-56. What Is Supply Chain Finance? Optimizing Working Capital \- BofA Securities, accessed May 10, 2026, [https://business.bofa.com/en-us/content/what-is-supply-chain-finance.html](https://business.bofa.com/en-us/content/what-is-supply-chain-finance.html)
+55. Looking through a glass onion: lessons from the 2022 LDI intervention - Bank of England, accessed May 10, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/speech/2023/march/andrew-hauser-speech-slides-on-markets-dysfunction.pdf](https://www.bankofengland.co.uk/-/media/boe/files/speech/2023/march/andrew-hauser-speech-slides-on-markets-dysfunction.pdf)  
+56. What Is Supply Chain Finance? Optimizing Working Capital - BofA Securities, accessed May 10, 2026, [https://business.bofa.com/en-us/content/what-is-supply-chain-finance.html](https://business.bofa.com/en-us/content/what-is-supply-chain-finance.html)
 
 ---
 
@@ -934,7 +934,7 @@ To construct a rigorous diagnostic framework, a precise, shared set of systemic 
 
 | Systemic Primitive | Operational Definition & Systemic Formulation | Transmission Channel & Macroeconomic Impact |
 | :---- | :---- | :---- |
-| **Regime** | The overarching institutional, demographic, energy, and technological matrix that dictates how nominal demand interacts with real capacity. Mathematically, it represents a state space S where the sensitivity of output (Y) and prices (P) to policy variables (such as the policy rate r) is stable: S \= { dY/dr, dP/dr } ≈ C.1 | Dictates the dominant transmission channels of monetary and fiscal policy. Determines whether nominal demand stimulates real production or translates entirely into price inflation.1 |
+| **Regime** | The overarching institutional, demographic, energy, and technological matrix that dictates how nominal demand interacts with real capacity. Mathematically, it represents a state space S where the sensitivity of output (Y) and prices (P) to policy variables (such as the policy rate r) is stable: S = { dY/dr, dP/dr } ≈ C.1 | Dictates the dominant transmission channels of monetary and fiscal policy. Determines whether nominal demand stimulates real production or translates entirely into price inflation.1 |
 | **Cycle** | Periodic oscillations of macroeconomic variables around a long-term structural trend, driven by inventory accumulation, profit margins, and capacity utilization. | Governs short- to medium-term fluctuations in employment, output, and corporate profit margins without permanently altering the underlying productive potential of the economy. |
 | **Transition** | The systemic migration of an economy from one regime state to another (S1 to S2), marked by a fundamental reconfiguration of causal relationships, sensitivity parameters, and policy constraints.1 | Alters the sign and magnitude of structural multipliers, rendering historical backtests and static econometric models obsolete.1 |
 | **Shock** | An exogenous or endogenous disruption that alters the volume or price of critical inputs (such as energy or labor) or suddenly shifts aggregate demand and supply.4 | Acts as the trigger for cyclical fluctuations or catalyzes structural transitions by exposing underlying balance-sheet or supply-side vulnerabilities.4 |
@@ -942,7 +942,7 @@ To construct a rigorous diagnostic framework, a precise, shared set of systemic 
 | **Binding Constraint** | The absolute limiting factor that prevents further non-inflationary expansion or stability in a given system state (for example, labor shortages, energy EROI, collateral capacity, or fiscal space).11 | Pinpoints where the next systemic bottleneck will emerge, dictating which variables are highly sensitive to policy intervention and which are inelastic.4 |
 | **Feedback Loop** | Self-reinforcing (positive) or self-correcting (negative) circular causal chains where the output of a process modifies the input.8 | Amplifies systemic volatility (positive feedback) or stabilizes the system around an equilibrium point (negative feedback), driving non-linear macro behavior.8 |
 | **Lag Structure** | The temporal delay between a policy action or structural shock and its realized effect on real-economy variables, typically characterized by variable and non-linear durations. | Generates policy overshoot risks, as central banks or governments may over-tighten or over-stimulate while waiting for lagging indicators to adjust.17 |
-| **Policy Reaction Function** | The systematic, historically bounded rules or discretionary frameworks that govern how institutions respond to macroeconomic developments: r\_t \= f(pi\_t, u\_t, Debt\_t).1 | Governs the predictability of policy interventions and defines the institutional "backstops" that market participants expect the state to defend.13 |
+| **Policy Reaction Function** | The systematic, historically bounded rules or discretionary frameworks that govern how institutions respond to macroeconomic developments: r_t = f(pi_t, u_t, Debt_t).1 | Governs the predictability of policy interventions and defines the institutional "backstops" that market participants expect the state to defend.13 |
 | **Real Capacity** | The physical limits of the productive economy, determined by labor supply, energy availability, technological efficiency, and capital infrastructure.5 | Establishes the non-inflationary ceiling for nominal demand growth; when nominal demand exceeds real capacity, structural inflation is triggered.4 |
 | **Nominal Demand** | The total volume of money and credit directed toward purchasing goods, services, and financial assets within a given time period.8 | Driven by private bank credit expansion, fiscal deficits, and the velocity of money; acts as the primary engine of nominal growth and short-term employment.3 |
 | **Credit Impulse** | The change in the flow of new credit as a percentage of GDP: Change in (Change in Credit) / GDP.17 | Transmits directly to asset prices, business investment, and consumer durables, serving as the link between monetary liquidity and real economic activity.17 |
@@ -958,30 +958,30 @@ To construct a rigorous diagnostic framework, a precise, shared set of systemic 
 
 A major error in contemporary macro analysis is treating the business cycle as an isolated phenomenon. The standard business cycle—moving through expansion, slowdown, recession, and recovery—does not occur in a vacuum. It is nested within, and continuously constrained by, a series of slower-moving structural cycles. These layers operate at different speeds, occasionally aligning to produce explosive growth or compounding to trigger systemic crises.
 
-       \+-------------------------------------------------------------+
+       +-------------------------------------------------------------+
 
-| GEOPOLITICAL ORDER / FRAGMENTATION | (50 \- 100 Years)  
-       \+------------------------------+------------------------------+  
+| GEOPOLITICAL ORDER / FRAGMENTATION | (50 - 100 Years)  
+       +------------------------------+------------------------------+  
 |  
-       \+------------------------------v------------------------------+
+       +------------------------------v------------------------------+
 
-| DEMOGRAPHIC & DEBT SUPERCYCLES | (30 \- 80 Years)  
-       \+------------------------------+------------------------------+  
+| DEMOGRAPHIC & DEBT SUPERCYCLES | (30 - 80 Years)  
+       +------------------------------+------------------------------+  
 |  
-       \+------------------------------v------------------------------+
+       +------------------------------v------------------------------+
 
-| ENERGY & PRODUCTIVITY FRONTIERS | (10 \- 50 Years)  
-       \+------------------------------+------------------------------+  
+| ENERGY & PRODUCTIVITY FRONTIERS | (10 - 50 Years)  
+       +------------------------------+------------------------------+  
 |  
-       \+------------------------------v------------------------------+
+       +------------------------------v------------------------------+
 
-| MONETARY & FISCAL REGIME WAVES | (10 \- 20 Years)  
-       \+------------------------------+------------------------------+  
+| MONETARY & FISCAL REGIME WAVES | (10 - 20 Years)  
+       +------------------------------+------------------------------+  
 |  
-       \+------------------------------v------------------------------+
+       +------------------------------v------------------------------+
 
-| STANDARD BUSINESS CYCLES | (5 \- 10 Years)  
-       \+-------------------------------------------------------------+
+| STANDARD BUSINESS CYCLES | (5 - 10 Years)  
+       +-------------------------------------------------------------+
 
 The standard business cycle is driven primarily by inventory accumulation, corporate profit margins, and short-term labor market tightness. Under stable structural regimes, this cycle behaves predictably. Central banks adjust interest rates to manage demand, and the economy oscillates gently around its potential output.
 
@@ -1039,7 +1039,7 @@ When speculative capital booms occur—such as the massive flows into artificial
 
 ### **Secular Stagnation versus the Post-2020 Fiscal-Monetary Shift**
 
-The Secular Stagnation thesis, popularized by Lawrence Summers, argues that advanced economies face a chronic, structural imbalance where the desired level of savings exceeds the desired level of investment.34 This excess of savings over investment drives the natural real rate of interest (r\*) into negative territory, meaning the economy cannot achieve full employment without relying on asset price bubbles and highly accommodative monetary policy.25
+The Secular Stagnation thesis, popularized by Lawrence Summers, argues that advanced economies face a chronic, structural imbalance where the desired level of savings exceeds the desired level of investment.34 This excess of savings over investment drives the natural real rate of interest (r*) into negative territory, meaning the economy cannot achieve full employment without relying on asset price bubbles and highly accommodative monetary policy.25
 
 The structural drivers of secular stagnation include:
 
@@ -1054,7 +1054,7 @@ This massive stimulus shifted the interest rate-growth differential (IRGD), forc
 
 The ultimate constraint on any macroeconomic system is thermodynamic. Money and credit are nominal claims; energy is the real physical resource required to perform work and drive economic production.18 The relationship between energy and macroeconomics is governed by **Energy Return on Investment (EROI)**, defined as the ratio of usable energy delivered to society relative to the energy expended in its extraction and refinement:
 
-EROI \= Energy Delivered to Society / Energy Expended in Extraction
+EROI = Energy Delivered to Society / Energy Expended in Extraction
 
 During the Industrial Revolution, the rapid transition to conventional fossil fuels—which exhibited exceptionally high EROIs (often exceeding 30:1 to 100:1)—unlocked massive physical productivity, driving modern wealth accumulation.18 However, the depletion of easily accessible, cheap conventional resources has forced a transition toward lower-quality, more expensive unconventional sources (e.g., deepwater oil, tar sands, shale), which exhibit significantly lower EROIs.11
 
@@ -1063,7 +1063,7 @@ This thermodynamic decline triggers a feedback loop known as the **Economic Grow
 Empirical research shows a power inverse relationship between the average price of aggregated fossil energy and its EROI.12 Furthermore, historical data confirms that:
 
 * **The 15% GWP Limit**: The global economy cannot allocate more than **15% of Gross World Product (GWP)** to direct energy expenditures without precipitating severe, systemic recessions and negative growth.12  
-* **The Minimum EROI (EROI\_min)**: Given the current infrastructure and capital intensity of the global economy, the primary energy system must maintain a minimum EROI of approximately **6.5:1** to sustain positive macroeconomic growth.12
+* **The Minimum EROI (EROI_min)**: Given the current infrastructure and capital intensity of the global economy, the primary energy system must maintain a minimum EROI of approximately **6.5:1** to sustain positive macroeconomic growth.12
 
 When EROI falls toward this threshold, society must allocate a larger portion of its labor force and capital stock to simply harvesting energy, leaving fewer resources for consumption, research, education, and infrastructure. Monetary policy cannot print physical energy; if the real system faces an energy constraint, injecting nominal liquidity will only generate price inflation as more dollars chase a fixed or declining physical energy supply.4
 
@@ -1071,7 +1071,7 @@ When EROI falls toward this threshold, society must allocate a larger portion of
 
 For nearly three decades (1990–2017), global monetary policy benefited from massive disinflationary tailwinds. In *The Great Demographic Reversal*, Charles Goodhart and Manoj Pradhan argue that this disinflationary era was driven by a unique, non-repeatable global labor supply shock: the integration of China and Eastern Europe into the global trading system, alongside favorable demographic dependency ratios in advanced economies.22
 
-This demographic dividend doubled the effective labor supply available to manufacture products for the global system, shifting the global division of labor.22 China's share of world manufacturing rose from 8.7% in 2004 to 26.6% in 2017\.40 This massive influx of cheap labor suppressed wages in advanced economies, decimated domestic labor bargaining power, and flooded the global economy with cheap manufactured imports.22
+This demographic dividend doubled the effective labor supply available to manufacture products for the global system, shifting the global division of labor.22 China's share of world manufacturing rose from 8.7% in 2004 to 26.6% in 2017.40 This massive influx of cheap labor suppressed wages in advanced economies, decimated domestic labor bargaining power, and flooded the global economy with cheap manufactured imports.22
 
 Simultaneously, a vast working-age population saved intensely for retirement, creating a persistent global "savings glut" that drove real interest rates to historical lows.22
 
@@ -1135,18 +1135,18 @@ To operationalize economic regime theory, we must categorize macro environments 
 
 | Regime Family | Binding Constraint | Dominant Feedback Loop | Policy Bias & Reaction Function | Balance-Sheet Condition | Real Capacity & Growth Trend | Market Signature & Asset Pricing | Social / Political Pressure | Leading Indicators | Failure Mode |
 | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- | :---- |
-| **Abundant-Liquidity Expansion** | None immediately active; balance-sheet capacity is high.21 | Rising asset prices \-\> collateral expansion \-\> private credit growth \-\> higher asset prices.21 | Highly accommodative; forward guidance commits to "low for longer" to support expansion.17 | Highly liquid; low leverage-to-equity ratios; high bank lending appetite.17 | Expanding steadily; output gap is closing; low inflation.17 | Compressed credit spreads; high equity multiples; growth stock outperformance. | Low; high consumer confidence; wealth inequality begins to expand.19 | Accelerating credit impulse; loosening SLOOS; rising equity volumes.17 | Transition to late-cycle overheating as physical limits are breached.4 |
-| **Late-Cycle Overheating** | Physical capacity limits (labor, raw materials, energy).4 | Rising wages \-\> higher disposable income \-\> demand-pull inflation \-\> wage indexation.20 | Aggressive tightening; rate hikes and quantitative tightening to cool aggregate demand.17 | High leverage; rising debt-service burdens; declining cash buffers.13 | Decelerating real growth; output gap positive; rising unit labor costs. | Flat/inverted yield curves; commodity outperformance; widening credit spreads. | High; public anger over cost-of-living spikes; labor strike frequency rises.22 | Surging supercore CPI; falling unemployment; widening term premium.14 | Policy overshoot triggers a sudden liquidity shock or credit cascade.6 |
-| **Disinflationary Soft Landing** | Labor supply elastic; stable inflation expectations.22 | Rising productivity \-\> lower unit costs \-\> real income expansion \-\> stable demand.27 | Gradual easing; proactive rate cuts to align real rates with falling inflation.4 | Stable; robust equity cushions; post-crisis bank capital buffers intact.44 | Stable, trend-level real growth; output gap near zero; productivity rising.26 | Bull-steepening yield curves; equity market breadth expansion; high-grade bonds rally.17 | Low; wage growth matches inflation; high consumer satisfaction. | Moderating average hourly earnings; stable core PCE; rising capex.26 | Exogenous supply-side shock or policy error reverses the soft landing.4 |
-| **Balance-Sheet Recession** | Private sector credit demand; debt minimization. | Debt paydown \-\> demand destruction \-\> income decline \-\> rising real debt burdens. | Ineffective monetary policy (liquidity trap); heavy reliance on fiscal deficits.23 | Deeply impaired; negative private sector net worth; profit maximization suspended.23 | Contracting or stagnant real GDP; persistent output gap; deflationary pressure.23 | Yields stay "low for long"; defensive equities outperform; high equity risk premium.17 | High; demands for state relief and welfare expansion; anti-corporate sentiment.19 | Collapsing private credit impulse; surging personal savings rate.19 | Sovereign market stress if the fiscal authority fails to sustain deficits.14 |
-| **Debt-Deflation Regime** | Nominal debt-service capacity.33 | Asset liquidation \-\> falling asset prices \-\> margin calls \-\> forced liquidations.6 | Emergency monetization; lender-of-last-resort interventions; rate cuts to ZLB.16 | Systemic insolvency; private sector defaults; bank credit contraction.6 | Deep contraction of real activity; surging cyclical unemployment.6 | Equities collapse; credit spreads explode; cash and safe havens outperform.6 | Intense; systemic loss of trust in financial institutions; political polarization.5 | Vertically widening credit spreads; surging bank failures; bank run signals.6 | Systemic restructuring, debt defaults, or transition to financial repression.33 |
-| **Stagflationary Constraint** | Primary resource availability (Energy, Labor).4 | Energy cost spike \-\> margin compression \-\> production cuts \-\> supply shortage.4 | Policy trap; rate cuts fuel inflation, rate hikes worsen supply-side defaults.4 | Margin squeeze across non-energy corporates; household purchasing power drops.4 | Contracting or stagnant real GDP; rising core CPI; supply chain delays.4 | Positive stock-bond correlation; yield curves steepen; gold outpaces equities.14 | Severe; cost-of-living crises; political instability; populist movements.13 | Falling EROI; structural energy import deficits; surging raw material prices.12 | Forced demand destruction through severe recession or political intervention.4 |
-| **Financial Repression / Fiscal Dominance** | Sovereign market capacity.14 | Deficit expansion \-\> central bank monetization \-\> inflation \-\> real debt erosion.20 | Subordinated; nominal interest rates capped below nominal GDP growth.13 | High public debt (\>120% GDP); banks forced to hold domestic government bonds.13 | Flat real growth; high nominal growth; structural inflation.13 | Deeply negative real yields; steep nominal yield curves; gold/hard asset rally.14 | High; savers penalized by negative real returns; wealth redistribution conflict.13 | Exploding net interest payments relative to tax revenues; central bank monetizing.13 | Sudden loss of currency confidence; hyperinflationary unanchoring of expectations.13 |
-| **Productivity Expansion** | Technology adoption speed.27 | Capex in technology \-\> efficiency gains \-\> higher margins \-\> capital deepening.26 | Neutral to accommodative; interest rates track rising neutral rate r\*.22 | Productive leverage; corporate earnings outpace debt accumulation; strong cash flows.38 | Accelerating real GDP; falling unit labor costs; structural disinflation.26 | High-beta growth equities outperform; real yields rise without crashing asset prices.17 | Low; rising living standards; technological displacement concerns emerge.27 | Surging software/equipment capex; frontier-laggard productivity convergence.26 | Speculative overshooting and transition to bubble dynamics.8 |
-| **Secular Stagnation** | Private sector investment demand.38 | Excess savings \-\> downward pressure on r\* \-\> chronic aggregate demand deficit.25 | Accommodative; trapped near the zero lower bound; active QE.25 | High corporate cash holdings; buybacks preferred over real asset investments.19 | Sub-trend, sluggish real growth; low inflation; output gap persistent.23 | Flattening yield curves; growth equities and high-yield credit outperform.17 | High; rising wealth inequality; demands for structural tax and welfare reforms.19 | Declining working-age population; falling relative prices of capital goods.25 | Asset price bubble collapse or transition to fiscal dominance.14 |
-| **Geopolitical Fragmentation** | Geopolitical alignment; secure trade networks.5 | Strategic decoupling \-\> supply-chain duplication \-\> higher input costs \-\> localized inflation.5 | Mercantilist; tariffs used to protect domestic industry, fueling inflation.14 | Public sector running defensive deficits (national defense, onshoring).13 | Slower global productivity growth; localized manufacturing construction booms.5 | Currency volatility; high performance of defense and industrial stocks.5 | Nationalistic; support for protectionism; geopolitical risk anxiety.5 | Surging bilateral trade imbalances; rising geopolitical distance in UN voting.46 | Escalation to trade wars or hot military conflict, triggering supply shocks.5 |
-| **Crisis Cascade** | Systemic liquidity and counterparty trust.9 | Counterparty default \-\> collateral margin calls \-\> wholesale funding run \-\> insolvency.6 | Emergency monetization; swap lines; discount window expansion; bank holidays.1 | Severe liquidity mismatch; high dependency on short-term wholesale funding.9 | Rapid contraction of real activity; global trade finance frozen.6 | Plunging government yields; credit spreads widen vertically; VIX peaks.6 | Extreme; panic; loss of social cohesion; demands for immediate state stabilization.5 | Surging repo rates; bank borrowing from the Fed; wholesale funding freeze.9 | Systemic restructuring, default, or hyper-monetization.10 |
-| **Post-Crisis Repair** | Regulatory constraints and capital adequacy.44 | Debt write-downs \-\> balance-sheet cleanups \-\> restoration of credit trust. | Highly regulated; macroprudential policies dominate (higher capital ratios).43 | Deleveraged; cash-rich; highly risk-averse private sector behavior.19 | Sluggish, consumption-led recovery; capital investment lags.27 | Curve flattening; stable dividend-paying equities outperform; low credit spreads.17 | Low to moderate; post-crisis fatigue; public demand for financial stability.44 | Rising Tier 1 capital ratios; flat bank credit growth; declining household debt.17 | Transitions slowly back to abundant-liquidity expansion as risk appetite returns.21 |
+| **Abundant-Liquidity Expansion** | None immediately active; balance-sheet capacity is high.21 | Rising asset prices -> collateral expansion -> private credit growth -> higher asset prices.21 | Highly accommodative; forward guidance commits to "low for longer" to support expansion.17 | Highly liquid; low leverage-to-equity ratios; high bank lending appetite.17 | Expanding steadily; output gap is closing; low inflation.17 | Compressed credit spreads; high equity multiples; growth stock outperformance. | Low; high consumer confidence; wealth inequality begins to expand.19 | Accelerating credit impulse; loosening SLOOS; rising equity volumes.17 | Transition to late-cycle overheating as physical limits are breached.4 |
+| **Late-Cycle Overheating** | Physical capacity limits (labor, raw materials, energy).4 | Rising wages -> higher disposable income -> demand-pull inflation -> wage indexation.20 | Aggressive tightening; rate hikes and quantitative tightening to cool aggregate demand.17 | High leverage; rising debt-service burdens; declining cash buffers.13 | Decelerating real growth; output gap positive; rising unit labor costs. | Flat/inverted yield curves; commodity outperformance; widening credit spreads. | High; public anger over cost-of-living spikes; labor strike frequency rises.22 | Surging supercore CPI; falling unemployment; widening term premium.14 | Policy overshoot triggers a sudden liquidity shock or credit cascade.6 |
+| **Disinflationary Soft Landing** | Labor supply elastic; stable inflation expectations.22 | Rising productivity -> lower unit costs -> real income expansion -> stable demand.27 | Gradual easing; proactive rate cuts to align real rates with falling inflation.4 | Stable; robust equity cushions; post-crisis bank capital buffers intact.44 | Stable, trend-level real growth; output gap near zero; productivity rising.26 | Bull-steepening yield curves; equity market breadth expansion; high-grade bonds rally.17 | Low; wage growth matches inflation; high consumer satisfaction. | Moderating average hourly earnings; stable core PCE; rising capex.26 | Exogenous supply-side shock or policy error reverses the soft landing.4 |
+| **Balance-Sheet Recession** | Private sector credit demand; debt minimization. | Debt paydown -> demand destruction -> income decline -> rising real debt burdens. | Ineffective monetary policy (liquidity trap); heavy reliance on fiscal deficits.23 | Deeply impaired; negative private sector net worth; profit maximization suspended.23 | Contracting or stagnant real GDP; persistent output gap; deflationary pressure.23 | Yields stay "low for long"; defensive equities outperform; high equity risk premium.17 | High; demands for state relief and welfare expansion; anti-corporate sentiment.19 | Collapsing private credit impulse; surging personal savings rate.19 | Sovereign market stress if the fiscal authority fails to sustain deficits.14 |
+| **Debt-Deflation Regime** | Nominal debt-service capacity.33 | Asset liquidation -> falling asset prices -> margin calls -> forced liquidations.6 | Emergency monetization; lender-of-last-resort interventions; rate cuts to ZLB.16 | Systemic insolvency; private sector defaults; bank credit contraction.6 | Deep contraction of real activity; surging cyclical unemployment.6 | Equities collapse; credit spreads explode; cash and safe havens outperform.6 | Intense; systemic loss of trust in financial institutions; political polarization.5 | Vertically widening credit spreads; surging bank failures; bank run signals.6 | Systemic restructuring, debt defaults, or transition to financial repression.33 |
+| **Stagflationary Constraint** | Primary resource availability (Energy, Labor).4 | Energy cost spike -> margin compression -> production cuts -> supply shortage.4 | Policy trap; rate cuts fuel inflation, rate hikes worsen supply-side defaults.4 | Margin squeeze across non-energy corporates; household purchasing power drops.4 | Contracting or stagnant real GDP; rising core CPI; supply chain delays.4 | Positive stock-bond correlation; yield curves steepen; gold outpaces equities.14 | Severe; cost-of-living crises; political instability; populist movements.13 | Falling EROI; structural energy import deficits; surging raw material prices.12 | Forced demand destruction through severe recession or political intervention.4 |
+| **Financial Repression / Fiscal Dominance** | Sovereign market capacity.14 | Deficit expansion -> central bank monetization -> inflation -> real debt erosion.20 | Subordinated; nominal interest rates capped below nominal GDP growth.13 | High public debt (>120% GDP); banks forced to hold domestic government bonds.13 | Flat real growth; high nominal growth; structural inflation.13 | Deeply negative real yields; steep nominal yield curves; gold/hard asset rally.14 | High; savers penalized by negative real returns; wealth redistribution conflict.13 | Exploding net interest payments relative to tax revenues; central bank monetizing.13 | Sudden loss of currency confidence; hyperinflationary unanchoring of expectations.13 |
+| **Productivity Expansion** | Technology adoption speed.27 | Capex in technology -> efficiency gains -> higher margins -> capital deepening.26 | Neutral to accommodative; interest rates track rising neutral rate r*.22 | Productive leverage; corporate earnings outpace debt accumulation; strong cash flows.38 | Accelerating real GDP; falling unit labor costs; structural disinflation.26 | High-beta growth equities outperform; real yields rise without crashing asset prices.17 | Low; rising living standards; technological displacement concerns emerge.27 | Surging software/equipment capex; frontier-laggard productivity convergence.26 | Speculative overshooting and transition to bubble dynamics.8 |
+| **Secular Stagnation** | Private sector investment demand.38 | Excess savings -> downward pressure on r* -> chronic aggregate demand deficit.25 | Accommodative; trapped near the zero lower bound; active QE.25 | High corporate cash holdings; buybacks preferred over real asset investments.19 | Sub-trend, sluggish real growth; low inflation; output gap persistent.23 | Flattening yield curves; growth equities and high-yield credit outperform.17 | High; rising wealth inequality; demands for structural tax and welfare reforms.19 | Declining working-age population; falling relative prices of capital goods.25 | Asset price bubble collapse or transition to fiscal dominance.14 |
+| **Geopolitical Fragmentation** | Geopolitical alignment; secure trade networks.5 | Strategic decoupling -> supply-chain duplication -> higher input costs -> localized inflation.5 | Mercantilist; tariffs used to protect domestic industry, fueling inflation.14 | Public sector running defensive deficits (national defense, onshoring).13 | Slower global productivity growth; localized manufacturing construction booms.5 | Currency volatility; high performance of defense and industrial stocks.5 | Nationalistic; support for protectionism; geopolitical risk anxiety.5 | Surging bilateral trade imbalances; rising geopolitical distance in UN voting.46 | Escalation to trade wars or hot military conflict, triggering supply shocks.5 |
+| **Crisis Cascade** | Systemic liquidity and counterparty trust.9 | Counterparty default -> collateral margin calls -> wholesale funding run -> insolvency.6 | Emergency monetization; swap lines; discount window expansion; bank holidays.1 | Severe liquidity mismatch; high dependency on short-term wholesale funding.9 | Rapid contraction of real activity; global trade finance frozen.6 | Plunging government yields; credit spreads widen vertically; VIX peaks.6 | Extreme; panic; loss of social cohesion; demands for immediate state stabilization.5 | Surging repo rates; bank borrowing from the Fed; wholesale funding freeze.9 | Systemic restructuring, default, or hyper-monetization.10 |
+| **Post-Crisis Repair** | Regulatory constraints and capital adequacy.44 | Debt write-downs -> balance-sheet cleanups -> restoration of credit trust. | Highly regulated; macroprudential policies dominate (higher capital ratios).43 | Deleveraged; cash-rich; highly risk-averse private sector behavior.19 | Sluggish, consumption-led recovery; capital investment lags.27 | Curve flattening; stable dividend-paying equities outperform; low credit spreads.17 | Low to moderate; post-crisis fatigue; public demand for financial stability.44 | Rising Tier 1 capital ratios; flat bank credit growth; declining household debt.17 | Transitions slowly back to abundant-liquidity expansion as risk appetite returns.21 |
 
 ## **Section 4: Transition Diagnostics and Signal Map**
 
@@ -1165,7 +1165,7 @@ To detect transitions between the regime families detailed in Section 3, analyst
 | **Labor Participation & Wage Dynamics** | Shift from a labor-surplus, disinflationary regime to a labor-scarce, inflationary regime.22 | Assuming labor market tightness is purely cyclical and will reverse, while ignoring the structural retirement of the global labor force.22 |
 | **Demographic Indicators** | Multi-decade shifts in dependency ratios, reducing the household savings ratio and expanding social spending burdens.22 | Expecting aging demographics to be disinflationary, based on Japan's experience, without accounting for the lack of global labor valves.22 |
 | **Sovereign Debt Dynamics** | Crossing the structural threshold into Fiscal Dominance, where net interest payments crowd out discretionary spending.13 | Relying on historical central bank independence models, while ignoring the structural mathematics of sovereign interest compounding.3 |
-| **Fiscal Impulse** | The scale of state-directed demand injection, indicating whether the government is competing with the private sector for resources.20 | Believing that large fiscal deficits are sustainable at high real rates, without realizing that r \> g forces a sovereign debt trap.13 |
+| **Fiscal Impulse** | The scale of state-directed demand injection, indicating whether the government is competing with the private sector for resources.20 | Believing that large fiscal deficits are sustainable at high real rates, without realizing that r > g forces a sovereign debt trap.13 |
 | **Currency Pressure & Cross-Border Capital Flows** | Transition from global capital integration to mercantilist geoeconomic fragmentation and strategic bloc alignment.5 | Assuming floating exchange rates reflect pure macroeconomic fundamentals, while missing strategic geoeconomic interventions and capital controls.5 |
 | **Volatility Regimes (VIX / MOVE)** | The pricing of tail risk, signaling shifts in institutional credibility and monetary policy transition.1 | Assuming low volatility reflects structural stability, rather than a reflexive period of tranquility that breeds future fragility.10 |
 | **Market Correlations (Stock-Bond Correlation)** | Shift from a disinflationary growth regime (negative correlation) to an inflationary supply-constrained regime (positive correlation).22 | Relying on historical 60/40 portfolio backtests from the Great Moderation, when inflation was structurally low and stable.22 |
@@ -1184,7 +1184,7 @@ Macroeconomic theory is a continuous argument about what matters most when the s
 | **Austrian** | Capital structure; intertemporal interest-rate coordination; malinvestment. | Explains how artificial central bank rate suppression triggers capital misallocation and asset bubbles.34 | Opposes all countercyclical state intervention, risking systemic debt-deflationary spirals if debt collapses unchecked.16 | Late-stage credit booms; asset price bubble peaks.34 | Enforcing severe austerity during a balance-sheet recession, transforming a correction into a deep depression. |
 | **Minskyan** | Endogenous credit instability; balance-sheet leverage; speculative finance. | Diagnoses how prolonged stability breeds leverage and endogenously generates financial crises.10 | Lacks a formal mechanism for pricing technology, productivity, and real physical resource inputs.21 | Highly financialized credit cycles; late-stage debt expansions.10 | Over-regulating credit markets during a productivity boom, preventing productive capital formation. |
 | **Balance-Sheet Recession (Koo)** | Private sector debt minimization; credit demand elasticity. | Explains why monetary policy loses transmission capacity when private sector net worth is negative. | Overlooks the long-term sovereign debt-service burden and inflation risks of chronic fiscal monetization.13 | Post-bubble deleveraging periods (e.g., Japan post-1990, US post-2008). | Advocating endless fiscal deficits when the binding constraint is physical supply rather than demand.4 |
-| **Secular Stagnation (Summers)** | Equilibrium real rate (r\*); savings-investment imbalance. | Diagnoses structural demand deficiencies driven by demographics, inequality, and low-capital technology.25 | Misses the post-2020 transition to structural fiscal dominance and geopolitical supply-side fracturing.14 | The post-2008 decade of zero interest rates and sluggish growth.23 | Assuming a permanently low r\* when sovereign deficits and supply-chain duplication are actively pushing rates higher.5 |
+| **Secular Stagnation (Summers)** | Equilibrium real rate (r*); savings-investment imbalance. | Diagnoses structural demand deficiencies driven by demographics, inequality, and low-capital technology.25 | Misses the post-2020 transition to structural fiscal dominance and geopolitical supply-side fracturing.14 | The post-2008 decade of zero interest rates and sluggish growth.23 | Assuming a permanently low r* when sovereign deficits and supply-chain duplication are actively pushing rates higher.5 |
 | **Endogenous Credit** | Ex nihilo bank money creation; balance-sheet matching. | Understands that loans create deposits, making credit supply highly elastic and dependent on borrower creditworthiness.7 | Fails to incorporate physical constraints (energy, labor) that limit the non-inflationary absorption of credit. | Advanced financial systems; banking-system transmission analysis.7 | Assuming credit can expand indefinitely without triggering structural inflation when physical capacity is breached.4 |
 | **Supply-Side** | Tax structures; regulation; capital formation incentives. | Identifies how high taxes, regulatory capture, and labor market rigidities suppress real capacity and innovation.48 | Ignores demand-side deficiencies and wealth inequality dynamics, assuming supply automatically creates its own demand. | Heavily regulated, low-growth regimes. | Cutting taxes during a demand-driven inflationary spike, further fueling nominal demand without expanding capacity. |
 | **Energy-Systems / Biophysical** | Thermodynamic EROI; resource limits; net energy. | Detects the biophysical constraints of energy costs, EROI ceilings, and thermodynamic growth limits.12 | Lacks a model for the monetary and credit channels that distribute physical energy claims across financial networks. | Late-stage industrial economies; high commodity volatility periods.11 | Assuming immediate physical collapse when energy prices spike, ignoring substitution effects and technological adjustments.12 |
@@ -1202,7 +1202,7 @@ The following conditional trajectories outline how the macroeconomic system evol
 
 #### **Trajectory A: Private Debt Refinancing and Credit Contraction**
 
-* **Condition**: If private bank and non-bank liquidity tightens while corporate and household debt-service burdens rise under elevated real interest rates (r \> g) 13:  
+* **Condition**: If private bank and non-bank liquidity tightens while corporate and household debt-service burdens rise under elevated real interest rates (r > g) 13:  
 * **Systemic Progression**: Refinancing stress will systematically migrate from highly leveraged speculative and Ponzi non-bank financial institutions into the real-economy credit channel.9 Floating-rate private credit loans will experience cash-flow defaults as middle-market borrowers struggle to roll over liabilities.9  
 * **Systemic Response**: This credit contraction will trigger bank retrenchment, widening high-yield spreads, and forced asset liquidations.6 To prevent a systemic debt-deflationary cascade, the central bank will be forced to abandon its price-stability target and implement emergency liquidity injections and collateral standard relaxions.10
 
@@ -1215,8 +1215,8 @@ The following conditional trajectories outline how the macroeconomic system evol
 #### **Trajectory C: Productivity Acceleration and Sovereign Debt Absorption**
 
 * **Condition**: If capital expenditure in artificial intelligence, advanced electricity infrastructure, and automation successfully diffuses from global frontier firms to laggard services sectors 26:  
-* **Systemic Progression**: Real total factor productivity will accelerate, lowering unit labor costs and expanding the economy's non-inflationary capacity ceiling.26 This productivity boom will allow the economy to support higher real interest rates (r\*) without crashing asset markets or triggering corporate insolvency.17  
-* **Systemic Response**: Higher real GDP growth (g) will comfortably exceed real borrowing costs (r), turning the interest rate-growth differential (IRGD \= r \- g) deeply negative.23 The expanding nominal tax base will absorb high public debt loads, allowing the sovereign to de-lever through real growth rather than inflation or default.23
+* **Systemic Progression**: Real total factor productivity will accelerate, lowering unit labor costs and expanding the economy's non-inflationary capacity ceiling.26 This productivity boom will allow the economy to support higher real interest rates (r*) without crashing asset markets or triggering corporate insolvency.17  
+* **Systemic Response**: Higher real GDP growth (g) will comfortably exceed real borrowing costs (r), turning the interest rate-growth differential (IRGD = r - g) deeply negative.23 The expanding nominal tax base will absorb high public debt loads, allowing the sovereign to de-lever through real growth rather than inflation or default.23
 
 #### **Trajectory D: Fiscal Dominance and Sovereign-Market Conflict**
 
@@ -1239,57 +1239,58 @@ When *Report D* analyzes the central bank’s operational toolkit—the discount
 1. **The State-Dependent Policy Reaction Function (PRF)**: *Report D* will show how the central bank’s operational objectives are dictated by the active economic regime. It will explain why central banks are forced to pivot from standard price-stability rules (such as the Taylor Rule) to emergency financial-stability backstops when Minskyan Ponzi finance structures threaten systemic banking collapse.6  
 2. **The Sovereign Interest Snowball Constraint**: Under a fiscal dominance regime, central bank balance-sheet size and rate decisions are dictated by the Treasury's financing requirements.13 *Report D* will show how the central bank acts as the "captive buyer" of sovereign debt, managing interest rate volatility and capping yields to prevent systemic government debt-service defaults.35  
 3. **The Credit Channel & NBFI Transmission**: Traditional monetary transmission models focus on the commercial banking sector. *Report D* will trace how modern liquidity interventions must navigate the non-bank financial intermediation (NBFI) sector, addressing private credit collateral channels and shadow funding runs during crisis cascades.9  
-4. *The Real Rate (r) Demographic Boundary*\*: *Report D* will analyze how the central bank's inflation target and neutral rate settings are constrained by the physical reality of the Great Demographic Reversal and biophysical EROI boundaries, demonstrating the limits of nominal monetary intervention in a structurally supply-constrained world.12
+4. *The Real Rate (r) Demographic Boundary**: *Report D* will analyze how the central bank's inflation target and neutral rate settings are constrained by the physical reality of the Great Demographic Reversal and biophysical EROI boundaries, demonstrating the limits of nominal monetary intervention in a structurally supply-constrained world.12
 
 #### **Works cited**
 
-1. The Macroeconomic Consequences of Undermining Central Bank Independence: Evidence from Governor Transitions \- International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/en/publications/wp/issues/2026/03/06/the-macroeconomic-consequences-of-undermining-central-bank-independence-evidence-from-574295](https://www.imf.org/en/publications/wp/issues/2026/03/06/the-macroeconomic-consequences-of-undermining-central-bank-independence-evidence-from-574295)  
-2. IV Disorderly Transitions in: Moving to Greater Exchange Rate Flexibility \- IMF eLibrary, accessed May 10, 2026, [https://www.elibrary.imf.org/display/book/9781589066243/ch004.xml](https://www.elibrary.imf.org/display/book/9781589066243/ch004.xml)  
-3. Fiscal Dominance in the Modern Era: Revisiting Sargent and Wallace in Light of UK Macroeconomic History \- LSE, accessed May 10, 2026, [https://www.lse.ac.uk/finance/assets/documents/faculty-papers/WebbFiscal.pdf](https://www.lse.ac.uk/finance/assets/documents/faculty-papers/WebbFiscal.pdf)  
-4. The new energy shock: economic scenarios and policy implications \- European Central Bank, accessed May 10, 2026, [https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260506\~1bbd4ed780.en.html](https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260506~1bbd4ed780.en.html)  
-5. Financial stability risks from geoeconomic fragmentation – Annex, accessed May 10, 2026, [https://www.esrb.europa.eu/pub/pdf/reports/esrb.report202601\_financialstabilityrisks\_annex.en.pdf](https://www.esrb.europa.eu/pub/pdf/reports/esrb.report202601_financialstabilityrisks_annex.en.pdf)  
-6. Hyman Minsky \- The Financial Instability Hypothesis | Blog | Economics \- Tutor2u, accessed May 10, 2026, [https://www.tutor2u.net/economics/blog/hyman-minsky-the-financial-instability-hypothesis](https://www.tutor2u.net/economics/blog/hyman-minsky-the-financial-instability-hypothesis)  
-7. The credit channel in the transmission of monetary policy: the case of Spain \- Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/publ/confp06j.pdf](https://www.bis.org/publ/confp06j.pdf)  
+1. The Macroeconomic Consequences of Undermining Central Bank Independence: Evidence from Governor Transitions - International Monetary Fund, accessed May 10, 2026, [https://www.imf.org/en/publications/wp/issues/2026/03/06/the-macroeconomic-consequences-of-undermining-central-bank-independence-evidence-from-574295](https://www.imf.org/en/publications/wp/issues/2026/03/06/the-macroeconomic-consequences-of-undermining-central-bank-independence-evidence-from-574295)  
+2. IV Disorderly Transitions in: Moving to Greater Exchange Rate Flexibility - IMF eLibrary, accessed May 10, 2026, [https://www.elibrary.imf.org/display/book/9781589066243/ch004.xml](https://www.elibrary.imf.org/display/book/9781589066243/ch004.xml)  
+3. Fiscal Dominance in the Modern Era: Revisiting Sargent and Wallace in Light of UK Macroeconomic History - LSE, accessed May 10, 2026, [https://www.lse.ac.uk/finance/assets/documents/faculty-papers/WebbFiscal.pdf](https://www.lse.ac.uk/finance/assets/documents/faculty-papers/WebbFiscal.pdf)  
+4. The new energy shock: economic scenarios and policy implications - European Central Bank, accessed May 10, 2026, [https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260506~1bbd4ed780.en.html](https://www.ecb.europa.eu/press/key/date/2026/html/ecb.sp260506~1bbd4ed780.en.html)  
+5. Financial stability risks from geoeconomic fragmentation – Annex, accessed May 10, 2026, [https://www.esrb.europa.eu/pub/pdf/reports/esrb.report202601_financialstabilityrisks_annex.en.pdf](https://www.esrb.europa.eu/pub/pdf/reports/esrb.report202601_financialstabilityrisks_annex.en.pdf)  
+6. Hyman Minsky - The Financial Instability Hypothesis | Blog | Economics - Tutor2u, accessed May 10, 2026, [https://www.tutor2u.net/economics/blog/hyman-minsky-the-financial-instability-hypothesis](https://www.tutor2u.net/economics/blog/hyman-minsky-the-financial-instability-hypothesis)  
+7. The credit channel in the transmission of monetary policy: the case of Spain - Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/publ/confp06j.pdf](https://www.bis.org/publ/confp06j.pdf)  
 8. A Short Note On George Soros' Principle Of Reflexivity — The Case ..., accessed May 10, 2026, [https://www.concertedaction.com/2016/07/27/some-aspects-of-george-soros-principle-of-reflexivity/](https://www.concertedaction.com/2016/07/27/some-aspects-of-george-soros-principle-of-reflexivity/)  
-9. Shadow banking and financial stability in an era of private credit \- Funcas, accessed May 10, 2026, [https://www.funcas.es/wp-content/uploads/2026/02/8-Cuadros-15-1-1.pdf](https://www.funcas.es/wp-content/uploads/2026/02/8-Cuadros-15-1-1.pdf)  
-10. Minsky's financial instability hypothesis \- Greenwich Academic ..., accessed May 10, 2026, [https://gala.gre.ac.uk/id/eprint/37778/7/37778\_NIKOLAIDI\_Minskys\_financial\_instability\_hypothesis\_CHAPTER.pdf](https://gala.gre.ac.uk/id/eprint/37778/7/37778_NIKOLAIDI_Minskys_financial_instability_hypothesis_CHAPTER.pdf)  
-11. Energy return on investment, peak oil, and the end of economic growth \- PubMed, accessed May 10, 2026, [https://pubmed.ncbi.nlm.nih.gov/21332492/](https://pubmed.ncbi.nlm.nih.gov/21332492/)  
+9. Shadow banking and financial stability in an era of private credit - Funcas, accessed May 10, 2026, [https://www.funcas.es/wp-content/uploads/2026/02/8-Cuadros-15-1-1.pdf](https://www.funcas.es/wp-content/uploads/2026/02/8-Cuadros-15-1-1.pdf)  
+10. Minsky's financial instability hypothesis - Greenwich Academic ..., accessed May 10, 2026, [https://gala.gre.ac.uk/id/eprint/37778/7/37778_NIKOLAIDI_Minskys_financial_instability_hypothesis_CHAPTER.pdf](https://gala.gre.ac.uk/id/eprint/37778/7/37778_NIKOLAIDI_Minskys_financial_instability_hypothesis_CHAPTER.pdf)  
+11. Energy return on investment, peak oil, and the end of economic growth - PubMed, accessed May 10, 2026, [https://pubmed.ncbi.nlm.nih.gov/21332492/](https://pubmed.ncbi.nlm.nih.gov/21332492/)  
 12. The energy-economic growth relationship: a new insight from the ..., accessed May 10, 2026, [https://ideas.repec.org/p/cec/wpaper/1601.html](https://ideas.repec.org/p/cec/wpaper/1601.html)  
-13. Fiscal Dominance: Explainer \- Tax Project Institute, accessed May 10, 2026, [https://taxproject.org/fiscal-dominance/](https://taxproject.org/fiscal-dominance/)  
+13. Fiscal Dominance: Explainer - Tax Project Institute, accessed May 10, 2026, [https://taxproject.org/fiscal-dominance/](https://taxproject.org/fiscal-dominance/)  
 14. Fiscal Dominance in the US—Will Politics Trump Policy? | Western ..., accessed May 10, 2026, [https://www.westernasset.com/us/en/research/blog/fiscal-dominance-in-the-us-will-politics-trump-policy-2025-08-25.cfm](https://www.westernasset.com/us/en/research/blog/fiscal-dominance-in-the-us-will-politics-trump-policy-2025-08-25.cfm)  
-15. Theory of Reflexivity – Understanding George Soros' Theory \- Admiral Markets, accessed May 10, 2026, [https://admiralmarkets.com/education/articles/trading-psychology/theory-of-reflexivity-definition-soros](https://admiralmarkets.com/education/articles/trading-psychology/theory-of-reflexivity-definition-soros)  
-16. The Financial Instability Hypothesis, accessed May 10, 2026, [https://www.uvm.edu/\~jfarley/EEseminar/readings/Minsky%20FIH%202.pdf](https://www.uvm.edu/~jfarley/EEseminar/readings/Minsky%20FIH%202.pdf)  
-17. The transmission of monetary policy: financial conditions and credit dynamics \- European Central Bank, accessed May 10, 2026, [https://www.ecb.europa.eu/press/key/date/2025/html/ecb.sp251021\~a757abf975.en.html](https://www.ecb.europa.eu/press/key/date/2025/html/ecb.sp251021~a757abf975.en.html)  
-18. Energy Return on Investment of Major Energy Carriers: Review and Harmonization \- MDPI, accessed May 10, 2026, [https://www.mdpi.com/2071-1050/14/12/7098](https://www.mdpi.com/2071-1050/14/12/7098)  
+15. Theory of Reflexivity – Understanding George Soros' Theory - Admiral Markets, accessed May 10, 2026, [https://admiralmarkets.com/education/articles/trading-psychology/theory-of-reflexivity-definition-soros](https://admiralmarkets.com/education/articles/trading-psychology/theory-of-reflexivity-definition-soros)  
+16. The Financial Instability Hypothesis, accessed May 10, 2026, [https://www.uvm.edu/~jfarley/EEseminar/readings/Minsky%20FIH%202.pdf](https://www.uvm.edu/~jfarley/EEseminar/readings/Minsky%20FIH%202.pdf)  
+17. The transmission of monetary policy: financial conditions and credit dynamics - European Central Bank, accessed May 10, 2026, [https://www.ecb.europa.eu/press/key/date/2025/html/ecb.sp251021~a757abf975.en.html](https://www.ecb.europa.eu/press/key/date/2025/html/ecb.sp251021~a757abf975.en.html)  
+18. Energy Return on Investment of Major Energy Carriers: Review and Harmonization - MDPI, accessed May 10, 2026, [https://www.mdpi.com/2071-1050/14/12/7098](https://www.mdpi.com/2071-1050/14/12/7098)  
 19. Will secular stagnation return? The stakes for current economic debates and fiscal policy, accessed May 10, 2026, [https://www.epi.org/publication/will-secular-stagnation-return-the-stakes-for-current-economic-debates-and-fiscal-policy/](https://www.epi.org/publication/will-secular-stagnation-return-the-stakes-for-current-economic-debates-and-fiscal-policy/)  
-20. Fiscal Dominance Brings Financial Repression \- Econlib, accessed May 10, 2026, [https://www.econlib.org/fiscal-dominance-brings-financial-repression](https://www.econlib.org/fiscal-dominance-brings-financial-repression)  
-21. Endogenous money and Minsky's Financial Instability Hypothesis \- Post-Keynesian Economics Society, accessed May 10, 2026, [https://postkeynesian.net/media/events/Maria\_Nikolaidi\_sAhz4XB.pdf](https://postkeynesian.net/media/events/Maria_Nikolaidi_sAhz4XB.pdf)  
+20. Fiscal Dominance Brings Financial Repression - Econlib, accessed May 10, 2026, [https://www.econlib.org/fiscal-dominance-brings-financial-repression](https://www.econlib.org/fiscal-dominance-brings-financial-repression)  
+21. Endogenous money and Minsky's Financial Instability Hypothesis - Post-Keynesian Economics Society, accessed May 10, 2026, [https://postkeynesian.net/media/events/Maria_Nikolaidi_sAhz4XB.pdf](https://postkeynesian.net/media/events/Maria_Nikolaidi_sAhz4XB.pdf)  
 22. The Great Demographic Reversal | springerprofessional.de, accessed May 10, 2026, [https://www.springerprofessional.de/en/the-great-demographic-reversal/18259478](https://www.springerprofessional.de/en/the-great-demographic-reversal/18259478)  
-23. Fiscal Policy in an Age of Secular Stagnation \- PMC, accessed May 10, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC7378408/](https://pmc.ncbi.nlm.nih.gov/articles/PMC7378408/)  
-24. Book Review: The Great Demographic Reversal – IMF F\&D, accessed May 10, 2026, [https://www.imf.org/external/pubs/ft/fandd/2021/03/book-review-the-great-demographic-reversal-goodhart-pradhan.htm](https://www.imf.org/external/pubs/ft/fandd/2021/03/book-review-the-great-demographic-reversal-goodhart-pradhan.htm)  
-25. A Model of Secular Stagnation: Theory and Quantitative Evaluation \- NBER, accessed May 10, 2026, [https://www.nber.org/system/files/working\_papers/w23093/w23093.pdf](https://www.nber.org/system/files/working_papers/w23093/w23093.pdf)  
-26. Navigating the Productivity Paradox: \- The Productivity Institute, accessed May 10, 2026, [https://www.productivity.ac.uk/wp-content/uploads/2024/10/PIP037-Insights-from-CIOs-071024.pdf](https://www.productivity.ac.uk/wp-content/uploads/2024/10/PIP037-Insights-from-CIOs-071024.pdf)  
-27. Probing the productivity paradox \- Brookings Institution, accessed May 10, 2026, [https://www.brookings.edu/articles/probing-the-productivity-paradox/](https://www.brookings.edu/articles/probing-the-productivity-paradox/)  
-28. Collateralized lending in private credit \- Bank for International ..., accessed May 10, 2026, [https://www.bis.org/publ/work1267.pdf?utm\_source=wealthstack1.com\&utm\_medium=referral\&utm\_campaign=bank-retrenchment-the-main-private-credit-enabler](https://www.bis.org/publ/work1267.pdf?utm_source=wealthstack1.com&utm_medium=referral&utm_campaign=bank-retrenchment-the-main-private-credit-enabler)  
-29. Reflexivity and the Feedback Effect in Financial Markets \- \- Alpha Architect, accessed May 10, 2026, [https://alphaarchitect.com/reflexivity-and-the-feedback-effect-in-financial-markets/](https://alphaarchitect.com/reflexivity-and-the-feedback-effect-in-financial-markets/)  
-30. Fallibility, Reflexivity, and the Human Uncertainty Principle \- George Soros, accessed May 10, 2026, [https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/](https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/)  
-31. What is George Soros' Theory of Reflexivity? | by Gavin Lucas \- Medium, accessed May 10, 2026, [https://gavinlucas22.medium.com/what-is-george-soros-theory-of-reflexivity-5e9c88091a59](https://gavinlucas22.medium.com/what-is-george-soros-theory-of-reflexivity-5e9c88091a59)  
-32. Trade War and Geoeconomic Fragmentation \- Banque de France, accessed May 10, 2026, [https://www.banque-france.fr/en/publications-and-statistics/publications/trade-war-and-geoeconomic-fragmentation](https://www.banque-france.fr/en/publications-and-statistics/publications/trade-war-and-geoeconomic-fragmentation)  
-33. Hyman Minsky Financial Instability Hypothesis \- Social Science Encyclopedia, accessed May 10, 2026, [https://www.socialscience.international/hyman-minsky-financial-instability-hypothesis](https://www.socialscience.international/hyman-minsky-financial-instability-hypothesis)  
+23. Fiscal Policy in an Age of Secular Stagnation - PMC, accessed May 10, 2026, [https://pmc.ncbi.nlm.nih.gov/articles/PMC7378408/](https://pmc.ncbi.nlm.nih.gov/articles/PMC7378408/)  
+24. Book Review: The Great Demographic Reversal – IMF F&D, accessed May 10, 2026, [https://www.imf.org/external/pubs/ft/fandd/2021/03/book-review-the-great-demographic-reversal-goodhart-pradhan.htm](https://www.imf.org/external/pubs/ft/fandd/2021/03/book-review-the-great-demographic-reversal-goodhart-pradhan.htm)  
+25. A Model of Secular Stagnation: Theory and Quantitative Evaluation - NBER, accessed May 10, 2026, [https://www.nber.org/system/files/working_papers/w23093/w23093.pdf](https://www.nber.org/system/files/working_papers/w23093/w23093.pdf)  
+26. Navigating the Productivity Paradox: - The Productivity Institute, accessed May 10, 2026, [https://www.productivity.ac.uk/wp-content/uploads/2024/10/PIP037-Insights-from-CIOs-071024.pdf](https://www.productivity.ac.uk/wp-content/uploads/2024/10/PIP037-Insights-from-CIOs-071024.pdf)  
+27. Probing the productivity paradox - Brookings Institution, accessed May 10, 2026, [https://www.brookings.edu/articles/probing-the-productivity-paradox/](https://www.brookings.edu/articles/probing-the-productivity-paradox/)  
+28. Collateralized lending in private credit - Bank for International ..., accessed May 10, 2026, [https://www.bis.org/publ/work1267.pdf?utm_source=wealthstack1.com&utm_medium=referral&utm_campaign=bank-retrenchment-the-main-private-credit-enabler](https://www.bis.org/publ/work1267.pdf?utm_source=wealthstack1.com&utm_medium=referral&utm_campaign=bank-retrenchment-the-main-private-credit-enabler)  
+29. Reflexivity and the Feedback Effect in Financial Markets - - Alpha Architect, accessed May 10, 2026, [https://alphaarchitect.com/reflexivity-and-the-feedback-effect-in-financial-markets/](https://alphaarchitect.com/reflexivity-and-the-feedback-effect-in-financial-markets/)  
+30. Fallibility, Reflexivity, and the Human Uncertainty Principle - George Soros, accessed May 10, 2026, [https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/](https://www.georgesoros.com/2014/01/13/fallibility-reflexivity-and-the-human-uncertainty-principle-2/)  
+31. What is George Soros' Theory of Reflexivity? | by Gavin Lucas - Medium, accessed May 10, 2026, [https://gavinlucas22.medium.com/what-is-george-soros-theory-of-reflexivity-5e9c88091a59](https://gavinlucas22.medium.com/what-is-george-soros-theory-of-reflexivity-5e9c88091a59)  
+32. Trade War and Geoeconomic Fragmentation - Banque de France, accessed May 10, 2026, [https://www.banque-france.fr/en/publications-and-statistics/publications/trade-war-and-geoeconomic-fragmentation](https://www.banque-france.fr/en/publications-and-statistics/publications/trade-war-and-geoeconomic-fragmentation)  
+33. Hyman Minsky Financial Instability Hypothesis - Social Science Encyclopedia, accessed May 10, 2026, [https://www.socialscience.international/hyman-minsky-financial-instability-hypothesis](https://www.socialscience.international/hyman-minsky-financial-instability-hypothesis)  
 34. The Case Against the New “Secular Stagnation Hypothesis”, accessed May 10, 2026, [https://qjae.mises.org/article/27254-the-case-against-the-new-secular-stagnation-hypothesis/attachment/67990.pdf](https://qjae.mises.org/article/27254-the-case-against-the-new-secular-stagnation-hypothesis/attachment/67990.pdf)  
 35. Financial repression past and future | BlackRock, accessed May 10, 2026, [https://www.blackrock.com/institutions/en-us/insights/thought-leadership/fiscal-repression](https://www.blackrock.com/institutions/en-us/insights/thought-leadership/fiscal-repression)  
-36. Productivity paradox \- Wikipedia, accessed May 10, 2026, [https://en.wikipedia.org/wiki/Productivity\_paradox](https://en.wikipedia.org/wiki/Productivity_paradox)  
-37. Productivity Paradox: Lagging Investments \- Stanford Computer Science, accessed May 10, 2026, [https://cs.stanford.edu/people/eroberts/cs201/projects/productivity-paradox/lag.html](https://cs.stanford.edu/people/eroberts/cs201/projects/productivity-paradox/lag.html)  
-38. Harvard's Larry H. Summers on Secular Stagnation – IMF F\&D, accessed May 10, 2026, [https://www.imf.org/en/publications/fandd/issues/2020/03/larry-summers-on-secular-stagnation](https://www.imf.org/en/publications/fandd/issues/2020/03/larry-summers-on-secular-stagnation)  
-39. Energy return on investment \- Wikipedia, accessed May 10, 2026, [https://en.wikipedia.org/wiki/Energy\_return\_on\_investment](https://en.wikipedia.org/wiki/Energy_return_on_investment)  
-40. The Great Demographic Reversal Resumen gratuito por Charles Goodhart and Manoj Pradhan \- getAbstract, accessed May 10, 2026, [https://www.getabstract.com/es/resumen/the-great-demographic-reversal/41151](https://www.getabstract.com/es/resumen/the-great-demographic-reversal/41151)  
-41. The Great Demographic Reversal with Charles Goodhart and Manoj Pradhan \- YSI INET, accessed May 10, 2026, [https://ysi.ineteconomics.org/event/the-great-demographic-reversal-with-charles-goodhart-and-manoj-pradhan/](https://ysi.ineteconomics.org/event/the-great-demographic-reversal-with-charles-goodhart-and-manoj-pradhan/)  
-42. Book Review: The Great Demographic Reversal: Ageing Societies, Waning Inequality, and an Inflation Revival, By Charles Goodhart and Manoj Pradhan \- Independent Institute, accessed May 10, 2026, [https://www.independent.org/tir/2021-fall/the-great-demographic-reversal/](https://www.independent.org/tir/2021-fall/the-great-demographic-reversal/)  
-43. Report on Vulnerabilities in Private Credit \- Financial Stability Board, accessed May 10, 2026, [https://www.fsb.org/uploads/P060526.pdf](https://www.fsb.org/uploads/P060526.pdf)  
-44. Assessing the macroeconomic impact of the transition to stronger capital and liquidity requirements (Final report) \- Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/publ/othp12.pdf](https://www.bis.org/publ/othp12.pdf)  
-45. Geopolitical Fragmentation of Trade | Direction générale du Trésor \- economie.gouv, accessed May 10, 2026, [https://www.tresor.economie.gouv.fr/Articles/2025/11/06/geopolitical-fragmentation-of-trade](https://www.tresor.economie.gouv.fr/Articles/2025/11/06/geopolitical-fragmentation-of-trade)  
-46. The Fed \- Understanding Trade Fragmentation \- Federal Reserve, accessed May 10, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/understanding-trade-fragmentation-20251212.html](https://www.federalreserve.gov/econres/notes/feds-notes/understanding-trade-fragmentation-20251212.html)  
-47. Evolution and Performance of Exchange Rate Regimes \- IMF eLibrary \- International Monetary Fund, accessed May 10, 2026, [https://www.elibrary.imf.org/display/book/9781589063273/9781589063273.pdf](https://www.elibrary.imf.org/display/book/9781589063273/9781589063273.pdf)  
+36. Productivity paradox - Wikipedia, accessed May 10, 2026, [https://en.wikipedia.org/wiki/Productivity_paradox](https://en.wikipedia.org/wiki/Productivity_paradox)  
+37. Productivity Paradox: Lagging Investments - Stanford Computer Science, accessed May 10, 2026, [https://cs.stanford.edu/people/eroberts/cs201/projects/productivity-paradox/lag.html](https://cs.stanford.edu/people/eroberts/cs201/projects/productivity-paradox/lag.html)  
+38. Harvard's Larry H. Summers on Secular Stagnation – IMF F&D, accessed May 10, 2026, [https://www.imf.org/en/publications/fandd/issues/2020/03/larry-summers-on-secular-stagnation](https://www.imf.org/en/publications/fandd/issues/2020/03/larry-summers-on-secular-stagnation)  
+39. Energy return on investment - Wikipedia, accessed May 10, 2026, [https://en.wikipedia.org/wiki/Energy_return_on_investment](https://en.wikipedia.org/wiki/Energy_return_on_investment)  
+40. The Great Demographic Reversal Resumen gratuito por Charles Goodhart and Manoj Pradhan - getAbstract, accessed May 10, 2026, [https://www.getabstract.com/es/resumen/the-great-demographic-reversal/41151](https://www.getabstract.com/es/resumen/the-great-demographic-reversal/41151)  
+41. The Great Demographic Reversal with Charles Goodhart and Manoj Pradhan - YSI INET, accessed May 10, 2026, [https://ysi.ineteconomics.org/event/the-great-demographic-reversal-with-charles-goodhart-and-manoj-pradhan/](https://ysi.ineteconomics.org/event/the-great-demographic-reversal-with-charles-goodhart-and-manoj-pradhan/)  
+42. Book Review: The Great Demographic Reversal: Ageing Societies, Waning Inequality, and an Inflation Revival, By Charles Goodhart and Manoj Pradhan - Independent Institute, accessed May 10, 2026, [https://www.independent.org/tir/2021-fall/the-great-demographic-reversal/](https://www.independent.org/tir/2021-fall/the-great-demographic-reversal/)  
+43. Report on Vulnerabilities in Private Credit - Financial Stability Board, accessed May 10, 2026, [https://www.fsb.org/uploads/P060526.pdf](https://www.fsb.org/uploads/P060526.pdf)  
+44. Assessing the macroeconomic impact of the transition to stronger capital and liquidity requirements (Final report) - Bank for International Settlements, accessed May 10, 2026, [https://www.bis.org/publ/othp12.pdf](https://www.bis.org/publ/othp12.pdf)  
+45. Geopolitical Fragmentation of Trade | Direction générale du Trésor - economie.gouv, accessed May 10, 2026, [https://www.tresor.economie.gouv.fr/Articles/2025/11/06/geopolitical-fragmentation-of-trade](https://www.tresor.economie.gouv.fr/Articles/2025/11/06/geopolitical-fragmentation-of-trade)  
+46. The Fed - Understanding Trade Fragmentation - Federal Reserve, accessed May 10, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/understanding-trade-fragmentation-20251212.html](https://www.federalreserve.gov/econres/notes/feds-notes/understanding-trade-fragmentation-20251212.html)  
+47. Evolution and Performance of Exchange Rate Regimes - IMF eLibrary - International Monetary Fund, accessed May 10, 2026, [https://www.elibrary.imf.org/display/book/9781589063273/9781589063273.pdf](https://www.elibrary.imf.org/display/book/9781589063273/9781589063273.pdf)  
 48. Tackling the productivity paradox: The OECD Global Forum on Productivity, accessed May 10, 2026, [https://oecdecoscope.blog/2016/07/05/tackling-the-productivity-paradox-the-oecd-global-forum-on-productivity/](https://oecdecoscope.blog/2016/07/05/tackling-the-productivity-paradox-the-oecd-global-forum-on-productivity/)
 
 ---
+

@@ -23,17 +23,17 @@ The Fed's monitoring of the transition to ample reserves is guided by an analyti
 
 The trading dynamics in the federal funds market are characterized by the optimizing condition 7:
 
-IORB \+ MLVR \= EFFR \+ MarginalBalanceSheetCost
+IORB + MLVR = EFFR + MarginalBalanceSheetCost
 
 where the left side represents the all-in return of reserves and the right side represents the cost of overnight interbank borrowing (EFFR) plus the marginal regulatory and balance-sheet costs associated with expanding the bank's liabilities.7
 
 If a bank channels overnight cash to its primary dealer affiliates to invest in deep private repo markets rather than lending in the fed funds market, the equilibrium pricing condition is governed by 7:
 
-BankLendingRateonRepo \= IORB \+ MLVR
+BankLendingRateonRepo = IORB + MLVR
 
-When the aggregate supply of reserves is highly abundant, the MLVR approaches zero, and the spread between the EFFR and the IORB is narrow and stable, driven primarily by balance-sheet costs.7 To model the empirical sensitivity of short-term interest rates as the balance sheet normalizes, the Fed monitors the relationship between the volume-weighted average federal funds rate (VWAFF\_t) and the aggregate level of reserves (Reserves\_t) 7:
+When the aggregate supply of reserves is highly abundant, the MLVR approaches zero, and the spread between the EFFR and the IORB is narrow and stable, driven primarily by balance-sheet costs.7 To model the empirical sensitivity of short-term interest rates as the balance sheet normalizes, the Fed monitors the relationship between the volume-weighted average federal funds rate (VWAFF_t) and the aggregate level of reserves (Reserves_t) 7:
 
-Delta(VWAFF\_t \- IORB\_t) \= alpha \+ beta \* Delta(Reserves\_t) \+ epsilon\_t
+Delta(VWAFF_t - IORB_t) = alpha + beta * Delta(Reserves_t) + epsilon_t
 
 Here, beta represents the slope of the reserve demand curve.7 When reserves are abundant, beta is close to zero.4 As reserves decline toward the "kink" of the demand curve and enter the ample-to-scarce transition zone, beta becomes negative and statistically significant, signaling that small reductions in the reserve supply will cause market rates to spike above the IORB.4
 
@@ -48,7 +48,7 @@ The domestic SRF offers overnight funding to primary dealers and eligible deposi
 | **Operation Schedule** | Every business day from 8:15 to 8:30 a.m. ET 16 | Every business day from 1:30 to 1:45 p.m. ET 16 |
 | **Aggregate Operation Limit** | $500 Billion (expandable at the FOMC Chair's discretion) 15 | $500 Billion less the accepted amount from the morning operation 17 |
 | **Proposition / Bid Limit** | Two propositions per eligible security type per auction ($20B per proposition limit) 17 | Single proposition per eligible security type ($40B limit) 16 |
-| **Minimum Bid Rate** | Set by the FOMC (e.g., 3.75% as of May 2026\) 16 | Set by the FOMC (SRP rate) 16 |
+| **Minimum Bid Rate** | Set by the FOMC (e.g., 3.75% as of May 2026) 16 | Set by the FOMC (SRP rate) 16 |
 | **Eligible Collateral** | U.S. Treasuries, Agency Debt, Agency MBS 15 | U.S. Treasuries, Agency Debt, Agency MBS 16 |
 | **Settlement** | Same-day settled. BNY tri-party platform (funds delivered within 30 minutes of close) 16 | Same-day settled. BNY tri-party platform 16 |
 
@@ -62,7 +62,7 @@ On March 13, 2024, the Governing Council of the European Central Bank (ECB) anno
 
 The new operational framework established in March 2024 is a hybrid model that preserves the DFR as the primary tool for steering the monetary policy stance, while transitioning to a demand-driven mechanism to supply reserves as liquidity declines.5 The ECB continues to provide unlimited weekly liquidity via Main Refinancing Operations (MRO) and three-month Long-Term Refinancing Operations (LTRO) conducted as fixed-rate tender procedures with full allotment against eligible collateral.5
 
-To incentivize commercial banks to bid in these weekly operations and ensure rate stability, the ECB narrowed the spread between the MRO rate and the DFR from 50 basis points to 15 basis points, effective September 18, 2024\.22 The spread between the Marginal Lending Facility (MLF) rate and the MRO rate was maintained at 25 basis points.26 This narrow corridor minimizes the interest penalty of borrowing from the central bank, mitigating the stigma historically associated with official refinancing facilities and dampening volatility in short-term money market rates.22
+To incentivize commercial banks to bid in these weekly operations and ensure rate stability, the ECB narrowed the spread between the MRO rate and the DFR from 50 basis points to 15 basis points, effective September 18, 2024.22 The spread between the Marginal Lending Facility (MLF) rate and the MRO rate was maintained at 25 basis points.26 This narrow corridor minimizes the interest penalty of borrowing from the central bank, mitigating the stigma historically associated with official refinancing facilities and dampening volatility in short-term money market rates.22
 
 The evolution of these key interest rates illustrates the ECB's rate-stepping cycle and the narrowing of the corridor 29:
 
@@ -82,7 +82,7 @@ To support the transition, the ECB's long-term framework incorporates a structur
 
 ### **The Transmission Protection Instrument (TPI)**
 
-As the ECB normalizes its balance sheet, the risk of sovereign spread fragmentation—where the borrowing costs of highly indebted member states diverge from core euro area yields—poses a threat to the smooth transmission of monetary policy.31 To counter this, the Governing Council established the Transmission Protection Instrument (TPI) in July 2022\.31
+As the ECB normalizes its balance sheet, the risk of sovereign spread fragmentation—where the borrowing costs of highly indebted member states diverge from core euro area yields—poses a threat to the smooth transmission of monetary policy.31 To counter this, the Governing Council established the Transmission Protection Instrument (TPI) in July 2022.31
 
 The TPI allows the Eurosystem to conduct secondary market purchases of public sector securities (with remaining maturities of one to ten years) issued in jurisdictions experiencing deteriorating financing conditions not warranted by country-specific fundamentals.32 The activation of TPI purchases is discretionary and subject to a cumulative list of eligibility criteria 32:
 
@@ -105,7 +105,7 @@ The Sterling Monetary Framework (SMF) achieves this through a suite of weekly ma
 | :---- | :---- | :---- | :---- | :---- |
 | **Short-Term Repo (STR)** 36 | Weekly (typically Thursday) | One-week | Priced at Bank Rate (Full Allotment) 28 | Level A (High-quality sovereign bonds/gilts) 28 |
 | **Indexed Long-Term Repo (ILTR)** 36 | Weekly (typically Tuesday) | Six-month | Uniform price auction (Spread over Bank Rate) 38 | Levels A, B, and C (Broad collateral including loans) 38 |
-| **Operational Standing Facility (OSF)** 36 | Daily / On-Demand | Overnight | Bank Rate \+/- 25 basis points (Symmetric corridor) 38 | Level A collateral 38 |
+| **Operational Standing Facility (OSF)** 36 | Daily / On-Demand | Overnight | Bank Rate +/- 25 basis points (Symmetric corridor) 38 | Level A collateral 38 |
 | **Discount Window Facility (DWF)** 36 | Daily / On-Demand | Rollable 30-day (5 days for CCPs) | DWF pricing grid (Fixed spread based on collateral level) 38 | Levels A, B, and C collateral 36 |
 | **Contingent Term Repo Facility (CTRF)** 38 | Activated discretionarily | Flexible | Pricing determined at activation 38 | Subset of Level A collateral 38 |
 
@@ -115,15 +115,15 @@ To support the framework, the BoE has modernized its infrastructure.36 This incl
 
 ### **Dissection of the 2022 UK Gilt Crisis and NBFI Stress**
 
-The vulnerability of non-bank financial institutions (NBFIs) to rapid interest rate shifts was highlighted during the UK Gilt Crisis of September and October 2022\.39 Following the announcement of the UK government's "mini-budget" on September 23, 2022, long-term sovereign bond yields spiked.39 Gilt yields rose by 1.5% within six days, creating a liquidity squeeze for defined benefit (DB) pension funds employing Liability-Driven Investment (LDI) strategies.39
+The vulnerability of non-bank financial institutions (NBFIs) to rapid interest rate shifts was highlighted during the UK Gilt Crisis of September and October 2022.39 Following the announcement of the UK government's "mini-budget" on September 23, 2022, long-term sovereign bond yields spiked.39 Gilt yields rose by 1.5% within six days, creating a liquidity squeeze for defined benefit (DB) pension funds employing Liability-Driven Investment (LDI) strategies.39
 
-LDI strategies are designed to hedge the interest rate and inflation sensitivities of long-term pension liabilities.40 Due to a long-term structural decline in active DB scheme members (falling from 3 million in 2006 to 0.9 million in 2019), pension funds shifted their assets from equities (dropping from 61% in 2006 to 20% in 2022\) to fixed-income portfolios (rising to 72% in 2022).40 To hedge liabilities without tying up capital, LDI funds leveraged their positions using repo and interest rate swap contracts.40
+LDI strategies are designed to hedge the interest rate and inflation sensitivities of long-term pension liabilities.40 Due to a long-term structural decline in active DB scheme members (falling from 3 million in 2006 to 0.9 million in 2019), pension funds shifted their assets from equities (dropping from 61% in 2006 to 20% in 2022) to fixed-income portfolios (rising to 72% in 2022).40 To hedge liabilities without tying up capital, LDI funds leveraged their positions using repo and interest rate swap contracts.40
 
 When gilt yields spiked, LDI funds faced immediate variation margin (VM) calls from central counterparties (CCPs) such as the London Clearing House, where over 99% of GBP interest rate swaps are cleared.41 Because LDI funds were highly leveraged—with leverage consuming around one-third of aggregate DB pension assets—they did not have sufficient cash buffers to meet these VM calls.41 To raise cash, LDI funds were forced to execute fire-sales of index-linked and long-dated nominal gilts.40 This triggered a self-reinforcing death loop: rising yields led to margin calls, forcing more gilt sales, which drove yields higher.40
 
 Transaction-level analysis reveals that the liquidations were highly correlated with pre-crisis swap and repo exposures.43 LDI-Pension-Insurance (LDI-PI) firms with larger pre-crisis interest rate swap exposures in the OIS market liquidated gilts more aggressively:
 
-% Change in Gilt Liquidations \= 0.52 \* % Change in OIS Exposure (pre-crisis) \+ epsilon
+% Change in Gilt Liquidations = 0.52 * % Change in OIS Exposure (pre-crisis) + epsilon
 
 indicating that a 1% increase in pre-crisis OIS exposure was associated with a 0.52% increase in gilt sales during the crisis.43 Transaction costs soared, and aggregate price dispersion across primary dealers more than doubled, reflecting severe balance-sheet capacity constraints among market intermediaries.43
 
@@ -142,7 +142,7 @@ The PBoC also upgraded its interest rate corridor system.44 Under the previous 2
 
 This technical adjustment narrowed the corridor to 70 basis points, dampening short-term money market volatility and clarifying the central bank's policy signals.44
 
-To complement this price-based framework, the PBoC introduced secondary market Treasury bond transactions in August 2024\.44 Under this program, the central bank buys and sells central government bonds in the secondary market.44 From August to December 2024, the PBoC conducted monthly operations, injecting net base money through purchases ranging from RMB 100 billion to RMB 300 billion.44 Unlike Western style Quantitative Easing, this tool was deployed while interest rates were still positive, establishing a structural channel to manage base money supply and directly influence the sovereign yield curve.44 In January 2025, the PBoC temporarily halted these purchases as long-term yields fell to low levels amid weak economic growth expectations, demonstrating active management of the yield curve.44
+To complement this price-based framework, the PBoC introduced secondary market Treasury bond transactions in August 2024.44 Under this program, the central bank buys and sells central government bonds in the secondary market.44 From August to December 2024, the PBoC conducted monthly operations, injecting net base money through purchases ranging from RMB 100 billion to RMB 300 billion.44 Unlike Western style Quantitative Easing, this tool was deployed while interest rates were still positive, establishing a structural channel to manage base money supply and directly influence the sovereign yield curve.44 In January 2025, the PBoC temporarily halted these purchases as long-term yields fell to low levels amid weak economic growth expectations, demonstrating active management of the yield curve.44
 
 ### **Structural Credit Allocation and the "Five Major Articles"**
 
@@ -158,17 +158,17 @@ Because the U.S. dollar serves as the primary currency for global trade and fina
 
 However, during periods of systemic financial stress, structural frictions and regulatory balance-sheet constraints prevent arbitrageurs from operating effectively, leading to a breakdown in CIP.49 This deviation is reflected in a non-zero cross-currency basis, which measures the premium or discount associated with borrowing dollars indirectly via the swap market relative to borrowing them directly in the cash market.49 The relationship is characterized by the pricing formula 49:
 
-1 \+ y\_USD\_t \= (1 \+ y\*\_t \+ x\_t) \* (S\_t / F\_t)
+1 + y_USD_t = (1 + y*_t + x_t) * (S_t / F_t)
 
 where:
 
-* y\_USD\_t is the direct interest rate cost of borrowing U.S. dollars in the cash market.49  
-* y\*\_t is the cost of borrowing the foreign currency.49  
-* S\_t is the spot exchange rate (expressed as foreign currency units per dollar).49  
-* F\_t is the forward exchange rate.49  
-* x\_t is the cross-currency basis.49
+* y_USD_t is the direct interest rate cost of borrowing U.S. dollars in the cash market.49  
+* y*_t is the cost of borrowing the foreign currency.49  
+* S_t is the spot exchange rate (expressed as foreign currency units per dollar).49  
+* F_t is the forward exchange rate.49  
+* x_t is the cross-currency basis.49
 
-When the cross-currency basis, x\_t, turns deeply negative, borrowing dollars indirectly via FX swaps becomes significantly more expensive than direct cash borrowing.49 This widening of CIP deviations compresses the net returns of foreign investors who fund dollar-denominated assets through the swap market, such as Collateralized Loan Obligations (CLOs) and leveraged loans (foreign investors hold roughly 20% of U.S. CLOs).49
+When the cross-currency basis, x_t, turns deeply negative, borrowing dollars indirectly via FX swaps becomes significantly more expensive than direct cash borrowing.49 This widening of CIP deviations compresses the net returns of foreign investors who fund dollar-denominated assets through the swap market, such as Collateralized Loan Obligations (CLOs) and leveraged loans (foreign investors hold roughly 20% of U.S. CLOs).49
 
 The sensitivity of corporate borrowing costs to these swaps is significant: empirical syndication data show that a 1 basis point decrease (widening) in the average cross-currency basis is associated with a 2.9 basis points higher effective spread flex paid by corporate borrowers on leveraged loans, demonstrating how offshore funding strains transmit directly to U.S. corporate borrowing costs.49
 
@@ -178,11 +178,11 @@ To mitigate global dollar crunches and reduce CIP deviations, the Federal Reserv
 
 The operational mechanics of a swap line drawing are structured as an OIS-versus-OIS cross-currency swap to shield the Fed from exchange rate and credit risk 51:
 
-1. **Initial Swap of Notional**: The foreign central bank (e.g., the ECB) sells a specified amount of its domestic currency to the Federal Reserve in exchange for U.S. dollars at the prevailing spot exchange rate, S\_t.51 The foreign currency is held by the Fed in an account at the foreign central bank, while the dollars are deposited into the foreign central bank's account at the FRBNY.51  
+1. **Initial Swap of Notional**: The foreign central bank (e.g., the ECB) sells a specified amount of its domestic currency to the Federal Reserve in exchange for U.S. dollars at the prevailing spot exchange rate, S_t.51 The foreign currency is held by the Fed in an account at the foreign central bank, while the dollars are deposited into the foreign central bank's account at the FRBNY.51  
 2. **On-Lending to Domestic Banks**: The foreign central bank loans these U.S. dollars to commercial banks in its jurisdiction via auction procedures.51 The commercial banks must post eligible non-dollar collateral (such as Euros or Sterling) with their local central bank.52  
 3. **Weekly FX Resets and Rebalancing**: To protect against exchange rate fluctuations, the swap incorporates weekly FX resets.52 The FX rate is restated weekly, and the domestic currency collateral held by the Fed is rebalanced.52  
 4. **Collateral Haircuts**: To absorb exchange rate risk, local central banks apply significant FX haircuts to the non-dollar collateral posted by borrowing banks.52 The ECB applies a margin/haircut of 12%, while the Bank of England applies a minimum haircut of 6.5% (with an additional 6 percentage points added to standard haircuts for non-sterling and non-USD securities).52  
-5. **The Final Unwind and Interest Settlement**: At maturity (ranging from overnight to three months), the transaction is reversed at the initial spot exchange rate, S\_t, eliminating foreign exchange risk for the Federal Reserve.51 The foreign central bank repays the U.S. dollar principal plus interest to the Fed.48 The interest on the USD leg is fixed at the start of the swap at USD OIS \+ 25 basis points.48 The foreign central bank assumes 100% of the credit risk of the local commercial banks borrowing the dollars; the Federal Reserve faces only the credit risk of the sovereign central bank.48
+5. **The Final Unwind and Interest Settlement**: At maturity (ranging from overnight to three months), the transaction is reversed at the initial spot exchange rate, S_t, eliminating foreign exchange risk for the Federal Reserve.51 The foreign central bank repays the U.S. dollar principal plus interest to the Fed.48 The interest on the USD leg is fixed at the start of the swap at USD OIS + 25 basis points.48 The foreign central bank assumes 100% of the credit risk of the local commercial banks borrowing the dollars; the Federal Reserve faces only the credit risk of the sovereign central bank.48
 
 During the COVID-19 pandemic, these swap lines were active, with peak global outstanding allocations reaching approximately $160 billion, helping to stabilize global dollar funding markets and narrow CIP deviations.48
 
@@ -190,15 +190,15 @@ During the COVID-19 pandemic, these swap lines were active, with peak global out
 
 ### **The Deposit Channel and Rate Pass-Through**
 
-The transmission of monetary policy is mediated by the "deposit channel," an operational friction in the banking sector that determines how changes in the central bank's policy rate pass through to retail and corporate deposit rates.8 This pass-through is measured by the deposit beta (beta\_deposit), which represents the ratio of the change in banks' average deposit rates to the change in the policy rate.54
+The transmission of monetary policy is mediated by the "deposit channel," an operational friction in the banking sector that determines how changes in the central bank's policy rate pass through to retail and corporate deposit rates.8 This pass-through is measured by the deposit beta (beta_deposit), which represents the ratio of the change in banks' average deposit rates to the change in the policy rate.54
 
-Because deposit markets are highly imperfectly competitive, banks possess market power, which allows them to adjust deposit rates slowly and less than one-for-one with changes in the policy rate (beta\_deposit \< 1).8 When the central bank raises interest rates, commercial banks widen their deposit spreads (the policy rate minus the rate paid to depositors), particularly in areas with less deposit competition.8 While this boosts the bank's Net Interest Margin (NIM) and immediate profitability, the widening spread increases the opportunity cost of holding bank deposits for retail and institutional savers.8
+Because deposit markets are highly imperfectly competitive, banks possess market power, which allows them to adjust deposit rates slowly and less than one-for-one with changes in the policy rate (beta_deposit < 1).8 When the central bank raises interest rates, commercial banks widen their deposit spreads (the policy rate minus the rate paid to depositors), particularly in areas with less deposit competition.8 While this boosts the bank's Net Interest Margin (NIM) and immediate profitability, the widening spread increases the opportunity cost of holding bank deposits for retail and institutional savers.8
 
 Depositors respond to these rising spreads by withdrawing their funds from the commercial banking system, substituting out of sticky deposit balances into higher-yielding, less liquid, or non-bank assets such as money market funds and short-term Treasuries.8 This results in a systematic outflow of deposits, which represent the primary source of funding for the commercial banking system.8
 
 This outflow interacts with bank balance-sheet constraints and Basel III regulatory metrics, such as the Liquidity Coverage Ratio (LCR), which requires banks to maintain a portfolio of High-Quality Liquid Assets (HQLA) sufficient to cover expected cash outflows over a 30-day stress period:
 
-LCR \= High-Quality Liquid Assets (HQLA) / Total Net Cash Outflows over 30 Days \>= 100%
+LCR = High-Quality Liquid Assets (HQLA) / Total Net Cash Outflows over 30 Days >= 100%
 
 Under LCR guidelines, different deposit classes carry distinct run-off rates:
 
@@ -213,15 +213,15 @@ The cross-sectional distribution of deposit betas across the banking system also
 
 This increase in franchise value alters the risk-taking incentives of bank managers.9 Under a risk-taking model, the bank's utility depends on the probability of deposit franchise loss if its risk-taking strategy backfires and triggers insolvency.9 This relationship can be expressed through the bank's optimization problem, where the marginal cost of risk-taking is linked to the probability of franchise loss 9:
 
-Marginal Cost of Risk is proportional to \-p'(theta\_i) \* (1 \- beta\_deposit,i)
+Marginal Cost of Risk is proportional to -p'(theta_i) * (1 - beta_deposit,i)
 
 where:
 
-* theta\_i is the bank's chosen level of portfolio risk.9  
-* p(theta\_i) is the probability of bank survival, with p'(theta\_i) \< 0 indicating that higher risk reduces the likelihood of survival.9  
-* (1 \- beta\_deposit,i) represents the strength of the bank's deposit franchise.9
+* theta_i is the bank's chosen level of portfolio risk.9  
+* p(theta_i) is the probability of bank survival, with p'(theta_i) < 0 indicating that higher risk reduces the likelihood of survival.9  
+* (1 - beta_deposit,i) represents the strength of the bank's deposit franchise.9
 
-Because a low-deposit-beta bank (where 1 \- beta\_deposit,i is large) stands to lose more franchise value if it fails, its managers have more "skin in the game" and become more risk-averse following a contractionary monetary shock.9
+Because a low-deposit-beta bank (where 1 - beta_deposit,i is large) stands to lose more franchise value if it fails, its managers have more "skin in the game" and become more risk-averse following a contractionary monetary shock.9
 
 Conversely, banks with high deposit betas face rapid upward pressure on funding costs, compressing their NIMs and eroding their franchise value.9 Facing compressed profitability and diminished future franchise value, these high-deposit-beta institutions are incentivized to engage in "search for yield," taking on elevated credit and duration risk on the asset side of their balance sheets to maintain earnings, thereby increasing systemic financial fragility.9
 
@@ -248,7 +248,7 @@ The pricing of the BTFP was linked to forward-looking market expectations, with 
 
 This pricing structure created unique arbitrage and funding dynamics.10 During the fourth quarter of 2023, as signs of economic slowdown emerged, market expectations for future Fed interest rate cuts drove the one-year OIS rate down rapidly.10 Consequently, the fixed cost of borrowing from the BTFP (linked to the depressed 1-year OIS) fell significantly below the administered IORB rate that banks earned by depositing cash back at the Fed.10
 
-This spread created a risk-free arbitrage opportunity: banks could borrow from the BTFP at the lower OIS-linked rate and deposit the proceeds at the Federal Reserve to earn the higher IORB rate, driving a surge in BTFP usage that peaked at $78 billion in weekly gross flows in mid-January 2024\.10 To eliminate this opportunistic financial engineering, the Federal Reserve adjusted the BTFP rate in late January 2024, capping the minimum rate at the prevailing IORB rate.10 The program successfully ceased extending new loans on March 11, 2024, and was fully wound down by March 2025, with all outstanding balances repaid in full and zero losses incurred by the taxpayer.10
+This spread created a risk-free arbitrage opportunity: banks could borrow from the BTFP at the lower OIS-linked rate and deposit the proceeds at the Federal Reserve to earn the higher IORB rate, driving a surge in BTFP usage that peaked at $78 billion in weekly gross flows in mid-January 2024.10 To eliminate this opportunistic financial engineering, the Federal Reserve adjusted the BTFP rate in late January 2024, capping the minimum rate at the prevailing IORB rate.10 The program successfully ceased extending new loans on March 11, 2024, and was fully wound down by March 2025, with all outstanding balances repaid in full and zero losses incurred by the taxpayer.10
 
 ## **Central Bank Balance Sheets, Financial Deficits, and Quasi-Fiscal Feedback Loops**
 
@@ -262,33 +262,33 @@ When a central bank undergoes a rapid tightening cycle to combat inflation, its 
 
 To model the conditions under which a central bank incurs current losses, the relationship can be expressed via the balance sheet identity.59 Let:
 
-* A\_e be earning assets, with r\_a representing the average return on earning assets.59  
-* A\_n be non-earning assets (such as gold, physical cash, or administrative assets).59  
-* L\_r be remunerable liabilities (reserve balances), with r\_l representing the average interest rate charged on these liabilities (such as the IORB or DFR).59  
+* A_e be earning assets, with r_a representing the average return on earning assets.59  
+* A_n be non-earning assets (such as gold, physical cash, or administrative assets).59  
+* L_r be remunerable liabilities (reserve balances), with r_l representing the average interest rate charged on these liabilities (such as the IORB or DFR).59  
 * M be base money (currency in circulation, which is non-remunerated).59  
-* C\_admin represent minting, printing, and general administrative operating expenses.59
+* C_admin represent minting, printing, and general administrative operating expenses.59
 
 The central bank's net income or current profit (Pi) during a given period is determined by 59:
 
-Pi \= r\_a \* A\_e \- r\_l \* L\_r \- C\_admin
+Pi = r_a * A_e - r_l * L_r - C_admin
 
 Using the balance sheet identity, assets must equal liabilities plus equity. Assuming equity/capital is small relative to the scale of the balance sheet for the purposes of analytical simplicity, we have:
 
-A\_e \+ A\_n \= M \+ L\_r, which implies A\_e \= M \+ L\_r \- A\_n
+A_e + A_n = M + L_r, which implies A_e = M + L_r - A_n
 
 Substituting this expression for earning assets into the net income formula yields 59:
 
-Pi \= r\_a \* (M \+ L\_r \- A\_n) \- r\_l \* L\_r \- C\_admin
+Pi = r_a * (M + L_r - A_n) - r_l * L_r - C_admin
 
 Rearranging the terms, we get 59:
 
-Pi \= (r\_a \- r\_l) \* L\_r \+ r\_a \* M \- r\_a \* A\_n \- C\_admin
+Pi = (r_a - r_l) * L_r + r_a * M - r_a * A_n - C_admin
 
-To prevent current losses (Pi \>= 0), the following condition must be met 59:
+To prevent current losses (Pi >= 0), the following condition must be met 59:
 
-(r\_a \- r\_l) \* L\_r \+ r\_a \* M \>= r\_a \* A\_n \+ C\_admin
+(r_a - r_l) * L_r + r_a * M >= r_a * A_n + C_admin
 
-This inequality shows that the central bank’s ability to prevent losses depends on the interaction between its interest rate spread (r\_a \- r\_l), the size of non-remunerated base money (M), and the volume of non-earning assets (A\_n).59 When the policy rate r\_l rises significantly above the historical yield on assets r\_a, the spread (r\_a \- r\_l) turns deeply negative.59 If this negative spread on remunerable liabilities outweighs the seigniorage income generated by currency in circulation (r\_a \* M), the central bank will experience operational deficits.59 Any factor that increases non-earning assets (A\_n) or shrinks the monetary base (M) relative to remunerable liabilities (L\_r) will compound these current losses.59
+This inequality shows that the central bank’s ability to prevent losses depends on the interaction between its interest rate spread (r_a - r_l), the size of non-remunerated base money (M), and the volume of non-earning assets (A_n).59 When the policy rate r_l rises significantly above the historical yield on assets r_a, the spread (r_a - r_l) turns deeply negative.59 If this negative spread on remunerable liabilities outweighs the seigniorage income generated by currency in circulation (r_a * M), the central bank will experience operational deficits.59 Any factor that increases non-earning assets (A_n) or shrinks the monetary base (M) relative to remunerable liabilities (L_r) will compound these current losses.59
 
 ### **Quasi-Fiscal Operations and Consolidated Debt Dynamics**
 
@@ -312,64 +312,66 @@ The primary policy challenge of the next decade is managing the fiscal, regulato
 #### **Works cited**
 
 1. Perry Mehrling, The New Lombard Street: How the Fed Became the Dealer of Last Resort, accessed May 11, 2026, [https://journals.openedition.org/oeconomia/1365?lang=en](https://journals.openedition.org/oeconomia/1365?lang=en)  
-2. Perry Mehrling, The New Lombard Street: How the Fed Became the Dealer of Last Resort (Princeton and Oxford \- Duke Economics, accessed May 11, 2026, [https://public.econ.duke.edu/\~kdh9/Source%20Materials/Research/NewLombardSt.pdf](https://public.econ.duke.edu/~kdh9/Source%20Materials/Research/NewLombardSt.pdf)  
-3. THE PRICE OF THE FLOOR: \- Brookings Institution, accessed May 11, 2026, [https://www.brookings.edu/wp-content/uploads/2026/02/Hughes-Younger-report.pdf](https://www.brookings.edu/wp-content/uploads/2026/02/Hughes-Younger-report.pdf)  
-4. The Fed's Ample Reserves Monetary Policy Operating Framework: It Isn't as Simple as It Looks, accessed May 11, 2026, [https://wifpr.wharton.upenn.edu/wp-content/uploads/2025/02/Mester\_Shadow-Open-Mkt-Comm-50th-Anniv\_Hoover\_FINAL\_LJM\_10-9-20245.pdf](https://wifpr.wharton.upenn.edu/wp-content/uploads/2025/02/Mester_Shadow-Open-Mkt-Comm-50th-Anniv_Hoover_FINAL_LJM_10-9-20245.pdf)  
+2. Perry Mehrling, The New Lombard Street: How the Fed Became the Dealer of Last Resort (Princeton and Oxford - Duke Economics, accessed May 11, 2026, [https://public.econ.duke.edu/~kdh9/Source%20Materials/Research/NewLombardSt.pdf](https://public.econ.duke.edu/~kdh9/Source%20Materials/Research/NewLombardSt.pdf)  
+3. THE PRICE OF THE FLOOR: - Brookings Institution, accessed May 11, 2026, [https://www.brookings.edu/wp-content/uploads/2026/02/Hughes-Younger-report.pdf](https://www.brookings.edu/wp-content/uploads/2026/02/Hughes-Younger-report.pdf)  
+4. The Fed's Ample Reserves Monetary Policy Operating Framework: It Isn't as Simple as It Looks, accessed May 11, 2026, [https://wifpr.wharton.upenn.edu/wp-content/uploads/2025/02/Mester_Shadow-Open-Mkt-Comm-50th-Anniv_Hoover_FINAL_LJM_10-9-20245.pdf](https://wifpr.wharton.upenn.edu/wp-content/uploads/2025/02/Mester_Shadow-Open-Mkt-Comm-50th-Anniv_Hoover_FINAL_LJM_10-9-20245.pdf)  
 5. New paper: A future-fit operational framework for the European Central Bank, accessed May 11, 2026, [https://positivemoney.org/eu/update/new-paper-a-future-fit-operational-framework-for-the-european-central-bank/](https://positivemoney.org/eu/update/new-paper-a-future-fit-operational-framework-for-the-european-central-bank/)  
-6. What is the operational framework and what does it do? \- European Central Bank, accessed May 11, 2026, [https://www.ecb.europa.eu/ecb-and-you/explainers/html/operational\_framework.en.html](https://www.ecb.europa.eu/ecb-and-you/explainers/html/operational_framework.en.html)  
-7. The Fed \- Market-Based Indicators on the Road to Ample Reserves, accessed May 11, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/market-based-indicators-on-the-road-to-ample-reserves-20250131.html](https://www.federalreserve.gov/econres/notes/feds-notes/market-based-indicators-on-the-road-to-ample-reserves-20250131.html)  
-8. The Deposits Channel of Monetary Policy \- Berkeley Haas, accessed May 11, 2026, [https://www.haas.berkeley.edu/wp-content/uploads/DSS\_DepositsChannel.pdf](https://www.haas.berkeley.edu/wp-content/uploads/DSS_DepositsChannel.pdf)  
-9. The Deposit Franchise and the Risk-Taking Channel of Monetary Policy\* \- Ricardo Duque Gabriel, accessed May 11, 2026, [https://www.ricardoduquegabriel.com/files/Gabriel\_Li\_Uppal\_2025.pdf](https://www.ricardoduquegabriel.com/files/Gabriel_Li_Uppal_2025.pdf)  
+6. What is the operational framework and what does it do? - European Central Bank, accessed May 11, 2026, [https://www.ecb.europa.eu/ecb-and-you/explainers/html/operational_framework.en.html](https://www.ecb.europa.eu/ecb-and-you/explainers/html/operational_framework.en.html)  
+7. The Fed - Market-Based Indicators on the Road to Ample Reserves, accessed May 11, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/market-based-indicators-on-the-road-to-ample-reserves-20250131.html](https://www.federalreserve.gov/econres/notes/feds-notes/market-based-indicators-on-the-road-to-ample-reserves-20250131.html)  
+8. The Deposits Channel of Monetary Policy - Berkeley Haas, accessed May 11, 2026, [https://www.haas.berkeley.edu/wp-content/uploads/DSS_DepositsChannel.pdf](https://www.haas.berkeley.edu/wp-content/uploads/DSS_DepositsChannel.pdf)  
+9. The Deposit Franchise and the Risk-Taking Channel of Monetary Policy* - Ricardo Duque Gabriel, accessed May 11, 2026, [https://www.ricardoduquegabriel.com/files/Gabriel_Li_Uppal_2025.pdf](https://www.ricardoduquegabriel.com/files/Gabriel_Li_Uppal_2025.pdf)  
 10. The Federal Reserve's Response to the 2023 Banking Turmoil: The Bank Term Funding Program, accessed May 11, 2026, [https://www.federalreserve.gov/econres/feds/files/2025099pap.pdf](https://www.federalreserve.gov/econres/feds/files/2025099pap.pdf)  
 11. The Fed's Balance Sheet and Ample Reserves, accessed May 11, 2026, [https://www.stlouisfed.org/publications/page-one-economics/2026/feb/fed-balance-sheet-and-ample-reserves](https://www.stlouisfed.org/publications/page-one-economics/2026/feb/fed-balance-sheet-and-ample-reserves)  
-12. Fed Balance Sheet Normalization and the Minimum Level of Ample Reserves, accessed May 11, 2026, [https://www.richmondfed.org/publications/research/economic\_brief/2023/eb\_23-07](https://www.richmondfed.org/publications/research/economic_brief/2023/eb_23-07)  
-13. ECB Operational Framework Review, accessed May 11, 2026, [https://www.ecb.europa.eu/paym/groups/pdf/mmcg/20231205/3\_1\_Operational\_framework\_IntesaSanpaolo.pdf](https://www.ecb.europa.eu/paym/groups/pdf/mmcg/20231205/3_1_Operational_framework_IntesaSanpaolo.pdf)  
-14. Foreign and International Monetary Authorities (FIMA) Repo Facility \- Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/monetarypolicy/fima-repo-facility.htm](https://www.federalreserve.gov/monetarypolicy/fima-repo-facility.htm)  
-15. Expanding Access to the Standing Repo Facility for U.S. Treasuries | PIFS \- Program on International Financial Systems, accessed May 11, 2026, [https://www.pifsinternational.org/expanding-access-to-the-standing-repo-facility-for-u-s-treasuries/](https://www.pifsinternational.org/expanding-access-to-the-standing-repo-facility-for-u-s-treasuries/)  
-16. FAQs: Standing Repurchase Agreement Operations \- Federal Reserve Bank of New York, accessed May 11, 2026, [https://www.newyorkfed.org/markets/repo-agreement-ops-faq](https://www.newyorkfed.org/markets/repo-agreement-ops-faq)  
-17. FAQs: Standing Repo Facility \- FEDERAL RESERVE BANK of NEW YORK, accessed May 11, 2026, [https://www.newyorkfed.org/markets/repo-agreement-ops-faq-251114](https://www.newyorkfed.org/markets/repo-agreement-ops-faq-251114)  
+12. Fed Balance Sheet Normalization and the Minimum Level of Ample Reserves, accessed May 11, 2026, [https://www.richmondfed.org/publications/research/economic_brief/2023/eb_23-07](https://www.richmondfed.org/publications/research/economic_brief/2023/eb_23-07)  
+13. ECB Operational Framework Review, accessed May 11, 2026, [https://www.ecb.europa.eu/paym/groups/pdf/mmcg/20231205/3_1_Operational_framework_IntesaSanpaolo.pdf](https://www.ecb.europa.eu/paym/groups/pdf/mmcg/20231205/3_1_Operational_framework_IntesaSanpaolo.pdf)  
+14. Foreign and International Monetary Authorities (FIMA) Repo Facility - Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/monetarypolicy/fima-repo-facility.htm](https://www.federalreserve.gov/monetarypolicy/fima-repo-facility.htm)  
+15. Expanding Access to the Standing Repo Facility for U.S. Treasuries | PIFS - Program on International Financial Systems, accessed May 11, 2026, [https://www.pifsinternational.org/expanding-access-to-the-standing-repo-facility-for-u-s-treasuries/](https://www.pifsinternational.org/expanding-access-to-the-standing-repo-facility-for-u-s-treasuries/)  
+16. FAQs: Standing Repurchase Agreement Operations - Federal Reserve Bank of New York, accessed May 11, 2026, [https://www.newyorkfed.org/markets/repo-agreement-ops-faq](https://www.newyorkfed.org/markets/repo-agreement-ops-faq)  
+17. FAQs: Standing Repo Facility - FEDERAL RESERVE BANK of NEW YORK, accessed May 11, 2026, [https://www.newyorkfed.org/markets/repo-agreement-ops-faq-251114](https://www.newyorkfed.org/markets/repo-agreement-ops-faq-251114)  
 18. Standing Repo (SRP) Operations Rate (SRFTSYD) | FRED | St. Louis Fed, accessed May 11, 2026, [https://fred.stlouisfed.org/series/SRFTSYD](https://fred.stlouisfed.org/series/SRFTSYD)  
-19. FIMA Repo Facility FAQs \- Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20200331a1.pdf](https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20200331a1.pdf)  
-20. The Fed \- FIMA Repo Facility FAQs \- Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/monetarypolicy/fima-repo-facility-faqs.htm](https://www.federalreserve.gov/monetarypolicy/fima-repo-facility-faqs.htm)  
-21. The FIMA Repo Facility: The Fed's Solution to the Global US Dollar Crunch \- Loomis Sayles, accessed May 11, 2026, [https://www.loomissayles.com/insights/the-fima-repo-facility-the-feds-solution-to-the-global-us-dollar-crunch/](https://www.loomissayles.com/insights/the-fima-repo-facility-the-feds-solution-to-the-global-us-dollar-crunch/)  
+19. FIMA Repo Facility FAQs - Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20200331a1.pdf](https://www.federalreserve.gov/newsevents/pressreleases/files/monetary20200331a1.pdf)  
+20. The Fed - FIMA Repo Facility FAQs - Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/monetarypolicy/fima-repo-facility-faqs.htm](https://www.federalreserve.gov/monetarypolicy/fima-repo-facility-faqs.htm)  
+21. The FIMA Repo Facility: The Fed's Solution to the Global US Dollar Crunch - Loomis Sayles, accessed May 11, 2026, [https://www.loomissayles.com/insights/the-fima-repo-facility-the-feds-solution-to-the-global-us-dollar-crunch/](https://www.loomissayles.com/insights/the-fima-repo-facility-the-feds-solution-to-the-global-us-dollar-crunch/)  
 22. Review of the operational framework for implementing monetary policy, accessed May 11, 2026, [https://www.bundesbank.de/en/tasks/monetary-policy/monetary-policy-framework/review-of-the-operational-framework-for-implementing-monetary-policy-943062](https://www.bundesbank.de/en/tasks/monetary-policy/monetary-policy-framework/review-of-the-operational-framework-for-implementing-monetary-policy-943062)  
-23. ECB announces changes to the operational framework for implementing monetary policy, accessed May 11, 2026, [https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr240313\_1\~a3a50a9add.en.html](https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr240313_1~a3a50a9add.en.html)  
-24. The ECB's new monetary policy framework has no impact on the implementation of the fixed exchange rate policy \- Danmarks Nationalbank, accessed May 11, 2026, [https://www.nationalbanken.dk/media/xqkffrht/the-ecb-s-new-monetary-policy-framework-has-no-impact.pdf](https://www.nationalbanken.dk/media/xqkffrht/the-ecb-s-new-monetary-policy-framework-has-no-impact.pdf)  
-25. Operational framework | National Bank of Belgium \- NBB, accessed May 11, 2026, [https://www.nbb.be/en/monetary-policy-and-reserve-management/monetary-policy-instruments/operational-framework](https://www.nbb.be/en/monetary-policy-and-reserve-management/monetary-policy-instruments/operational-framework)  
-26. Monetary policy decisions \- European Central Bank, accessed May 11, 2026, [https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.mp240912\~67cb23badb.en.html](https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.mp240912~67cb23badb.en.html)  
-27. Review of the operational framework for implementing monetary policy: outlook for the Eurosystem balance sheet and structural operationsundefined \- Bundesbank publications, accessed May 11, 2026, [https://publikationen.bundesbank.de/publikationen-en/reports-studies/monthly-reports/review-of-the-operational-framework-for-implementing-monetary-policy-outlook-for-the-eurosystem-balance-sheet-and-structural-operations-958720](https://publikationen.bundesbank.de/publikationen-en/reports-studies/monthly-reports/review-of-the-operational-framework-for-implementing-monetary-policy-outlook-for-the-eurosystem-balance-sheet-and-structural-operations-958720)  
+23. ECB announces changes to the operational framework for implementing monetary policy, accessed May 11, 2026, [https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr240313_1~a3a50a9add.en.html](https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.pr240313_1~a3a50a9add.en.html)  
+24. The ECB's new monetary policy framework has no impact on the implementation of the fixed exchange rate policy - Danmarks Nationalbank, accessed May 11, 2026, [https://www.nationalbanken.dk/media/xqkffrht/the-ecb-s-new-monetary-policy-framework-has-no-impact.pdf](https://www.nationalbanken.dk/media/xqkffrht/the-ecb-s-new-monetary-policy-framework-has-no-impact.pdf)  
+25. Operational framework | National Bank of Belgium - NBB, accessed May 11, 2026, [https://www.nbb.be/en/monetary-policy-and-reserve-management/monetary-policy-instruments/operational-framework](https://www.nbb.be/en/monetary-policy-and-reserve-management/monetary-policy-instruments/operational-framework)  
+26. Monetary policy decisions - European Central Bank, accessed May 11, 2026, [https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.mp240912~67cb23badb.en.html](https://www.ecb.europa.eu/press/pr/date/2024/html/ecb.mp240912~67cb23badb.en.html)  
+27. Review of the operational framework for implementing monetary policy: outlook for the Eurosystem balance sheet and structural operationsundefined - Bundesbank publications, accessed May 11, 2026, [https://publikationen.bundesbank.de/publikationen-en/reports-studies/monthly-reports/review-of-the-operational-framework-for-implementing-monetary-policy-outlook-for-the-eurosystem-balance-sheet-and-structural-operations-958720](https://publikationen.bundesbank.de/publikationen-en/reports-studies/monthly-reports/review-of-the-operational-framework-for-implementing-monetary-policy-outlook-for-the-eurosystem-balance-sheet-and-structural-operations-958720)  
 28. The rise in refinancing in the UK from a euro area perspective | Banque de France, accessed May 11, 2026, [https://www.banque-france.fr/en/publications-and-statistics/publications/rise-refinancing-uk-euro-area-perspective](https://www.banque-france.fr/en/publications-and-statistics/publications/rise-refinancing-uk-euro-area-perspective)  
-29. Key ECB interest rates \- European Union, accessed May 11, 2026, [https://www.ecb.europa.eu/stats/policy\_and\_exchange\_rates/key\_ecb\_interest\_rates/html/index.en.html](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html)  
+29. Key ECB interest rates - European Union, accessed May 11, 2026, [https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/key_ecb_interest_rates/html/index.en.html)  
 30. Implications of the ECB's new operational framework for the green transition, accessed May 11, 2026, [https://greencentralbanking.com/2024/03/15/ecb-operational-framework-green-transition/](https://greencentralbanking.com/2024/03/15/ecb-operational-framework-green-transition/)  
-31. The transmission protection instrument (TPI) \- Banca d'Italia, accessed May 11, 2026, [https://www.bancaditalia.it/compiti/polmon-garanzie/pspp/tpi/index.html?com.dotmarketing.htmlpage.language=1](https://www.bancaditalia.it/compiti/polmon-garanzie/pspp/tpi/index.html?com.dotmarketing.htmlpage.language=1)  
-32. The Transmission Protection Instrument \- European Central Bank, accessed May 11, 2026, [https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.pr220721\~973e6e7273.en.html](https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.pr220721~973e6e7273.en.html)  
-33. The-Activation-Conditions-of-the-Transmission-Protection-Instrument-Flawed-by-Design \- PURE.EUR.NL., accessed May 11, 2026, [https://pure.eur.nl/files/155581877/The-Activation-Conditions-of-the-Transmission-Protection-Instrument-Flawed-by-Design.pdf](https://pure.eur.nl/files/155581877/The-Activation-Conditions-of-the-Transmission-Protection-Instrument-Flawed-by-Design.pdf)  
-34. Transmission Protection Instrument (TPI) \- Deutsche Bundesbank, accessed May 11, 2026, [https://www.bundesbank.de/en/tasks/monetary-policy/outright-transactions/transmission-protection-instrument-tpi--896158](https://www.bundesbank.de/en/tasks/monetary-policy/outright-transactions/transmission-protection-instrument-tpi--896158)  
+31. The transmission protection instrument (TPI) - Banca d'Italia, accessed May 11, 2026, [https://www.bancaditalia.it/compiti/polmon-garanzie/pspp/tpi/index.html?com.dotmarketing.htmlpage.language=1](https://www.bancaditalia.it/compiti/polmon-garanzie/pspp/tpi/index.html?com.dotmarketing.htmlpage.language=1)  
+32. The Transmission Protection Instrument - European Central Bank, accessed May 11, 2026, [https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.pr220721~973e6e7273.en.html](https://www.ecb.europa.eu/press/pr/date/2022/html/ecb.pr220721~973e6e7273.en.html)  
+33. The-Activation-Conditions-of-the-Transmission-Protection-Instrument-Flawed-by-Design - PURE.EUR.NL., accessed May 11, 2026, [https://pure.eur.nl/files/155581877/The-Activation-Conditions-of-the-Transmission-Protection-Instrument-Flawed-by-Design.pdf](https://pure.eur.nl/files/155581877/The-Activation-Conditions-of-the-Transmission-Protection-Instrument-Flawed-by-Design.pdf)  
+34. Transmission Protection Instrument (TPI) - Deutsche Bundesbank, accessed May 11, 2026, [https://www.bundesbank.de/en/tasks/monetary-policy/outright-transactions/transmission-protection-instrument-tpi--896158](https://www.bundesbank.de/en/tasks/monetary-policy/outright-transactions/transmission-protection-instrument-tpi--896158)  
 35. Wielding the Big Gun – What the ECB's New Bond Purchasing | Jacques Delors Centre, accessed May 11, 2026, [https://www.delorscentre.eu/en/publications/detail/publication/transmission-protection-instrument](https://www.delorscentre.eu/en/publications/detail/publication/transmission-protection-instrument)  
 36. Resilience and readiness across the Sterling Monetary Framework ..., accessed May 11, 2026, [https://www.bankofengland.co.uk/bank-insights/2026/resilience-and-readiness-across-the-sterling-monetary-framework](https://www.bankofengland.co.uk/bank-insights/2026/resilience-and-readiness-across-the-sterling-monetary-framework)  
-37. How is the transition to a repo-led framework progressing? \- Bank of England, accessed May 11, 2026, [https://www.bankofengland.co.uk/bank-overground/2025/how-is-the-transition-to-a-repo-led-framework-progressing](https://www.bankofengland.co.uk/bank-overground/2025/how-is-the-transition-to-a-repo-led-framework-progressing)  
+37. How is the transition to a repo-led framework progressing? - Bank of England, accessed May 11, 2026, [https://www.bankofengland.co.uk/bank-overground/2025/how-is-the-transition-to-a-repo-led-framework-progressing](https://www.bankofengland.co.uk/bank-overground/2025/how-is-the-transition-to-a-repo-led-framework-progressing)  
 38. Bank of England Market Operations Guide: Our tools, accessed May 11, 2026, [https://www.bankofengland.co.uk/markets/bank-of-england-market-operations-guide/our-tools](https://www.bankofengland.co.uk/markets/bank-of-england-market-operations-guide/our-tools)  
 39. The UK LDI Crisis | State Street, accessed May 11, 2026, [https://www.statestreet.com/web/insights/articles/documents/the-uk-ldi-crisis.pdf](https://www.statestreet.com/web/insights/articles/documents/the-uk-ldi-crisis.pdf)  
-40. Lessons from the United Kingdom's Liability – Driven Investment (LDI) Crisis \- IMF Selected Issues Papers, accessed May 11, 2026, [https://www.imf.org/-/media/Files/Publications/Selected-Issues-Papers/2023/English/SIPEA2023049.ashx?utm\_source=chatgpt.com](https://www.imf.org/-/media/Files/Publications/Selected-Issues-Papers/2023/English/SIPEA2023049.ashx?utm_source=chatgpt.com)  
-41. UK Pension Market Stress in 2022—Why It Happened and Implications for the U.S. \- Federal Reserve Bank of Chicago, accessed May 11, 2026, [https://www.chicagofed.org/publications/chicago-fed-letter/2023/480](https://www.chicagofed.org/publications/chicago-fed-letter/2023/480)  
-42. Monetary policy consequences of financial stability interventions \- Bank of England, accessed May 11, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2024/monetary-policy-consequences-of-financial-stability-interventions.pdf](https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2024/monetary-policy-consequences-of-financial-stability-interventions.pdf)  
-43. An anatomy of the 2022 gilt market crisis \- Bank of England, accessed May 11, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/an-anatomy-of-the-2022-gilt-market-crisis.pdf](https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/an-anatomy-of-the-2022-gilt-market-crisis.pdf)  
-44. Stocktaking China's new toolkit in its monetary ... \- BBVA Research, accessed May 11, 2026, [https://www.bbvaresearch.com/wp-content/uploads/2025/07/202507-Stocktaking-China-new-toolkit-in-its-monetary-policy-framework.pdf](https://www.bbvaresearch.com/wp-content/uploads/2025/07/202507-Stocktaking-China-new-toolkit-in-its-monetary-policy-framework.pdf)  
-45. China's Monetary Policy Framework and Financial Market Transmission | Bulletin – April 2024 \- Reserve Bank of Australia, accessed May 11, 2026, [https://www.rba.gov.au/publications/bulletin/2024/apr/chinas-monetary-policy-framework-and-financial-market-transmission.html](https://www.rba.gov.au/publications/bulletin/2024/apr/chinas-monetary-policy-framework-and-financial-market-transmission.html)  
-46. China \- Bank for International Settlements, accessed May 11, 2026, [https://www.bis.org/mc/currency\_areas/cn.htm](https://www.bis.org/mc/currency_areas/cn.htm)  
+40. Lessons from the United Kingdom's Liability – Driven Investment (LDI) Crisis - IMF Selected Issues Papers, accessed May 11, 2026, [https://www.imf.org/-/media/Files/Publications/Selected-Issues-Papers/2023/English/SIPEA2023049.ashx?utm_source=chatgpt.com](https://www.imf.org/-/media/Files/Publications/Selected-Issues-Papers/2023/English/SIPEA2023049.ashx?utm_source=chatgpt.com)  
+41. UK Pension Market Stress in 2022—Why It Happened and Implications for the U.S. - Federal Reserve Bank of Chicago, accessed May 11, 2026, [https://www.chicagofed.org/publications/chicago-fed-letter/2023/480](https://www.chicagofed.org/publications/chicago-fed-letter/2023/480)  
+42. Monetary policy consequences of financial stability interventions - Bank of England, accessed May 11, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2024/monetary-policy-consequences-of-financial-stability-interventions.pdf](https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2024/monetary-policy-consequences-of-financial-stability-interventions.pdf)  
+43. An anatomy of the 2022 gilt market crisis - Bank of England, accessed May 11, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/an-anatomy-of-the-2022-gilt-market-crisis.pdf](https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2023/an-anatomy-of-the-2022-gilt-market-crisis.pdf)  
+44. Stocktaking China's new toolkit in its monetary ... - BBVA Research, accessed May 11, 2026, [https://www.bbvaresearch.com/wp-content/uploads/2025/07/202507-Stocktaking-China-new-toolkit-in-its-monetary-policy-framework.pdf](https://www.bbvaresearch.com/wp-content/uploads/2025/07/202507-Stocktaking-China-new-toolkit-in-its-monetary-policy-framework.pdf)  
+45. China's Monetary Policy Framework and Financial Market Transmission | Bulletin – April 2024 - Reserve Bank of Australia, accessed May 11, 2026, [https://www.rba.gov.au/publications/bulletin/2024/apr/chinas-monetary-policy-framework-and-financial-market-transmission.html](https://www.rba.gov.au/publications/bulletin/2024/apr/chinas-monetary-policy-framework-and-financial-market-transmission.html)  
+46. China - Bank for International Settlements, accessed May 11, 2026, [https://www.bis.org/mc/currency_areas/cn.htm](https://www.bis.org/mc/currency_areas/cn.htm)  
 47. Monetary Policy Reloaded. Towards a New Growth Path in China, accessed May 11, 2026, [https://www.cepweb.org/monetary-policy-reloaded-towards-a-new-growth-path-in-china/](https://www.cepweb.org/monetary-policy-reloaded-towards-a-new-growth-path-in-china/)  
-48. What are Federal Reserve swap lines? \- Brookings Institution, accessed May 11, 2026, [https://www.brookings.edu/articles/what-are-federal-reserve-swap-lines/](https://www.brookings.edu/articles/what-are-federal-reserve-swap-lines/)  
-49. The Fed \- How the Federal Reserve's central bank swap lines have supported U.S. corporate borrowers in the leveraged loan market, accessed May 11, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/how-the-federal-reserves-central-bank-swap-lines-have-supported-uscb-in-the-llm-20201112.html](https://www.federalreserve.gov/econres/notes/feds-notes/how-the-federal-reserves-central-bank-swap-lines-have-supported-uscb-in-the-llm-20201112.html)  
-50. How Central Bank Swap Lines Affect the Leveraged Loan Market \- Federal Reserve Bank of Chicago, accessed May 11, 2026, [https://www.chicagofed.org/publications/chicago-fed-letter/2020/446](https://www.chicagofed.org/publications/chicago-fed-letter/2020/446)  
-51. Central bank liquidity swaps \- Federal Reserve Board, accessed May 11, 2026, [https://www.federalreserve.gov/monetarypolicy/bst\_liquidityswaps.htm](https://www.federalreserve.gov/monetarypolicy/bst_liquidityswaps.htm)  
+48. What are Federal Reserve swap lines? - Brookings Institution, accessed May 11, 2026, [https://www.brookings.edu/articles/what-are-federal-reserve-swap-lines/](https://www.brookings.edu/articles/what-are-federal-reserve-swap-lines/)  
+49. The Fed - How the Federal Reserve's central bank swap lines have supported U.S. corporate borrowers in the leveraged loan market, accessed May 11, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/how-the-federal-reserves-central-bank-swap-lines-have-supported-uscb-in-the-llm-20201112.html](https://www.federalreserve.gov/econres/notes/feds-notes/how-the-federal-reserves-central-bank-swap-lines-have-supported-uscb-in-the-llm-20201112.html)  
+50. How Central Bank Swap Lines Affect the Leveraged Loan Market - Federal Reserve Bank of Chicago, accessed May 11, 2026, [https://www.chicagofed.org/publications/chicago-fed-letter/2020/446](https://www.chicagofed.org/publications/chicago-fed-letter/2020/446)  
+51. Central bank liquidity swaps - Federal Reserve Board, accessed May 11, 2026, [https://www.federalreserve.gov/monetarypolicy/bst_liquidityswaps.htm](https://www.federalreserve.gov/monetarypolicy/bst_liquidityswaps.htm)  
 52. Mechanics of Central Bank FX Swap Lines |, accessed May 11, 2026, [https://www.clarusft.com/mechanics-of-central-bank-fx-swap-lines/](https://www.clarusft.com/mechanics-of-central-bank-fx-swap-lines/)  
 53. Monetary Policy Pass-Through to Interest Rates: Stylized Facts from 30 European Countries, accessed May 11, 2026, [https://www.imf.org/-/media/files/publications/wp/2024/english/wpiea2024009-print-pdf.pdf](https://www.imf.org/-/media/files/publications/wp/2024/english/wpiea2024009-print-pdf.pdf)  
-54. Patterns and Predictability in the Transmission of the Policy Rate to U.S. Banks Funding Costs \- Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/econres/feds/files/2025083pap.pdf](https://www.federalreserve.gov/econres/feds/files/2025083pap.pdf)  
-55. Staff Working Paper No. 933 \- Imperfect pass-through to deposit rates and monetary policy transmission \- Bank of England, accessed May 11, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2021/imperfect-pass-through-to-deposit-rates-and-monetary-policy-transmission.pdf](https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2021/imperfect-pass-through-to-deposit-rates-and-monetary-policy-transmission.pdf)  
-56. The Fed \- The Federal Reserve's Response to the 2023 Banking Turmoil: The Bank Term Funding Program, accessed May 11, 2026, [https://www.federalreserve.gov/econres/feds/the-federal-reserves-response-to-the-2023-banking-turmoil-the-bank-term-funding-program.htm](https://www.federalreserve.gov/econres/feds/the-federal-reserves-response-to-the-2023-banking-turmoil-the-bank-term-funding-program.htm)  
+54. Patterns and Predictability in the Transmission of the Policy Rate to U.S. Banks Funding Costs - Federal Reserve, accessed May 11, 2026, [https://www.federalreserve.gov/econres/feds/files/2025083pap.pdf](https://www.federalreserve.gov/econres/feds/files/2025083pap.pdf)  
+55. Staff Working Paper No. 933 - Imperfect pass-through to deposit rates and monetary policy transmission - Bank of England, accessed May 11, 2026, [https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2021/imperfect-pass-through-to-deposit-rates-and-monetary-policy-transmission.pdf](https://www.bankofengland.co.uk/-/media/boe/files/working-paper/2021/imperfect-pass-through-to-deposit-rates-and-monetary-policy-transmission.pdf)  
+56. The Fed - The Federal Reserve's Response to the 2023 Banking Turmoil: The Bank Term Funding Program, accessed May 11, 2026, [https://www.federalreserve.gov/econres/feds/the-federal-reserves-response-to-the-2023-banking-turmoil-the-bank-term-funding-program.htm](https://www.federalreserve.gov/econres/feds/the-federal-reserves-response-to-the-2023-banking-turmoil-the-bank-term-funding-program.htm)  
 57. Report to Congress Pursuant to Section 13(3) of the Federal Reserve Act: Bank Term Funding Program Overview On March 12, 2023, t, accessed May 11, 2026, [https://www.federalreserve.gov/publications/files/13-3-report-btfp-20230316.pdf](https://www.federalreserve.gov/publications/files/13-3-report-btfp-20230316.pdf)  
-58. Bank Term Funding Program \- Federal Reserve Board, accessed May 11, 2026, [https://www.federalreserve.gov/financial-stability/bank-term-funding-program.htm](https://www.federalreserve.gov/financial-stability/bank-term-funding-program.htm)  
+58. Bank Term Funding Program - Federal Reserve Board, accessed May 11, 2026, [https://www.federalreserve.gov/financial-stability/bank-term-funding-program.htm](https://www.federalreserve.gov/financial-stability/bank-term-funding-program.htm)  
 59. 6 Implications and Remedies of Central Bank Losses in, accessed May 11, 2026, [https://www.elibrary.imf.org/display/book/9781557751850/ch007.xml](https://www.elibrary.imf.org/display/book/9781557751850/ch007.xml)  
-60. 28 Institutional and Operational Aspects of Central Bank Losses in: Frameworks for Monetary Stability \- IMF eLibrary, accessed May 11, 2026, [https://www.elibrary.imf.org/display/book/9781557754196/ch028.xml](https://www.elibrary.imf.org/display/book/9781557754196/ch028.xml)  
-61. III Amalgamating Central Bank and Fiscal Deficits in: Measurement of Fiscal Impact \- IMF eLibrary, accessed May 11, 2026, [https://www.elibrary.imf.org/display/book/9781557750167/ch03.xml](https://www.elibrary.imf.org/display/book/9781557750167/ch03.xml)  
-62. Navigating Trade-Offs between Price and Financial Stability in Times of High Inflation \- IMF, accessed May 11, 2026, [https://www.imf.org/-/media/files/publications/sdn/2025/english/sdnea2025003.pdf](https://www.imf.org/-/media/files/publications/sdn/2025/english/sdnea2025003.pdf)
+60. 28 Institutional and Operational Aspects of Central Bank Losses in: Frameworks for Monetary Stability - IMF eLibrary, accessed May 11, 2026, [https://www.elibrary.imf.org/display/book/9781557754196/ch028.xml](https://www.elibrary.imf.org/display/book/9781557754196/ch028.xml)  
+61. III Amalgamating Central Bank and Fiscal Deficits in: Measurement of Fiscal Impact - IMF eLibrary, accessed May 11, 2026, [https://www.elibrary.imf.org/display/book/9781557750167/ch03.xml](https://www.elibrary.imf.org/display/book/9781557750167/ch03.xml)  
+62. Navigating Trade-Offs between Price and Financial Stability in Times of High Inflation - IMF, accessed May 11, 2026, [https://www.imf.org/-/media/files/publications/sdn/2025/english/sdnea2025003.pdf](https://www.imf.org/-/media/files/publications/sdn/2025/english/sdnea2025003.pdf)
+
+---
