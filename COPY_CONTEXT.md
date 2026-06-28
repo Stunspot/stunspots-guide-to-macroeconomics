@@ -111,7 +111,6 @@ Use this packet to replace placeholder copy in:
 - `docs/knowledge-packs.md`
 - `STATUS.md`
 - `CITATION.cff`
-- `zenodo.json`
 - `CHANGELOG.md`
 
 Preserve file paths, counts, license facts, author attribution, release metadata, and the directory policy above.

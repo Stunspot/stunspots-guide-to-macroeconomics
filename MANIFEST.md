@@ -36,7 +36,6 @@ Source directory: Local build source directory omitted from public release. Sour
 - `STATUS.md` — release maturity and usage boundaries.
 - `CHANGELOG.md` — release change history.
 - `CITATION.cff` — citation metadata.
-- `zenodo.json` — Zenodo deposition metadata.
 - `LICENSE.md` — license and no-warranty notice.
 - `COPY_CONTEXT.md` — editorial handoff packet used for release-copy generation.
 
