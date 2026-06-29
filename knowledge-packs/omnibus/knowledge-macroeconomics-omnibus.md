@@ -1,33 +1,34 @@
 # [KNOWLEDGE] - Macroeconomics
 
-## Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality
+## Stunspot's Guide to Macroeconomics
 
-[Table of Contents]
+[Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality](#vol-1-a-c-foundations-of-monetary-reality-liquidity-and-economic-causality)
 - [A. Monetary Ontology & Economic Reality Models](#a-monetary-ontology--economic-reality-models--the-nature-of-money-credit-collateral-and-financial-abstraction)
 - [B. Liquidity Physics & Global Capital Flow Dynamics](#b-liquidity-physics-and-global-capital-flow-dynamics--the-mechanics-of-liquidity-creation-destruction-and-transmission-across-financial-systems)
 - [C. Macro-Causal Architecture & Economic Regime Theory](#c-macro-causal-architecture--economic-regime-theory--a-systems-level-framework-for-economic-cycles-regime-shifts-and-structural-transitions)
 
 
-## Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission
-
+[Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission](#vol-2-d-f-monetary-governance-institutional-control-and-policy-transmission)
 - [D. Central Banking Systems & Monetary Intervention Architecture — Institutional Monetary Control, Policy Instruments, and Liquidity Management Systems](#d-central-banking-systems--monetary-intervention-architecture--institutional-monetary-control-policy-instruments-and-liquidity-management-systems)
 - [E. Fiscal States, Sovereign Debt, and Political Capital Allocation — Government Spending Systems, Debt Structures, and Fiscal Constraint Dynamics](#e-fiscal-states-sovereign-debt-and-political-capital-allocation--government-spending-systems-debt-structures-and-fiscal-constraint-dynamics)
 - [F. Banking Systems, Credit Allocation, and Financial Intermediation — The Operational Architecture of Credit Creation and Capital Distribution](#f-banking-systems-credit-allocation-and-financial-intermediation--the-operational-architecture-of-credit-creation-and-capital-distribution)
 
 
-## Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination
-
+[Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination](#vol-3-g-i-market-structure-asset-regimes-and-capital-coordination)
 - [G. Asset Pricing Regimes & Cross-Market Liquidity Transmission — How Liquidity Conditions Shape Equities, Bonds, Real Estate, Commodities, and Venture Markets](#g-asset-pricing-regimes--cross-market-liquidity-transmission--how-liquidity-conditions-shape-equities-bonds-real-estate-commodities-and-venture-markets)
 - [H. Global Trade Systems, Currency Hierarchies, and Geoeconomic Power](#h-global-trade-systems-currency-hierarchies-and-geoeconomic-power)
 - [I. Innovation Finance, Venture Liquidity, and Speculative Capital Formation — The Macro Conditions Governing Innovation Funding and Technological Expansion](#i-innovation-finance-venture-liquidity-and-speculative-capital-formation--the-macro-conditions-governing-innovation-funding-and-technological-expansion)
 
 
-## Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity
-
+[Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity](#vol-4-j-m-information-systems-strategic-signaling-and-narrative-liquidity)
 - [J. Information Liquidity, Narrative Markets, and Attention Allocation Systems — How Financial Conditions Shape Visibility, Media Incentives, and Public-Reality Formation](#j-information-liquidity-narrative-markets-and-attention-allocation-systems--how-financial-conditions-shape-visibility-media-incentives-and-public-reality-formation)
 - [K. Financial Instability, Crisis Cascades, and Systemic Collapse Mechanics — Failure Propagation, Contagion Dynamics, and Macro-System Breakdown Patterns](#k-financial-instability-crisis-cascades-and-systemic-collapse-mechanics--failure-propagation-contagion-dynamics-and-macro-system-breakdown-patterns)
 - [L. Macro Diagnostics, Regime Detection, and Economic Intelligence Systems — Operational Frameworks for Interpreting Macro Signals and Detecting Structural Transitions](#l-macro-diagnostics-regime-detection-and-economic-intelligence-systems--operational-frameworks-for-interpreting-macro-signals-and-detecting-structural-transitions)
 - [M. Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination — Applying Macro Intelligence to Capital Allocation, Organizational Survival, and Strategic Action](#m-institutional-macro-strategy-adaptive-positioning-and-strategic-coordination--applying-macro-intelligence-to-capital-allocation-organizational-survival-and-strategic-action)
+
+---
+
+# Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality
 
 ---
 
@@ -1315,6 +1316,10 @@ When *Report D* analyzes the central bank’s operational toolkit—the discount
 46. The Fed - Understanding Trade Fragmentation - Federal Reserve, accessed May 10, 2026, [https://www.federalreserve.gov/econres/notes/feds-notes/understanding-trade-fragmentation-20251212.html](https://www.federalreserve.gov/econres/notes/feds-notes/understanding-trade-fragmentation-20251212.html)  
 47. Evolution and Performance of Exchange Rate Regimes - IMF eLibrary - International Monetary Fund, accessed May 10, 2026, [https://www.elibrary.imf.org/display/book/9781589063273/9781589063273.pdf](https://www.elibrary.imf.org/display/book/9781589063273/9781589063273.pdf)  
 48. Tackling the productivity paradox: The OECD Global Forum on Productivity, accessed May 10, 2026, [https://oecdecoscope.blog/2016/07/05/tackling-the-productivity-paradox-the-oecd-global-forum-on-productivity/](https://oecdecoscope.blog/2016/07/05/tackling-the-productivity-paradox-the-oecd-global-forum-on-productivity/)
+
+---
+
+# Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission
 
 ---
 
@@ -3022,6 +3027,10 @@ Through these inherited channels, Report G will demonstrate how changes in the c
 
 ---
 
+# Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination
+
+---
+
 # **G. Asset Pricing Regimes & Cross-Market Liquidity Transmission — How Liquidity Conditions Shape Equities, Bonds, Real Estate, Commodities, and Venture Markets**
 
 ## **Domain Orientation: From Credit Intermediation to Asset Price Formation**
@@ -4432,6 +4441,10 @@ As capital scarcity coordinates a leaner, more disciplined technology ecosystem,
 45. scaling nontraditional defense innovation, accessed May 11, 2026, [https://stib.cto.mil/wp-content/uploads/2026/01/2025-2_DIB-ScalingNontraditionalDefenseInnovation_250113PUBLISHED_9ee4ae.pdf](https://stib.cto.mil/wp-content/uploads/2026/01/2025-2_DIB-ScalingNontraditionalDefenseInnovation_250113PUBLISHED_9ee4ae.pdf)  
 46. How a surge in defence and dual-use technology investment could reconfigure the global AI race - Chatham House, accessed May 11, 2026, [https://www.chathamhouse.org/2026/04/how-surge-defence-and-dual-use-technology-investment-could-reconfigure-global-ai-race/02](https://www.chathamhouse.org/2026/04/how-surge-defence-and-dual-use-technology-investment-could-reconfigure-global-ai-race/02)  
 47. Defense Tech Funding | Value Add VC, accessed May 11, 2026, [https://valueaddvc.com/defense-tech](https://valueaddvc.com/defense-tech)
+
+---
+
+# Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity
 
 ---
 
