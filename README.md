@@ -10,6 +10,7 @@
 ![Source reports](https://img.shields.io/badge/source_reports-13-blue)
 ![Compiled packs](https://img.shields.io/badge/compiled_packs-4-blueviolet)
 ![License: CC BY-NC-SA 4.0](https://img.shields.io/badge/license-CC_BY--NC--SA_4.0-darkgrey)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21039281.svg)](https://doi.org/10.5281/zenodo.21039281)
 
 *Stunspot’s Guide to Macroeconomics* is a Markdown-native knowledge canon by Sam “stunspot” Walker, built primarily for AI/RAG ingestion rather than casual textbook reading.
 

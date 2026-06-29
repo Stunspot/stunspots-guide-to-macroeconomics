@@ -9,6 +9,11 @@ This manifest records the public repository structure, source-to-output mappings
 
 Source directory: Local build source directory omitted from public release. Source filenames and generated repo paths are preserved below.
 
+## Citation and Archive
+
+**DOI:** https://doi.org/10.5281/zenodo.21039281  
+**Zenodo Record:** https://zenodo.org/records/21039281
+
 ## Directory Policy
 
 - `docs/` is navigation, GitHub Pages metadata, and usage guidance.
