@@ -29,6 +29,10 @@ Use it as RAG substrate.
 Use it as project knowledge.  
 Use it as doctrine for AI agents tasked with explaining, critiquing, stress-testing, or applying macroeconomic intelligence.
 
+Part of the Stunspot’s Guide to… Advanced Knowledge Base Library
+Browse the full library: 
+[Gateway Repo](https://github.com/Stunspot/stunspots-guides) · [stunspot.com](stunspot.com/#guides)
+
 ---
 
 ## Start Here
