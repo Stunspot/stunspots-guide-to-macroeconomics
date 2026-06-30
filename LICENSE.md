@@ -2,11 +2,23 @@
 
 Copyright © Sam “stunspot” Walker / Collaborative Dynamics.
 
-Unless otherwise stated, this repository is licensed under **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International** (**CC BY-NC-SA 4.0**).
+Unless otherwise stated, this repository is licensed under the **Creative Commons Attribution 4.0 International License** (**CC BY 4.0**).
 
-Commercial use requires prior written permission from Sam “stunspot” Walker / Collaborative Dynamics.
+Full license text: <https://creativecommons.org/licenses/by/4.0/>
 
-Full license text: <https://creativecommons.org/licenses/by-nc-sa/4.0/>
+## What This Means
+
+You may share, copy, redistribute, remix, transform, build upon, publish, and use these materials for personal, educational, research, commercial, product, consulting, model-knowledge, and enterprise purposes, provided that you give appropriate credit to Sam “stunspot” Walker / Collaborative Dynamics and do not imply endorsement.
+
+## Brand, Trademark, and Official Products
+
+This license grants copyright permissions for the covered materials. It does not grant trademark rights, brand identity rights, endorsement rights, or permission to present unofficial products as official Stunspot or Collaborative Dynamics releases.
+
+Official paid products, hosted systems, custom implementations, consulting, support, and partnership arrangements from Collaborative Dynamics remain separate from this public repository license.
+
+## Third-Party Materials
+
+Third-party sources, quotations, concepts, tools, papers, and references remain subject to their own rights, licenses, and terms. This license applies only to the original material created by Sam “stunspot” Walker / Collaborative Dynamics unless otherwise stated.
 
 ## No Warranty
 
