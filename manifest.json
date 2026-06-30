@@ -9,7 +9,7 @@
     "pages": "https://stunspot.github.io/stunspots-guide-to-macroeconomics/",
     "author": "Sam “stunspot” Walker",
     "affiliation": "Collaborative Dynamics",
-    "license": "CC BY-NC-SA 4.0",
+    "license": "Creative Commons Attribution 4.0 International",
     "primary_audience": "AI/RAG systems and model-facing workflows"
   },
   "directory_policy": {
@@ -17,9 +17,7 @@
     "knowledge-packs/by-report": "Individual canonical source reports.",
     "knowledge-packs/compiled-packs": "Grouped upload packs.",
     "knowledge-packs/omnibus": "Whole-corpus bundle.",
-    "forbidden_or_absent": [
-      "docs/reports"
-    ]
+    "forbidden_or_absent": ["docs/reports"]
   },
   "counts": {
     "source_reports": 13,
@@ -28,241 +26,13 @@
     "unclassified_files": 0
   },
   "repository_files": {
-    "root": [
-      ".gitattributes",
-      ".gitignore",
-      "README.md",
-      "MANIFEST.md",
-      "manifest.json",
-      "STATUS.md",
-      "CHANGELOG.md",
-      "CITATION.cff",
-      "LICENSE.md",
-      "COPY_CONTEXT.md"
-    ],
-    "docs": [
-      "docs/_config.yml",
-      "docs/index.md",
-      "docs/canon-map.md",
-      "docs/how-to-use-this-canon.md",
-      "docs/knowledge-packs.md"
-    ],
-    "knowledge_directories": [
-      "knowledge-packs/by-report/",
-      "knowledge-packs/compiled-packs/",
-      "knowledge-packs/omnibus/"
-    ]
+    "root": ["README.md", "MANIFEST.md", "manifest.json", "STATUS.md", "CHANGELOG.md", "CITATION.cff", "LICENSE.md", "COPY_CONTEXT.md"],
+    "docs": ["docs/_config.yml", "docs/index.md", "docs/canon-map.md", "docs/how-to-use-this-canon.md", "docs/knowledge-packs.md"],
+    "knowledge_directories": ["knowledge-packs/by-report/", "knowledge-packs/compiled-packs/", "knowledge-packs/omnibus/"]
   },
-  "corpus": {
-    "generated_at": "2026-06-27T05:29:13+00:00",
-    "source_directory_policy": "Local build source directory omitted from public release. Source filenames and generated repo paths are preserved below.",
-    "reports": [
-      {
-        "code": "A",
-        "title": "Monetary Ontology & Economic Reality Models",
-        "subtitle": "The Nature of Money, Credit, Collateral, and Financial Abstraction",
-        "source_filename": "A. Monetary Ontology & Economic Reality Models — The Nature of Money, Credit, Collateral, and Financial Abstraction.md",
-        "source_path": "A. Monetary Ontology & Economic Reality Models — The Nature of Money, Credit, Collateral, and Financial Abstraction.md",
-        "filename": "a-monetary-ontology-and-economic-reality-models.md",
-        "path": "knowledge-packs/by-report/a-monetary-ontology-and-economic-reality-models.md",
-        "size_bytes": 67162
-      },
-      {
-        "code": "B",
-        "title": "Liquidity Physics and Global Capital Flow Dynamics",
-        "subtitle": "The Mechanics of Liquidity Creation, Destruction, and Transmission Across Financial Systems",
-        "source_filename": "B. Liquidity Physics and Global Capital Flow Dynamics — The Mechanics of Liquidity Creation, Destruction, and Transmission Across Financial Systems.md",
-        "source_path": "B. Liquidity Physics and Global Capital Flow Dynamics — The Mechanics of Liquidity Creation, Destruction, and Transmission Across Financial Systems.md",
-        "filename": "b-liquidity-physics-and-global-capital-flow-dynamics.md",
-        "path": "knowledge-packs/by-report/b-liquidity-physics-and-global-capital-flow-dynamics.md",
-        "size_bytes": 59864
-      },
-      {
-        "code": "C",
-        "title": "Macro-Causal Architecture & Economic Regime Theory",
-        "subtitle": "A Systems-Level Framework for Economic Cycles, Regime Shifts, and Structural Transitions",
-        "source_filename": "C. Macro-Causal Architecture & Economic Regime Theory — A Systems-Level Framework for Economic Cycles, Regime Shifts, and Structural Transitions.md",
-        "source_path": "C. Macro-Causal Architecture & Economic Regime Theory — A Systems-Level Framework for Economic Cycles, Regime Shifts, and Structural Transitions.md",
-        "filename": "c-macro-causal-architecture-and-economic-regime-theory.md",
-        "path": "knowledge-packs/by-report/c-macro-causal-architecture-and-economic-regime-theory.md",
-        "size_bytes": 77784
-      },
-      {
-        "code": "D",
-        "title": "Central Banking Systems & Monetary Intervention Architecture",
-        "subtitle": "Institutional Monetary Control, Policy Instruments, and Liquidity Management Systems",
-        "source_filename": "D. Central Banking Systems & Monetary Intervention Architecture — Institutional Monetary Control, Policy Instruments, and Liquidity Management Systems.md",
-        "source_path": "D. Central Banking Systems & Monetary Intervention Architecture — Institutional Monetary Control, Policy Instruments, and Liquidity Management Systems.md",
-        "filename": "d-central-banking-systems-and-monetary-intervention-architecture.md",
-        "path": "knowledge-packs/by-report/d-central-banking-systems-and-monetary-intervention-architecture.md",
-        "size_bytes": 62834
-      },
-      {
-        "code": "E",
-        "title": "Fiscal States, Sovereign Debt, and Political Capital Allocation",
-        "subtitle": "Government Spending Systems, Debt Structures, and Fiscal Constraint Dynamics",
-        "source_filename": "E. Fiscal States, Sovereign Debt, and Political Capital Allocation — Government Spending Systems, Debt Structures, and Fiscal Constraint Dynamics.md",
-        "source_path": "E. Fiscal States, Sovereign Debt, and Political Capital Allocation — Government Spending Systems, Debt Structures, and Fiscal Constraint Dynamics.md",
-        "filename": "e-fiscal-states-sovereign-debt-and-political-capital-allocation.md",
-        "path": "knowledge-packs/by-report/e-fiscal-states-sovereign-debt-and-political-capital-allocation.md",
-        "size_bytes": 83175
-      },
-      {
-        "code": "F",
-        "title": "Banking Systems, Credit Allocation, and Financial Intermediation",
-        "subtitle": "The Operational Architecture of Credit Creation and Capital Distribution",
-        "source_filename": "F. Banking Systems, Credit Allocation, and Financial Intermediation — The Operational Architecture of Credit Creation and Capital Distribution.md",
-        "source_path": "F. Banking Systems, Credit Allocation, and Financial Intermediation — The Operational Architecture of Credit Creation and Capital Distribution.md",
-        "filename": "f-banking-systems-credit-allocation-and-financial-intermediation.md",
-        "path": "knowledge-packs/by-report/f-banking-systems-credit-allocation-and-financial-intermediation.md",
-        "size_bytes": 86951
-      },
-      {
-        "code": "G",
-        "title": "Asset Pricing Regimes & Cross-Market Liquidity Transmission",
-        "subtitle": "How Liquidity Conditions Shape Equities, Bonds, Real Estate, Commodities, and Venture Markets",
-        "source_filename": "G. Asset Pricing Regimes & Cross-Market Liquidity Transmission — How Liquidity Conditions Shape Equities, Bonds, Real Estate, Commodities, and Venture Markets.md",
-        "source_path": "G. Asset Pricing Regimes & Cross-Market Liquidity Transmission — How Liquidity Conditions Shape Equities, Bonds, Real Estate, Commodities, and Venture Markets.md",
-        "filename": "g-asset-pricing-regimes-and-cross-market-liquidity-transmission.md",
-        "path": "knowledge-packs/by-report/g-asset-pricing-regimes-and-cross-market-liquidity-transmission.md",
-        "size_bytes": 77090
-      },
-      {
-        "code": "H",
-        "title": "Global Trade Systems, Currency Hierarchies, and Geoeconomic Power",
-        "subtitle": "",
-        "source_filename": "H. Global Trade Systems, Currency Hierarchies, and Geoeconomic Power.md",
-        "source_path": "H. Global Trade Systems, Currency Hierarchies, and Geoeconomic Power.md",
-        "filename": "h-global-trade-systems-currency-hierarchies-and-geoeconomic-power.md",
-        "path": "knowledge-packs/by-report/h-global-trade-systems-currency-hierarchies-and-geoeconomic-power.md",
-        "size_bytes": 57170
-      },
-      {
-        "code": "I",
-        "title": "Innovation Finance, Venture Liquidity, and Speculative Capital Formation",
-        "subtitle": "The Macro Conditions Governing Innovation Funding and Technological Expansion",
-        "source_filename": "I. Innovation Finance, Venture Liquidity, and Speculative Capital Formation — The Macro Conditions Governing Innovation Funding and Technological Expansion.md",
-        "source_path": "I. Innovation Finance, Venture Liquidity, and Speculative Capital Formation — The Macro Conditions Governing Innovation Funding and Technological Expansion.md",
-        "filename": "i-innovation-finance-venture-liquidity-and-speculative-capital-formation.md",
-        "path": "knowledge-packs/by-report/i-innovation-finance-venture-liquidity-and-speculative-capital-formation.md",
-        "size_bytes": 66884
-      },
-      {
-        "code": "J",
-        "title": "Information Liquidity, Narrative Markets, and Attention Allocation Systems",
-        "subtitle": "How Financial Conditions Shape Visibility, Media Incentives, and Public-Reality Formation",
-        "source_filename": "J. Information Liquidity, Narrative Markets, and Attention Allocation Systems — How Financial Conditions Shape Visibility, Media Incentives, and Public-Reality Formation.md",
-        "source_path": "J. Information Liquidity, Narrative Markets, and Attention Allocation Systems — How Financial Conditions Shape Visibility, Media Incentives, and Public-Reality Formation.md",
-        "filename": "j-information-liquidity-narrative-markets-and-attention-allocation-systems.md",
-        "path": "knowledge-packs/by-report/j-information-liquidity-narrative-markets-and-attention-allocation-systems.md",
-        "size_bytes": 98546
-      },
-      {
-        "code": "K",
-        "title": "Financial Instability, Crisis Cascades, and Systemic Collapse Mechanics",
-        "subtitle": "Failure Propagation, Contagion Dynamics, and Macro-System Breakdown Patterns",
-        "source_filename": "K. Financial Instability, Crisis Cascades, and Systemic Collapse Mechanics — Failure Propagation, Contagion Dynamics, and Macro-System Breakdown Patterns.md",
-        "source_path": "K. Financial Instability, Crisis Cascades, and Systemic Collapse Mechanics — Failure Propagation, Contagion Dynamics, and Macro-System Breakdown Patterns.md",
-        "filename": "k-financial-instability-crisis-cascades-and-systemic-collapse-mechanics.md",
-        "path": "knowledge-packs/by-report/k-financial-instability-crisis-cascades-and-systemic-collapse-mechanics.md",
-        "size_bytes": 76055
-      },
-      {
-        "code": "L",
-        "title": "Macro Diagnostics, Regime Detection, and Economic Intelligence Systems",
-        "subtitle": "Operational Frameworks for Interpreting Macro Signals and Detecting Structural Transitions",
-        "source_filename": "L. Macro Diagnostics, Regime Detection, and Economic Intelligence Systems — Operational Frameworks for Interpreting Macro Signals and Detecting Structural Transitions.md",
-        "source_path": "L. Macro Diagnostics, Regime Detection, and Economic Intelligence Systems — Operational Frameworks for Interpreting Macro Signals and Detecting Structural Transitions.md",
-        "filename": "l-macro-diagnostics-regime-detection-and-economic-intelligence-systems.md",
-        "path": "knowledge-packs/by-report/l-macro-diagnostics-regime-detection-and-economic-intelligence-systems.md",
-        "size_bytes": 137067
-      },
-      {
-        "code": "M",
-        "title": "Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination",
-        "subtitle": "Applying Macro Intelligence to Capital Allocation, Organizational Survival, and Strategic Action",
-        "source_filename": "M. Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination — Applying Macro Intelligence to Capital Allocation, Organizational Survival, and Strategic Action.md",
-        "source_path": "M. Institutional Macro Strategy, Adaptive Positioning, and Strategic Coordination — Applying Macro Intelligence to Capital Allocation, Organizational Survival, and Strategic Action.md",
-        "filename": "m-institutional-macro-strategy-adaptive-positioning-and-strategic-coordination.md",
-        "path": "knowledge-packs/by-report/m-institutional-macro-strategy-adaptive-positioning-and-strategic-coordination.md",
-        "size_bytes": 72210
-      }
-    ],
-    "compiled_packs": [
-      {
-        "label": "Macroeconomics - Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality",
-        "source_filename": "[KNOWLEDGE] - Macroeconomics - Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality.md",
-        "source_path": "[KNOWLEDGE] - Macroeconomics - Vol 1. A-C Foundations of Monetary Reality, Liquidity, and Economic Causality.md",
-        "dest_path": "knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-1-a-c-foundations-of-monetary-reality-liquidity-and-economic-causality.md",
-        "size_bytes": 205552,
-        "contains_reports": [
-          "A",
-          "B",
-          "C"
-        ]
-      },
-      {
-        "label": "Macroeconomics - Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission",
-        "source_filename": "[KNOWLEDGE] - Macroeconomics - Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission.md",
-        "source_path": "[KNOWLEDGE] - Macroeconomics - Vol 2. D-F Monetary Governance, Institutional Control, and Policy Transmission.md",
-        "dest_path": "knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-2-d-f-monetary-governance-institutional-control-and-policy-transmission.md",
-        "size_bytes": 234003,
-        "contains_reports": [
-          "D",
-          "E",
-          "F"
-        ]
-      },
-      {
-        "label": "Macroeconomics - Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination",
-        "source_filename": "[KNOWLEDGE] - Macroeconomics - Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination.md",
-        "source_path": "[KNOWLEDGE] - Macroeconomics - Vol 3. G-I Market Structure, Asset Regimes, and Capital Coordination.md",
-        "dest_path": "knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-3-g-i-market-structure-asset-regimes-and-capital-coordination.md",
-        "size_bytes": 202064,
-        "contains_reports": [
-          "G",
-          "H",
-          "I"
-        ]
-      },
-      {
-        "label": "Macroeconomics - Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity",
-        "source_filename": "[KNOWLEDGE] - Macroeconomics - Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity.md",
-        "source_path": "[KNOWLEDGE] - Macroeconomics - Vol 4. J-M Information Systems, Strategic Signaling, and Narrative Liquidity.md",
-        "dest_path": "knowledge-packs/compiled-packs/knowledge-macroeconomics-vol-4-j-m-information-systems-strategic-signaling-and-narrative-liquidity.md",
-        "size_bytes": 313181,
-        "contains_reports": [
-          "J",
-          "K",
-          "L",
-          "M"
-        ]
-      }
-    ],
-    "omnibus": [
-      {
-        "label": "Macroeconomics Omnibus",
-        "source_filename": "[KNOWLEDGE] - Macroeconomics Omnibus.md",
-        "source_path": "[KNOWLEDGE] - Macroeconomics Omnibus.md",
-        "dest_path": "knowledge-packs/omnibus/knowledge-macroeconomics-omnibus.md",
-        "size_bytes": 954675,
-        "contains_reports": [
-          "A",
-          "B",
-          "C",
-          "D",
-          "E",
-          "F",
-          "G",
-          "H",
-          "I",
-          "J",
-          "K",
-          "L",
-          "M"
-        ]
-      }
-    ],
-    "unclassified": []
-  }
+  "source_authority_notes": [
+    "Source reports are the canonical individual units.",
+    "Compiled packs and omnibus files are derived convenience formats.",
+    "MANIFEST.md preserves source filenames, generated repository paths, and corpus counts."
+  ]
 }
